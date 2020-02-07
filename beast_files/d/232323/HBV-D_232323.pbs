@@ -1,0 +1,11 @@
+#!/bin/bash -l
+#PBS -l walltime=168:00:00
+#PBS -l partition-gpu,nodes=1,ppn=9,gpus=1
+#PBS -A lp_phylogeo_inf_gpu
+#PBS -m abe
+#PBS -M barneyisaksen.potter@student.kuleuven.be
+
+cd /data/leuven/332/vsc33218/hbv/d/232323
+module load Beast/1.10.4-intel-2018a
+module unload Beast/1.10.4-intel-2018a
+java -jar /user/leuven/332/vsc33218/lib/beast1.10.5.jar -beagle_gpu -seed 232323 -save_every 250000 -save_state checkpoint.state2 -overwrite HBV-D_with_ancient_aligned_constpop.xml

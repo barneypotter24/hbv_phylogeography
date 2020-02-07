@@ -1,0 +1,16 @@
+*.DS_Store
+
+
+# Huge BEAST files
+*.log
+*.trees
+
+# QSub files
+*.pbs.e*
+*.pbs.o*
+
+# Word files
+*.doc*
+
+# Zip archives
+*.zip

@@ -1,0 +1,1551 @@
+#NEXUS
+[R-package APE, Thu Dec  5 15:01:45 2019]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 769;
+	TAXLABELS
+		LT992439.1DA27/Kazakhstan/407/Kazakhstan/
+		D5/GQ205380/India/2007/India/
+		D/JN664923/India/2010/India/
+		D/JN664947/India/2010/India/
+		D/JN664929/India/2010/India/
+		D/JN664932/India/2010/India/
+		D5/GQ205379/India/2007/India/
+		D/JN664940/India/2010/India/
+		D/JN664926/India/2010/India/
+		D/JN664924/India/2010/India/
+		D/JN664934/India/2010/India/
+		D5/GQ205383/India/2008/India/
+		D5/GQ205384/India/2008/India/
+		D5/GQ205381/India/2008/India/
+		D5/GQ205382/India/2008/India/
+		D5/GQ205389/India/2008/India/
+		D5/GQ205388/India/2008/India/
+		D/JN664915/India/2010/India/
+		D/JN664925/India/2010/India/
+		D5/GQ205385/India/2008/India/
+		D5/GQ205377/India/2007/India/
+		D5/GQ205378/India/2007/India/
+		D5/GQ205386/India/2008/India/
+		D5/GQ205387/India/2008/India/
+		LT992444.1DA51/Kyrgyzstan/-280/Kyrgyzstan/
+		D6/KF170740/Sudan/2008/Sudan/
+		D/GQ161754/Ghana/2000/Ghana/
+		D7/FJ904433/Tunisia/2005/Tunisia/
+		D/FJ349207/Belgium/1998/Belgium/
+		D7/FJ904406/Tunisia/2006/Tunisia/
+		D7/FJ904425/Tunisia/2006/Tunisia/
+		D7/FJ904440/Tunisia/2006/Tunisia/
+		D7/FJ904400/Tunisia/2006/Tunisia/
+		D7/FJ904441/Tunisia/2006/Tunisia/
+		D/G10414a/Belgium/1992/Belgium/
+		D/MB116/Belgium/2008/Congo/
+		D7/FJ904397/Tunisia/2006/Tunisia/
+		D7/FJ904442/Tunisia/2005/Tunisia/
+		D7/FJ904436/Tunisia/2006/Tunisia/
+		D7/FJ904428/Tunisia/2006/Tunisia/
+		D7/FJ904439/Tunisia/2006/Tunisia/
+		D7/FJ904403/Tunisia/2006/Tunisia/
+		D7/FJ904404/Tunisia/2006/Tunisia/
+		D7/FJ904413/Tunisia/2006/Tunisia/
+		D7/FJ904394/Tunisia/2005/Tunisia/
+		D7/FJ904401/Tunisia/2006/Tunisia/
+		D7/FJ904438/Tunisia/2006/Tunisia/
+		D7/FJ904395/Tunisia/2006/Tunisia/
+		D7/FJ904396/Tunisia/2006/Tunisia/
+		D7/FJ904435/Tunisia/2006/Tunisia/
+		D7/FJ904430/Tunisia/2005/Tunisia/
+		D7/FJ904447/Tunisia/2006/Tunisia/
+		D7/FJ904407/Tunisia/2006/Tunisia/
+		D7/FJ904419/Tunisia/2006/Tunisia/
+		D7/FJ904408/Tunisia/2006/Tunisia/
+		D7/FJ904410/Tunisia/2006/Tunisia/
+		D1/FJ904444/Tunisia/2006/Tunisia/
+		D7/FJ904416/Tunisia/2006/Tunisia/
+		D7/FJ904417/Tunisia/2006/Tunisia/
+		D7/FJ904398/Tunisia/2005/Tunisia/
+		D7/FJ904437/Tunisia/2006/Tunisia/
+		D7/FJ904405/Tunisia/2006/Tunisia/
+		D7/FJ904414/Tunisia/2006/Tunisia/
+		D4/KJ470891/Brazil/2008/Brazil/
+		D4/KJ470898/Brazil/2010/Brazil/
+		D4/KJ470885/Brazil/2010/Brazil/
+		D4/KJ470897/Brazil/2008/Brazil/
+		D4/KJ470892/Brazil/2008/Brazil/
+		D4/KJ470893/Brazil/2009/Brazil/
+		D4/KJ470896/Brazil/2009/Brazil/
+		D4/KJ470894/Brazil/2010/Brazil/
+		D4/KJ470895/Brazil/2009/Brazil/
+		D4/KJ470887/Brazil/2009/Brazil/
+		D4/KJ470884/Brazil/2010/Brazil/
+		D4/KJ470886/Brazil/2009/Brazil/
+		D4/KJ470890/Brazil/2009/Brazil/
+		D4/KJ470888/Brazil/2009/Brazil/
+		D4/KJ470889/Brazil/2009/Brazil/
+		D4/GQ922004/Canada/1984/Canada/
+		D4/GQ922003/Canada/1984/Canada/
+		D4/GQ922005/Canada/1984/Canada/
+		D/KF779353/USA/2003/USA/
+		D4/FJ692536/Haiti/2006/Haiti/
+		D4/FJ692532/Haiti/2006/Haiti/
+		D4/FJ692533/Haiti/2006/Haiti/
+		D/HQ700458/NewZealand/1997/NewZealand/
+		D/HQ700493/Fiji/2004/Fiji/
+		D/HQ700494/Fiji/2004/Fiji/
+		D/HQ700503/Tonga/1992/Tonga/
+		D/HQ700492/Fiji/2004/Fiji/
+		D/HQ700500/Samoa/1993/Samoa/
+		D/HQ700501/Samoa/1991/Samoa/
+		D/HQ700535/Kiribati/2004/Kiribati/
+		D/HQ700524/PapuaNewGuinea/2004/PapuaNewGuinea/
+		D/HQ700525/PapuaNewGuinea/2004/PapuaNewGuinea/
+		D/HQ700497/Fiji/2004/Fiji/
+		D/HQ700538/Kiribati/2004/Kiribati/
+		D/HQ700534/Kiribati/2004/Kiribati/
+		D/HQ700537/Kiribati/2004/Kiribati/
+		D/HQ700540/Kiribati/2004/Kiribati/
+		D/HQ700541/Kiribati/2005/Kiribati/
+		D/HQ700533/Kiribati/2004/Kiribati/
+		D/HQ700536/Kiribati/2004/Kiribati/
+		LT992454.1DA222/Kazakhstan/850/Kazakhstan/
+		D/AB270538/Mongolia/2005/Mongolia/
+		D/AB270539/Mongolia/2005/Mongolia/
+		D/KC774450/China/2012/China/
+		D/KC774436/China/2012/China/
+		D/KC774460/China/2012/China/
+		D/EU939680/China/2005/China/
+		D/JN664943/India/2010/India/
+		D/KF779214/USA/1999/USA/
+		D/EU414142/Belarus/2005/Belarus/
+		D/EU414141/Belarus/2005/Belarus/
+		D3/EU594436/Russia/1997/Russia/
+		D/GQ183478/India/2009/India/
+		D/GQ183485/India/2009/India/
+		D/GQ183486/India/2009/India/
+		D/KC774437/China/2012/China/
+		D3/KM577666/Iran/2006/Iran/
+		D3/KM577667/Iran/2006/Iran/
+		D3/KM577665/Iran/2006/Iran/
+		D3/KM577663/Iran/2006/Iran/
+		D3/KM577664/Iran/2006/Iran/
+		LT992438.1DA29/Kazakhstan/1195/Kazakhstan/
+		D/EU414143/Belarus/2005/Belarus/
+		D/AB554016/Indonesia/2009/Indonesia/
+		D/AB554023/Indonesia/2009/Indonesia/
+		D/AB554024/Indonesia/2009/Indonesia/
+		D/EU921418/Indonesia/2007/Indonesia/
+		D/EU921419/Indonesia/2007/Indonesia/
+		D/AB493846/Indonesia/2004/Indonesia/
+		D/AB493845/Indonesia/2004/Indonesia/
+		D/AB493848/Indonesia/2004/Indonesia/
+		D/FJ349213/Belgium/1999/Belgium/
+		D/FJ349232/Belgium/2006/Belgium/
+		D3/KM359442/Argentina/2009/Argentina/
+		D3/KM386676/Argentina/2009/Argentina/
+		D/AB270537/Mongolia/2005/Mongolia/
+		D/JN664912/India/2010/India/
+		D/JN664913/India/2010/India/
+		D/GU563560/Belgium/2005/Belgium/
+		D3/HQ236016/Serbia/2007/Serbia/
+		D3/HQ236014/Serbia/2007/Serbia/
+		D3/HQ236015/Serbia/2007/Serbia/
+		MG585269-NASD24SEQ/Italy/1578/Italy/
+		D3/GQ922000/Canada/1985/Canada/
+		D3/GQ922001/Canada/1984/Canada/
+		D3/GQ922002/Canada/1985/Canada/
+		D3/FJ692506/Haiti/2006/Haiti/
+		D3/FJ692507/Haiti/2006/Haiti/
+		D/G10715/Belgium/2007/Belgium/
+		D/FJ349214/Belgium/1999/Belgium/
+		D/FJ349221/Belgium/1999/Belgium/
+		D3/AL78DHKL/Belgium/2004/Belgium/
+		D/81a/Belgium/2002/Belgium/
+		D/G1HR4/Belgium/1988/Belgium/
+		D/FJ349209/Belgium/1998/Belgium/
+		D/G1967/Belgium/1996/Belgium/
+		D/FJ349211/Belgium/1998/Belgium/
+		D/JN257181/Syria/2010/Syria/
+		D/JN664937/India/2010/India/
+		D/JN664911/India/2010/India/
+		D/JN664917/India/2010/India/
+		D/JN664938/India/2010/India/
+		D/JN664916/India/2010/India/
+		D/JN664936/India/2010/India/
+		D/JN664914/India/2010/India/
+		D/KF779382/USA/2005/USA/
+		D/JN664909/India/2010/India/
+		D/JN664910/India/2010/India/
+		D/KF779209/USA/1998/USA/
+		D/AB210819/Japan/1990/Japan/
+		D/AJ131956/Germany/1986/Germany/
+		D2/KJ843187/Argentina/2011/Argentina/
+		D3/JX470760/Argentina/2008/Argentina/
+		D3/KC012652/Argentina/2009/Argentina/
+		D3/JX898686/Sweden/1975/Sweden/
+		D3/JX898687/Sweden/1975/Sweden/
+		D3/JX898688/Sweden/1975/Sweden/
+		D3/JX898689/Sweden/1986/Sweden/
+		D3/JX898690/Sweden/1996/Sweden/
+		D3/JX898692/Sweden/1996/Sweden/
+		D3/JX898691/Sweden/1996/Sweden/
+		D3/JX898697/Sweden/2009/Sweden/
+		D3/JX898698/Sweden/2008/Sweden/
+		D3/X898699/Sweden/2008/Sweden/
+		D/G10442a/Belgium/1992/Belgium/
+		D/U95551/USA/1997/USA/
+		D/KF779224/USA/2002/USA/
+		D/KF779241/USA/2004/USA/
+		D3/JX898694/Sweden/2008/Sweden/
+		D3/JX898693/Sweden/1996/Sweden/
+		D3/JX898695/Sweden/2008/Sweden/
+		D3/JX898696/Sweden/2008/Sweden/
+		D/45a/Belgium/1984/Belgium/
+		D/FJ349212/Belgium/1998/Belgium/
+		D/KF779340/USA/2001/USA/
+		D/KF779341/USA/2002/USA/
+		D/KF779376/USA/2000/USA/
+		D/KF779377/USA/2000/USA/
+		D/KF779223/USA/2002/USA/
+		D/KF779217/USA/2000/USA/
+		D/KF779229/USA/2003/USA/
+		D/KF779230/USA/2003/USA/
+		D/KF779228/USA/2003/USA/
+		D/KF779226/USA/2003/USA/
+		D/KF779343/USA/2003/USA/
+		D/KF779225/USA/2002/USA/
+		D/KF779219/USA/2001/USA/
+		D/KF779222/USA/2002/USA/
+		D/KF779380/USA/2003/USA/
+		D/KF779292/USA/2000/USA/
+		D/KF779289/USA/2000/USA/
+		D/KF779216/USA/1999/USA/
+		D/KF779318/USA/2000/USA/
+		D/KF779218/USA/2000/USA/
+		D/KF779301/USA/2002/USA/
+		D/KF779302/USA/2002/USA/
+		D/KF779288/USA/1999/USA/
+		D/KF779303/USA/2002/USA/
+		D/KF779296/USA/2001/USA/
+		D/KF779212/USA/1999/USA/
+		D/KF779285/USA/1999/USA/
+		D/JN664927/India/2010/India/
+		D/HQ700511/NewCaledonia/2001/NewCaledonia/
+		D/AB555496/Taiwan/2009/Taiwan/
+		D/AB555501/Taiwan/2009/Taiwan/
+		D/AB555497/Taiwan/2009/Taiwan/
+		D/AB555500/Taiwan/2009/Taiwan/
+		D/JN792907/Greenland/2004/Greenland/
+		D/JN792908/Greenland/1998/Greenland/
+		D/JN792903/Greenland/2004/Greenland/
+		D/JN792910/Greenland/1998/Greenland/
+		D/JN792909/Greenland/2004/Greenland/
+		D/JN792911/Greenland/1998/Greenland/
+		D/JN792912/Greenland/2004/Greenland/
+		D/JN792904/Greenland/1998/Greenland/
+		D/JN792905/Greenland/2004/Greenland/
+		D/JN792906/Greenland/1998/Greenland/
+		D2/GU456635/Iran/2007/Iran/
+		D/MB67/Belgium/2006/Congo/
+		D/FJ349208/Belgium/1998/Belgium/
+		D/MB35/Belgium/2009/Rwanda/
+		D2/AL68KM/Belgium/2006/Belgium/
+		D/JQ687530/Serbia/2008/Serbia/
+		D/X72702/Germany/1993/Germany/
+		D/FJ349206/Belgium/2005/Belgium/
+		D/31a/Belgium/2005/Belgium/
+		D2/AL74BML/Belgium/2005/Belgium/
+		D/AY341335/UK/2003/UK/
+		D/FJ349205/Belgium/2005/Belgium/
+		D/G10315a/Belgium/1994/Belgium/
+		D2/AL67VP/Belgium/2006/Belgium/
+		D/EU414139/Belarus/2005/Belarus/
+		D/JQ687532/Serbia/2008/Serbia/
+		D2/GQ477455/Poland/2006/Poland/
+		D2/GQ477457/Poland/2006/Poland/
+		D/FJ349218/Belgium/1999/Belgium/
+		D2/GQ477454/Poland/2006/Poland/
+		D2/JN642162/Lebanon/2010/Lebanon/
+		D2/JN642159/Lebanon/2010/Lebanon/
+		D2/JN642148/Lebanon/2010/Lebanon/
+		D2/JN642160/Lebanon/2010/Lebanon/
+		D2/KM577671/Iran/2006/Iran/
+		D2/KM577670/Iran/2006/Iran/
+		D2/KM577668/Iran/2006/Iran/
+		D2/KM577669/Iran/2006/Iran/
+		D/JN257178/Syria/2010/Syria/
+		D/JN257204/Syria/2009/Syria/
+		D/JN257190/Syria/2008/Syria/
+		D2/JN642143/Lebanon/2010/Lebanon/
+		D2/JN642144/Lebanon/2010/Lebanon/
+		D2/JN642163/Lebanon/2010/Lebanon/
+		D/HQ700510/NewCaledonia/2003/NewCaledonia/
+		D/HQ700512/NewCaledonia/2001/NewCaledonia/
+		D/HQ700513/NewCaledonia/2001/NewCaledonia/
+		D/HQ700514/NewCaledonia/2001/NewCaledonia/
+		D/AB210820/Japan/2001/Japan/
+		D/AB188241/Japan/2001/Japan/
+		D2/EU594426/Russia/1997/Russia/
+		D/EU414138/Belarus/2005/Belarus/
+		D2/EU594398/Russia/1997/Russia/
+		D2/EU594425/Russia/1997/Russia/
+		D2/EU594399/Russia/1997/Russia/
+		D2/EU594430/Russia/1997/Russia/
+		D2/EU594433/Russia/1997/Russia/
+		D2/JX096954/Latvia/2009/Latvia/
+		D2/JX096957/Latvia/2008/Latvia/
+		D2/EU594424/Russia/1997/Russia/
+		D2/GQ477456/Poland/2006/Poland/
+		D/AF043593/Germany/1989/Germany/
+		D/AF043594/Germany/1991/Germany/
+		D2/EU594427/Russia/1997/Russia/
+		D2/EU594415/Russia/1997/Russia/
+		D2/EU594421/Russia/1997/Russia/
+		D2/EU594416/Russia/1997/Russia/
+		D2/JX096958/Latvia/2007/Latvia/
+		D2/EU594431/Russia/1997/Russia/
+		D2/EU594432/Russia/1997/Russia/
+		D/KF779220/USA/2001/USA/
+		D2/JX096955/Latvia/1991/Latvia/
+		D2/GQ477453/Poland/2006/Poland/
+		D2/EU594428/Kazakhstan/1997/Kazakhstan/
+		D2/EU594422/Russia/1997/Russia/
+		D2/EU594423/Russia/1997/Russia/
+		D2/GQ477452/Poland/2006/Poland/
+		D/EU414140/Belarus/2005/Belarus/
+		D2/JX096956/Latvia/2006/Latvia/
+		D/JN664939/India/2010/India/
+		D/JN664946/India/2010/India/
+		D/GQ183484/India/2009/India/
+		D/JN664928/India/2010/India/
+		D/JN664930/India/2010/India/
+		D/JN664918/India/2010/India/
+		D/JN664941/India/2010/India/
+		D/GQ183476/India/2009/India/
+		D/GQ183474/India/2009/India/
+		D/GQ183473/India/2009/India/
+		D/GQ183475/India/2009/India/
+		D/GQ183477/India/2009/India/
+		D/GQ183479/India/2009/India/
+		D/GQ183481/India/2009/India/
+		D/GQ183482/India/2009/India/
+		D/GQ183483/India/2009/India/
+		D2/GQ924652/Malaysia/2007/Malaysia/
+		D/JN664944/India/2010/India/
+		D/GQ183471/India/2009/India/
+		D/GQ183472/India/2009/India/
+		D2/AB090270/Japan/1999/Japan/
+		D2/AB090269/Japan/1992/Japan/
+		D2/AB090268/Japan/1997/Japan/
+		D2/AB109478/Japan/1998/Japan/
+		D2/AB119255/Japan/2001/Japan/
+		D2/AB119256/Japan/1997/Japan/
+		D2/AB109479/Japan/1997/Japan/
+		D2/AB109477/Japan/1997/Japan/
+		D2/AB110075/Japan/2001/Japan/
+		D2/AB119251/Japan/2002/Japan/
+		D2/AB119253/Japan/2000/Japan/
+		D2/AB119252/Japan/2002/Japan/
+		D2/AB120308/Japan/1982/Japan/
+		D2/AB109476/Japan/1997/Japan/
+		D/AB210822/Japan/2001/Japan/
+		D2/AB119254/Japan/2003/Japan/
+		D2/AB116266/Japan/1987/Japan/
+		D2/AB109475/Japan/2001/Japan/
+		D/AB267090/Japan/2005/Japan/
+		D2/AB078032/Japan/2000/Japan/
+		D2/AB078031/Japan/1998/Japan/
+		D2/AB078033/Japan/1998/Japan/
+		D/FJ904422/Tunisia/2006/Tunisia/
+		D/JN664931/India/2010/India/
+		D/JN040825/Iran/2007/Iran/
+		D1/GU456636/Iran/2007/Iran/
+		D/JN040826/Iran/2006/Iran/
+		D/JN040830/Iran/2006/Iran/
+		D1/GU456637/Iran/2007/Iran/
+		D/JN040827/Iran/2009/Iran/
+		D/G10453a/Belgium/1992/Belgium/
+		D/AY741797/Iran/2003/Iran/
+		D/JN040824/Iran/2009/Iran/
+		D/JN257148/Syria/2010/Syria/
+		D1/JN642146/Lebanon/2010/Lebanon/
+		D/JN257187/Syria/2008/Syria/
+		D/JN257188/Syria/2008/Syria/
+		D1/GQ477459/Poland/2006/Poland/
+		D1/KF584159/Argentina/2010/Argentina/
+		D1/KF584160/Argentina/2012/Argentina/
+		D1/KF584158/Argentina/2007/Argentina/
+		D1/KF584165/Argentina/2011/Argentina/
+		D1/KF584163/Argentina/2011/Argentina/
+		D1/KF584161/Argentina/2011/Argentina/
+		D1/KF584166/Argentina/2012/Argentina/
+		D1/KF584164/Argentina/2012/Argentina/
+		D1/KF584162/Argentina/2012/Argentina/
+		D/KC774440/China/2012/China/
+		D/KC774444/China/2012/China/
+		D/KC774459/China/2012/China/
+		D/JN257154/Syria/2009/Syria/
+		D/JN257183/Syria/2010/Syria/
+		D/JN257149/Syria/2010/Syria/
+		D/FJ349231/Belgium/2005/Belgium/
+		D/JN257191/Syria/2009/Syria/
+		D/JN257192/Syria/2009/Syria/
+		D/JN257174/Syria/2009/Syria/
+		D/JN257175/Syria/2009/Syria/
+		D/JN257157/Syria/2009/Syria/
+		D/JN257158/Syria/2009/Syria/
+		D/JN257216/Syria/2009/Syria/
+		D/JN257217/Syria/2009/Syria/
+		D/JN257197/Syria/2009/Syria/
+		D/JN257155/Syria/2009/Syria/
+		D/JN257156/Syria/2009/Syria/
+		D/JN257169/Syria/2009/Syria/
+		D/JN257210/Syria/2010/Syria/
+		D/JN257189/Syria/2008/Syria/
+		D/JN257164/Syria/2009/Syria/
+		D1/JN642154/Lebanon/2010/Lebanon/
+		D1/JN642140/Lebanon/2010/Lebanon/
+		D1/JN642161/Lebanon/2010/Lebanon/
+		D/JN257198/Syria/2009/Syria/
+		D/JN257199/Syria/2009/Syria/
+		D/JN257186/Syria/2008/Syria/
+		D/JN257205/Syria/2009/Syria/
+		D1/JN642139/Lebanon/2010/Lebanon/
+		D/JN257206/Syria/2010/Syria/
+		D/JN257207/Syria/2010/Syria/
+		D1/JN642127/Lebanon/2010/Lebanon/
+		D1/JN642145/Lebanon/2010/Lebanon/
+		D/JN257202/Syria/2009/Syria/
+		D1/JN642149/Lebanon/2010/Lebanon/
+		D1/AL17GF/Belgium/1997/Belgium/
+		D1/JN642157/Lebanon/2010/Lebanon/
+		D1/JN642137/Lebanon/2010/Lebanon/
+		D/FJ349233/Belgium/2006/Belgium/
+		D/83a/Belgium/1987/Belgium/
+		D/JN257203/Syria/2009/Syria/
+		D/JN257201/Syria/2009/Syria/
+		D/JN257162/Syria/2009/Syria/
+		D1/JN642141/Lebanon/2010/Lebanon/
+		D1/JN642152/Lebanon/2010/Lebanon/
+		D/JN040829/Iran/2006/Iran/
+		D/FJ349235/Belgium/2007/Belgium/
+		D/JN040828/Iran/2007/Iran/
+		D1/GU456648/Iran/2007/Iran/
+		D/JN040814/Iran/2009/Iran/
+		D1/JN642142/Lebanon/2010/Lebanon/
+		D/JN040804/Iran/2008/Iran/
+		D/JN040803/Iran/2009/Iran/
+		D/JN040800/Iran/2009/Iran/
+		D/JN040801/Iran/2009/Iran/
+		D/KF471640/Iran/2007/Iran/
+		D1/GU456638/Iran/2007/Iran/
+		D/KF471649/Iran/2007/Iran/
+		D/KF471647/Iran/2007/Iran/
+		D/JN040810/Iran/2007/Iran/
+		D1/GU456641/Iran/2007/Iran/
+		D/JN040811/Iran/2007/Iran/
+		D1/GU456639/Iran/2007/Iran/
+		D/AY741798/Iran/2003/Iran/
+		D/JN040818/Iran/2009/Iran/
+		D/JN040819/Iran/2009/Iran/
+		D/JN040802/Iran/2008/Iran/
+		D1/GU456643/Iran/2007/Iran/
+		D/JN040797/Iran/2009/Iran/
+		D/JN040798/Iran/2009/Iran/
+		D1/GU456647/Iran/2007/Iran/
+		D/KF471643/Iran/2007/Iran/
+		D1/GU456640/Iran/2007/Iran/
+		D1/GU456644/Iran/2007/Iran/
+		D1/GU456645/Iran/2007/Iran/
+		D1/GU456646/Iran/2007/Iran/
+		D/JN040796/Iran/2009/Iran/
+		D1/GU456652/Iran/2007/Iran/
+		D/JN040812/Iran/2007/Iran/
+		D1/GU456651/Iran/2007/Iran/
+		D/KF471648/Iran/2007/Iran/
+		D/JN040820/Iran/2007/Iran/
+		D/JN040817/Iran/2009/Iran/
+		D/JN040815/Iran/2008/Iran/
+		D/JN040816/Iran/2008/Iran/
+		D/KF471655/Iran/2007/Iran/
+		D/JN040813/Iran/2008/Iran/
+		D1/GU456650/Iran/2007/Iran/
+		D/JN040821/Iran/2006/Iran/
+		D/JN040822/Iran/2007/Iran/
+		D/JN040823/Iran/2008/Iran/
+		D/JN257152/Syria/2009/Syria/
+		D/AB222713/Uzbekistan/2004/Uzbekistan/
+		D/JN040807/Iran/2009/Iran/
+		D/JN040795/Iran/2008/Iran/
+		D1/GU456649/Iran/2007/Iran/
+		D/JN040799/Iran/2006/Iran/
+		D/JN040805/Iran/2007/Iran/
+		D/JN040806/Iran/2006/Iran/
+		D/KF471651/Iran/2007/Iran/
+		D/KF471652/Iran/2007/Iran/
+		D/JN040808/Iran/2007/Iran/
+		D/JN040809/Iran/2008/Iran/
+		D1/GU456642/Iran/2007/Iran/
+		D1/JN642136/Lebanon/2010/Lebanon/
+		D1/JN642138/Lebanon/2010/Lebanon/
+		D/JN040754/Iran/2009/Iran/
+		D/JN040776/Iran/2006/Iran/
+		D1/GU456680/Iran/2007/Iran/
+		D1/GU456679/Iran/2007/Iran/
+		D1/GU456681/Iran/2007/Iran/
+		D/JN040753/Iran/2007/Iran/
+		D/KF471646/Iran/2007/Iran/
+		D1/GU456661/Iran/2007/Iran/
+		D1/GU456664/Iran/2007/Iran/
+		D1/GU456662/Iran/2007/Iran/
+		D1/GU456663/Iran/2007/Iran/
+		D1/GU456665/Iran/2007/Iran/
+		D/JN040766/Iran/2009/Iran/
+		D/KF471658/Iran/2007/Iran/
+		D/KF471657/Iran/2007/Iran/
+		D1/GU456669/Iran/2007/Iran/
+		D1/GU456659/Iran/2007/Iran/
+		D/JN040760/Iran/2007/Iran/
+		D1/GU456660/Iran/2007/Iran/
+		D1/GU456667/Iran/2007/Iran/
+		D1/GU456674/Iran/2007/Iran/
+		D1/GU456675/Iran/2007/Iran/
+		D1/GU456668/Iran/2007/Iran/
+		D/KF471644/Iran/2007/Iran/
+		D/JN040765/Iran/2009/Iran/
+		D/JN040763/Iran/2006/Iran/
+		D/JN040764/Iran/2006/Iran/
+		D1/GU456678/Iran/2007/Iran/
+		D/JN040771/Iran/2009/Iran/
+		D/JN040769/Iran/2008/Iran/
+		D/JN040770/Iran/2006/Iran/
+		D1/GU456670/Iran/2007/Iran/
+		D/JN040761/Iran/2008/Iran/
+		D/JN040762/Iran/2009/Iran/
+		D1/GU456676/Iran/2007/Iran/
+		D/KF471641/Iran/2007/Iran/
+		D1/GU456672/Iran/2007/Iran/
+		D1/GU456673/Iran/2007/Iran/
+		D/KF471642/Iran/2007/Iran/
+		D1/GU456658/Iran/2007/Iran/
+		D/JN040767/Iran/2009/Iran/
+		D/JN040768/Iran/2006/Iran/
+		D/JN257214/Syria/2009/Syria/
+		D/JN257215/Syria/2009/Syria/
+		D/KF471645/Iran/2007/Iran/
+		D/KF471653/Iran/2007/Iran/
+		D/KF471659/Iran/2007/Iran/
+		D1/GU456666/Iran/2007/Iran/
+		D/JN257151/Syria/2008/Syria/
+		D/JN257172/Syria/2009/Syria/
+		D/JN257173/Syria/2009/Syria/
+		D/KF471654/Iran/2007/Iran/
+		D1/GU456671/Iran/2007/Iran/
+		D/JN040759/Iran/2006/Iran/
+		D/JN040758/Iran/2007/Iran/
+		D/AY741794/Iran/2003/Iran/
+		D/AY741795/Iran/2003/Iran/
+		D/AY741796/Iran/2003/Iran/
+		D/AB222709/Uzbekistan/2004/Uzbekistan/
+		D1/FJ904418/Tunisia/2006/Tunisia/
+		D1/JN642164/Lebanon/2010/Lebanon/
+		D7/FJ904424/Tunisia/2006/Tunisia/
+		D/JN040757/Iran/2007/Iran/
+		D/JN040756/Iran/2008/Iran/
+		D1/GU456677/Iran/2007/Iran/
+		D/JN257159/Syria/2009/Syria/
+		D1/GU456683/Iran/2007/Iran/
+		D/JN257176/Syria/2009/Syria/
+		D/JN257177/Syria/2009/Syria/
+		D1/GU456682/Iran/2007/Iran/
+		D1/JN642128/Lebanon/2010/Lebanon/
+		D1/JN642156/Lebanon/2010/Lebanon/
+		D1/JN642133/Lebanon/2010/Lebanon/
+		D1/JN642150/Lebanon/2010/Lebanon/
+		D/KF471650/Iran/2007/Iran/
+		D/JN040774/Iran/2006/Iran/
+		D/JN040752/Iran/2009/Iran/
+		D/JN040772/Iran/2006/Iran/
+		D/JN040773/Iran/2007/Iran/
+		D/JN040750/Iran/2008/Iran/
+		D/MB3/Belgium/2008/Rwanda/
+		D/MB5/Belgium/2008/Niger/
+		D/JN040755/Iran/2006/Iran/
+		D/JN040777/Iran/2007/Iran/
+		D1/GU456684/Iran/2007/Iran/
+		D/JN257211/Syria/2010/Syria/
+		D/JN257212/Syria/2010/Syria/
+		D/JN257213/Syria/2010/Syria/
+		D/JN040751/Iran/2008/Iran/
+		D/AB270547/Mongolia/2005/Mongolia/
+		D/FJ562309/China/2007/China/
+		D/AB270546/Mongolia/2005/Mongolia/
+		D/AB270540/Mongolia/2005/Mongolia/
+		D/AB270541/Mongolia/2005/Mongolia/
+		D/AB270549/Mongolia/2005/Mongolia/
+		D/AB270550/Mongolia/2005/Mongolia/
+		D/JN257153/Syria/2009/Syria/
+		D/JN257195/Syria/2009/Syria/
+		D/GQ183461/India/2009/India/
+		D/GQ183460/India/2009/India/
+		D/GQ183469/India/2009/India/
+		D/GQ183459/India/2009/India/
+		D/GQ183458/India/2009/India/
+		D/GQ183467/India/2009/India/
+		D/GQ183463/India/2009/India/
+		D/GQ183448/India/2009/India/
+		D/GQ183468/India/2009/India/
+		D/GQ183449/India/2009/India/
+		D/GQ183457/India/2009/India/
+		D/GQ183465/India/2009/India/
+		D/GQ183456/India/2009/India/
+		D/GQ183464/India/2009/India/
+		D/GQ183452/India/2009/India/
+		D/GQ183455/India/2009/India/
+		D/GQ183462/India/2009/India/
+		D/GQ183450/India/2009/India/
+		D/GQ183454/India/2009/India/
+		D/GQ183451/India/2009/India/
+		D/GQ183466/India/2009/India/
+		D/GQ183453/India/2009/India/
+		D1/GU456656/Iran/2007/Iran/
+		D1/KF170739/Sudan/2008/Sudan/
+		D1/FJ904431/Tunisia/2006/Tunisia/
+		D1/FJ904412/Tunisia/2006/Tunisia/
+		D1/FJ904443/Tunisia/2005/Tunisia/
+		D1/FJ904399/Tunisia/2006/Tunisia/
+		D1/FJ904402/Tunisia/2006/Tunisia/
+		D1/FJ904446/Tunisia/2006/Tunisia/
+		D1/FJ904429/Tunisia/2006/Tunisia/
+		D1/FJ904432/Tunisia/2006/Tunisia/
+		D1/FJ904427/Tunisia/2006/Tunisia/
+		D1/FJ904445/Tunisia/2006/Tunisia/
+		D1/FJ904426/Tunisia/2006/Tunisia/
+		D1/FJ904420/Tunisia/2006/Tunisia/
+		D1/FJ904415/Tunisia/2006/Tunisia/
+		D1/FJ904421/Tunisia/2006/Tunisia/
+		D1/JN642126/Lebanon/2010/Lebanon/
+		D1/JN642151/Lebanon/2010/Lebanon/
+		D1/JN642130/Lebanon/2010/Lebanon/
+		D1/JN642132/Lebanon/2010/Lebanon/
+		D1/JN642134/Lebanon/2010/Lebanon/
+		D/MB12/Belgium/2008/Congo/
+		D1/GU456653/Iran/2007/Iran/
+		D1/GU456654/Iran/2007/Iran/
+		D1/GU456655/Iran/2007/Iran/
+		D/JN040783/Iran/2007/Iran/
+		D1/JN642167/Lebanon/2010/Lebanon/
+		D/JN040782/Iran/2009/Iran/
+		D/JN040784/Iran/2009/Iran/
+		D/JN040778/Iran/2008/Iran/
+		D1/JN642153/Lebanon/2010/Lebanon/
+		D/JN040779/Iran/2007/Iran/
+		D/JN257160/Syria/2009/Syria/
+		D/JN257161/Syria/2009/Syria/
+		D1/JN642129/Lebanon/2010/Lebanon/
+		D/JN040789/Iran/2007/Iran/
+		D1/EU594396/Kazakhstan/1997/Kazakhstan/
+		D1/JN642155/Lebanon/2010/Lebanon/
+		D1/JN642165/Lebanon/2010/Lebanon/
+		D1/JN642131/Lebanon/2010/Lebanon/
+		D/JN257165/Syria/2009/Syria/
+		D/JN257166/Syria/2009/Syria/
+		D1/JN642135/Lebanon/2010/Lebanon/
+		D1/JN642147/Lebanon/2010/Lebanon/
+		D/JN257150/Syria/2008/Syria/
+		D/JN257171/Syria/2009/Syria/
+		D/JN257163/Syria/2009/Syria/
+		D/JN257170/Syria/2009/Syria/
+		D/JN257208/Syria/2010/Syria/
+		D/JN257209/Syria/2010/Syria/
+		D/MB96/Belgium/2007/Ghana/
+		D/JN257193/Syria/2009/Syria/
+		D/JN257194/Syria/2009/Syria/
+		D/JN040790/Iran/2006/Iran/
+		D/EU414136/Belarus/2005/Belarus/
+		D/70z/Belgium/2001/Belgium/
+		D/JQ687531/China/2008/China/
+		D1/GQ477458/Poland/2006/Poland/
+		D/G1034a/Belgium/2001/Belgium/
+		D/FJ349215/Belgium/1995/Belgium/
+		D/FJ349216/Belgium/2000/Belgium/
+		D/FJ349220/Belgium/1999/Belgium/
+		D/G10113a/Belgium/1986/Belgium/
+		D/FJ349217/Belgium/1999/Belgium/
+		D/FJ349210/Belgium/1998/Belgium/
+		D/8z/Belgium/2006/Belgium/
+		D/FJ349219/Belgium/1999/Belgium/
+		D/JN040785/Iran/2009/Iran/
+		D/JN040786/Iran/2009/Iran/
+		D/JN040787/Iran/2009/Iran/
+		D/JN040788/Iran/2009/Iran/
+		D/FJ349228/Belgium/2005/Belgium/
+		D/AB270548/Mongolia/2005/Mongolia/
+		D/JN257184/Syria/2008/Syria/
+		D/JN257185/Syria/2008/Syria/
+		D/KF061170/Pakistan/2012/Pakistan/
+		D/KF061169/Pakistan/2012/Pakistan/
+		D/KF061167/Pakistan/2012/Pakistan/
+		D/KF061168/Pakistan/2012/Pakistan/
+		D/GQ183480/India/2009/India/
+		D/JN040775/Iran/2008/Iran/
+		D/JN040792/Iran/2008/Iran/
+		D/JN040791/Iran/2007/Iran/
+		D/JN040793/Iran/2007/Iran/
+		D/AB222710/Uzbekistan/2004/Uzbekistan/
+		D/EU414137/Belarus/2005/Belarus/
+		D/JN257167/Syria/2009/Syria/
+		D/JN257168/Syria/2009/Syria/
+		D/JN257200/Syria/2009/Syria/
+		D1/JN642158/Lebanon/2010/Lebanon/
+		D1/JN642166/Lebanon/2010/Lebanon/
+		D/JN257179/Syria/2010/Syria/
+		D/JN257180/Syria/2010/Syria/
+		D/GQ183470/India/2009/India/
+		D/AB270544/Mongolia/2005/Mongolia/
+		D1/GU357846/China/2006/China/
+		D/AB270542/Mongolia/2005/Mongolia/
+		D/AB270545/Mongolia/2005/Mongolia/
+		D/KC774445/China/2012/China/
+		D/EU414135/Belarus/2005/Belarus/
+		D1/FJ386590/China/2008/China/
+		D/AB270543/Mongolia/2005/Mongolia/
+		D1/GQ377589/China/2007/China/
+		D/JN257182/Syria/2009/Syria/
+		D/AB222711/Uzbekistan/2004/Uzbekistan/
+		D/FJ349229/Belgium/2005/Belgium/
+		D/FJ349230/Belgium/2005/Belgium/
+		D/JN040780/Iran/2007/Iran/
+		D/G1047a/Belgium/1987/Belgium/
+		D/JN040781/Iran/2009/Iran/
+		D1/AY945307/India/1999/India/
+		D/GU563549/Belgium/2008/Belgium/
+		D/KF471656/Iran/2007/Iran/
+		D/AB222712/Uzbekistan/2004/Uzbekistan/
+		D/FJ349234/Belgium/2007/Belgium/
+		D/JN040794/Iran/2008/Iran/
+		D1/GU456657/Iran/2007/Iran/
+		D1/FJ899792/China/2007/China/
+		D/HQ833465/China/2009/China/
+		D/HQ833467/China/2009/China/
+		D/HQ833471/China/2009/China/
+		D/HQ833466/China/2009/China/
+		D/HQ833468/China/2009/China/
+		D/HQ833469/China/2009/China/
+		D/HQ833470/China/2009/China/
+		D/HQ700472/NewZealand/1997/NewZealand/
+		D/HQ700478/NewZealand/1994/NewZealand/
+		D/HQ700473/NewZealand/1984/NewZealand/
+		D/HQ700474/NewZealand/1999/NewZealand/
+		D/HQ700480/NewZealand/1984/NewZealand/
+		D/HQ700481/NewZealand/1999/NewZealand/
+		D/HQ700491/NewZealand/1996/NewZealand/
+		D/HQ700467/NewZealand/1999/NewZealand/
+		D/HQ700470/NewZealand/1999/NewZealand/
+		D/HQ700469/NewZealand/1984/NewZealand/
+		D/HQ700479/NewZealand/1984/NewZealand/
+		D/HQ700483/NewZealand/1984/NewZealand/
+		D/HQ700484/NewZealand/1984/NewZealand/
+		D/HQ700447/NewZealand/1984/NewZealand/
+		D/HQ700448/NewZealand/1999/NewZealand/
+		D/HQ700459/NewZealand/1993/NewZealand/
+		D/HQ700441/NewZealand/1984/NewZealand/
+		D/HQ700449/NewZealand/1984/NewZealand/
+		D/HQ700465/NewZealand/1992/NewZealand/
+		D/HQ700442/NewZealand/1984/NewZealand/
+		D/HQ700443/NewZealand/1999/NewZealand/
+		D/HQ700450/NewZealand/1984/NewZealand/
+		D/HQ700460/NewZealand/1984/NewZealand/
+		D/HQ700487/NewZealand/1988/NewZealand/
+		D/HQ700477/NewZealand/1984/NewZealand/
+		D/HQ700440/NewZealand/1984/NewZealand/
+		D/HQ700466/NewZealand/1984/NewZealand/
+		D/HQ700453/NewZealand/1984/NewZealand/
+		D/HQ700463/NewZealand/1984/NewZealand/
+		D/HQ700444/NewZealand/1984/NewZealand/
+		D/HQ700468/NewZealand/1984/NewZealand/
+		D/HQ700489/NewZealand/1999/NewZealand/
+		D/HQ700488/NewZealand/1984/NewZealand/
+		D/HQ700452/NewZealand/1984/NewZealand/
+		D/HQ700464/NewZealand/1984/NewZealand/
+		D/HQ700454/NewZealand/1984/NewZealand/
+		D/HQ700455/NewZealand/1999/NewZealand/
+		D/HQ700471/NewZealand/1984/NewZealand/
+		D/HQ700482/NewZealand/1984/NewZealand/
+		D/HQ700445/NewZealand/1984/NewZealand/
+		D/HQ700446/NewZealand/1999/NewZealand/
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	LT992439.1DA27/Kazakhstan/407/Kazakhstan/,
+		2	D5/GQ205380/India/2007/India/,
+		3	D/JN664923/India/2010/India/,
+		4	D/JN664947/India/2010/India/,
+		5	D/JN664929/India/2010/India/,
+		6	D/JN664932/India/2010/India/,
+		7	D5/GQ205379/India/2007/India/,
+		8	D/JN664940/India/2010/India/,
+		9	D/JN664926/India/2010/India/,
+		10	D/JN664924/India/2010/India/,
+		11	D/JN664934/India/2010/India/,
+		12	D5/GQ205383/India/2008/India/,
+		13	D5/GQ205384/India/2008/India/,
+		14	D5/GQ205381/India/2008/India/,
+		15	D5/GQ205382/India/2008/India/,
+		16	D5/GQ205389/India/2008/India/,
+		17	D5/GQ205388/India/2008/India/,
+		18	D/JN664915/India/2010/India/,
+		19	D/JN664925/India/2010/India/,
+		20	D5/GQ205385/India/2008/India/,
+		21	D5/GQ205377/India/2007/India/,
+		22	D5/GQ205378/India/2007/India/,
+		23	D5/GQ205386/India/2008/India/,
+		24	D5/GQ205387/India/2008/India/,
+		25	LT992444.1DA51/Kyrgyzstan/-280/Kyrgyzstan/,
+		26	D6/KF170740/Sudan/2008/Sudan/,
+		27	D/GQ161754/Ghana/2000/Ghana/,
+		28	D7/FJ904433/Tunisia/2005/Tunisia/,
+		29	D/FJ349207/Belgium/1998/Belgium/,
+		30	D7/FJ904406/Tunisia/2006/Tunisia/,
+		31	D7/FJ904425/Tunisia/2006/Tunisia/,
+		32	D7/FJ904440/Tunisia/2006/Tunisia/,
+		33	D7/FJ904400/Tunisia/2006/Tunisia/,
+		34	D7/FJ904441/Tunisia/2006/Tunisia/,
+		35	D/G10414a/Belgium/1992/Belgium/,
+		36	D/MB116/Belgium/2008/Congo/,
+		37	D7/FJ904397/Tunisia/2006/Tunisia/,
+		38	D7/FJ904442/Tunisia/2005/Tunisia/,
+		39	D7/FJ904436/Tunisia/2006/Tunisia/,
+		40	D7/FJ904428/Tunisia/2006/Tunisia/,
+		41	D7/FJ904439/Tunisia/2006/Tunisia/,
+		42	D7/FJ904403/Tunisia/2006/Tunisia/,
+		43	D7/FJ904404/Tunisia/2006/Tunisia/,
+		44	D7/FJ904413/Tunisia/2006/Tunisia/,
+		45	D7/FJ904394/Tunisia/2005/Tunisia/,
+		46	D7/FJ904401/Tunisia/2006/Tunisia/,
+		47	D7/FJ904438/Tunisia/2006/Tunisia/,
+		48	D7/FJ904395/Tunisia/2006/Tunisia/,
+		49	D7/FJ904396/Tunisia/2006/Tunisia/,
+		50	D7/FJ904435/Tunisia/2006/Tunisia/,
+		51	D7/FJ904430/Tunisia/2005/Tunisia/,
+		52	D7/FJ904447/Tunisia/2006/Tunisia/,
+		53	D7/FJ904407/Tunisia/2006/Tunisia/,
+		54	D7/FJ904419/Tunisia/2006/Tunisia/,
+		55	D7/FJ904408/Tunisia/2006/Tunisia/,
+		56	D7/FJ904410/Tunisia/2006/Tunisia/,
+		57	D1/FJ904444/Tunisia/2006/Tunisia/,
+		58	D7/FJ904416/Tunisia/2006/Tunisia/,
+		59	D7/FJ904417/Tunisia/2006/Tunisia/,
+		60	D7/FJ904398/Tunisia/2005/Tunisia/,
+		61	D7/FJ904437/Tunisia/2006/Tunisia/,
+		62	D7/FJ904405/Tunisia/2006/Tunisia/,
+		63	D7/FJ904414/Tunisia/2006/Tunisia/,
+		64	D4/KJ470891/Brazil/2008/Brazil/,
+		65	D4/KJ470898/Brazil/2010/Brazil/,
+		66	D4/KJ470885/Brazil/2010/Brazil/,
+		67	D4/KJ470897/Brazil/2008/Brazil/,
+		68	D4/KJ470892/Brazil/2008/Brazil/,
+		69	D4/KJ470893/Brazil/2009/Brazil/,
+		70	D4/KJ470896/Brazil/2009/Brazil/,
+		71	D4/KJ470894/Brazil/2010/Brazil/,
+		72	D4/KJ470895/Brazil/2009/Brazil/,
+		73	D4/KJ470887/Brazil/2009/Brazil/,
+		74	D4/KJ470884/Brazil/2010/Brazil/,
+		75	D4/KJ470886/Brazil/2009/Brazil/,
+		76	D4/KJ470890/Brazil/2009/Brazil/,
+		77	D4/KJ470888/Brazil/2009/Brazil/,
+		78	D4/KJ470889/Brazil/2009/Brazil/,
+		79	D4/GQ922004/Canada/1984/Canada/,
+		80	D4/GQ922003/Canada/1984/Canada/,
+		81	D4/GQ922005/Canada/1984/Canada/,
+		82	D/KF779353/USA/2003/USA/,
+		83	D4/FJ692536/Haiti/2006/Haiti/,
+		84	D4/FJ692532/Haiti/2006/Haiti/,
+		85	D4/FJ692533/Haiti/2006/Haiti/,
+		86	D/HQ700458/NewZealand/1997/NewZealand/,
+		87	D/HQ700493/Fiji/2004/Fiji/,
+		88	D/HQ700494/Fiji/2004/Fiji/,
+		89	D/HQ700503/Tonga/1992/Tonga/,
+		90	D/HQ700492/Fiji/2004/Fiji/,
+		91	D/HQ700500/Samoa/1993/Samoa/,
+		92	D/HQ700501/Samoa/1991/Samoa/,
+		93	D/HQ700535/Kiribati/2004/Kiribati/,
+		94	D/HQ700524/PapuaNewGuinea/2004/PapuaNewGuinea/,
+		95	D/HQ700525/PapuaNewGuinea/2004/PapuaNewGuinea/,
+		96	D/HQ700497/Fiji/2004/Fiji/,
+		97	D/HQ700538/Kiribati/2004/Kiribati/,
+		98	D/HQ700534/Kiribati/2004/Kiribati/,
+		99	D/HQ700537/Kiribati/2004/Kiribati/,
+		100	D/HQ700540/Kiribati/2004/Kiribati/,
+		101	D/HQ700541/Kiribati/2005/Kiribati/,
+		102	D/HQ700533/Kiribati/2004/Kiribati/,
+		103	D/HQ700536/Kiribati/2004/Kiribati/,
+		104	LT992454.1DA222/Kazakhstan/850/Kazakhstan/,
+		105	D/AB270538/Mongolia/2005/Mongolia/,
+		106	D/AB270539/Mongolia/2005/Mongolia/,
+		107	D/KC774450/China/2012/China/,
+		108	D/KC774436/China/2012/China/,
+		109	D/KC774460/China/2012/China/,
+		110	D/EU939680/China/2005/China/,
+		111	D/JN664943/India/2010/India/,
+		112	D/KF779214/USA/1999/USA/,
+		113	D/EU414142/Belarus/2005/Belarus/,
+		114	D/EU414141/Belarus/2005/Belarus/,
+		115	D3/EU594436/Russia/1997/Russia/,
+		116	D/GQ183478/India/2009/India/,
+		117	D/GQ183485/India/2009/India/,
+		118	D/GQ183486/India/2009/India/,
+		119	D/KC774437/China/2012/China/,
+		120	D3/KM577666/Iran/2006/Iran/,
+		121	D3/KM577667/Iran/2006/Iran/,
+		122	D3/KM577665/Iran/2006/Iran/,
+		123	D3/KM577663/Iran/2006/Iran/,
+		124	D3/KM577664/Iran/2006/Iran/,
+		125	LT992438.1DA29/Kazakhstan/1195/Kazakhstan/,
+		126	D/EU414143/Belarus/2005/Belarus/,
+		127	D/AB554016/Indonesia/2009/Indonesia/,
+		128	D/AB554023/Indonesia/2009/Indonesia/,
+		129	D/AB554024/Indonesia/2009/Indonesia/,
+		130	D/EU921418/Indonesia/2007/Indonesia/,
+		131	D/EU921419/Indonesia/2007/Indonesia/,
+		132	D/AB493846/Indonesia/2004/Indonesia/,
+		133	D/AB493845/Indonesia/2004/Indonesia/,
+		134	D/AB493848/Indonesia/2004/Indonesia/,
+		135	D/FJ349213/Belgium/1999/Belgium/,
+		136	D/FJ349232/Belgium/2006/Belgium/,
+		137	D3/KM359442/Argentina/2009/Argentina/,
+		138	D3/KM386676/Argentina/2009/Argentina/,
+		139	D/AB270537/Mongolia/2005/Mongolia/,
+		140	D/JN664912/India/2010/India/,
+		141	D/JN664913/India/2010/India/,
+		142	D/GU563560/Belgium/2005/Belgium/,
+		143	D3/HQ236016/Serbia/2007/Serbia/,
+		144	D3/HQ236014/Serbia/2007/Serbia/,
+		145	D3/HQ236015/Serbia/2007/Serbia/,
+		146	MG585269-NASD24SEQ/Italy/1578/Italy/,
+		147	D3/GQ922000/Canada/1985/Canada/,
+		148	D3/GQ922001/Canada/1984/Canada/,
+		149	D3/GQ922002/Canada/1985/Canada/,
+		150	D3/FJ692506/Haiti/2006/Haiti/,
+		151	D3/FJ692507/Haiti/2006/Haiti/,
+		152	D/G10715/Belgium/2007/Belgium/,
+		153	D/FJ349214/Belgium/1999/Belgium/,
+		154	D/FJ349221/Belgium/1999/Belgium/,
+		155	D3/AL78DHKL/Belgium/2004/Belgium/,
+		156	D/81a/Belgium/2002/Belgium/,
+		157	D/G1HR4/Belgium/1988/Belgium/,
+		158	D/FJ349209/Belgium/1998/Belgium/,
+		159	D/G1967/Belgium/1996/Belgium/,
+		160	D/FJ349211/Belgium/1998/Belgium/,
+		161	D/JN257181/Syria/2010/Syria/,
+		162	D/JN664937/India/2010/India/,
+		163	D/JN664911/India/2010/India/,
+		164	D/JN664917/India/2010/India/,
+		165	D/JN664938/India/2010/India/,
+		166	D/JN664916/India/2010/India/,
+		167	D/JN664936/India/2010/India/,
+		168	D/JN664914/India/2010/India/,
+		169	D/KF779382/USA/2005/USA/,
+		170	D/JN664909/India/2010/India/,
+		171	D/JN664910/India/2010/India/,
+		172	D/KF779209/USA/1998/USA/,
+		173	D/AB210819/Japan/1990/Japan/,
+		174	D/AJ131956/Germany/1986/Germany/,
+		175	D2/KJ843187/Argentina/2011/Argentina/,
+		176	D3/JX470760/Argentina/2008/Argentina/,
+		177	D3/KC012652/Argentina/2009/Argentina/,
+		178	D3/JX898686/Sweden/1975/Sweden/,
+		179	D3/JX898687/Sweden/1975/Sweden/,
+		180	D3/JX898688/Sweden/1975/Sweden/,
+		181	D3/JX898689/Sweden/1986/Sweden/,
+		182	D3/JX898690/Sweden/1996/Sweden/,
+		183	D3/JX898692/Sweden/1996/Sweden/,
+		184	D3/JX898691/Sweden/1996/Sweden/,
+		185	D3/JX898697/Sweden/2009/Sweden/,
+		186	D3/JX898698/Sweden/2008/Sweden/,
+		187	D3/X898699/Sweden/2008/Sweden/,
+		188	D/G10442a/Belgium/1992/Belgium/,
+		189	D/U95551/USA/1997/USA/,
+		190	D/KF779224/USA/2002/USA/,
+		191	D/KF779241/USA/2004/USA/,
+		192	D3/JX898694/Sweden/2008/Sweden/,
+		193	D3/JX898693/Sweden/1996/Sweden/,
+		194	D3/JX898695/Sweden/2008/Sweden/,
+		195	D3/JX898696/Sweden/2008/Sweden/,
+		196	D/45a/Belgium/1984/Belgium/,
+		197	D/FJ349212/Belgium/1998/Belgium/,
+		198	D/KF779340/USA/2001/USA/,
+		199	D/KF779341/USA/2002/USA/,
+		200	D/KF779376/USA/2000/USA/,
+		201	D/KF779377/USA/2000/USA/,
+		202	D/KF779223/USA/2002/USA/,
+		203	D/KF779217/USA/2000/USA/,
+		204	D/KF779229/USA/2003/USA/,
+		205	D/KF779230/USA/2003/USA/,
+		206	D/KF779228/USA/2003/USA/,
+		207	D/KF779226/USA/2003/USA/,
+		208	D/KF779343/USA/2003/USA/,
+		209	D/KF779225/USA/2002/USA/,
+		210	D/KF779219/USA/2001/USA/,
+		211	D/KF779222/USA/2002/USA/,
+		212	D/KF779380/USA/2003/USA/,
+		213	D/KF779292/USA/2000/USA/,
+		214	D/KF779289/USA/2000/USA/,
+		215	D/KF779216/USA/1999/USA/,
+		216	D/KF779318/USA/2000/USA/,
+		217	D/KF779218/USA/2000/USA/,
+		218	D/KF779301/USA/2002/USA/,
+		219	D/KF779302/USA/2002/USA/,
+		220	D/KF779288/USA/1999/USA/,
+		221	D/KF779303/USA/2002/USA/,
+		222	D/KF779296/USA/2001/USA/,
+		223	D/KF779212/USA/1999/USA/,
+		224	D/KF779285/USA/1999/USA/,
+		225	D/JN664927/India/2010/India/,
+		226	D/HQ700511/NewCaledonia/2001/NewCaledonia/,
+		227	D/AB555496/Taiwan/2009/Taiwan/,
+		228	D/AB555501/Taiwan/2009/Taiwan/,
+		229	D/AB555497/Taiwan/2009/Taiwan/,
+		230	D/AB555500/Taiwan/2009/Taiwan/,
+		231	D/JN792907/Greenland/2004/Greenland/,
+		232	D/JN792908/Greenland/1998/Greenland/,
+		233	D/JN792903/Greenland/2004/Greenland/,
+		234	D/JN792910/Greenland/1998/Greenland/,
+		235	D/JN792909/Greenland/2004/Greenland/,
+		236	D/JN792911/Greenland/1998/Greenland/,
+		237	D/JN792912/Greenland/2004/Greenland/,
+		238	D/JN792904/Greenland/1998/Greenland/,
+		239	D/JN792905/Greenland/2004/Greenland/,
+		240	D/JN792906/Greenland/1998/Greenland/,
+		241	D2/GU456635/Iran/2007/Iran/,
+		242	D/MB67/Belgium/2006/Congo/,
+		243	D/FJ349208/Belgium/1998/Belgium/,
+		244	D/MB35/Belgium/2009/Rwanda/,
+		245	D2/AL68KM/Belgium/2006/Belgium/,
+		246	D/JQ687530/Serbia/2008/Serbia/,
+		247	D/X72702/Germany/1993/Germany/,
+		248	D/FJ349206/Belgium/2005/Belgium/,
+		249	D/31a/Belgium/2005/Belgium/,
+		250	D2/AL74BML/Belgium/2005/Belgium/,
+		251	D/AY341335/UK/2003/UK/,
+		252	D/FJ349205/Belgium/2005/Belgium/,
+		253	D/G10315a/Belgium/1994/Belgium/,
+		254	D2/AL67VP/Belgium/2006/Belgium/,
+		255	D/EU414139/Belarus/2005/Belarus/,
+		256	D/JQ687532/Serbia/2008/Serbia/,
+		257	D2/GQ477455/Poland/2006/Poland/,
+		258	D2/GQ477457/Poland/2006/Poland/,
+		259	D/FJ349218/Belgium/1999/Belgium/,
+		260	D2/GQ477454/Poland/2006/Poland/,
+		261	D2/JN642162/Lebanon/2010/Lebanon/,
+		262	D2/JN642159/Lebanon/2010/Lebanon/,
+		263	D2/JN642148/Lebanon/2010/Lebanon/,
+		264	D2/JN642160/Lebanon/2010/Lebanon/,
+		265	D2/KM577671/Iran/2006/Iran/,
+		266	D2/KM577670/Iran/2006/Iran/,
+		267	D2/KM577668/Iran/2006/Iran/,
+		268	D2/KM577669/Iran/2006/Iran/,
+		269	D/JN257178/Syria/2010/Syria/,
+		270	D/JN257204/Syria/2009/Syria/,
+		271	D/JN257190/Syria/2008/Syria/,
+		272	D2/JN642143/Lebanon/2010/Lebanon/,
+		273	D2/JN642144/Lebanon/2010/Lebanon/,
+		274	D2/JN642163/Lebanon/2010/Lebanon/,
+		275	D/HQ700510/NewCaledonia/2003/NewCaledonia/,
+		276	D/HQ700512/NewCaledonia/2001/NewCaledonia/,
+		277	D/HQ700513/NewCaledonia/2001/NewCaledonia/,
+		278	D/HQ700514/NewCaledonia/2001/NewCaledonia/,
+		279	D/AB210820/Japan/2001/Japan/,
+		280	D/AB188241/Japan/2001/Japan/,
+		281	D2/EU594426/Russia/1997/Russia/,
+		282	D/EU414138/Belarus/2005/Belarus/,
+		283	D2/EU594398/Russia/1997/Russia/,
+		284	D2/EU594425/Russia/1997/Russia/,
+		285	D2/EU594399/Russia/1997/Russia/,
+		286	D2/EU594430/Russia/1997/Russia/,
+		287	D2/EU594433/Russia/1997/Russia/,
+		288	D2/JX096954/Latvia/2009/Latvia/,
+		289	D2/JX096957/Latvia/2008/Latvia/,
+		290	D2/EU594424/Russia/1997/Russia/,
+		291	D2/GQ477456/Poland/2006/Poland/,
+		292	D/AF043593/Germany/1989/Germany/,
+		293	D/AF043594/Germany/1991/Germany/,
+		294	D2/EU594427/Russia/1997/Russia/,
+		295	D2/EU594415/Russia/1997/Russia/,
+		296	D2/EU594421/Russia/1997/Russia/,
+		297	D2/EU594416/Russia/1997/Russia/,
+		298	D2/JX096958/Latvia/2007/Latvia/,
+		299	D2/EU594431/Russia/1997/Russia/,
+		300	D2/EU594432/Russia/1997/Russia/,
+		301	D/KF779220/USA/2001/USA/,
+		302	D2/JX096955/Latvia/1991/Latvia/,
+		303	D2/GQ477453/Poland/2006/Poland/,
+		304	D2/EU594428/Kazakhstan/1997/Kazakhstan/,
+		305	D2/EU594422/Russia/1997/Russia/,
+		306	D2/EU594423/Russia/1997/Russia/,
+		307	D2/GQ477452/Poland/2006/Poland/,
+		308	D/EU414140/Belarus/2005/Belarus/,
+		309	D2/JX096956/Latvia/2006/Latvia/,
+		310	D/JN664939/India/2010/India/,
+		311	D/JN664946/India/2010/India/,
+		312	D/GQ183484/India/2009/India/,
+		313	D/JN664928/India/2010/India/,
+		314	D/JN664930/India/2010/India/,
+		315	D/JN664918/India/2010/India/,
+		316	D/JN664941/India/2010/India/,
+		317	D/GQ183476/India/2009/India/,
+		318	D/GQ183474/India/2009/India/,
+		319	D/GQ183473/India/2009/India/,
+		320	D/GQ183475/India/2009/India/,
+		321	D/GQ183477/India/2009/India/,
+		322	D/GQ183479/India/2009/India/,
+		323	D/GQ183481/India/2009/India/,
+		324	D/GQ183482/India/2009/India/,
+		325	D/GQ183483/India/2009/India/,
+		326	D2/GQ924652/Malaysia/2007/Malaysia/,
+		327	D/JN664944/India/2010/India/,
+		328	D/GQ183471/India/2009/India/,
+		329	D/GQ183472/India/2009/India/,
+		330	D2/AB090270/Japan/1999/Japan/,
+		331	D2/AB090269/Japan/1992/Japan/,
+		332	D2/AB090268/Japan/1997/Japan/,
+		333	D2/AB109478/Japan/1998/Japan/,
+		334	D2/AB119255/Japan/2001/Japan/,
+		335	D2/AB119256/Japan/1997/Japan/,
+		336	D2/AB109479/Japan/1997/Japan/,
+		337	D2/AB109477/Japan/1997/Japan/,
+		338	D2/AB110075/Japan/2001/Japan/,
+		339	D2/AB119251/Japan/2002/Japan/,
+		340	D2/AB119253/Japan/2000/Japan/,
+		341	D2/AB119252/Japan/2002/Japan/,
+		342	D2/AB120308/Japan/1982/Japan/,
+		343	D2/AB109476/Japan/1997/Japan/,
+		344	D/AB210822/Japan/2001/Japan/,
+		345	D2/AB119254/Japan/2003/Japan/,
+		346	D2/AB116266/Japan/1987/Japan/,
+		347	D2/AB109475/Japan/2001/Japan/,
+		348	D/AB267090/Japan/2005/Japan/,
+		349	D2/AB078032/Japan/2000/Japan/,
+		350	D2/AB078031/Japan/1998/Japan/,
+		351	D2/AB078033/Japan/1998/Japan/,
+		352	D/FJ904422/Tunisia/2006/Tunisia/,
+		353	D/JN664931/India/2010/India/,
+		354	D/JN040825/Iran/2007/Iran/,
+		355	D1/GU456636/Iran/2007/Iran/,
+		356	D/JN040826/Iran/2006/Iran/,
+		357	D/JN040830/Iran/2006/Iran/,
+		358	D1/GU456637/Iran/2007/Iran/,
+		359	D/JN040827/Iran/2009/Iran/,
+		360	D/G10453a/Belgium/1992/Belgium/,
+		361	D/AY741797/Iran/2003/Iran/,
+		362	D/JN040824/Iran/2009/Iran/,
+		363	D/JN257148/Syria/2010/Syria/,
+		364	D1/JN642146/Lebanon/2010/Lebanon/,
+		365	D/JN257187/Syria/2008/Syria/,
+		366	D/JN257188/Syria/2008/Syria/,
+		367	D1/GQ477459/Poland/2006/Poland/,
+		368	D1/KF584159/Argentina/2010/Argentina/,
+		369	D1/KF584160/Argentina/2012/Argentina/,
+		370	D1/KF584158/Argentina/2007/Argentina/,
+		371	D1/KF584165/Argentina/2011/Argentina/,
+		372	D1/KF584163/Argentina/2011/Argentina/,
+		373	D1/KF584161/Argentina/2011/Argentina/,
+		374	D1/KF584166/Argentina/2012/Argentina/,
+		375	D1/KF584164/Argentina/2012/Argentina/,
+		376	D1/KF584162/Argentina/2012/Argentina/,
+		377	D/KC774440/China/2012/China/,
+		378	D/KC774444/China/2012/China/,
+		379	D/KC774459/China/2012/China/,
+		380	D/JN257154/Syria/2009/Syria/,
+		381	D/JN257183/Syria/2010/Syria/,
+		382	D/JN257149/Syria/2010/Syria/,
+		383	D/FJ349231/Belgium/2005/Belgium/,
+		384	D/JN257191/Syria/2009/Syria/,
+		385	D/JN257192/Syria/2009/Syria/,
+		386	D/JN257174/Syria/2009/Syria/,
+		387	D/JN257175/Syria/2009/Syria/,
+		388	D/JN257157/Syria/2009/Syria/,
+		389	D/JN257158/Syria/2009/Syria/,
+		390	D/JN257216/Syria/2009/Syria/,
+		391	D/JN257217/Syria/2009/Syria/,
+		392	D/JN257197/Syria/2009/Syria/,
+		393	D/JN257155/Syria/2009/Syria/,
+		394	D/JN257156/Syria/2009/Syria/,
+		395	D/JN257169/Syria/2009/Syria/,
+		396	D/JN257210/Syria/2010/Syria/,
+		397	D/JN257189/Syria/2008/Syria/,
+		398	D/JN257164/Syria/2009/Syria/,
+		399	D1/JN642154/Lebanon/2010/Lebanon/,
+		400	D1/JN642140/Lebanon/2010/Lebanon/,
+		401	D1/JN642161/Lebanon/2010/Lebanon/,
+		402	D/JN257198/Syria/2009/Syria/,
+		403	D/JN257199/Syria/2009/Syria/,
+		404	D/JN257186/Syria/2008/Syria/,
+		405	D/JN257205/Syria/2009/Syria/,
+		406	D1/JN642139/Lebanon/2010/Lebanon/,
+		407	D/JN257206/Syria/2010/Syria/,
+		408	D/JN257207/Syria/2010/Syria/,
+		409	D1/JN642127/Lebanon/2010/Lebanon/,
+		410	D1/JN642145/Lebanon/2010/Lebanon/,
+		411	D/JN257202/Syria/2009/Syria/,
+		412	D1/JN642149/Lebanon/2010/Lebanon/,
+		413	D1/AL17GF/Belgium/1997/Belgium/,
+		414	D1/JN642157/Lebanon/2010/Lebanon/,
+		415	D1/JN642137/Lebanon/2010/Lebanon/,
+		416	D/FJ349233/Belgium/2006/Belgium/,
+		417	D/83a/Belgium/1987/Belgium/,
+		418	D/JN257203/Syria/2009/Syria/,
+		419	D/JN257201/Syria/2009/Syria/,
+		420	D/JN257162/Syria/2009/Syria/,
+		421	D1/JN642141/Lebanon/2010/Lebanon/,
+		422	D1/JN642152/Lebanon/2010/Lebanon/,
+		423	D/JN040829/Iran/2006/Iran/,
+		424	D/FJ349235/Belgium/2007/Belgium/,
+		425	D/JN040828/Iran/2007/Iran/,
+		426	D1/GU456648/Iran/2007/Iran/,
+		427	D/JN040814/Iran/2009/Iran/,
+		428	D1/JN642142/Lebanon/2010/Lebanon/,
+		429	D/JN040804/Iran/2008/Iran/,
+		430	D/JN040803/Iran/2009/Iran/,
+		431	D/JN040800/Iran/2009/Iran/,
+		432	D/JN040801/Iran/2009/Iran/,
+		433	D/KF471640/Iran/2007/Iran/,
+		434	D1/GU456638/Iran/2007/Iran/,
+		435	D/KF471649/Iran/2007/Iran/,
+		436	D/KF471647/Iran/2007/Iran/,
+		437	D/JN040810/Iran/2007/Iran/,
+		438	D1/GU456641/Iran/2007/Iran/,
+		439	D/JN040811/Iran/2007/Iran/,
+		440	D1/GU456639/Iran/2007/Iran/,
+		441	D/AY741798/Iran/2003/Iran/,
+		442	D/JN040818/Iran/2009/Iran/,
+		443	D/JN040819/Iran/2009/Iran/,
+		444	D/JN040802/Iran/2008/Iran/,
+		445	D1/GU456643/Iran/2007/Iran/,
+		446	D/JN040797/Iran/2009/Iran/,
+		447	D/JN040798/Iran/2009/Iran/,
+		448	D1/GU456647/Iran/2007/Iran/,
+		449	D/KF471643/Iran/2007/Iran/,
+		450	D1/GU456640/Iran/2007/Iran/,
+		451	D1/GU456644/Iran/2007/Iran/,
+		452	D1/GU456645/Iran/2007/Iran/,
+		453	D1/GU456646/Iran/2007/Iran/,
+		454	D/JN040796/Iran/2009/Iran/,
+		455	D1/GU456652/Iran/2007/Iran/,
+		456	D/JN040812/Iran/2007/Iran/,
+		457	D1/GU456651/Iran/2007/Iran/,
+		458	D/KF471648/Iran/2007/Iran/,
+		459	D/JN040820/Iran/2007/Iran/,
+		460	D/JN040817/Iran/2009/Iran/,
+		461	D/JN040815/Iran/2008/Iran/,
+		462	D/JN040816/Iran/2008/Iran/,
+		463	D/KF471655/Iran/2007/Iran/,
+		464	D/JN040813/Iran/2008/Iran/,
+		465	D1/GU456650/Iran/2007/Iran/,
+		466	D/JN040821/Iran/2006/Iran/,
+		467	D/JN040822/Iran/2007/Iran/,
+		468	D/JN040823/Iran/2008/Iran/,
+		469	D/JN257152/Syria/2009/Syria/,
+		470	D/AB222713/Uzbekistan/2004/Uzbekistan/,
+		471	D/JN040807/Iran/2009/Iran/,
+		472	D/JN040795/Iran/2008/Iran/,
+		473	D1/GU456649/Iran/2007/Iran/,
+		474	D/JN040799/Iran/2006/Iran/,
+		475	D/JN040805/Iran/2007/Iran/,
+		476	D/JN040806/Iran/2006/Iran/,
+		477	D/KF471651/Iran/2007/Iran/,
+		478	D/KF471652/Iran/2007/Iran/,
+		479	D/JN040808/Iran/2007/Iran/,
+		480	D/JN040809/Iran/2008/Iran/,
+		481	D1/GU456642/Iran/2007/Iran/,
+		482	D1/JN642136/Lebanon/2010/Lebanon/,
+		483	D1/JN642138/Lebanon/2010/Lebanon/,
+		484	D/JN040754/Iran/2009/Iran/,
+		485	D/JN040776/Iran/2006/Iran/,
+		486	D1/GU456680/Iran/2007/Iran/,
+		487	D1/GU456679/Iran/2007/Iran/,
+		488	D1/GU456681/Iran/2007/Iran/,
+		489	D/JN040753/Iran/2007/Iran/,
+		490	D/KF471646/Iran/2007/Iran/,
+		491	D1/GU456661/Iran/2007/Iran/,
+		492	D1/GU456664/Iran/2007/Iran/,
+		493	D1/GU456662/Iran/2007/Iran/,
+		494	D1/GU456663/Iran/2007/Iran/,
+		495	D1/GU456665/Iran/2007/Iran/,
+		496	D/JN040766/Iran/2009/Iran/,
+		497	D/KF471658/Iran/2007/Iran/,
+		498	D/KF471657/Iran/2007/Iran/,
+		499	D1/GU456669/Iran/2007/Iran/,
+		500	D1/GU456659/Iran/2007/Iran/,
+		501	D/JN040760/Iran/2007/Iran/,
+		502	D1/GU456660/Iran/2007/Iran/,
+		503	D1/GU456667/Iran/2007/Iran/,
+		504	D1/GU456674/Iran/2007/Iran/,
+		505	D1/GU456675/Iran/2007/Iran/,
+		506	D1/GU456668/Iran/2007/Iran/,
+		507	D/KF471644/Iran/2007/Iran/,
+		508	D/JN040765/Iran/2009/Iran/,
+		509	D/JN040763/Iran/2006/Iran/,
+		510	D/JN040764/Iran/2006/Iran/,
+		511	D1/GU456678/Iran/2007/Iran/,
+		512	D/JN040771/Iran/2009/Iran/,
+		513	D/JN040769/Iran/2008/Iran/,
+		514	D/JN040770/Iran/2006/Iran/,
+		515	D1/GU456670/Iran/2007/Iran/,
+		516	D/JN040761/Iran/2008/Iran/,
+		517	D/JN040762/Iran/2009/Iran/,
+		518	D1/GU456676/Iran/2007/Iran/,
+		519	D/KF471641/Iran/2007/Iran/,
+		520	D1/GU456672/Iran/2007/Iran/,
+		521	D1/GU456673/Iran/2007/Iran/,
+		522	D/KF471642/Iran/2007/Iran/,
+		523	D1/GU456658/Iran/2007/Iran/,
+		524	D/JN040767/Iran/2009/Iran/,
+		525	D/JN040768/Iran/2006/Iran/,
+		526	D/JN257214/Syria/2009/Syria/,
+		527	D/JN257215/Syria/2009/Syria/,
+		528	D/KF471645/Iran/2007/Iran/,
+		529	D/KF471653/Iran/2007/Iran/,
+		530	D/KF471659/Iran/2007/Iran/,
+		531	D1/GU456666/Iran/2007/Iran/,
+		532	D/JN257151/Syria/2008/Syria/,
+		533	D/JN257172/Syria/2009/Syria/,
+		534	D/JN257173/Syria/2009/Syria/,
+		535	D/KF471654/Iran/2007/Iran/,
+		536	D1/GU456671/Iran/2007/Iran/,
+		537	D/JN040759/Iran/2006/Iran/,
+		538	D/JN040758/Iran/2007/Iran/,
+		539	D/AY741794/Iran/2003/Iran/,
+		540	D/AY741795/Iran/2003/Iran/,
+		541	D/AY741796/Iran/2003/Iran/,
+		542	D/AB222709/Uzbekistan/2004/Uzbekistan/,
+		543	D1/FJ904418/Tunisia/2006/Tunisia/,
+		544	D1/JN642164/Lebanon/2010/Lebanon/,
+		545	D7/FJ904424/Tunisia/2006/Tunisia/,
+		546	D/JN040757/Iran/2007/Iran/,
+		547	D/JN040756/Iran/2008/Iran/,
+		548	D1/GU456677/Iran/2007/Iran/,
+		549	D/JN257159/Syria/2009/Syria/,
+		550	D1/GU456683/Iran/2007/Iran/,
+		551	D/JN257176/Syria/2009/Syria/,
+		552	D/JN257177/Syria/2009/Syria/,
+		553	D1/GU456682/Iran/2007/Iran/,
+		554	D1/JN642128/Lebanon/2010/Lebanon/,
+		555	D1/JN642156/Lebanon/2010/Lebanon/,
+		556	D1/JN642133/Lebanon/2010/Lebanon/,
+		557	D1/JN642150/Lebanon/2010/Lebanon/,
+		558	D/KF471650/Iran/2007/Iran/,
+		559	D/JN040774/Iran/2006/Iran/,
+		560	D/JN040752/Iran/2009/Iran/,
+		561	D/JN040772/Iran/2006/Iran/,
+		562	D/JN040773/Iran/2007/Iran/,
+		563	D/JN040750/Iran/2008/Iran/,
+		564	D/MB3/Belgium/2008/Rwanda/,
+		565	D/MB5/Belgium/2008/Niger/,
+		566	D/JN040755/Iran/2006/Iran/,
+		567	D/JN040777/Iran/2007/Iran/,
+		568	D1/GU456684/Iran/2007/Iran/,
+		569	D/JN257211/Syria/2010/Syria/,
+		570	D/JN257212/Syria/2010/Syria/,
+		571	D/JN257213/Syria/2010/Syria/,
+		572	D/JN040751/Iran/2008/Iran/,
+		573	D/AB270547/Mongolia/2005/Mongolia/,
+		574	D/FJ562309/China/2007/China/,
+		575	D/AB270546/Mongolia/2005/Mongolia/,
+		576	D/AB270540/Mongolia/2005/Mongolia/,
+		577	D/AB270541/Mongolia/2005/Mongolia/,
+		578	D/AB270549/Mongolia/2005/Mongolia/,
+		579	D/AB270550/Mongolia/2005/Mongolia/,
+		580	D/JN257153/Syria/2009/Syria/,
+		581	D/JN257195/Syria/2009/Syria/,
+		582	D/GQ183461/India/2009/India/,
+		583	D/GQ183460/India/2009/India/,
+		584	D/GQ183469/India/2009/India/,
+		585	D/GQ183459/India/2009/India/,
+		586	D/GQ183458/India/2009/India/,
+		587	D/GQ183467/India/2009/India/,
+		588	D/GQ183463/India/2009/India/,
+		589	D/GQ183448/India/2009/India/,
+		590	D/GQ183468/India/2009/India/,
+		591	D/GQ183449/India/2009/India/,
+		592	D/GQ183457/India/2009/India/,
+		593	D/GQ183465/India/2009/India/,
+		594	D/GQ183456/India/2009/India/,
+		595	D/GQ183464/India/2009/India/,
+		596	D/GQ183452/India/2009/India/,
+		597	D/GQ183455/India/2009/India/,
+		598	D/GQ183462/India/2009/India/,
+		599	D/GQ183450/India/2009/India/,
+		600	D/GQ183454/India/2009/India/,
+		601	D/GQ183451/India/2009/India/,
+		602	D/GQ183466/India/2009/India/,
+		603	D/GQ183453/India/2009/India/,
+		604	D1/GU456656/Iran/2007/Iran/,
+		605	D1/KF170739/Sudan/2008/Sudan/,
+		606	D1/FJ904431/Tunisia/2006/Tunisia/,
+		607	D1/FJ904412/Tunisia/2006/Tunisia/,
+		608	D1/FJ904443/Tunisia/2005/Tunisia/,
+		609	D1/FJ904399/Tunisia/2006/Tunisia/,
+		610	D1/FJ904402/Tunisia/2006/Tunisia/,
+		611	D1/FJ904446/Tunisia/2006/Tunisia/,
+		612	D1/FJ904429/Tunisia/2006/Tunisia/,
+		613	D1/FJ904432/Tunisia/2006/Tunisia/,
+		614	D1/FJ904427/Tunisia/2006/Tunisia/,
+		615	D1/FJ904445/Tunisia/2006/Tunisia/,
+		616	D1/FJ904426/Tunisia/2006/Tunisia/,
+		617	D1/FJ904420/Tunisia/2006/Tunisia/,
+		618	D1/FJ904415/Tunisia/2006/Tunisia/,
+		619	D1/FJ904421/Tunisia/2006/Tunisia/,
+		620	D1/JN642126/Lebanon/2010/Lebanon/,
+		621	D1/JN642151/Lebanon/2010/Lebanon/,
+		622	D1/JN642130/Lebanon/2010/Lebanon/,
+		623	D1/JN642132/Lebanon/2010/Lebanon/,
+		624	D1/JN642134/Lebanon/2010/Lebanon/,
+		625	D/MB12/Belgium/2008/Congo/,
+		626	D1/GU456653/Iran/2007/Iran/,
+		627	D1/GU456654/Iran/2007/Iran/,
+		628	D1/GU456655/Iran/2007/Iran/,
+		629	D/JN040783/Iran/2007/Iran/,
+		630	D1/JN642167/Lebanon/2010/Lebanon/,
+		631	D/JN040782/Iran/2009/Iran/,
+		632	D/JN040784/Iran/2009/Iran/,
+		633	D/JN040778/Iran/2008/Iran/,
+		634	D1/JN642153/Lebanon/2010/Lebanon/,
+		635	D/JN040779/Iran/2007/Iran/,
+		636	D/JN257160/Syria/2009/Syria/,
+		637	D/JN257161/Syria/2009/Syria/,
+		638	D1/JN642129/Lebanon/2010/Lebanon/,
+		639	D/JN040789/Iran/2007/Iran/,
+		640	D1/EU594396/Kazakhstan/1997/Kazakhstan/,
+		641	D1/JN642155/Lebanon/2010/Lebanon/,
+		642	D1/JN642165/Lebanon/2010/Lebanon/,
+		643	D1/JN642131/Lebanon/2010/Lebanon/,
+		644	D/JN257165/Syria/2009/Syria/,
+		645	D/JN257166/Syria/2009/Syria/,
+		646	D1/JN642135/Lebanon/2010/Lebanon/,
+		647	D1/JN642147/Lebanon/2010/Lebanon/,
+		648	D/JN257150/Syria/2008/Syria/,
+		649	D/JN257171/Syria/2009/Syria/,
+		650	D/JN257163/Syria/2009/Syria/,
+		651	D/JN257170/Syria/2009/Syria/,
+		652	D/JN257208/Syria/2010/Syria/,
+		653	D/JN257209/Syria/2010/Syria/,
+		654	D/MB96/Belgium/2007/Ghana/,
+		655	D/JN257193/Syria/2009/Syria/,
+		656	D/JN257194/Syria/2009/Syria/,
+		657	D/JN040790/Iran/2006/Iran/,
+		658	D/EU414136/Belarus/2005/Belarus/,
+		659	D/70z/Belgium/2001/Belgium/,
+		660	D/JQ687531/China/2008/China/,
+		661	D1/GQ477458/Poland/2006/Poland/,
+		662	D/G1034a/Belgium/2001/Belgium/,
+		663	D/FJ349215/Belgium/1995/Belgium/,
+		664	D/FJ349216/Belgium/2000/Belgium/,
+		665	D/FJ349220/Belgium/1999/Belgium/,
+		666	D/G10113a/Belgium/1986/Belgium/,
+		667	D/FJ349217/Belgium/1999/Belgium/,
+		668	D/FJ349210/Belgium/1998/Belgium/,
+		669	D/8z/Belgium/2006/Belgium/,
+		670	D/FJ349219/Belgium/1999/Belgium/,
+		671	D/JN040785/Iran/2009/Iran/,
+		672	D/JN040786/Iran/2009/Iran/,
+		673	D/JN040787/Iran/2009/Iran/,
+		674	D/JN040788/Iran/2009/Iran/,
+		675	D/FJ349228/Belgium/2005/Belgium/,
+		676	D/AB270548/Mongolia/2005/Mongolia/,
+		677	D/JN257184/Syria/2008/Syria/,
+		678	D/JN257185/Syria/2008/Syria/,
+		679	D/KF061170/Pakistan/2012/Pakistan/,
+		680	D/KF061169/Pakistan/2012/Pakistan/,
+		681	D/KF061167/Pakistan/2012/Pakistan/,
+		682	D/KF061168/Pakistan/2012/Pakistan/,
+		683	D/GQ183480/India/2009/India/,
+		684	D/JN040775/Iran/2008/Iran/,
+		685	D/JN040792/Iran/2008/Iran/,
+		686	D/JN040791/Iran/2007/Iran/,
+		687	D/JN040793/Iran/2007/Iran/,
+		688	D/AB222710/Uzbekistan/2004/Uzbekistan/,
+		689	D/EU414137/Belarus/2005/Belarus/,
+		690	D/JN257167/Syria/2009/Syria/,
+		691	D/JN257168/Syria/2009/Syria/,
+		692	D/JN257200/Syria/2009/Syria/,
+		693	D1/JN642158/Lebanon/2010/Lebanon/,
+		694	D1/JN642166/Lebanon/2010/Lebanon/,
+		695	D/JN257179/Syria/2010/Syria/,
+		696	D/JN257180/Syria/2010/Syria/,
+		697	D/GQ183470/India/2009/India/,
+		698	D/AB270544/Mongolia/2005/Mongolia/,
+		699	D1/GU357846/China/2006/China/,
+		700	D/AB270542/Mongolia/2005/Mongolia/,
+		701	D/AB270545/Mongolia/2005/Mongolia/,
+		702	D/KC774445/China/2012/China/,
+		703	D/EU414135/Belarus/2005/Belarus/,
+		704	D1/FJ386590/China/2008/China/,
+		705	D/AB270543/Mongolia/2005/Mongolia/,
+		706	D1/GQ377589/China/2007/China/,
+		707	D/JN257182/Syria/2009/Syria/,
+		708	D/AB222711/Uzbekistan/2004/Uzbekistan/,
+		709	D/FJ349229/Belgium/2005/Belgium/,
+		710	D/FJ349230/Belgium/2005/Belgium/,
+		711	D/JN040780/Iran/2007/Iran/,
+		712	D/G1047a/Belgium/1987/Belgium/,
+		713	D/JN040781/Iran/2009/Iran/,
+		714	D1/AY945307/India/1999/India/,
+		715	D/GU563549/Belgium/2008/Belgium/,
+		716	D/KF471656/Iran/2007/Iran/,
+		717	D/AB222712/Uzbekistan/2004/Uzbekistan/,
+		718	D/FJ349234/Belgium/2007/Belgium/,
+		719	D/JN040794/Iran/2008/Iran/,
+		720	D1/GU456657/Iran/2007/Iran/,
+		721	D1/FJ899792/China/2007/China/,
+		722	D/HQ833465/China/2009/China/,
+		723	D/HQ833467/China/2009/China/,
+		724	D/HQ833471/China/2009/China/,
+		725	D/HQ833466/China/2009/China/,
+		726	D/HQ833468/China/2009/China/,
+		727	D/HQ833469/China/2009/China/,
+		728	D/HQ833470/China/2009/China/,
+		729	D/HQ700472/NewZealand/1997/NewZealand/,
+		730	D/HQ700478/NewZealand/1994/NewZealand/,
+		731	D/HQ700473/NewZealand/1984/NewZealand/,
+		732	D/HQ700474/NewZealand/1999/NewZealand/,
+		733	D/HQ700480/NewZealand/1984/NewZealand/,
+		734	D/HQ700481/NewZealand/1999/NewZealand/,
+		735	D/HQ700491/NewZealand/1996/NewZealand/,
+		736	D/HQ700467/NewZealand/1999/NewZealand/,
+		737	D/HQ700470/NewZealand/1999/NewZealand/,
+		738	D/HQ700469/NewZealand/1984/NewZealand/,
+		739	D/HQ700479/NewZealand/1984/NewZealand/,
+		740	D/HQ700483/NewZealand/1984/NewZealand/,
+		741	D/HQ700484/NewZealand/1984/NewZealand/,
+		742	D/HQ700447/NewZealand/1984/NewZealand/,
+		743	D/HQ700448/NewZealand/1999/NewZealand/,
+		744	D/HQ700459/NewZealand/1993/NewZealand/,
+		745	D/HQ700441/NewZealand/1984/NewZealand/,
+		746	D/HQ700449/NewZealand/1984/NewZealand/,
+		747	D/HQ700465/NewZealand/1992/NewZealand/,
+		748	D/HQ700442/NewZealand/1984/NewZealand/,
+		749	D/HQ700443/NewZealand/1999/NewZealand/,
+		750	D/HQ700450/NewZealand/1984/NewZealand/,
+		751	D/HQ700460/NewZealand/1984/NewZealand/,
+		752	D/HQ700487/NewZealand/1988/NewZealand/,
+		753	D/HQ700477/NewZealand/1984/NewZealand/,
+		754	D/HQ700440/NewZealand/1984/NewZealand/,
+		755	D/HQ700466/NewZealand/1984/NewZealand/,
+		756	D/HQ700453/NewZealand/1984/NewZealand/,
+		757	D/HQ700463/NewZealand/1984/NewZealand/,
+		758	D/HQ700444/NewZealand/1984/NewZealand/,
+		759	D/HQ700468/NewZealand/1984/NewZealand/,
+		760	D/HQ700489/NewZealand/1999/NewZealand/,
+		761	D/HQ700488/NewZealand/1984/NewZealand/,
+		762	D/HQ700452/NewZealand/1984/NewZealand/,
+		763	D/HQ700464/NewZealand/1984/NewZealand/,
+		764	D/HQ700454/NewZealand/1984/NewZealand/,
+		765	D/HQ700455/NewZealand/1999/NewZealand/,
+		766	D/HQ700471/NewZealand/1984/NewZealand/,
+		767	D/HQ700482/NewZealand/1984/NewZealand/,
+		768	D/HQ700445/NewZealand/1984/NewZealand/,
+		769	D/HQ700446/NewZealand/1999/NewZealand/
+	;
+	TREE * UNTITLED = [&R] ((1:1451.10968,(2:2031.73033,(3:1928.1596,(4:1726.66308,(5:1436.28283,((6:1278.60187,7:1275.60187)NODE_0000136:91.18292,((8:1068.43224,(9:1033.60528,(10:961.39139,11:961.39139)NODE_0000140:72.21388)NODE_0000139:34.82696)NODE_0000138:213.63411,((12:457.65938,13:457.65938)NODE_0000142:547.98075,((14:315.14597,15:315.14597)NODE_0000144:498.28178,((16:544.93776,(17:371.23464,(18:236.99274,19:236.99274)NODE_0000148:136.2419)NODE_0000147:173.70312)NODE_0000146:20.82636,(20:367.2373,(21:245.9401,((22:148.70999,24:149.70999):0,23:149.70999)NODE_0000151:97.23011)NODE_0000150:120.2972)NODE_0000149:198.52682)NODE_0000145:247.66363)NODE_0000143:192.21238)NODE_0000141:274.42621)NODE_0000137:87.71845)NODE_0000135:66.49803)NODE_0000134:290.38025)NODE_0000133:201.49652)NODE_0000132:106.57073)NODE_0000131:1019.37935)NODE_0000130:286.74906,(25:852.08081,(((26:1875.15204,(((27:1598.38134,28:1603.38134)NODE_0000157:121.24134,(29:1206.01499,(30:1093.27303,(31:1069.30755,(32:1036.67189,(33:930.78405,34:930.78405)NODE_0000162:105.88785)NODE_0000161:32.63566)NODE_0000160:23.96548)NODE_0000159:120.74196)NODE_0000158:511.60769)NODE_0000156:86.5074,((35:654.01743,36:670.01743)NODE_0000164:869.61699,(((37:1110.68371,38:1109.68371)NODE_0000167:206.08347,(39:1176.48788,(40:1028.00227,41:1028.00227)NODE_0000169:148.48561)NODE_0000168:140.2793)NODE_0000166:130.63909,(((43:1177.42262,(44:1084.89318,(45:1019.38921,(46:816.9929,47:816.9929)NODE_0000175:203.39631)NODE_0000174:64.50397)NODE_0000173:92.52944)NODE_0000172:86.39155,42:1263.81417):0,(((((51:964.51165,52:965.51165)NODE_0000181:171.82149,((54:1081.59645,53:1081.59645):0,(55:918.90896,56:918.90896)NODE_0000184:162.68749)NODE_0000182:55.73669)NODE_0000180:31.24259,((57:1020.43804,(58:118.50394,59:118.50394)NODE_0000187:901.9341)NODE_0000186:71.38583,((60:936.28925,61:937.28925)NODE_0000189:137.12446,(62:1000.32493,63:1000.32493)NODE_0000190:74.08878)NODE_0000188:17.41016)NODE_0000185:76.75187)NODE_0000179:31.16862,48:1199.74436):0,(49:1062.16516,50:1062.16516)NODE_0000178:137.57919)NODE_0000176:64.06981)NODE_0000170:183.5921)NODE_0000165:90.22815)NODE_0000163:274.49566)NODE_0000155:61.02196)NODE_0000154:466.14865,((64:838.97814,(65:799.1522,(66:755.59052,((((71:586.91497,72:585.91497)NODE_0000200:118.07649,(((76:64.49945,(77:49.40581,78:49.40581)NODE_0000205:15.09364)NODE_0000204:170.29469,(74:119.97111,75:118.97111)NODE_0000203:115.82303):0,73:234.79414)NODE_0000201:469.19732)NODE_0000199:31.01818,(68:711.84254,(69:582.73796,70:582.73796)NODE_0000197:130.10459)NODE_0000196:22.1671):0,67:734.00964)NODE_0000195:19.58088)NODE_0000194:43.56169)NODE_0000193:41.82593)NODE_0000192:971.7199,(((79:927.74204,(80:799.50531,81:799.50531)NODE_0000209:128.23673)NODE_0000208:557.70881,((82:946.13635,83:949.13635)NODE_0000211:56.36624,(84:267.2626,85:267.2626)NODE_0000212:738.23998)NODE_0000210:501.94827)NODE_0000207:67.43596,(86:756.67918,((87:588.66439,88:588.66439)NODE_0000215:102.81048,(89:521.98718,(90:467.3331,(((91:153.58395,92:151.58395)NODE_0000221:31.51213,(93:196.09608,(94:0,95:0)NODE_0000222:196.09608)NODE_0000104:0)NODE_0000098:109.16743,((96:69.36549,97:69.36549)NODE_0000224:205.99996,((98:258.36825,(99:70.87245,100:70.87245)NODE_0000229:187.4958):0,(101:207.1224,(102:189.89927,103:189.89927)NODE_0000227:16.22313)NODE_0000226:52.24585)NODE_0000225:16.9972)NODE_0000223:29.89806)NODE_0000093:162.06958)NODE_0000217:66.65408)NODE_0000216:157.4877)NODE_0000214:72.20431)NODE_0000213:809.20764)NODE_0000206:233.81122)NODE_0000191:530.60266)NODE_0000153:429.72909,(((104:183.75615,((105:786.16378,106:786.16378)NODE_0000233:421.23437,(107:419.52573,(108:221.35624,109:221.35624)NODE_0000235:198.16949)NODE_0000234:794.87242)NODE_0000232:131.35801)NODE_0000231:409.96689,(((((116:602.9771,117:602.9771)NODE_0000244:519.57809,((((120:794.51489,121:794.51489)NODE_0000248:99.5709,(122:590.06296,(123:20.09475,124:20.09475)NODE_0000250:569.96821)NODE_0000249:304.02284)NODE_0000247:195.62741,118:1092.7132):0,119:1095.7132)NODE_0000245:29.84199)NODE_0000243:142.17766,110:1260.73285):0,(111:1227.93937,(112:522.99013,(113:424.35285,(114:356.96786,115:348.96786)NODE_0000242:67.38499)NODE_0000241:104.63728)NODE_0000240:693.94924)NODE_0000239:37.79348)NODE_0000237:204.70951,((125:499.11668,(126:1153.55944,((127:153.43931,(128:98.88614,129:98.88614)NODE_0000256:54.55317)NODE_0000255:499.30446,((130:532.37065,131:532.37065)NODE_0000258:101.91455,(132:493.15683,(133:175.91281,134:175.91281)NODE_0000260:317.24402)NODE_0000259:138.12836)NODE_0000257:16.45857)NODE_0000254:504.81568)NODE_0000253:155.55724)NODE_0000252:54.92184,(((135:1186.21298,136:1193.21298)NODE_0000263:77.76603,(137:892.41806,138:892.41806)NODE_0000264:381.56094)NODE_0000262:53.98575,(139:1295.53218,((140:903.39488,141:903.39488)NODE_0000267:367.20675,(142:1242.53705,((143:801.24133,(144:525.14592,145:525.14592)NODE_0000271:276.09542)NODE_0000270:421.75946,(146:777.1434,((147:798.67236,(148:286.36024,149:287.36024)NODE_0000275:511.31211)NODE_0000274:356.22494,((150:0,151:0)NODE_0000277:1155.43369,((152:1058.40812,(172:696.20719,(173:663.58294,(((174:401.25991,(175:257.58043,(176:9.52628,177:10.52628)NODE_0000311:245.05415)NODE_0000310:168.67948)NODE_0000309:119.62315,(((178:150.51959,(179:17.63701,180:17.63701)NODE_0000302:132.88259)NODE_0000218:0,(181:96.34787,(182:38.41182,(183:0,184:0)NODE_0000228:38.41182)NODE_0000306:67.93606)NODE_0000305:65.17172)NODE_0000202:137.17923,(((192:144.28843,(193:114.32936,(194:14.2999,195:14.2999)NODE_0000321:112.02946)NODE_0000320:17.95907)NODE_0000319:146.51996,(185:86.03711,(186:0,187:0)NODE_0000314:85.03711)NODE_0000313:205.77129):0,(188:203.68449,(189:164.23292,(190:87.11049,191:89.11049)NODE_0000318:82.12242)NODE_0000317:44.45158)NODE_0000316:71.1239)NODE_0000312:29.89043)NODE_0000198:222.18423)NODE_0000183:66.08982,((196:524.39749,197:538.39749)NODE_0000323:33.8778,((((202:437.76771,((204:270.3788,205:270.3788)NODE_0000328:85.36781,(206:337.65201,(207:194.58106,208:194.58106)NODE_0000330:143.07095)NODE_0000329:18.09459)NODE_0000327:83.02111):0,203:435.76771)NODE_0000325:117.91636,((209:434.74642,(210:271.70495,211:272.70495)NODE_0000337:162.04147)NODE_0000336:108.47406,(212:452.52428,(213:320.40837,(214:236.327,(215:181.43558,((216:135.10264,(217:124.213,(218:47.53168,219:47.53168)NODE_0000345:78.68132)NODE_0000344:10.88964)NODE_0000343:26.81249,((222:47.54978,((223:0,224:0)NODE_0000349:45.54978,220:45.54978):0):0,221:48.54978)NODE_0000346:115.36535)NODE_0000342:20.52045)NODE_0000341:53.89142)NODE_0000340:84.08137)NODE_0000339:129.11591)NODE_0000338:91.6962)NODE_0000335:12.46359):0,((198:32.52505,199:33.52505)NODE_0000333:281.33065,(200:66.72595,201:66.72595)NODE_0000334:246.12976)NODE_0000332:240.82836)NODE_0000324:20.59122)NODE_0000322:26.6976)NODE_0000300:72.61005)NODE_0000299:24.62426)NODE_0000298:353.20093):0,((153:935.39863,(154:830.81098,155:835.81098)NODE_0000281:104.58765)NODE_0000280:89.57628,(((156:326.76828,157:312.76828)NODE_0000284:274.85205,(158:518.41408,159:516.41408)NODE_0000285:79.20625)NODE_0000283:346.4499,((160:670.99161,161:682.99161)NODE_0000287:70.53437,((162:96.83379,(163:96.83379,(164:70.12325,165:70.12325)NODE_0000291:26.71054)NODE_0000177:0)NODE_0000171:582.41796,((166:568.11933,167:568.11933)NODE_0000293:97.24885,(168:570.19833,(169:1913.23047,(170:346.16467,171:346.16467)NODE_0000296:118.72506)NODE_0000295:105.3086)NODE_0000294:95.16985)NODE_0000292:13.88358)NODE_0000288:74.27422)NODE_0000286:202.54426)NODE_0000282:79.90467)NODE_0000279:25.43322)NODE_0000278:98.02557)NODE_0000276:20.46361)NODE_0000273:29.24609)NODE_0000272:16.8574)NODE_0000269:21.53625)NODE_0000268:23.06458)NODE_0000266:29.93055)NODE_0000265:28.43257)NODE_0000261:40.07377)NODE_0000251:101.40384)NODE_0000236:283.28068)NODE_0000230:306.31705,(225:1918.48404,((((226:1436.51498,((227:1065.1205,228:1065.1205)NODE_0000114:102.8942,(229:1036.28753,230:1036.28753)NODE_0000115:131.72717)NODE_0000113:276.50029)NODE_0000112:78.01442,((231:276.20383,232:270.20383)NODE_0000117:382.61726,((233:84.35704,(234:0,235:6)NODE_0000290:78.35704)NODE_0000289:523.781,((236:292.55659,237:298.55659)NODE_0000122:295.29621,(238:496.78712,(239:275.49857,240:269.49857)NODE_0000124:227.28855)NODE_0000123:91.06569)NODE_0000121:14.28524)NODE_0000118:50.68305)NODE_0000116:858.70831)NODE_0000111:156.15323,(241:1609.73744,(242:1476.1215,(((((((246:588.64615,247:573.64615)NODE_0000003:346.13055,(248:196.14037,(249:55.6048,250:55.6048)NODE_0000000:140.53556)NODE_0000001:735.63634)NODE_0000002:30.87552,(243:873.66315,(244:792.34937,245:789.34937)NODE_0000007:92.31379)NODE_0000006:81.98907):0,((251:842.23169,(252:495.1571,(253:444.85018,254:456.85018)NODE_0000011:39.30692)NODE_0000010:349.07459)NODE_0000009:78.80473,((256:679.03551,(257:437.82222,258:437.82222)NODE_0000014:239.21329):0,255:676.03551)NODE_0000012:247.00091)NODE_0000008:39.6158)NODE_0000004:468.95693,((259:903.25382,260:910.25382)NODE_0000017:382.03097,((261:963.00892,(262:920.9684,(263:766.70315,264:766.70315)NODE_0000021:154.26524)NODE_0000020:42.04052)NODE_0000019:307.71184,(265:1250.05963,((266:1167.74484,(267:976.94278,268:976.94278)NODE_0000025:190.80206)NODE_0000024:65.86627,((269:703.51981,270:702.51981)NODE_0000027:474.17195,(271:978.96357,(272:882.30287,(273:851.40246,274:851.40246)NODE_0000030:30.9004)NODE_0000029:98.6607)NODE_0000028:196.72819)NODE_0000026:59.91934)NODE_0000023:16.44852)NODE_0000022:16.66113)NODE_0000018:25.56403)NODE_0000016:140.32437)NODE_0000015:25.65262,((310:480.2928,311:480.2928)NODE_0000033:556.00868,(312:957.43559,((313:691.50059,314:691.50059)NODE_0000036:215.14925,(((315:779.40205,316:779.40205)NODE_0000038:70.48728,(((327:723.20271,(328:479.99658,329:479.99658)NODE_0000050:242.20613)NODE_0000049:93.77253,326:813.97523):0,((330:533.74748,(331:502.18067,((332:439.05795,333:440.05795)NODE_0000064:56.93848,(334:422.1075,335:418.1075)NODE_0000065:77.88893)NODE_0000063:11.18424)NODE_0000062:24.56681)NODE_0000061:14.94096,((336:398.75987,(337:362.39664,(338:347.73486,((339:203.72318,340:201.72318)NODE_0000071:131.55081,(341:208.35069,342:188.35069)NODE_0000072:126.92331)NODE_0000070:13.46087)NODE_0000069:18.66177)NODE_0000068:36.36324)NODE_0000067:59.8229,((343:237.62082,344:241.62082)NODE_0000432:210.33166,((346:408.05182,(347:422.05182,(348:231.85321,((351:47.0786,350:47.0786):0,349:49.0786)NODE_0000057:177.77461)NODE_0000056:194.19861)NODE_0000434:0):0,345:424.05182)NODE_0000053:29.90066)NODE_0000427:10.63029)NODE_0000419:88.10567)NODE_0000052:257.28679)NODE_0000048:32.91409):0,(317:471.80824,((318:395.85052,(319:319.2955,320:319.2955)NODE_0000043:76.55502):0,(321:280.06174,(322:249.45744,(323:204.55751,(324:109.80866,325:109.80866)NODE_0000047:94.74885)NODE_0000046:44.89993)NODE_0000045:30.6043)NODE_0000044:115.78878)NODE_0000041:75.95772)NODE_0000040:377.08109)NODE_0000037:56.76052)NODE_0000035:51.78575)NODE_0000034:77.8659)NODE_0000032:425.96029):0,((275:295.96631,(276:98.34564,(277:39.64633,278:39.64633)NODE_0000077:58.69931)NODE_0000331:195.62067)NODE_0000075:805.90223,(279:1012.27628,((280:875.11676,281:871.11676)NODE_0000080:103.63226,(((282:651.90186,283:643.90186)NODE_0000083:29.88897,(284:567.59255,(285:473.74965,((286:120.04331,287:120.04331)NODE_0000087:181.68818,(288:105.35585,289:104.35585)NODE_0000088:208.37563)NODE_0000086:172.01817)NODE_0000085:93.8429)NODE_0000363:106.19827)NODE_0000347:217.32521,(290:767.15198,(291:723.3525,(((301:669.86476,(302:647.40962,(303:646.46374,((304:149.45847,(305:89.69046,306:89.69046)NODE_0000107:59.76801)NODE_0000106:449.20294,(307:558.52453,(308:389.84364,309:390.84364)NODE_0000393:167.68089)NODE_0000103:49.13688)NODE_0000382:38.80232)NODE_0000102:15.94588)NODE_0000101:12.45515)NODE_0000100:13.8859,(294:396.47301,((295:116.56962,296:116.56962)NODE_0000096:185.96447,(((299:12.29067,300:12.29067)NODE_0000099:148.99255,298:171.28322):0,297:161.28322)NODE_0000097:141.25087)NODE_0000095:93.93892)NODE_0000094:283.27765):0,(292:253.10762,293:255.10762)NODE_0000092:418.64305)NODE_0000091:34.60183)NODE_0000090:52.79949)NODE_0000089:123.96406)NODE_0000081:83.63298)NODE_0000079:33.52726)NODE_0000078:87.59226)NODE_0000074:353.39324)NODE_0000031:17.85972)NODE_0000108:132.61593)NODE_0000109:66.94519)NODE_0000110:59.50573,((352:1478.89216,353:1482.89216)NODE_0000351:220.5056,(((((354:916.25125,355:916.25125)NODE_0000356:143.9933,(356:1020.34758,(357:981.51417,358:982.51417)NODE_0000358:38.8334)NODE_0000357:38.89697)NODE_0000355:148.76112,(359:1150.89669,(((367:349.03914,((368:53.71088,369:55.71088)NODE_0000364:17.39721,(370:57.01514,((371:0,372:0)NODE_0000465:1.21718,(373:0.47812,(374:0.73906,(375:0,376:0)NODE_0000477:0.73906)NODE_0000474:0.73906)NODE_0000469:0.73906)NODE_0000365:59.79796)NODE_0000459:11.09294)NODE_0000362:281.93105)NODE_0000361:759.16556,((377:470.58959,(378:373.26763,379:373.26763)NODE_0000379:97.32196)NODE_0000378:606.80404,((380:972.25031,381:973.25031)NODE_0000381:25.61096,(382:856.59801,((383:713.25313,(384:0,385:0)NODE_0000385:717.25313)NODE_0000384:106.18798,((386:0,387:0)NODE_0000387:710.43405,(((388:44.07842,389:44.07842)NODE_0000390:403.82656,(390:17.338,391:17.338)NODE_0000391:430.56698)NODE_0000389:243.04528,(((((406:612.53359,((407:57.66464,408:57.66464)NODE_0000408:554.86895,(((411:509.30035,412:510.30035)NODE_0000411:49.55471,409:559.85506):0,410:559.85506)NODE_0000409:52.67853)NODE_0000407:0)NODE_0000406:35.39193,(404:404.96217,405:405.96217)NODE_0000405:240.96335):0,(402:0,403:0)NODE_0000403:646.92552)NODE_0000402:31.77243,(392:234.22114,(393:0,394:0)NODE_0000394:234.22114)NODE_0000505:444.47681):0,((395:605.27612,396:606.27612)NODE_0000397:61.49136,(397:655.83446,(((400:535.79709,401:535.79709)NODE_0000401:113.17356,399:648.97065):0,398:647.97065)NODE_0000399:8.8638)NODE_0000398:9.93302)NODE_0000396:11.93048)NODE_0000392:12.25231)NODE_0000388:19.48379)NODE_0000386:113.00705)NODE_0000383:32.15691)NODE_0000494:142.26325)NODE_0000380:76.53236)NODE_0000377:36.81108):0,((360:926.25033,(361:616.36381,362:622.36381)NODE_0000373:320.88652)NODE_0000372:80.53131,((363:759.90828,364:759.90828)NODE_0000375:106.3686,(365:0,366:0)NODE_0000376:864.27688)NODE_0000374:158.50476)NODE_0000371:87.42307)NODE_0000360:39.69198)NODE_0000359:60.10897)NODE_0000354:218.24894,((413:1254.43003,414:1267.43003)NODE_0000413:122.92795,((415:1002.60374,(416:798.1533,(417:736.52016,((418:679.27741,(420:595.40062,(421:112.63055,422:112.63055)NODE_0000421:483.77007)NODE_0000420:83.8768):0,419:679.27741)NODE_0000418:79.24275)NODE_0000417:42.63314)NODE_0000416:200.45044)NODE_0000415:358.39418,(423:1294.27281,((424:1195.65601,425:1195.65601)NODE_0000424:70.2727,(426:1225.52764,((428:1218.00045,((((433:1023.44787,434:1023.44787)NODE_0000435:106.63613,(435:1094.89175,436:1094.89175)NODE_0000541:35.19224)NODE_0000433:74.9722,(429:1124.66409,(430:1017.92815,(431:218.82485,432:218.82485)NODE_0000431:799.1033)NODE_0000430:107.73594)NODE_0000429:81.39211):0,((((437:865.29409,438:865.29409)NODE_0000439:250.56666,(439:1019.92016,440:1019.92016)NODE_0000440:95.94059)NODE_0000438:63.00188,(((441:1059.55654,442:1065.55654)NODE_0000442:105.36931,(443:1128.66753,(444:1025.05985,445:1024.05985)NODE_0000445:102.60767)NODE_0000444:42.25833):0,((446:810.12573,447:810.12573)NODE_0000447:321.92899,(448:1081.21419,(449:1050.16484,((450:974.66576,451:974.66576)NODE_0000451:57.61248,(452:898.07138,453:898.07138)NODE_0000452:134.20685)NODE_0000450:17.88661)NODE_0000449:31.04935)NODE_0000448:48.84052)NODE_0000446:38.87114)NODE_0000441:9.93677)NODE_0000437:8.72704,(((454:963.96464,455:961.96464)NODE_0000455:177.55042,(456:1066.16365,457:1066.16365)NODE_0000456:73.35141)NODE_0000454:20.06036,(((458:1020.18557,459:1020.18557):0,(460:660.69246,(461:340.70183,462:340.70183)NODE_0000461:318.99063)NODE_0000460:361.49311)NODE_0000458:34.83323,(((466:914.28988,(467:837.35155,468:838.35155)NODE_0000467:77.93834)NODE_0000466:97.29829,(463:977.31143,(464:929.68805,465:928.68805)NODE_0000464:48.62339)NODE_0000463:35.27674):0,(((471:779.81714,(472:683.04927,473:682.04927)NODE_0000476:95.76787)NODE_0000475:50.63537,(((477:18.5468,478:18.5468)NODE_0000471:790.68496,(479:746.81941,(480:697.06162,481:696.06162)NODE_0000473:50.75779)NODE_0000472:62.41235)NODE_0000470:19.22075,(469:830.45251,(474:742.61149,(475:687.74013,476:686.74013)NODE_0000479:55.87136)NODE_0000478:84.84102):0):0):0,470:825.45251)NODE_0000468:184.13566)NODE_0000462:42.43063)NODE_0000457:104.55661)NODE_0000453:28.01426)NODE_0000436:17.46652)NODE_0000428:9.94425):0,427:1217.00045)NODE_0000426:10.52719)NODE_0000425:40.40107)NODE_0000423:29.34411)NODE_0000422:62.72511)NODE_0000414:29.36006)NODE_0000412:39.89662)NODE_0000353:116.75425,((((482:1003.33224,483:1003.33224)NODE_0000483:236.57915,(484:1203.7873,((485:970.60685,486:971.60685)NODE_0000486:171.6177,(487:1031.88225,488:1031.88225)NODE_0000487:111.3423)NODE_0000485:58.56275)NODE_0000484:35.1241)NODE_0000482:90.65391,(489:1262.21367,(490:1210.3914,((491:1101.95663,(492:1035.92112,((495:1001.70886,494:1001.70886):0,493:1001.70886)NODE_0000493:34.21225)NODE_0000492:66.03552)NODE_0000491:88.8779,((((498:1107.79952,(499:1032.64152,(500:856.73523,(501:682.14754,502:682.14754)NODE_0000524:174.5877)NODE_0000523:175.90628)NODE_0000522:75.15801)NODE_0000521:39.81755,(((511:1123.61575,((512:951.26397,(513:862.6579,514:860.6579)NODE_0000536:87.60607)NODE_0000535:153.66666,(515:1056.00841,(516:1034.43019,(517:894.09758,518:892.09758)NODE_0000539:141.3326)NODE_0000538:22.57823)NODE_0000537:46.92222)NODE_0000534:20.68512)NODE_0000533:13.47497,503:1137.09072):0,((504:983.55563,505:983.55563)NODE_0000528:118.7275,(506:1008.21257,(507:948.12513,(508:864.80664,(509:100.26442,510:100.26442)NODE_0000532:761.54222)NODE_0000531:85.31848)NODE_0000530:60.08744)NODE_0000529:94.07056)NODE_0000527:34.80759)NODE_0000525:10.52635)NODE_0000520:11.81614,((519:1008.21675,((((524:754.26294,525:751.26294)NODE_0000503:86.11435,(526:18.59504,527:18.59504)NODE_0000504:821.78226)NODE_0000502:148.34305,(520:826.42636,521:826.42636)NODE_0000499:160.29398):0,(522:842.3414,523:842.3414)NODE_0000501:144.37894)NODE_0000498:21.49641)NODE_0000497:29.89998,(((528:800.74971,(529:711.08053,530:711.08053)NODE_0000514:89.66918)NODE_0000513:37.74461,(531:776.79876,(532:601.31647,(533:0,534:0)NODE_0000517:602.31647)NODE_0000516:176.48229)NODE_0000515:61.69555)NODE_0000512:199.62241,((535:636.53678,536:636.53678)NODE_0000507:187.09691,(537:648.11981,(538:596.74418,(539:39.00717,(540:13.60765,541:13.60765)NODE_0000511:25.39953)NODE_0000510:553.73701)NODE_0000509:52.37563)NODE_0000508:174.51388)NODE_0000506:214.48305)NODE_0000634:0)NODE_0000620:121.31648):0,(496:982.32259,497:980.32259)NODE_0000519:179.11062)NODE_0000495:31.40132)NODE_0000490:19.55687)NODE_0000489:51.82227)NODE_0000488:65.35164)NODE_0000481:65.49499,((((((638:1070.40397,(((((652:0,653:0)NODE_0000658:483.91169,(654:410.46425,(655:0,656:0)NODE_0000660:412.46425)NODE_0000659:70.44744)NODE_0000657:474.17899,(657:928.85794,(658:788.79367,(659:752.7012,((660:670.68903,661:668.68903)NODE_0000665:73.91067,(662:672.80728,(663:545.6764,((664:357.19734,(665:299.28803,666:286.28803)NODE_0000670:56.90931)NODE_0000669:140.76601,(667:452.78376,(668:386.85329,(669:99.55196,670:92.55196)NODE_0000673:295.30133)NODE_0000672:64.93047)NODE_0000671:44.17959)NODE_0000668:52.71305)NODE_0000667:121.13087)NODE_0000666:64.79242)NODE_0000664:15.10151)NODE_0000663:32.09247)NODE_0000662:139.06427)NODE_0000661:25.23275)NODE_0000656:85.4562,639:1040.54689):0,(640:999.9568,(((641:880.84393,642:880.84393)NODE_0000648:78.64729,(643:939.22079,(644:10.53992,645:10.53992)NODE_0000650:927.68087)NODE_0000649:20.27043)NODE_0000647:30.09617,((646:815.77318,647:815.77318)NODE_0000653:135.23173,(648:710.36701,(649:646.77498,(650:531.30756,651:531.30756)NODE_0000655:115.46742)NODE_0000654:64.59203)NODE_0000758:238.6379)NODE_0000651:38.58247)NODE_0000646:23.36941)NODE_0000645:30.59009)NODE_0000643:26.85708):0,((671:756.49456,(672:214.24738,(673:197.31958,674:197.31958)NODE_0000641:16.9278)NODE_0000640:542.24718)NODE_0000639:149.80659,(675:902.30115,((676:849.14467,((679:599.2263,(680:487.79674,(681:314.66666,682:314.66666)NODE_0000704:173.13008)NODE_0000703:111.42956)NODE_0000702:256.91838,(((688:650.48561,689:651.48561)NODE_0000677:174.16102,((690:56.60666,691:56.60666)NODE_0000679:580.43527,(((694:544.79139,(695:0,696:0)NODE_0000683:544.79139)NODE_0000682:55.70355,693:600.49494):0,692:599.49494)NODE_0000680:37.547)NODE_0000678:192.6047)NODE_0000676:23.49804,((683:814.0499,(684:790.72402,(685:536.22724,(686:414.63244,687:414.63244)NODE_0000700:120.5948)NODE_0000699:254.49678)NODE_0000698:22.32588)NODE_0000697:39.09477,(697:808.37702,((698:694.46814,((((703:422.70796,704:425.70796)NODE_0000695:42.70078,(705:367.07525,706:369.07525)NODE_0000694:98.33349)NODE_0000804:209.45215,(701:639.72781,702:646.72781)NODE_0000692:35.13307):0,700:674.86088)NODE_0000690:19.60726):0,699:695.46814)NODE_0000688:109.90888)NODE_0000687:44.76765):0):0):0):0,((677:738.3117,678:738.3117)NODE_0000686:113.83298,((((729:460.91457,730:457.91457)NODE_0000728:69.48238,((731:116.86223,732:131.86223)NODE_0000730:399.39852,(((733:172.64633,734:187.64633)NODE_0000741:143.53715,(735:298.29212,((736:265.35942,(737:99.12075,738:84.12075)NODE_0000832:166.23867)NODE_0000746:12.80217,(739:172.47733,(740:124.99187,741:124.99187)NODE_0000744:47.48546)NODE_0000833:90.68426)NODE_0000743:23.13053)NODE_0000742:29.89136)NODE_0000740:50.05296,(((742:0,743:15)NODE_0000750:89.76732,(744:91.37297,(745:82.37297,((((750:31.42023,(751:5.33485,752:9.33485)NODE_0000739:26.08538)NODE_0000738:22.90956,747:62.32979):0,746:54.32979):0,(748:0,749:15)NODE_0000737:54.32979)NODE_0000734:28.04318)NODE_0000838:0)NODE_0000837:7.39435)NODE_0000835:248.04848,(753:307.92209,((754:276.45376,((755:94.36585,756:94.36585)NODE_0000847:173.28228,(757:247.10042,(758:206.26243,759:206.26243)NODE_0000766:40.83799)NODE_0000765:20.5477)NODE_0000763:8.80564)NODE_0000762:11.6838,((760:197.28153,(761:121.34921,(762:61.54656,763:61.54656)NODE_0000761:59.80264)NODE_0000852:60.93232)NODE_0000759:59.80232,((764:62.32093,765:77.32093)NODE_0000755:125.52205,(766:187.84298,(767:77.23205,(768:0,769:15)NODE_0000757:77.23205)NODE_0000756:110.61094)NODE_0000856:0)NODE_0000854:54.24087)NODE_0000850:46.05371)NODE_0000752:19.78453)NODE_0000751:29.89371)NODE_0000721:28.42064)NODE_0000731:150.02431)NODE_0000824:1.1362)NODE_0000727:283.29582,(((718:781.00015,(719:674.64906,720:673.64906)NODE_0000709:107.35109)NODE_0000708:19.17598,717:797.17613):0,((721:591.12256,722:593.12256):0,(((723:415.04502,724:415.04502)NODE_0000713:116.43762,(725:350.8204,726:350.8204)NODE_0000715:180.66224):0,(727:195.61344,728:195.61344)NODE_0000716:335.8692)NODE_0000712:61.63992)NODE_0000710:209.05357)NODE_0000706:23.51664):0,(((708:728.74492,(709:506.78844,710:506.78844)NODE_0000720:222.95648)NODE_0000719:91.94785,707:825.69277):0,(711:662.13594,(((714:485.2196,(715:445.9744,716:444.9744)NODE_0000726:48.2452)NODE_0000725:100.39704,712:573.61664):0,713:595.61664)NODE_0000723:68.5193)NODE_0000722:161.55683):0)NODE_0000705:27.45191):0)NODE_0000674:53.15648)NODE_0000783:0)NODE_0000779:163.10282)NODE_0000636:110.6902,604:1178.09417):0,((((609:895.79866,(610:853.9704,(611:833.89918,(612:663.36188,613:663.36188)NODE_0000628:170.53729)NODE_0000627:20.07122)NODE_0000626:41.82827)NODE_0000625:101.46275,(607:372.06954,608:371.06954)NODE_0000623:625.19188):0,(606:997.26141,((614:854.38428,615:854.38428)NODE_0000630:98.23525,(616:844.73828,(617:227.42191,(618:172.15676,619:172.15676)NODE_0000633:55.26515)NODE_0000632:617.31637)NODE_0000631:107.88126)NODE_0000629:44.64188):0)NODE_0000621:179.83275,(605:1179.09417,((620:1012.35661,(621:668.76392,(622:615.92009,(623:540.96611,624:540.96611)NODE_0000607:74.95398)NODE_0000606:52.84383)NODE_0000605:343.59269)NODE_0000604:127.62853,(((626:884.38097,(627:713.52176,628:713.52176)NODE_0000611:170.85921):0,625:885.38097)NODE_0000609:215.66946,(629:1046.76873,(630:1009.92184,((631:949.59465,632:949.59465)NODE_0000615:40.98535,((633:722.34532,634:724.34532)NODE_0000617:216.50141,(635:871.15746,(636:0,637:0)NODE_0000619:873.15746)NODE_0000618:66.68927)NODE_0000616:50.73328)NODE_0000614:18.34184)NODE_0000613:39.84689)NODE_0000612:53.2817)NODE_0000608:36.9347)NODE_0000603:41.10903):0):0)NODE_0000602:168.96949,(542:1316.53043,((((549:1207.5244,(550:863.78002,(551:30.90341,552:30.90341)NODE_0000552:834.87661)NODE_0000551:341.74438)NODE_0000550:61.99249,((553:1156.96303,554:1159.96303)NODE_0000554:72.13659,(555:1066.76443,(556:947.45207,557:947.45207)NODE_0000556:119.31235)NODE_0000555:165.33519)NODE_0000553:38.41728)NODE_0000549:32.35713,(543:1037.51568,544:1041.51568)NODE_0000545:261.35834):0,(545:1159.49906,(546:1018.27018,(547:833.85653,548:832.85653)NODE_0000548:185.41366)NODE_0000547:142.22888)NODE_0000546:139.37497)NODE_0000543:19.6564)NODE_0000542:27.53322):0,(((558:1245.19917,(559:1226.16706,(560:1102.72938,(561:872.04876,562:873.04876)NODE_0000562:227.68062)NODE_0000561:126.43767)NODE_0000560:18.03211)NODE_0000559:22.13381,(563:1245.54604,((564:911.81203,565:911.81203)NODE_0000565:313.00267,(566:1148.07335,(567:1044.41982,568:1044.41982)NODE_0000567:104.65353)NODE_0000566:74.74135)NODE_0000564:20.73134)NODE_0000563:22.78694)NODE_0000558:35.71631,(((578:1147.65239,(579:1036.64986,((580:0,581:0)NODE_0000580:1003.99051,(582:312.35118,((583:46.61591,584:46.61591)NODE_0000583:210.09931,(585:167.25829,(((588:146.64934,586:146.64934):0,587:146.64934):0,(589:146.64934,(590:120.09301,(591:118.01908,(592:89.69961,(593:59.88974,(594:59.27079,(595:30.30576,(596:29.89898,(597:29.60977,((598:0,599:0)NODE_0000711:1.84765,((600:0,601:0)NODE_0000717:0.73906,(602:0,603:0)NODE_0000718:0.73906)NODE_0000714:1.10859)NODE_0000707:27.76212)NODE_0000701:0.2892)NODE_0000696:0.40678)NODE_0000693:28.96503)NODE_0000691:0.61894)NODE_0000689:29.80988)NODE_0000586:28.31947)NODE_0000574:2.07393)NODE_0000571:26.55633):0)NODE_0000585:20.60895)NODE_0000584:89.45693)NODE_0000582:55.63596)NODE_0000581:691.63933)NODE_0000579:36.65935)NODE_0000578:111.00253)NODE_0000577:68.25643,(569:569.48136,(570:86.76142,571:86.76142)NODE_0000576:482.71993)NODE_0000575:651.42745):0,(572:1174.04216,((573:1055.29328,(575:1025.64211,(576:858.59269,577:858.59269)NODE_0000573:167.04942)NODE_0000572:29.65117):0,574:1057.29328)NODE_0000570:115.74888)NODE_0000569:44.86665)NODE_0000568:85.14047)NODE_0000557:44.01437)NODE_0000540:45.99664)NODE_0000480:150.94856)NODE_0000352:156.38889)NODE_0000350:35.79061)NODE_0000125:179.29568)NODE_0000126:141.55604)NODE_0000127:712.98969)NODE_0000128:369.05103)NODE_0000129:198.77792)NODE_0000005:0.1;
+END;

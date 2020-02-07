@@ -1,0 +1,200 @@
+{
+  "axisAttributes": {
+    "xCoordinate": "xCoordinate",
+    "yCoordinate": "yCoordinate"
+  },
+  "lineAttributes": [
+    {
+      "id": "bayesFactor",
+      "scale": "linear",
+      "range": [
+        0.06,
+        10176.9
+      ]
+    },
+    {
+      "id": "posteriorProbability",
+      "scale": "linear",
+      "range": [
+        0.05,
+        1.0
+      ]
+    }
+  ],
+  "pointAttributes": [
+    {
+      "id": "xCoordinate",
+      "scale": "linear",
+      "range": [
+        -8.55305673554031,
+        8.55305673554031
+      ]
+    },
+    {
+      "id": "yCoordinate",
+      "scale": "linear",
+      "range": [
+        -7.275664625968225,
+        8.993216059187306
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "location1",
+      "coordinate": {
+        "xCoordinate": 0.0,
+        "yCoordinate": 8.993216059187306,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "location2",
+      "coordinate": {
+        "xCoordinate": 8.55305673554031,
+        "yCoordinate": 2.779056596374571,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "location3",
+      "coordinate": {
+        "xCoordinate": 5.286079770270133,
+        "yCoordinate": -7.275664625968223,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "location4",
+      "coordinate": {
+        "xCoordinate": -5.28607977027013,
+        "yCoordinate": -7.275664625968225,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "location5",
+      "coordinate": {
+        "xCoordinate": -8.55305673554031,
+        "yCoordinate": 2.779056596374569,
+        "altitude": 0.0
+      }
+    }
+  ],
+  "layers": [
+    {
+      "type": "tree",
+      "id": "HBV-A_phylogeography.location.rates.log",
+      "description": "BF graph layer",
+      "points": [
+        {
+          "id": "1197189347",
+          "locationId": "location2",
+          "attributes": {}
+        },
+        {
+          "id": "1197189346",
+          "locationId": "location3",
+          "attributes": {}
+        },
+        {
+          "id": "1197189345",
+          "locationId": "location4",
+          "attributes": {}
+        },
+        {
+          "id": "1197189344",
+          "locationId": "location5",
+          "attributes": {}
+        },
+        {
+          "id": "1197189348",
+          "locationId": "location1",
+          "attributes": {}
+        }
+      ],
+      "lines": [
+        {
+          "startPointId": "1197189348",
+          "endPointId": "1197189347",
+          "attributes": {
+            "bayesFactor": 44.71620550522411,
+            "posteriorProbability": 0.9753360737695812
+          }
+        },
+        {
+          "startPointId": "1197189348",
+          "endPointId": "1197189346",
+          "attributes": {
+            "bayesFactor": 0.07088983729643038,
+            "posteriorProbability": 0.058993445172758584
+          }
+        },
+        {
+          "startPointId": "1197189348",
+          "endPointId": "1197189345",
+          "attributes": {
+            "bayesFactor": 10176.896981367134,
+            "posteriorProbability": 1.0
+          }
+        },
+        {
+          "startPointId": "1197189348",
+          "endPointId": "1197189344",
+          "attributes": {
+            "bayesFactor": 0.056729614099076064,
+            "posteriorProbability": 0.04777246972558605
+          }
+        },
+        {
+          "startPointId": "1197189347",
+          "endPointId": "1197189346",
+          "attributes": {
+            "bayesFactor": 215.42301553469702,
+            "posteriorProbability": 0.9947783579602266
+          }
+        },
+        {
+          "startPointId": "1197189347",
+          "endPointId": "1197189345",
+          "attributes": {
+            "bayesFactor": 10176.896981367134,
+            "posteriorProbability": 1.0
+          }
+        },
+        {
+          "startPointId": "1197189347",
+          "endPointId": "1197189344",
+          "attributes": {
+            "bayesFactor": 0.0832159859720183,
+            "posteriorProbability": 0.0685479391178758
+          }
+        },
+        {
+          "startPointId": "1197189346",
+          "endPointId": "1197189345",
+          "attributes": {
+            "bayesFactor": 10176.896981367134,
+            "posteriorProbability": 1.0
+          }
+        },
+        {
+          "startPointId": "1197189346",
+          "endPointId": "1197189344",
+          "attributes": {
+            "bayesFactor": 0.10879374031152565,
+            "posteriorProbability": 0.0877680257749139
+          }
+        },
+        {
+          "startPointId": "1197189345",
+          "endPointId": "1197189344",
+          "attributes": {
+            "bayesFactor": 49.50618763739435,
+            "posteriorProbability": 0.9776691478724586
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+
+
+IMPORTANT WARNING: Sequences A/MB33/Belgium/2008/Congo and A/MB103/Belgium/2008/Congo are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/AL69HMM/Belgium/2006/Belgium and A2/EU859908/Belgium/2007/Belgium are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/AL69HMM/Belgium/2006/Belgium and A2/EU859922/Belgium/2005/Belgium are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/AL69HMM/Belgium/2006/Belgium and A2/EU859926/Belgium/2005/Belgium are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/AL69HMM/Belgium/2006/Belgium and A2/EU859928/Belgium/2006/Belgium are exactly identical
+
+
+IMPORTANT WARNING: Sequences A/33a/Belgium/2002/Belgium and A/86a/Belgium/2003/Belgium are exactly identical
+
+
+IMPORTANT WARNING: Sequences A/33a/Belgium/2002/Belgium and A2/EU859914/Belgium/2005/Belgium are exactly identical
+
+
+IMPORTANT WARNING: Sequences A/33a/Belgium/2002/Belgium and A2/EU859918/Belgium/2005/Belgium are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/AB937793/Japan/2013/Japan and A2/AB937794/Japan/2013/Japan are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/KF779338/USA/2001/USA and A2/KF779339/USA/2001/USA are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/AB697489/Japan/2004/Japan and A2/AB697501/Japan/2006/Japan are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/AB697496/Japan/2002/Japan and A2/AB697499/Japan/2006/Japan are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/AB697496/Japan/2002/Japan and A2/AB697503/Japan/2006/Japan are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/AB697496/Japan/2002/Japan and A2/AB697508/Japan/2007/Japan are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/AB697504/Japan/2006/Japan and A/AB453979/Japan/2006/Japan are exactly identical
+
+
+IMPORTANT WARNING: Sequences A1/FJ692578/Haiti/2006/Haiti and A1/FJ692579/Haiti/2006/Haiti are exactly identical
+
+
+IMPORTANT WARNING: Sequences A1/FJ692578/Haiti/2006/Haiti and A1/FJ692580/Haiti/2006/Haiti are exactly identical
+
+
+IMPORTANT WARNING: Sequences A1/FJ692578/Haiti/2006/Haiti and A1/FJ692581/Haiti/2006/Haiti are exactly identical
+
+
+IMPORTANT WARNING: Sequences A1/FJ692578/Haiti/2006/Haiti and A1/FJ692582/Haiti/2006/Haiti are exactly identical
+
+
+IMPORTANT WARNING: Sequences A1/FJ692578/Haiti/2006/Haiti and A1/FJ692583/Haiti/2006/Haiti are exactly identical
+
+
+IMPORTANT WARNING: Sequences A1/FJ692578/Haiti/2006/Haiti and A1/FJ692584/Haiti/2006/Haiti are exactly identical
+
+
+IMPORTANT WARNING: Sequences A1/FJ692578/Haiti/2006/Haiti and A1/FJ692585/Haiti/2006/Haiti are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/AB775200/Japan/2010/Japan and A2/AB775201/Japan/2010/Japan are exactly identical
+
+
+IMPORTANT WARNING: Sequences A2/EU594390/Russia/1997/Russia and A2/EU594392/Russia/1997/Russia are exactly identical
+
+IMPORTANT WARNING
+Found 24 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file ../../fasta/A/A_with_ancient_aligned.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1936 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.67%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1936
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+Base frequencies: ML estimate
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s ../../fasta/A/A_with_ancient_aligned.fasta -n HBV-A.raxml -m GTRGAMMAX -p 666 
+
+
+Partition: 0 with name: No Name Provided
+Initial base frequencies, prior to ML estimate: 0.250 0.250 0.250 0.250 
+
+Inference[0]: Time 12668.575145 GAMMA-based likelihood -61801.706252, best rearrangement setting 25
+alpha[0]: 0.335866 rates[0] ac ag at cg ct gt: 1.629390 3.477260 1.043226 0.647458 2.750079 1.000000 ML estimate base freqs[0]: 0.245967 0.268699 0.200690 0.284644 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -61801.375544 tree written to file /home/luna.kuleuven.be/r0787607/projects/hbv_phylogeography/raxml/a/RAxML_result.HBV-A.raxml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -61801.375544 .... 
+
+Final GAMMA-based Score of best tree -61801.375526
+
+Program execution info written to /home/luna.kuleuven.be/r0787607/projects/hbv_phylogeography/raxml/a/RAxML_info.HBV-A.raxml
+Best-scoring ML tree written to: /home/luna.kuleuven.be/r0787607/projects/hbv_phylogeography/raxml/a/RAxML_bestTree.HBV-A.raxml
+
+Overall execution time: 13732.514552 secs or 3.814587 hours or 0.158941 days
+
