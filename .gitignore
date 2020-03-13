@@ -1,5 +1,5 @@
 *.DS_Store
-
+*pycache*
 
 # Huge BEAST files
 *.log
