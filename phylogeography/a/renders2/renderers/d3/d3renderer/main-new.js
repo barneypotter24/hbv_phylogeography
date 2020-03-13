@@ -222,7 +222,7 @@ json = {
       }
     },
     {
-      "id": "location5",
+      "id": "WestCentralAsia",
       "coordinate": {
         "xCoordinate": -8.55305673554031,
         "yCoordinate": 2.779056596374569,
@@ -258,7 +258,7 @@ json = {
         },
         {
           "id": "1197189344",
-          "locationId": "location5",
+          "locationId": "WestCentralAsia",
           "attributes": {}
         }
       ],

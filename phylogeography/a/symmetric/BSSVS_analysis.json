@@ -41,7 +41,7 @@
   ],
   "locations": [
     {
-      "id": "location1",
+      "id": "Africa",
       "coordinate": {
         "xCoordinate": 0.0,
         "yCoordinate": 8.993216059187306,
@@ -57,7 +57,7 @@
       }
     },
     {
-      "id": "location3",
+      "id": "EastSouthAsia",
       "coordinate": {
         "xCoordinate": 5.286079770270133,
         "yCoordinate": -7.275664625968223,
@@ -65,7 +65,7 @@
       }
     },
     {
-      "id": "location4",
+      "id": "Europe",
       "coordinate": {
         "xCoordinate": -5.28607977027013,
         "yCoordinate": -7.275664625968225,
@@ -73,7 +73,7 @@
       }
     },
     {
-      "id": "location5",
+      "id": "WestCentralAsia",
       "coordinate": {
         "xCoordinate": -8.55305673554031,
         "yCoordinate": 2.779056596374569,
@@ -94,22 +94,22 @@
         },
         {
           "id": "1197189346",
-          "locationId": "location3",
+          "locationId": "EastSouthAsia",
           "attributes": {}
         },
         {
           "id": "1197189345",
-          "locationId": "location4",
+          "locationId": "Europe",
           "attributes": {}
         },
         {
           "id": "1197189344",
-          "locationId": "location5",
+          "locationId": "WestCentralAsia",
           "attributes": {}
         },
         {
           "id": "1197189348",
-          "locationId": "location1",
+          "locationId": "Africa",
           "attributes": {}
         }
       ],
