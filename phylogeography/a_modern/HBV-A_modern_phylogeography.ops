@@ -1,0 +1,8 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) Smoothed_Pr(accept)
+scale(location.clock.rate)                        0.295   1024874    34786275 33.94    0.2339      0.24        
+scale(location.rates)                             0.734   5116376    161170841 31.5     0.2338      0.19        
+bitFlip(location.indicators)                              2390714    66705825 27.9     0.0785      0.04        
+empiricalTreeDistributionOperator                         1368036    46480882 33.98    0.9999      1.0         
+
