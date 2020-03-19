@@ -163,7 +163,7 @@ if __name__ == '__main__':
     trees_file = f"{args.folder}/{args.filestem}.trees"
     log_file = f"{args.folder}/{args.filestem}.log"
     # plot tree
-    mcc_tree = bt.loadNexus(f"{args.folder}/{args.filestem}.mcc.tre",variableDate=True,date_fmt='%Y-%m-%d',)
+    mcc_tree = bt.loadNexus(f"{args.folder}/{args.filestem}.mcc.tre",variableDate=True,tip_regex='\/([\-0-9]+)',date_fmt='%Y',)
     log = pd.read_csv(log_file,sep='\t',skiprows=3,index_col=0)
     log = log.loc[args.burnin:].copy()
     plot_file = f"{args.folder}/{args.output}.pdf"

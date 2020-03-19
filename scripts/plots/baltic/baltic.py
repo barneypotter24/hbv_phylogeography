@@ -10,27 +10,37 @@ sys.setrecursionlimit(9001)
 
 def decimalDate(date,fmt="%Y-%m-%d",variable=False):
     """ Converts calendar dates in specified format to decimal date. """
-    delimiter=re.search('[^0-9A-Za-z%]',fmt) ## search for non-alphanumeric symbols in fmt (should be field delimiter)
+    delimiter=re.search('[^\-0-9A-Za-z%]',fmt) ## search for non-alphanumeric symbols in fmt (should be field delimiter)
     delimit=None
     if delimiter is not None:
         delimit=delimiter.group()
 
-    if variable==True: ## if date is variable - extract what is available
-        if delimit is not None:
-            dateL=len(date.split(delimit)) ## split date based on symbol
-        else:
-            dateL=1 ## no non-alphanumeric characters in date, assume dealing with an imprecise date (something like just year)
-
-        if dateL==2:
-            fmt=delimit.join(fmt.split(delimit)[:-1]) ## reduce fmt down to what's available
-        elif dateL==1:
-            fmt=delimit.join(fmt.split(delimit)[:-2])
-
+    # if variable==True: ## if date is variable - extract what is available
+    #     if delimit is not None:
+    #         dateL=len(date.split(delimit)) ## split date based on symbol
+    #     else:
+    #         dateL=1 ## no non-alphanumeric characters in date, assume dealing with an imprecise date (something like just year)
+    #
+    #     if dateL==2:
+    #         fmt=delimit.join(fmt.split(delimit)[:-1]) ## reduce fmt down to what's available
+    #     elif dateL==1:
+    #         fmt=delimit.join(fmt.split(delimit)[:-2])
+    neg_date = False
+    if date.startswith('-'):
+        neg_date = True
+        date = date[1:]
+    if len(date) < 4:
+        pad_zeroes = 4-len(date)
+        date = '0'*pad_zeroes+date
     adatetime=dt.datetime.strptime(date,fmt) ## convert to datetime object
     year = adatetime.year ## get year
     boy = dt.datetime(year, 1, 1) ## get beginning of the year
     eoy = dt.datetime(year + 1, 1, 1) ## get beginning of next year
-    return year + ((adatetime - boy).total_seconds() / ((eoy - boy).total_seconds())) ## return fractional year
+    frac_year = year + ((adatetime - boy).total_seconds() / ((eoy - boy).total_seconds())) ## return fractional year
+    if neg_date:
+        return -frac_year
+    else:
+        return frac_year
 
 def convertDate(x,start,end):
     """ Converts calendar dates between given formats """
