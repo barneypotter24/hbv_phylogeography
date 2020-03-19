@@ -2,8 +2,11 @@
 *pycache*
 
 # Huge BEAST files
-*.log
 *.trees
+*failed*.log
+*stopped*.log
+beast_files/*/*.log
+iq-tree/*/*.log
 
 # QSub files
 *.pbs.e*
