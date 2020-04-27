@@ -1,0 +1,24 @@
+name: hbv
+channels:
+  - bioconda
+  - anaconda
+  - defaults
+dependencies:
+  - beagle-lib
+  - beast=1.10.4
+  - biopython
+  - cartopy
+  - fasttree=2.1.10
+  - ipython
+  - iqtree=1.5.5
+  - mafft=7.455
+  - matplotlib
+  - numpy
+  - pandas
+  - pymc3
+  - python=3.6
+  - raxml=8.2.12
+  - scipy
+  - seaborn
+  - snakemake
+prefix: /Users/bpotter/miniconda3/envs/hbv
