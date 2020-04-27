@@ -2,7 +2,7 @@
 *pycache*
 
 # Huge BEAST files
-.trees
+*.trees
 *failed*.log
 *stopped*.log
 beast_files/*/*.log
