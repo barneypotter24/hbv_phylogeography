@@ -103,7 +103,7 @@ def add_static_map(tre, gjs, colors, ax):
     polygons, locations = load_geojson_to_polygons(gjs)
 
     # use ccrs coastlines
-    traitName='Region' ## name of locations trait in tree
+    traitName='location' ## name of locations trait in tree
 
     travel_lineages = []
     for k in tre.Objects:
@@ -216,7 +216,7 @@ def add_legend(color_dict, ax):
         dot = Line2D([0], [0], marker='o', color='w', label=name,
                           markerfacecolor=clr, markersize=15)
         legend_elements.append(dot)
-    labels = [ "Africa", "Americas", "East/South Asia", "Europe", "West/Central Asia"]
+    labels = [ "Europe", "West/Central Asia", "East/South Asia", "Americas", "Africa"]
     ax.ticklabel_format(useOffset=False, style='plain')
     ax.legend(handles=legend_elements, labels=labels, loc='lower left', fontsize=12,frameon=False)
     ax.set_axis_off()
@@ -241,7 +241,7 @@ def plot_BEAST(tre,gjs,o_file):
              'americas' : 'goldenrod',
              'africa' : 'yellowgreen' }
 
-    c_func = lambda k: cmap[k.traits['Region'].lower()]
+    c_func = lambda k: cmap[k.traits['location'].lower()]
     p_o_func = lambda x: 14
     p_i_func = lambda x: 9
     w_func = lambda x: 1.
