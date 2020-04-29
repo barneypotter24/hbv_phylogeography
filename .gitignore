@@ -16,4 +16,4 @@ iq-tree/*/*.log
 *.doc*
 
 # Zip archives
-*.zip
+#*.zip
