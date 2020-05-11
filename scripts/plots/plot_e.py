@@ -142,7 +142,7 @@ def add_static_map(tre, gjs, colors, ax):
 
         # add to transition count
         if locA in transition_counts[locB].keys():
-            transition_counts[locB][locA] += 1
+            transition_counts[locB][locA] += 2
         else:
             transition_counts[locB][locA] = 0
 
@@ -156,7 +156,7 @@ def add_static_map(tre, gjs, colors, ax):
 
         distance=math.sqrt(math.pow(oriX-desX,2)+math.pow(oriY-desY,2)) ## find travelling distance
 
-        adjust_d=-1*(distance*(1+transition_counts[locB][locA]/5)/5) ## position Bezier curve control point according to an arbitrary function
+        adjust_d=-2*(distance*(1+transition_counts[locB][locA]/5)/5) ## position Bezier curve control point according to an arbitrary function
 
         n=Bezier_control((oriX,oriY),(desX,desY),adjust_d) ## control point perpendicular to midway between point A and B at a distance adjust_d
 
@@ -227,7 +227,7 @@ def plot_BEAST(tre,gjs,o_file):
     # add tree plot
     # fig, ax = plt.subplots(figsize=(15,15))
     r = 8
-    fig, ax3 =  plt.subplots(figsize=(15,15))
+    fig, ax3 =  plt.subplots(figsize=(15,15), dpi=600)
     # set x axis to be time
     x_attr=lambda k: k.absoluteTime
 
@@ -267,7 +267,7 @@ def plot_BEAST(tre,gjs,o_file):
     add_legend(cmap,lax)
     map_location = (.1,.14) # location of map inset within larger figure
     map_ar = (.62,.3) # aspect ratio of map inset
-    map_scale = 1.05 # scale of map inset
+    map_scale = 1. # scale of map inset
     inside = plt.axes([map_location[0], map_location[1], map_ar[0]*map_scale, map_ar[1]*map_scale])
     add_static_map(tre,gjs,cmap,inside)
 

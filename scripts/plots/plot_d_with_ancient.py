@@ -164,7 +164,7 @@ def add_static_map(tre, gjs, colors, ax):
 
         # add to transition count
         if locA in transition_counts[locB].keys():
-            transition_counts[locB][locA] += 1
+            transition_counts[locB][locA] += 2
         else:
             transition_counts[locB][locA] = 0
 
@@ -238,7 +238,7 @@ def add_legend(color_dict, ax):
         dot = Line2D([0], [0], marker='o', color='w', label=name,
                           markerfacecolor=clr, markersize=15)
         legend_elements.append(dot)
-    labels = [ "Africa", "Americas", "East/South Asia", "Europe", "West/Central Asia"]
+    labels = [ "Europe", "West/Central Asia", "East/South Asia", "Americas", "Africa"]
     ax.ticklabel_format(useOffset=False, style='plain')
     ax.legend(handles=legend_elements, labels=labels, loc='lower left', fontsize=12,frameon=False)
     ax.set_axis_off()
@@ -249,7 +249,7 @@ def plot_BEAST(tre,gjs,log,o_file):
     # add tree plot
     # fig, ax = plt.subplots(figsize=(15,15))
     r = 8
-    fig, ax3 =  plt.subplots(figsize=(15,15))
+    fig, ax3 =  plt.subplots(figsize=(15,15), dpi=600)
     # set x axis to be time
     x_attr=lambda k: k.absoluteTime
 

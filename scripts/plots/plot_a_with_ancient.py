@@ -199,7 +199,7 @@ def add_legend(color_dict, ax):
         dot = Line2D([0], [0], marker='o', color='w', label=name,
                           markerfacecolor=clr, markersize=15)
         legend_elements.append(dot)
-    labels = [ "Africa", "Americas", "East/South Asia", "Europe", "West/Central Asia"]
+    labels = [ "Europe", "West/Central Asia", "East/South Asia", "Americas", "Africa"]
     ax.ticklabel_format(useOffset=False, style='plain')
     ax.legend(handles=legend_elements, labels=labels, loc='lower left', fontsize=12,frameon=False)
     ax.set_axis_off()
@@ -213,7 +213,7 @@ def plot_BEAST(tre,gjs,log,o_file):
     fig, (ax0, ax1, ax2, ax3) =  plt.subplots(1, 4,
                                               figsize=(15,15),
                                               gridspec_kw={'width_ratios': [1, 1, 1, r]},
-                                              dpi=300)
+                                              dpi=600)
 
     fc = (.99,.99,.99)
     ax0.set_facecolor(fc)
@@ -225,9 +225,9 @@ def plot_BEAST(tre,gjs,log,o_file):
 
 
     x_lims = [ (-2650,-2050),
-               (-950,-550),
-               (250,550),
-               (1625,2025)]
+               (-825,-550),
+               (-250,550),
+               (1775,2025)]
 
     cmap = { 'europe' : 'indianred',
              'eastsouthasia' : 'steelblue',
@@ -374,7 +374,7 @@ def plot_BEAST(tre,gjs,log,o_file):
     add_legend(cmap,lax)
     map_location = (.13,.16) # location of map inset within larger figure
     map_ar = (.62,.3) # aspect ratio of map inset
-    map_scale = 1.1 # scale of map inset
+    map_scale = 1.05 # scale of map inset
     inside = plt.axes([map_location[0], map_location[1], map_ar[0]*map_scale, map_ar[1]*map_scale])
     add_static_map(tre,gjs,cmap,inside)
     #plot time to ancestors boxplot
