@@ -2,18 +2,15 @@ import os, sys
 import matplotlib as mpl
 from matplotlib import pyplot as plt
 from argparse import ArgumentParser
-import baltic as bt
+import baltic.baltic as bt
 import pandas as pd
 import seaborn as sns
 from datetime import timedelta, datetime
 from matplotlib.lines import Line2D
-from Bio import SeqIO
 from pymc3.stats import hpd
-import subprocess
 from collections import defaultdict, OrderedDict
 from matplotlib.patches import Polygon
 from matplotlib.collections import PatchCollection
-import cartopy.crs as ccrs
 from utils import *
 import math
 
@@ -51,64 +48,6 @@ def set_country_colors(tre):
             country_color_dict[c] = country_clrs[i]
     return country_color_dict
 
-def findTimeDelta(date1,date2):
-    """Returns number of days separating two decimal dates
-    """
-    delta = date2-date1
-    years = int(delta)
-    days = (delta - years)*365
-    return (365*years+days)
-
-def plot_tmrca_kde(log,ax):
-    sns.kdeplot(log['age(root)'],shade=True,color='grey',legend=False,ax=ax)
-    ax.get_yaxis().set_ticks([])
-    yl = max(ax.get_ylim())
-    ax.set_ylim(0,yl+50)
-    ax.get_yaxis().set_ticks([])
-
-def plot_tip_labels(tre,ax):
-    tips = tips = tre.getExternal()
-    text_func_tips=lambda k: ''#k.name.split("|")[1]
-    mrsd = max([x.absoluteTime for x in tips])
-    tip_label_pos = mrsd+0.1
-    text_pos_func = lambda k: (tip_label_pos,k.y+0.1)
-    target_func_tips=lambda k: k.branchType=='leaf'
-    tre.addText(ax,position=text_pos_func,target=target_func_tips,text=text_func_tips,size=10,color='black')
-    # plot dash to labels
-    for tip in tips:
-        x = [tip.absoluteTime,tip_label_pos]
-        y= [tip.y,tip.y]
-        ax.plot(x,y,linestyle=':',color='grey')
-
-def time_delta_plot(tre,ax):
-    tips = tre.getExternal()
-    time_to_ancestor_tips = {}
-    for t in tips:
-        time_to_ancestor_tips[t.name] = findTimeDelta(t.parent.absoluteTime,t.absoluteTime)
-    time_deltas = (pd.DataFrame(time_to_ancestor_tips,index=['days']).T)
-    sns.boxenplot(time_deltas['days'],orient='v',ax=ax,color='darksalmon')
-    #sns.swarmplot(time_deltas['days'],color='silver',orient='v',
-    #                   edgecolor='w',linewidth=0.3,alpha=0.9,size=7,ax=ax)
-    ax.set_title("Time from taxa to ancestor")
-    ax.set_ylabel("time (days)",fontsize=12)
-    ax.set_ylim([-1,time_deltas['days'].max()+1])
-    ax.set_yscale("log")
-
-def clock_rate_plot(log,ax):
-    sns.boxenplot(log['meanRate'],orient="vertical",color='steelblue',ax=ax)
-    ax.axes.set_ylabel("rate (substitutions/site/year)",fontsize=12)
-    ax.set_title('Evolutionary rate',fontsize=12)
-
-def add_tmrca_text(log,ax):
-    mean_tmrca = convert_partial_year(log['age(root)'].mean())
-    tmrca_hpd = [convert_partial_year(x) for x in hpd(log['age(root)'].values,0.95)]
-    mean_clock = '%.2E' %log['meanRate'].mean()
-    clock_hpd = ['%.2E' %x for x in hpd(log['meanRate'].values,0.95)]
-    ax.text(ax.get_xlim()[0]+0.02,ax.get_ylim()[1]*0.6 ,
-             f"TMRCA: {(mean_tmrca)}\n\nHPD95%: {tmrca_hpd[0]} to {tmrca_hpd[1]}",fontsize=15)
-    ax.text(ax.get_xlim()[0]+0.02,ax.get_ylim()[1]*0.5 ,
-             f"Clock rate: {mean_clock}\n\nHPD95%: {clock_hpd[0]} to {clock_hpd[1]}",fontsize=15)
-
 def add_static_map(tre, gjs, colors, ax):
     '''
     This is taken from Gytis' ebov static map
@@ -124,32 +63,34 @@ def add_static_map(tre, gjs, colors, ax):
     # load geojson to define polygons and locations for the map
     polygons, locations = load_geojson_to_polygons(gjs)
 
-    # use ccrs coastlines
-    traitName='location' ## name of locations trait in tree
+    for k in tre.Objects:
+        i = k.traits['location.set.prob'].index(max([float(t) for t in k.traits['location.set.prob']]))
+        k.traits['location'] = k.traits['location.set'][i]
 
     travel_lineages = []
     for k in tre.Objects:
         try:
-            if k.parent!=tre.root and k.traits[traitName]!=k.parent.traits[traitName]:
+            if k.parent!=tre.root and k.traits['location']!=k.parent.traits['location']:
                 travel_lineages.append(k)
         except:
             pass
     travel_lineages = sorted(travel_lineages, key=lambda x:x.absoluteTime)
 
+
     h = tre.treeHeight
     m = 2014
-    print("Travel lineages:")
-    for lineage in travel_lineages:
-        print(f"({lineage.parent.absoluteTime},{lineage.absoluteTime})")
+    print("Travel lineages:",len(travel_lineages))
 
-    # travel_lineages=sorted([k for k in tre.Objects if k.parent!=tre.root and k.traits[traitName]!=k.parent.traits[traitName]],key=lambda x:x.absoluteTime) ## only interested in lineages travelling
+    # xDates=[n for n in range(1,math.ceil(tre.root.traits['height'])+1)] ## create timeline
+    xDates=[n for n in range(math.floor(tre.root.absoluteTime),2015)] ## create timeline
 
-    xDates=[n for n in range(1,math.ceil(tre.root.traits['height'])+1)] ## create timeline
 
-    heights=[k.traits['height'] for k in travel_lineages] ## get absolute times of each branch in the tree
-    height_normalization=create_log_normalization([xDates[0],xDates[-1]],0.0,1.0) ## create a normalization based on timeline, where earliest day is 0.0 and latest is 1.0
+    # heights=[k.traits['height'] for k in travel_lineages] ## get absolute times of each branch in the tree
+    heights=[k.absoluteTime for k in travel_lineages]
+    print(sorted(heights))
+    height_normalization=create_normalization([-2000,2015],0.0,1.0) ## create a normalization based on timeline, where earliest day is 0.0 and latest is 1.0
 
-    cmap=mpl.cm.get_cmap('cividis') ## colour map
+    cmap=mpl.cm.get_cmap('cividis_r') ## colour map
 
     # nested dictionary counting transitions from one loc to another
     # i.e. transition_counts[from_location][to_another] => 3
@@ -159,8 +100,8 @@ def add_static_map(tre, gjs, colors, ax):
                           "Europe" : {},
                           "WestCentralAsia" : {} }
     for k in travel_lineages: ## iterate through lineages which have switched location
-        locA=k.traits[traitName] ## get location of current lineage
-        locB=k.parent.traits[traitName] ## get location of where it came from
+        locA=k.traits['location'] ## get location of current lineage
+        locB=k.parent.traits['location'] ## get location of where it came from
 
         # add to transition count
         if locA in transition_counts[locB].keys():
@@ -173,8 +114,12 @@ def add_static_map(tre, gjs, colors, ax):
         desX,desY=region_coords[locA] ## get population centroid coordinates
         oriX,oriY=region_coords[locB]
 
-        normalized_height=height_normalization(k.traits['height']) ## normalize heights of lineages
-        normalized_parent_height=height_normalization(k.parent.traits['height'])
+
+        # normalized_height=height_normalization(k.traits['height']) ## normalize heights of lineages
+        # normalized_parent_height=height_normalization(k.parent.traits['height'])
+        normalized_height=height_normalization(k.absoluteTime) ## normalize heights of lineages
+        normalized_parent_height=height_normalization(k.parent.absoluteTime)
+
 
         distance=math.sqrt(math.pow(oriX-desX,2)+math.pow(oriY-desY,2)) ## find travelling distance
 
@@ -184,17 +129,23 @@ def add_static_map(tre, gjs, colors, ax):
 
         curve=Bezier([(oriX,oriY),n,(desX,desY)],0.0,1.0,num=30) ## get Bezier line coordinates
 
+        zorder_func=lambda k: (50000-math.ceil(k.parent.height))
+        print(zorder_func(k))
+
         for i in range(len(curve)-1): ## iterate through Bezier curve coordinates, alter colour according to height
             x1,y1=curve[i]
             x2,y2=curve[i+1]
             frac=i/float(len(curve)) ## fraction along line
 
-            ax.plot([x1,x2],[y1,y2],lw=1+4*(1-frac),color=cmap(normalized_parent_height+(normalized_height-normalized_parent_height)*(1-frac)),zorder=int(normalized_height*10000)) ## curve tapers and changes colour
+            ax.plot([x1,x2],[y1,y2],
+                    lw=1+4*(1-frac),
+                    color=cmap(normalized_parent_height-(normalized_height-normalized_parent_height)*(1-frac)),
+                    zorder=zorder_func(k)) ## curve tapers and changes colour
 
     #################################
     ## Background map from GEOJson ##
     #################################
-    country_region_df = pd.read_csv('../../phylogeography/assets/country_region_partial.tsv',sep='\t')
+    country_region_df = pd.read_csv('metadata/country_region_partial.tsv',sep='\t')
     country_region = { row['country']: row['continent'] for index, row in country_region_df.iterrows() }
     colors['antarctica'] = 'lightgrey'
     for i,loc in enumerate(locations): ## iterate over locations
@@ -206,7 +157,7 @@ def add_static_map(tre, gjs, colors, ax):
 
         lon,lat=region_coords[region] ## population centroid coordinates
 
-        size=[k.traits[traitName] for k in tre.Objects].count(loc) ## circle size proportional to branches in location
+        size=[k.traits['location'] for k in tre.Objects].count(loc) ## circle size proportional to branches in location
         size=50+size
         ax.scatter(lon,lat,size,facecolor=desaturate(regionColor,1.0),edgecolor='k',lw=2,zorder=200000) ## plot circle, edge coloured inversely from main colour
 
@@ -220,10 +171,10 @@ def add_static_map(tre, gjs, colors, ax):
 
     ax2 = ax.get_figure().add_axes([0.40, 0.155, colorbarHeight, colorbarWidth]) ## add dummy axes
 
-    mpl.colorbar.ColorbarBase(ax2, cmap=mpl.cm.get_cmap('cividis_r'),norm=mpl.colors.Normalize(xDates[0],xDates[-1]),orientation='horizontal')
-    ax2.xaxis.set_major_locator(mpl.ticker.LinearLocator(numticks=10)) ## add colour bar to axes
+    mpl.colorbar.ColorbarBase(ax2, cmap=mpl.cm.get_cmap('cividis_r'),norm=mpl.colors.Normalize(-2000,2015),orientation='horizontal')
+    ax2.xaxis.set_major_locator(mpl.ticker.LinearLocator(numticks=9)) ## add colour bar to axes
 
-    xaxis_labels=[ '-2500', '-2000', '-1500', '-1000', '-500', '0', '500', '1000', '1500', '2014' ]
+    xaxis_labels=[ '-2000', '-1500', '-1000', '-500', '0', '500', '1000', '1500', '2014' ]
 
     ax2.set_xticklabels(xaxis_labels) ## set colour bar tick labels
     ax2.xaxis.set_label_position('top') ## colour bar label at the top
@@ -234,11 +185,14 @@ def add_static_map(tre, gjs, colors, ax):
 
 def add_legend(color_dict, ax):
     legend_elements = []
+    names = []
     for name,clr in color_dict.items():
         dot = Line2D([0], [0], marker='o', color='w', label=name,
                           markerfacecolor=clr, markersize=15)
+        names.append(name)
         legend_elements.append(dot)
-    labels = [ "Europe", "West/Central Asia", "East/South Asia", "Americas", "Africa"]
+    name_fix = lambda x: x.replace('europe','Europe').replace('westcentralasia','West/Central Asia').replace('eastsouthasia','East/South Asia').replace('americas','Americas').replace('africa','Africa')
+    labels = [ name_fix(name) for name in names]
     ax.ticklabel_format(useOffset=False, style='plain')
     ax.legend(handles=legend_elements, labels=labels, loc='lower left', fontsize=12,frameon=False)
     ax.set_axis_off()
@@ -263,7 +217,8 @@ def plot_BEAST(tre,gjs,log,o_file):
              'americas' : 'goldenrod',
              'africa' : 'yellowgreen' }
 
-    c_func = lambda k: cmap[k.traits['location'].lower()]
+
+    c_func = lambda k: cmap[k.traits['location.set'][k.traits['location.set.prob'].index(max([float(t) for t in k.traits['location.set.prob']]))].lower()]
     p_o_func = lambda x: 14
     p_i_func = lambda x: 9
     w_func = lambda x: 1.
@@ -276,10 +231,14 @@ def plot_BEAST(tre,gjs,log,o_file):
     mrsd = max([x.absoluteTime for x in tre.getExternal()])
     ax3.set_xlim(x_lim[0],x_lim[1])
     # color tips by country
-    tre.plotPoints(ax=ax3,x_attr=x_attr,colour_function=lambda x: 'k', # tip shape outline
+    tre.plotPoints(ax=ax3,
+                   x_attr=x_attr,
+                   colour_function=lambda x: 'k', # tip shape outline
                    size_function=p_o_func)
-    tre.plotPoints(ax=ax3,x_attr=x_attr,colour_function=c_func,
-                   size_function=p_i_func,)
+    tre.plotPoints(ax=ax3,
+                   x_attr=x_attr,
+                   colour_function=c_func,
+                   size_function=p_i_func)
 
     ax3.get_yaxis().set_ticks([])
     ax3.xaxis.tick_top()
@@ -293,7 +252,6 @@ def plot_BEAST(tre,gjs,log,o_file):
     inside = plt.axes([map_location[0], map_location[1], map_ar[0]*map_scale, map_ar[1]*map_scale])
     add_static_map(tre,gjs,cmap,inside)
 
-    epi_day = o_file.split('/')[-1].replace('arambaut.','').replace('.pdf','')
     fig.suptitle( f"HBV-D Phylogeography",fontsize=20 )
 
     # export to pdf
@@ -304,12 +262,12 @@ def plot_BEAST(tre,gjs,log,o_file):
 
 if __name__ == '__main__':
 
-    folder = "../../phylogeography/d"
+    folder = "phylogeography/d"
     filestem = "HBV-D_phylogeography"
-    log = "../../beast_files/d/combined/HBV-D_combined.log"
+    log = "beast_files/d/combined/HBV-D_combined.log"
     output = "HBV-D_phylogeography_and_mcc_tree"
     burnin = 0
-    geojson = "../../phylogeography/assets/world.geo.json"
+    geojson = "metadata/world.geo.json"
 
     trees_file = f"{folder}/{filestem}.trees"
     log_file = log
