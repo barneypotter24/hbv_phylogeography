@@ -3,9 +3,8 @@
 import sys, os
 
 def main():
-    input_file = "../phylogeography/assets/city_country_full.csv"
-    output_file = "../phylogeography/assets/country_region_partial.tsv"
-
+    input_file = "metadata/city_country_full.csv"
+    output_file = "metadata/country_region_partial.tsv"
 
     countries_seen = set()
 
@@ -21,10 +20,6 @@ def main():
                     newline = f"{country}\t{continent}\n"
                     countries_seen.add(country)
                     o.write(newline)
-
-
-
-
 
 if __name__ == '__main__':
     main()

@@ -172,7 +172,7 @@ def add_static_map(tre, gjs, colors, ax):
     #################################
     ## Background map from GEOJson ##
     #################################
-    country_region_df = pd.read_csv('../../phylogeography/assets/country_region_partial.tsv',sep='\t')
+    country_region_df = pd.read_csv('metadata/country_region_partial.tsv',sep='\t')
     country_region = { row['country']: row['continent'] for index, row in country_region_df.iterrows() }
     colors['antarctica'] = 'lightgrey'
     for i,loc in enumerate(locations): ## iterate over locations
@@ -281,11 +281,11 @@ def plot_BEAST(tre,gjs,o_file):
     plt.savefig(o_file.replace('.pdf','.png'), format='png')
 
 if __name__ == '__main__':
-    folder = "../../phylogeography/e_modern"
+    folder = "phylogeography/e_modern"
     filestem = "HBV-E_phylogeography"
     output = "HBV-E_phylogeography_and_mcc_tree"
     burnin = 0
-    geojson = "../../phylogeography/assets/world.geo.json"
+    geojson = "metadata/world.geo.json"
 
     trees_file = f"{folder}/{filestem}.trees"
     # plot tree

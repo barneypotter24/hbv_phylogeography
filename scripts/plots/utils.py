@@ -76,6 +76,17 @@ def create_log_normalization(l,n_min,n_max):
         return (((math.log10(value)-l_min)*newRange)/float(oldRange)) + n_min
     return normalize
 
+def create_normalization(l,n_min,n_max):
+    l_max=max(l)
+    l_min=min(l)
+
+    oldRange = (l_max-l_min)
+    newRange = (n_max-n_min)
+
+    def normalize(value):
+        return (((value-l_min)*newRange)/float(oldRange)) + n_min
+    return normalize
+
 def findTimeDelta(date1,date2):
     """Returns number of days separating two decimal dates
     """
