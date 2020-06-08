@@ -7,6 +7,7 @@
 *stopped*.log
 beast_files/*/*.log
 iq-tree/*/*.log
+*beast_state*
 
 # QSub files
 *.pbs.e*
