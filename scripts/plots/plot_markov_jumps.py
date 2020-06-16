@@ -5,13 +5,6 @@ from utils import *
 import matplotlib.pyplot as plt
 import matplotlib.colors as col
 
-def create_height_normalization(markov_jump_map):
-    all_mjs = []
-    for f in markov_jump_map:
-        for t in markov_jump_map[f]:
-            all_mjs.append(markov_jump_map[f][t])
-    return create_log_normalization([min(all_mjs),max(all_mjs)],0.0,1.0)
-
 def get_mj_minmax(markov_jump_map):
     all_mjs = []
     for f in markov_jump_map:
@@ -26,9 +19,8 @@ def configure_axis(ax,label):
     ax.set_title(label)
 
 def plot_bezier(ax,markov_jump_map,point_locations):
-    cmap_name='Reds'
+    cmap_name='Blues'
     cmap=mpl.cm.get_cmap(cmap_name)
-    height_normalization=create_height_normalization(markov_jump_map)
     mjmin,mjmax = get_mj_minmax(markov_jump_map)
     for f in markov_jump_map.keys(): ## iterate through members of maps.keys()
         for t in markov_jump_map[f].keys():
@@ -36,7 +28,7 @@ def plot_bezier(ax,markov_jump_map,point_locations):
             desX,desY=point_locations[t] ## get point coordinates
             oriX,oriY=point_locations[f]
 
-            normalized_mj=height_normalization(markov_jump_map[f][t]) ## normalize markov jumps
+            mj_norm=markov_jump_map[f][t]/mjmax ## normalize markov jumps
 
             distance=math.sqrt(math.pow(oriX-desX,2)+math.pow(oriY-desY,2)) ## find travelling distance
 
@@ -54,7 +46,7 @@ def plot_bezier(ax,markov_jump_map,point_locations):
 
                 ax.plot([x1,x2],[y1,y2],
                         lw=1+4*(1-frac),
-                        color=cmap(normalized_mj),
+                        color=cmap(mj_norm),
                         zorder=10) ## curve tapers and changes colour
 
 def determine_point_locations(locations, offset=0.):
@@ -85,7 +77,6 @@ def determine_point_locations(locations, offset=0.):
     for n in range(len(locations)):
         theta = getTheta(n,N) + offset
         coord_dictionary[locations[n]] = (cos(theta),sin(theta))
-
     return coord_dictionary
 
 def determine_alignment_corner(x,y):
@@ -147,6 +138,8 @@ def parse_tsv(fname):
                     o[fr][to] = 1
             else: # haven't seen "from" before, so we add to=1
                 o[fr] = {to: 1}
+            if to not in o.keys():
+                o[to] = {fr: 0}
     return o
 
 def add_colorbar(fig,ax,markov_jump_map,cbs):
@@ -157,7 +150,7 @@ def add_colorbar(fig,ax,markov_jump_map,cbs):
     colorbarWidth=0.02
     colorbarHeight=0.35
 
-    colorbar_xcoord = 0.475+(0.421*(len(cbs)%2))
+    colorbar_xcoord = 0.49+(0.421*(len(cbs)%2))
     colorbar_ycoord = 0.53-(0.42*(len(cbs)//2))
 
 
@@ -166,15 +159,19 @@ def add_colorbar(fig,ax,markov_jump_map,cbs):
                              colorbarWidth,
                              colorbarHeight])) ## add dummy axes
 
-    mpl.colorbar.ColorbarBase(cbs[-1],
-                                   cmap=mpl.cm.get_cmap('Reds'),
-                                   norm=mpl.colors.LogNorm(mjmin,mjmax),
+    cbar = mpl.colorbar.ColorbarBase(cbs[-1],
+                                   cmap=mpl.cm.get_cmap('Blues'),
                                    orientation='vertical')
+    cbs[-1].yaxis.set_major_locator(mpl.ticker.LinearLocator(numticks=mjmax+1)) ## add colour bar to axes
+
+    yaxis_labels=[str(i) for i in range(mjmax+1)]
+
+    cbs[-1].set_yticklabels(yaxis_labels) #
+
 
 def create_markov_jump_subplot(fig,ax,mjm,label,color_func,cbs,psize=200):
     locations = list(mjm.keys())
-    point_coords = determine_point_locations(locations,offset=(pi/(len(locations)*2)))
-    print(point_coords)
+    point_coords = determine_point_locations(locations,offset=(pi/(len(locations))))
     plot_points(ax,point_coords,psize,color_func)
     plot_bezier(ax,mjm, point_coords)
     add_colorbar(fig,ax,mjm,cbs)
