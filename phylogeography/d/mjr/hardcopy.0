@@ -1,0 +1,24 @@
+scale(location.clock.rate)                        0.431   1027006    587498   0.
+57     0.2341      0.19
+scale(location.rates)                             0.73    5118338    2377031  0.
+46     0.2341      0.3
+bitFlip(location.indicators)                              2388414    1037726  0.
+43     0.1127      0.11
+empiricalTreeDistributionOperator                         1366242    873593   0.
+64     1.0         1.0
+
+1.3859683333333335 hours
+
+(hbv)  ~/projects/hbv_phylogeography/phylogeography/d/mjr [master| 2&8‘ 1]
+02:28 $ ls
+                                         HBV-D_phylogeography.jumpHistory.log
+  HBV-D_phylogeography.log  HBV-D_phylogeography.trees
+HBV-D_phylogeography.location.rates.log  HBV-D_phylogeography.ops  HBV-D_phyloge
+ography.xml
+(hbv)  ~/projects/hbv_phylogeography/phylogeography/d/mjr [master| 2&8‘ 1]
+15:07 $ ls
+bad                                      HBV-D_phylogeography.log
+HBV-D_phylogeography.jumpHistory.log     HBV-D_phylogeography.trees
+HBV-D_phylogeography.location.rates.log  HBV-D_phylogeography.xml
+(hbv)  ~/projects/hbv_phylogeography/phylogeography/d/mjr [master| 6&1‘ 1]
+11:44 $
