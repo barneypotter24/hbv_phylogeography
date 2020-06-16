@@ -1,0 +1,8 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+scale(location.clock.rate)                        0.206   1034776    219177   0.21     0.2395      
+scale(location.rates)                             0.403   5170922    1170694  0.23     0.2378      
+bitFlip(location.indicators)                              2414501    395325   0.16     0.2566      
+empiricalTreeDistributionOperator                         1379801    323385   0.23     1.0         
+
