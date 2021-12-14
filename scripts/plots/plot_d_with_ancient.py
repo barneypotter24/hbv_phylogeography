@@ -63,6 +63,8 @@ def add_static_map(tre, gjs, colors, ax):
     # load geojson to define polygons and locations for the map
     polygons, locations = load_geojson_to_polygons(gjs)
 
+    transition_color = "Reds"
+
     for k in tre.Objects:
         i = k.traits['location.set.prob'].index(max([float(t) for t in k.traits['location.set.prob']]))
         k.traits['location'] = k.traits['location.set'][i]
@@ -90,7 +92,7 @@ def add_static_map(tre, gjs, colors, ax):
     print(sorted(heights))
     height_normalization=create_normalization([-2000,2015],0.0,1.0) ## create a normalization based on timeline, where earliest day is 0.0 and latest is 1.0
 
-    cmap=mpl.cm.get_cmap('cividis_r') ## colour map
+    cmap=mpl.cm.get_cmap(transition_color) ## colour map
 
     # nested dictionary counting transitions from one loc to another
     # i.e. transition_counts[from_location][to_another] => 3
@@ -164,14 +166,14 @@ def add_static_map(tre, gjs, colors, ax):
     ax.set_ylim(-60,90)
     ax.set_axis_off()
 
-    colorbarTextSize=15 ## add colourbars
+    colorbarTextSize=20 ## add colourbars
     colorbarTickLabelSize=12
     colorbarWidth=0.02
     colorbarHeight=0.2
 
-    ax2 = ax.get_figure().add_axes([0.40, 0.155, colorbarHeight, colorbarWidth]) ## add dummy axes
+    ax2 = ax.get_figure().add_axes([0.35, 0.158, colorbarHeight, colorbarWidth]) ## add dummy axes
 
-    mpl.colorbar.ColorbarBase(ax2, cmap=mpl.cm.get_cmap('cividis_r'),norm=mpl.colors.Normalize(-2000,2015),orientation='horizontal')
+    mpl.colorbar.ColorbarBase(ax2, cmap=mpl.cm.get_cmap(transition_color),norm=mpl.colors.Normalize(-2000,2015),orientation='horizontal')
     ax2.xaxis.set_major_locator(mpl.ticker.LinearLocator(numticks=9)) ## add colour bar to axes
 
     xaxis_labels=[ '-2000', '-1500', '-1000', '-500', '0', '500', '1000', '1500', '2014' ]
@@ -179,7 +181,7 @@ def add_static_map(tre, gjs, colors, ax):
     ax2.set_xticklabels(xaxis_labels) ## set colour bar tick labels
     ax2.xaxis.set_label_position('top') ## colour bar label at the top
     ax2.set_xlabel('Transition Time',color='k',size=colorbarTextSize) ## colour bar label is "date"
-    ax2.tick_params(labelcolor='k',size=10,labelsize=colorbarTickLabelSize,labelrotation=45) ## adjust axis parameters
+    ax2.tick_params(labelcolor='k',size=18,labelsize=colorbarTickLabelSize,labelrotation=45) ## adjust axis parameters
     print("Transition counts:")
     print(transition_counts)
 
@@ -194,7 +196,7 @@ def add_legend(color_dict, ax):
     name_fix = lambda x: x.replace('europe','Europe').replace('westcentralasia','West/Central Asia').replace('eastsouthasia','East/South Asia').replace('americas','Americas').replace('africa','Africa')
     labels = [ name_fix(name) for name in names]
     ax.ticklabel_format(useOffset=False, style='plain')
-    ax.legend(handles=legend_elements, labels=labels, loc='lower left', fontsize=12,frameon=False)
+    ax.legend(handles=legend_elements, labels=labels, loc='lower left', fontsize=18,frameon=False)
     ax.set_axis_off()
 
 def plot_BEAST(tre,gjs,log,o_file):
@@ -203,7 +205,7 @@ def plot_BEAST(tre,gjs,log,o_file):
     # add tree plot
     # fig, ax = plt.subplots(figsize=(15,15))
     r = 8
-    fig, ax3 =  plt.subplots(figsize=(15,15), dpi=600)
+    fig, ax3 =  plt.subplots(figsize=(21,15), dpi=300)
     # set x axis to be time
     x_attr=lambda k: k.absoluteTime
 
@@ -242,17 +244,21 @@ def plot_BEAST(tre,gjs,log,o_file):
 
     ax3.get_yaxis().set_ticks([])
     ax3.xaxis.tick_top()
-    ax3.set_ylim(-125,775)
+    ax3.set_ylim(-130,775)
+
+    ax3.tick_params(axis='x', labelsize=18)
 
     lax = plt.axes([.13,.5,.05,.05])
     add_legend(cmap,lax)
-    map_location = (.1,.14) # location of map inset within larger figure
-    map_ar = (.62,.3) # aspect ratio of map inset
-    map_scale = 1.05 # scale of map inset
+    map_location = (.11,.14) # location of map inset within larger figure
+    map_ar = ((5/7)*.62,.3) # aspect ratio of map inset
+    map_scale = 1.25 # scale of map inset
     inside = plt.axes([map_location[0], map_location[1], map_ar[0]*map_scale, map_ar[1]*map_scale])
     add_static_map(tre,gjs,cmap,inside)
 
-    fig.suptitle( f"HBV-D Phylogeography",fontsize=20 )
+    ax3.margins(tight=True)
+
+    # fig.suptitle( f"HBV-D Phylogeography",fontsize=20 )
 
     # export to pdf
     plt.savefig(o_file,format='pdf')

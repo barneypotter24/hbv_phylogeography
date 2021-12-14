@@ -10,8 +10,7 @@ import math
 import re
 
 def main():
-    genotypes = ['A']
-    # genotypes = ['D']
+    genotypes = ['A', 'D', 'E']
     for genotype in genotypes:
         print(f"Starting Genotype {genotype}")
         folder = f"phylogeography/{genotype.lower()}"
@@ -46,7 +45,7 @@ def main():
         }
         cmap = mpl.cm.get_cmap(cmap_map[genotype],10)
 
-        fig, ax =  plt.subplots(figsize=(15,15), dpi=300)
+        fig, ax =  plt.subplots(figsize=(15,15), dpi=600)
         # set x axis to be time
         x_attr=lambda k: k.absoluteTime
 
@@ -60,7 +59,7 @@ def main():
         ax.set_ylim(-box_size,box_size)
         ax.set_axis_off()
 
-        fig.suptitle( f"HBV-{genotype} new sequences",fontsize=20 )
+        # fig.suptitle( f"HBV-{genotype} new sequences",fontsize=20 )
 
         # export to pdf
         plt.savefig(plot_file,format='pdf')
@@ -115,12 +114,13 @@ def extract_subgenotype_to_color(x,cmap,cdict,gt):
 
 
 def plot_tip_labels(tre,ax,circFrac=1.0):
-    circStart=0.0
-    text_func=lambda k: k.name
+    circStart=0.0 # the initial angle off the +y axis to start the tree drawing (as a fraction)
+    # text_func=lambda k: k.name # This function determines the name of the tip label
+    text_func=lambda k: '*'
     # text_pos_func =lambda k: (0,0)
-    target_func=lambda k: is_new_sequence(k)
-    circ_s=circStart*math.pi*2
-    circ=circFrac*math.pi*2
+    target_func=lambda k: is_new_sequence(k) # A filter to determine if the tip is of interest
+    circ_s=circStart*math.pi*2 # transform our circle start fraction into radians
+    circ=circFrac*math.pi*2 # transform our total circle fraction into radians
 
     normaliseHeight=lambda value,values: (value-min(values))/(max(values)-min(values))
     linspace=lambda start,stop,n: list(start+((stop-start)/(n-1))*i for i in range(n)) if n>1 else stop
@@ -128,8 +128,10 @@ def plot_tip_labels(tre,ax,circFrac=1.0):
     y_attr=lambda x: x.y
     value_range=list(map(x_attr,tre.Objects))
 
-    c = 0
-    dist = 1.025
+    c = 0 # A counter for how many labels we've attached
+    dist = 1.025 # the radius for beginning labels
+
+    # We cycle through all tips of interest
     for k in filter(target_func,tre.Objects):
 
         y=circ_s+circ*y_attr(k)/tre.ySpan ## get y position along circle's perimeter
@@ -156,7 +158,7 @@ def plot_tip_labels(tre,ax,circFrac=1.0):
                 ha=h_aln,
                 va=v_aln,
                 rotation=txt_rotation,
-                size=5)
+                size=15)
         c += 1
     print("Total labels:",c)
 

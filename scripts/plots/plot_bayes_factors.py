@@ -184,7 +184,7 @@ if __name__ == "__main__":
 
     bf_files = [ 'phylogeography/a/bssvs_analysis.txt',
                  'phylogeography/d/bssvs_analysis.txt',
-                 'phylogeography/e_modern/bssvs_analysis.txt' ]
+                 'phylogeography/e/bssvs_analysis.txt' ]
     labels = ['HBV-A including ancient genomes',
               'HBV-D including ancient genomes',
               'HBV-E']
