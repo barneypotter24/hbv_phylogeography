@@ -3560,7 +3560,7 @@
 
 	<!-- EMPIRICAL Trees                                             -->
 
-	  <empiricalTreeDistributionModel id="treeModel" fileName="HBV-A_with_ancient_constpop_combined.downsampled.trees">
+	  <empiricalTreeDistributionModel id="treeModel" fileName="../HBV-A_with_ancient_constpop_combined.downsampled.trees">
 	    <taxa idref="taxa"/>
 	  </empiricalTreeDistributionModel>
 	  <statistic id="treeModel.currentTree" name="Current Tree">
