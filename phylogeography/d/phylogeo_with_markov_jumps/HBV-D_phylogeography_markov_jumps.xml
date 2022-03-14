@@ -4818,7 +4818,7 @@
 
     <log id="completeJumpHistory" logEvery="100" fileName="HBV-D.jumpHistory.log">
 			<completeHistoryLogger>
-				<markovJumpsTreeLikelihood idref="host.treeLikelihood"/>
+				<markovJumpsTreeLikelihood idref="location.treeLikelihood"/>
 			</completeHistoryLogger>
 		</log>
 

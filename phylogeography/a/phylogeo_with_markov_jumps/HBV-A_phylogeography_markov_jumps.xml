@@ -3722,6 +3722,12 @@
 
 		</log>
 
+    <log id="completeJumpHistory" logEvery="100" fileName="HBV-A.jumpHistory.log">
+			<completeHistoryLogger>
+				<markovJumpsTreeLikelihood idref="location.treeLikelihood"/>
+			</completeHistoryLogger>
+		</log>
+
 		<!-- write log to file                                                       -->
 		<log id="fileLog" logEvery="10000" fileName="HBV-A_phylogeography.log" overwrite="false">
 			<joint idref="joint"/>
