@@ -1,0 +1,1035 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: E/E_aligned.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 153148
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 234 sequences with 3212 nucleotide sites
+Number of constant sites: 1789 (= 55.6974% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1789 (= 55.6974% of all sites)
+Number of parsimony informative sites: 833
+Number of distinct site patterns: 1414
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: K2P
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.3510
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 2.3510
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.2298    0.5403    0.2298
+  C    0.2298        -1    0.2298    0.5403
+  G    0.5403    0.2298        -1    0.2298
+  T    0.2298    0.5403    0.2298        -1
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -38768.0398 (s.e. 1241.2515)
+Unconstrained log-likelihood (without tree): -16587.9689
+Number of free parameters (#branches + #model parameters): 462
+Akaike information criterion (AIC) score: 78460.0796
+Corrected Akaike information criterion (AICc) score: 78615.7042
+Bayesian information criterion (BIC) score: 81266.5675
+
+Total tree length (sum of branch lengths): 1.5405
+Sum of internal branch lengths: 0.3166 (20.5487% of tree length)
+
+WARNING: 58 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'E_MB8_Belgium_2008_IvoryCoast' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--E_MB8_Belgium_2008_IvoryCoast
+|
+|                                                                                      +---------------E_MB13_Belgium_2008_Guinea
+|                                                                          +-----------| (100)
+|                                                                          |           +**E_MB115_Belgium_2008_Guinea
+|                                                                       +--| (96)
+|                                                                       |  +-----------E_GQ161768_Guinea_2006_Guinea
+|                                                                    +--| (77)
+|                                                                    |  |  +--E_MB79_Belgium_2008_IvoryCoast
+|                                                                    |  +--| (100)
+|                                                                    |     +--E_MB74_Belgium_2007_Ivorycoast
+|                                                                 +--| (100)
+|                                                                 |  |  +----------E_GQ161796_Guinea_2006_Guinea
+|                                                                 |  +--| (93)
+|                                                                 |     +-------E_GQ161826_Guinea_2006_Guinea
+|                                                              +--| (78)
+|                                                              |  +-------E_MB37_Belgium_2009_Burundi
+|                                                           +**| (37)
+|                                                           |  |  +---E_FJ349239_Belgium_2007_Belgium
+|                                                           |  +--| (97)
+|                                                           |     |   +--E_GQ161822_Guinea_2006_Guinea
+|                                                           |     +---| (100)
+|                                                           |         +**E_GQ161833_Guinea_2006_Guinea
+|                                                        +**| (47)
+|                                                        |  |           +-----------------E_MB26_Belgium_2009_Guinea
+|                                                        |  |        +--| (88)
+|                                                        |  |        |  |      +--E_GQ161756_Guinea_2006_Guinea
+|                                                        |  |        |  |  +---| (100)
+|                                                        |  |        |  |  |   +**E_GQ161795_Guinea_2006_Guinea
+|                                                        |  |        |  +--| (90)
+|                                                        |  |        |     +------------E_GQ161823_Guinea_2006_Guinea
+|                                                        |  |     +**| (79)
+|                                                        |  |     |  |     +--E_MB118_Belgium_2008_Guinea
+|                                                        |  |     |  |  +**| (95)
+|                                                        |  |     |  |  |  +------------E_GQ161807_Guinea_2006_Guinea
+|                                                        |  |     |  +--| (99)
+|                                                        |  |     |     +--E_GQ161761_Guinea_2006_Guinea
+|                                                        |  |  +--| (99)
+|                                                        |  |  |  +---E_GQ161830_Guinea_2006_Guinea
+|                                                        |  +**| (26)
+|                                                        |     |        +-------E_MB78_Belgium_2007_Congo
+|                                                        |     |     +--| (90)
+|                                                        |     |     |  |  +--E_MB141_Belgium_2010_Mozambique
+|                                                        |     |     |  +--| (100)
+|                                                        |     |     |     |  +--E_GQ161763_Guinea_2006_Guinea
+|                                                        |     |     |     +--| (91)
+|                                                        |     |     |        +**E_GQ161777_Guinea_2006_Guinea
+|                                                        |     |  +**| (80)
+|                                                        |     |  |  |        +------E_MB68_Belgium_2006_IvoryCoast
+|                                                        |     |  |  |     +--| (97)
+|                                                        |     |  |  |     |  |  +--------E_GQ161785_Guinea_2006_Guinea
+|                                                        |     |  |  |     |  +--| (99)
+|                                                        |     |  |  |     |     +-----E_GQ161836_Guinea_2006_Guinea
+|                                                        |     |  |  |  +**| (95)
+|                                                        |     |  |  |  |  +------E_GQ161794_Guinea_2006_Guinea
+|                                                        |     |  |  +--| (100)
+|                                                        |     |  |     +--E_GQ161817_Guinea_2006_Guinea
+|                                                        |     +--| (48)
+|                                                        |        +---------------E_FJ349227_Belgium_1998_Belgium
+|                                                     +**| (30)
+|                                                     |  +--E_GQ161820_Guinea_2006_Guinea
+|                                                  +**| (15)
+|                                                  |  |                       +-------E_MB82_Belgium_2007_Guinea
+|                                                  |  |                    +--| (94)
+|                                                  |  |                    |  +--------E_GQ161834_Guinea_2006_Guinea
+|                                                  |  |                 +--| (72)
+|                                                  |  |                 |  +---------------------E_MB57_Belgium_2008_Congo
+|                                                  |  |              +**| (40)
+|                                                  |  |              |  +--E_GQ161801_Guinea_2006_Guinea
+|                                                  |  |           +**| (32)
+|                                                  |  |           |  |           +--E_GQ161770_Guinea_2006_Guinea
+|                                                  |  |           |  |        +--| (94)
+|                                                  |  |           |  |        |  |  +--E_GQ161791_Guinea_2006_Guinea
+|                                                  |  |           |  |        |  +**| (81)
+|                                                  |  |           |  |        |     |  +**E_GQ161800_Guinea_2006_Guinea
+|                                                  |  |           |  |        |     +**| (91)
+|                                                  |  |           |  |        |        +**E_GQ161819_Guinea_2006_Guinea
+|                                                  |  |           |  |     +--| (91)
+|                                                  |  |           |  |     |  +--E_GQ161829_Guinea_2006_Guinea
+|                                                  |  |           |  |  +--| (75)
+|                                                  |  |           |  |  |  |  +**E_GQ161793_Guinea_2006_Guinea
+|                                                  |  |           |  |  |  +--| (100)
+|                                                  |  |           |  |  |     +--E_GQ161827_Guinea_2006_Guinea
+|                                                  |  |           |  +**| (66)
+|                                                  |  |           |     |  +--E_GQ161772_Guinea_2006_Guinea
+|                                                  |  |           |     +--| (100)
+|                                                  |  |           |        +--E_GQ161787_Guinea_2006_Guinea
+|                                                  |  |        +--| (52)
+|                                                  |  |        |  +--E_GQ161764_Guinea_2006_Guinea
+|                                                  |  |     +--| (65)
+|                                                  |  |     |  |           +------------------------E_MB76_Belgium_2007_Guinea
+|                                                  |  |     |  |        +--| (74)
+|                                                  |  |     |  |        |  +-------E_GQ161797_Guinea_2006_Guinea
+|                                                  |  |     |  |     +--| (61)
+|                                                  |  |     |  |     |  +------E_GQ161803_Guinea_2006_Guinea
+|                                                  |  |     |  |  +--| (57)
+|                                                  |  |     |  |  |  |          +**E_GQ161773_Guinea_2006_Guinea
+|                                                  |  |     |  |  |  |  +-------| (100)
+|                                                  |  |     |  |  |  |  |       +**E_GQ161802_Guinea_2006_Guinea
+|                                                  |  |     |  |  |  +--| (86)
+|                                                  |  |     |  |  |     +-----------E_GQ161786_Guinea_2006_Guinea
+|                                                  |  |     |  +**| (61)
+|                                                  |  |     |     +---E_GQ161759_Guinea_2006_Guinea
+|                                                  |  |  +**| (4)
+|                                                  |  |  |  +--E_GQ161798_Guinea_2006_Guinea
+|                                                  |  +**| (5)
+|                                                  |     |         +--E_MB136_Belgium_2010_IvoryCoast
+|                                                  |     |     +---| (100)
+|                                                  |     |     |   |  +--E_GQ161755_Guinea_2006_Guinea
+|                                                  |     |     |   +--| (100)
+|                                                  |     |     |      +**E_GQ161835_Guinea_2006_Guinea
+|                                                  |     |  +**| (17)
+|                                                  |     |  |  +----E_GQ161771_Guinea_2006_Guinea
+|                                                  |     +**| (2)
+|                                                  |        |           +--E_FJ349237_Belgium_2005_Belgium
+|                                                  |        |        +--| (100)
+|                                                  |        |        |  +--E_FJ349238_Belgium_2007_Belgium
+|                                                  |        |     +--| (97)
+|                                                  |        |     |  +-----------------E_AB194948_Cameroon_1994_Cameroon
+|                                                  |        |  +--| (97)
+|                                                  |        |  |  +--E_GQ161832_Guinea_2006_Guinea
+|                                                  |        +**| (95)
+|                                                  |           +--E_GQ161781_Guinea_2006_Guinea
+|                                               +--| (42)
+|                                               |  |     +-------E_MB19_Belgium_2009_Guinea
+|                                               |  |  +--| (98)
+|                                               |  |  |  |        +--E_GQ161782_Guinea_2006_Guinea
+|                                               |  |  |  |     +**| (100)
+|                                               |  |  |  |     |  +--E_GQ161792_Guinea_2006_Guinea
+|                                               |  |  |  |  +--| (100)
+|                                               |  |  |  |  |  +--E_GQ161814_Guinea_2006_Guinea
+|                                               |  |  |  +--| (100)
+|                                               |  |  |     +-----E_GQ161812_Guinea_2006_Guinea
+|                                               |  +**| (57)
+|                                               |     +--E_GQ161804_Guinea_2006_Guinea
+|                                            +**| (48)
+|                                            |  |         +**E_GQ161776_Guinea_2006_Guinea
+|                                            |  |      +**| (93)
+|                                            |  |      |  +**E_GQ161789_Guinea_2006_Guinea
+|                                            |  +------| (100)
+|                                            |         +**E_GQ161784_Guinea_2006_Guinea
+|                                         +--| (56)
+|                                         |  |  +--E_GQ161765_Guinea_2006_Guinea
+|                                         |  +--| (99)
+|                                         |     |  +**E_GQ161769_Guinea_2006_Guinea
+|                                         |     +--| (100)
+|                                         |        +--E_GQ161779_Guinea_2006_Guinea
+|                                      +--| (59)
+|                                      |  +--E_GQ161816_Guinea_2006_Guinea
+|                                   +--| (58)
+|                                   |  +--E_GQ161780_Guinea_2006_Guinea
+|                                +--| (58)
+|                                |  |           +-------E_MB43_Belgium_2009_Niger
+|                                |  |        +--| (99)
+|                                |  |        |  +----------------E_MB83_Belgium_2007_Guinea
+|                                |  |     +**| (97)
+|                                |  |     |  +--------E_MB75_Belgium_2007_Guinea
+|                                |  |  +**| (98)
+|                                |  |  |  |        +----E_MB21_Belgium_2009_Guinea
+|                                |  |  |  |     +--| (96)
+|                                |  |  |  |     |  |        +**E_GQ161783_Guinea_2006_Guinea
+|                                |  |  |  |     |  +--------| (100)
+|                                |  |  |  |     |           +**E_GQ161824_Guinea_2006_Guinea
+|                                |  |  |  |  +--| (99)
+|                                |  |  |  |  |  +----E_GQ161815_Guinea_2006_Guinea
+|                                |  |  |  +--| (99)
+|                                |  |  |     |  +------------E_GQ161757_Guinea_2006_Guinea
+|                                |  |  |     +--| (100)
+|                                |  |  |        |     +---------E_GQ161760_Guinea_2006_Guinea
+|                                |  |  |        |  +--| (73)
+|                                |  |  |        |  |  +--E_GQ161808_Guinea_2006_Guinea
+|                                |  |  |        +--| (100)
+|                                |  |  |           |   +**E_GQ161778_Guinea_2006_Guinea
+|                                |  |  |           +---| (100)
+|                                |  |  |               +**E_GQ161810_Guinea_2006_Guinea
+|                                |  +--| (100)
+|                                |     |    +--E_GQ161790_Guinea_2006_Guinea
+|                                |     +----| (100)
+|                                |          |        +**E_GQ161799_Guinea_2006_Guinea
+|                                |          |     +**| (96)
+|                                |          |     |  +--E_GQ161821_Guinea_2006_Guinea
+|                                |          |  +--| (100)
+|                                |          |  |  +--E_GQ161818_Guinea_2006_Guinea
+|                                |          +**| (92)
+|                                |             +--E_GQ161805_Guinea_2006_Guinea
+|                             +**| (18)
+|                             |  |       +--E_MB50_Belgium_2008_Niger
+|                             |  |   +---| (100)
+|                             |  |   |   +---------------E_MB54_Belgium_2009_Nigeria
+|                             |  +---| (100)
+|                             |      |  +--------------E_MB77_Belgium_2007_Ghana
+|                             |      +--| (94)
+|                             |         +---------------E_MB129_Belgium_2007_Ghana
+|                          +**| (23)
+|                          |  |           +--E_MB36_Belgium_2009_Congo
+|                          |  |        +--| (96)
+|                          |  |        |  |           +---E_MB122_Belgium_2009_Congo
+|                          |  |        |  +-----------| (100)
+|                          |  |        |              +--E_MB53_Belgium_2009_Rwanda
+|                          |  |     +--| (98)
+|                          |  |     |  +--E_KF170742_Sudan_2008_Sudan
+|                          |  |  +--| (88)
+|                          |  |  |  |              +-------E_MB65_Belgium_2006_Cameroon
+|                          |  |  |  |           +--| (75)
+|                          |  |  |  |           |  +-------------E_FJ349240_Belgium_2007_Belgium
+|                          |  |  |  |        +**| (72)
+|                          |  |  |  |        |  +--------------------E_HM363608_Nigeria_2007_Nigeria
+|                          |  |  |  |     +--| (95)
+|                          |  |  |  |     |  |     +---E_FN545827_Cameroon_2005_Cameroon
+|                          |  |  |  |     |  |  +--| (92)
+|                          |  |  |  |     |  |  |  +--E_FN545841_Cameroon_2007_Cameroon
+|                          |  |  |  |     |  +--| (81)
+|                          |  |  |  |     |     +--------E_FN545842_Cameroon_2007_Cameroon
+|                          |  |  |  |  +**| (86)
+|                          |  |  |  |  |  |          +**E_G1961_Belgium_1996_Belgium
+|                          |  |  |  |  |  |  +-------| (100)
+|                          |  |  |  |  |  |  |       +**E_FJ349226_Belgium_1995_Belgium
+|                          |  |  |  |  |  +--| (95)
+|                          |  |  |  |  |     |  +--E_HM363571_Nigeria_2007_Nigeria
+|                          |  |  |  |  |     +--| (99)
+|                          |  |  |  |  |        +--------E_HM363572_Nigeria_2007_Nigeria
+|                          |  |  |  +--| (93)
+|                          |  |  |     |    +--E_HM363569_Nigeria_2007_Nigeria
+|                          |  |  |     +----| (100)
+|                          |  |  |          +--E_HM363570_Nigeria_2007_Nigeria
+|                          |  +**| (51)
+|                          |     |      +--E_MB25_Belgium_2009_Mauritania
+|                          |     +------| (100)
+|                          |            +----E_MB85_Belgium_2007_Mauritania
+|                       +--| (71)
+|                       |  |                  +**E_MB15_Belgium_2009_Guinea
+|                       |  |              +---| (100)
+|                       |  |              |   +**E_MB102_Belgium_2009_Guinea
+|                       |  |           +--| (78)
+|                       |  |           |  |         +**E_GQ161758_Guinea_2006_Guinea
+|                       |  |           |  +---------| (100)
+|                       |  |           |            +**E_GQ161766_Guinea_2006_Guinea
+|                       |  |        +**| (74)
+|                       |  |        |  +----------E_GQ161809_Guinea_2006_Guinea
+|                       |  |     +--| (98)
+|                       |  |     |  +--------E_GQ161811_Guinea_2006_Guinea
+|                       |  |  +--| (98)
+|                       |  |  |  |     +----------E_MB39_Belgium_2009_Guinea
+|                       |  |  |  +-----| (100)
+|                       |  |  |        +-----E_MB143_Belgium_2010_Guinea
+|                       |  +**| (83)
+|                       |     |     +------E_MB99_Belgium_2008_Nigeria
+|                       |     |  +**| (79)
+|                       |     |  |  |  +---------------E_FN545822_Nigeria_2005_Nigeria
+|                       |     |  |  +--| (85)
+|                       |     |  |     +-----------E_AB205190_Ghana_2000_Ghana
+|                       |     +--| (83)
+|                       |        |     +------------------------------------------E_GU563552_Belgium_2003_Belgium
+|                       |        |  +--| (95)
+|                       |        |  |  +-----E_AB205189_Ghana_2000_Ghana
+|                       |        +--| (94)
+|                       |           +---E_AB205191_Ghana_2000_Ghana
+|                    +--| (26)
+|                    |  |                                 +**E_MB20_Belgium_2009_Congo
+|                    |  |                              +--| (100)
+|                    |  |                              |  +--E_MB61_Belgium_2006_Congo
+|                    |  |                           +--| (100)
+|                    |  |                           |  +-----E_KF849723_Angola_2007_Angola
+|                    |  |                        +**| (27)
+|                    |  |                        |  |     +------E_KF849717_Angola_2007_Angola
+|                    |  |                        |  |  +--| (58)
+|                    |  |                        |  |  |  |              +--E_JQ023664_Colombia_2007_Colombia
+|                    |  |                        |  |  |  +--------------| (100)
+|                    |  |                        |  |  |                 +----E_JQ023665_Colombia_2007_Colombia
+|                    |  |                        |  +**| (22)
+|                    |  |                        |     |  +--E_KF849719_Angola_2007_Angola
+|                    |  |                        |     +**| (78)
+|                    |  |                        |        +--E_KF849722_Angola_2007_Angola
+|                    |  |                     +**| (41)
+|                    |  |                     |  |  +--E_KF849713_Angola_2007_Angola
+|                    |  |                     |  +--| (60)
+|                    |  |                     |     +--E_KF849721_Angola_2007_Angola
+|                    |  |                  +--| (32)
+|                    |  |                  |  |        +---------E_MB126_Belgium_2007_Zimbabwe
+|                    |  |                  |  |     +--| (80)
+|                    |  |                  |  |     |  +----------E_KF849724_Angola_2007_Angola
+|                    |  |                  |  |  +--| (37)
+|                    |  |                  |  |  |  +----E_KF849718_Angola_2007_Angola
+|                    |  |                  |  +**| (30)
+|                    |  |                  |     |  +----E_KF849716_Angola_2007_Angola
+|                    |  |                  |     +--| (96)
+|                    |  |                  |        |        +--E_AY738147_Congo_1998_Congo
+|                    |  |                  |        |     +**| (96)
+|                    |  |                  |        |     |  +--E_AY738146_Congo_1998_Congo
+|                    |  |                  |        +-----| (100)
+|                    |  |                  |              |  +**E_AY738145_Congo_1998_Congo
+|                    |  |                  |              +--| (100)
+|                    |  |                  |                 +--E_AY738144_Congo_1998_Congo
+|                    |  |               +**| (26)
+|                    |  |               |  +--------E_KF849726_Angola_2007_Angola
+|                    |  |            +**| (35)
+|                    |  |            |  |                                +--E_MB93_Belgium_2007_Congo
+|                    |  |            |  |           +--------------------| (100)
+|                    |  |            |  |           |                    +--E_MB109_Belgium_2008_Mauritania
+|                    |  |            |  |        +--| (100)
+|                    |  |            |  |        |  +---------E_KF849728_Angola_2007_Angola
+|                    |  |            |  |     +--| (76)
+|                    |  |            |  |     |  +----E_KF849725_Angola_2007_Angola
+|                    |  |            |  |  +--| (67)
+|                    |  |            |  |  |  |  +---E_MB29_Belgium_2009_Congo
+|                    |  |            |  |  |  +**| (95)
+|                    |  |            |  |  |     +------------E_KF849720_Angola_2007_Angola
+|                    |  |            |  +**| (16)
+|                    |  |            |     |     +------E_MB104_Belgium_2008_Congo
+|                    |  |            |     |  +**| (79)
+|                    |  |            |     |  |  |  +--E_KF849714_Angola_2007_Angola
+|                    |  |            |     |  |  +--| (100)
+|                    |  |            |     |  |     +-----E_KF849715_Angola_2007_Angola
+|                    |  |            |     +--| (71)
+|                    |  |            |        +--E_MB134_Belgium_2009_Congo
+|                    |  |        +---| (100)
+|                    |  |        |   +----E_KF849727_Angola_2007_Angola
+|                    |  |     +**| (69)
+|                    |  |     |  |     +------E_MB97_Belgium_2009_Guinea
+|                    |  |     |  |  +--| (90)
+|                    |  |     |  |  |  +--E_MB91_Belgium_2007_Rwanda
+|                    |  |     |  +--| (84)
+|                    |  |     |     +---------E_KF170741_Sudan_2008_Sudan
+|                    |  |  +--| (84)
+|                    |  |  |  |  +---E_MB23_Belgium_2009_Rwanda
+|                    |  |  |  +--| (98)
+|                    |  |  |     +-------------E_MB6_Belgium_2008_Niger
+|                    |  +--| (60)
+|                    |     +--------------------E_HM363609_Nigeria_2007_Nigeria
+|                 +--| (38)
+|                 |  |  +--------E_HM363574_Nigeria_2007_Nigeria
+|                 |  +**| (31)
+|                 |     |  +--------E_FN545824_Nigeria_2005_Nigeria
+|                 |     +--| (74)
+|                 |        +--------E_AB205192_Ghana_2000_Ghana
+|              +--| (55)
+|              |  |           +-------E_MB24_Belgium_2009_Guinea
+|              |  |        +--| (100)
+|              |  |        |  +----------------------E_MB51_Belgium_2009_Guinea
+|              |  |     +--| (19)
+|              |  |     |  |        +--------------------------E_MB148_Belgium_2010_Niger
+|              |  |     |  |     +--| (91)
+|              |  |     |  |     |  +-----------E_MB44_Belgium_2009_Ghana
+|              |  |     |  |  +--| (72)
+|              |  |     |  |  |  +-----------------E_MB70_Belgium_2006_Guinea
+|              |  |     |  +--| (39)
+|              |  |     |     |        +-------------E_57a_Belgium_2002_Belgium
+|              |  |     |     |     +--| (92)
+|              |  |     |     |     |  +------------E_AB205188_Ghana_2000_Ghana
+|              |  |     |     |  +--| (49)
+|              |  |     |     |  |  +--------------E_GQ161831_Guinea_2006_Guinea
+|              |  |     |     +--| (47)
+|              |  |     |        +--------E_FN545823_Nigeria_2005_Nigeria
+|              |  |  +--| (31)
+|              |  |  |  |           +---E_MB41_Belgium_2008_Mauritania
+|              |  |  |  |       +---| (100)
+|              |  |  |  |       |   +--E_MB69_Belgium_2006_Mauritania
+|              |  |  |  |  +----| (100)
+|              |  |  |  |  |    +----E_GQ161762_Guinea_2006_Guinea
+|              |  |  |  +--| (27)
+|              |  |  |     +------------E_MB111_Belgium_2009_BurkinaFaso
+|              |  +**| (24)
+|              |     |  +------------E_MB108_Belgium_2008_Mauritania
+|              |     +--| (80)
+|              |        +----------------E_GQ161825_Guinea_2006_Guinea
+|           +--| (38)
+|           |  |                +--------------E_HM363565_Nigeria_2007_Nigeria
+|           |  |           +----| (100)
+|           |  |           |    +------------E_HM363566_Nigeria_2007_Nigeria
+|           |  |        +--| (44)
+|           |  |        |  |     +--------------E_HM363599_Nigeria_2007_Nigeria
+|           |  |        |  |  +--| (46)
+|           |  |        |  |  |  +----------------------------E_HM363611_Nigeria_2007_Nigeria
+|           |  |        |  +--| (44)
+|           |  |        |     +----------------E_HM363603_Nigeria_2007_Nigeria
+|           |  |     +--| (22)
+|           |  |     |  |  +---------E_HM363594_Nigeria_2007_Nigeria
+|           |  |     |  +--| (51)
+|           |  |     |     |     +----------------E_HM363598_Nigeria_2007_Nigeria
+|           |  |     |     |  +--| (83)
+|           |  |     |     |  |  +----------E_FN545821_Nigeria_2005_Nigeria
+|           |  |     |     +--| (51)
+|           |  |     |        +-------------------E_HM363605_Nigeria_2007_Nigeria
+|           |  |  +**| (15)
+|           |  |  |  |              +--E_HM363588_Nigeria_2007_Nigeria
+|           |  |  |  |           +**| (71)
+|           |  |  |  |           |  +--------------E_HM363601_Nigeria_2007_Nigeria
+|           |  |  |  |        +--| (77)
+|           |  |  |  |        |  +--E_HM363589_Nigeria_2007_Nigeria
+|           |  |  |  |     +--| (77)
+|           |  |  |  |     |  +--E_HM363590_Nigeria_2007_Nigeria
+|           |  |  |  |  +--| (31)
+|           |  |  |  |  |  +----------------------E_HM363610_Nigeria_2007_Nigeria
+|           |  |  |  +--| (31)
+|           |  |  |     |  +--E_HM363591_Nigeria_2007_Nigeria
+|           |  |  |     +--| (100)
+|           |  |  |        +----------E_HM363597_Nigeria_2007_Nigeria
+|           |  +--| (47)
+|           |     |                            +--E_HM363567_Nigeria_2007_Nigeria
+|           |     |                    +-------| (100)
+|           |     |                    |       +--------------E_HM363604_Nigeria_2007_Nigeria
+|           |     |                 +--| (100)
+|           |     |                 |  +--E_HM363568_Nigeria_2007_Nigeria
+|           |     |              +**| (77)
+|           |     |              |  |   +--E_HM363586_Nigeria_2007_Nigeria
+|           |     |              |  +---| (100)
+|           |     |              |      +--------------E_HM363602_Nigeria_2007_Nigeria
+|           |     |           +**| (72)
+|           |     |           |  +------E_HM363587_Nigeria_2007_Nigeria
+|           |     |        +--| (100)
+|           |     |        |  +-------E_HM363592_Nigeria_2007_Nigeria
+|           |     |     +--| (65)
+|           |     |     |  +--------E_HM363593_Nigeria_2007_Nigeria
+|           |     |  +--| (36)
+|           |     |  |  |          +--E_HM363579_Nigeria_2007_Nigeria
+|           |     |  |  |       +**| (79)
+|           |     |  |  |       |  +**E_HM363580_Nigeria_2007_Nigeria
+|           |     |  |  +-------| (100)
+|           |     |  |          +**E_HM363581_Nigeria_2007_Nigeria
+|           |     +--| (39)
+|           |        |     +--E_HM363582_Nigeria_2007_Nigeria
+|           |        |  +--| (100)
+|           |        |  |  |   +**E_HM363583_Nigeria_2007_Nigeria
+|           |        |  |  +---| (100)
+|           |        |  |      +-----E_HM363584_Nigeria_2007_Nigeria
+|           |        +--| (67)
+|           |           |  +--E_HM363585_Nigeria_2007_Nigeria
+|           |           +--| (83)
+|           |              +----------------E_HM363600_Nigeria_2007_Nigeria
+|        +--| (100)
+|        |  |         +--E_HM363575_Nigeria_2007_Nigeria
+|        |  |     +---| (100)
+|        |  |     |   +--E_HM363576_Nigeria_2007_Nigeria
+|        |  |  +--| (56)
+|        |  |  |  |  +---------E_HM363595_Nigeria_2007_Nigeria
+|        |  |  |  +--| (62)
+|        |  |  |     +------------------E_HM363607_Nigeria_2007_Nigeria
+|        |  +--| (38)
+|        |     |  +--E_HM363577_Nigeria_2007_Nigeria
+|        |     +--| (79)
+|        |        |  +------E_HM363578_Nigeria_2007_Nigeria
+|        |        +--| (62)
+|        |           +-------------E_HM363596_Nigeria_2007_Nigeria
+|     +--| (100)
+|     |  |        +--------E_MB28_Belgium_2009_Rwanda
+|     |  |     +--| (65)
+|     |  |     |  +---------------E_MB30_Belgium_2008_Cameroon
+|     |  |  +--| (99)
+|     |  |  |  +---------E_MB117_Belgium_2009_Cameroon
+|     |  +--| (80)
+|     |     |     +-------E_MB59_Belgium_2006_Cameroon
+|     |     |  +--| (100)
+|     |     |  |  |  +--E_MB80_Belgium_2007_Cameroon
+|     |     |  |  +**| (100)
+|     |     |  |     +--E_MB87_Belgium_2007_Cameroon
+|     |     +**| (89)
+|     |        +---E_HM363573_Nigeria_2007_Nigeria
+|  +**| (99)
+|  |  +--E_AB194947_Cameroon_1994_Cameroon
++--| (100)
+|  +--E_MB40_Belgium_2008_Cameroon
+|
++**E_MB101_Belgium_2006_Cameroon
+
+Tree in newick format:
+
+(E_MB8_Belgium_2008_IvoryCoast:0.0003113714,((((((((((((((((((((((((((E_MB13_Belgium_2008_Guinea:0.0128089695,E_MB115_Belgium_2008_Guinea:0.0000029071)100:0.0096816539,E_GQ161768_Guinea_2006_Guinea:0.0091806316)96:0.0022242126,(E_MB79_Belgium_2008_IvoryCoast:0.0006218356,E_MB74_Belgium_2007_Ivorycoast:0.0012482561)100:0.0030085322)77:0.0003316906,(E_GQ161796_Guinea_2006_Guinea:0.0086840196,E_GQ161826_Guinea_2006_Guinea:0.0063476391)93:0.0010191482)100:0.0019676978,E_MB37_Belgium_2009_Burundi:0.0065745499)78:0.0006194692,(E_FJ349239_Belgium_2007_Belgium:0.0037532232,(E_GQ161822_Guinea_2006_Guinea:0.0019913838,E_GQ161833_Guinea_2006_Guinea:0.0000022291)100:0.0037528191)97:0.0018688006)37:0.0000020118,((((E_MB26_Belgium_2009_Guinea:0.0138377045,((E_GQ161756_Guinea_2006_Guinea:0.0003139360,E_GQ161795_Guinea_2006_Guinea:0.0000022125)100:0.0031567200,E_GQ161823_Guinea_2006_Guinea:0.0100497956)90:0.0006436321)88:0.0003123100,((E_MB118_Belgium_2008_Guinea:0.0021820718,E_GQ161807_Guinea_2006_Guinea:0.0100343141)95:0.0000026363,E_GQ161761_Guinea_2006_Guinea:0.0015579503)99:0.0009340336)79:0.0000029154,E_GQ161830_Guinea_2006_Guinea:0.0030569255)99:0.0021821844,(((E_MB78_Belgium_2007_Congo:0.0065461957,(E_MB141_Belgium_2010_Mozambique:0.0024717703,(E_GQ161763_Guinea_2006_Guinea:0.0006218123,E_GQ161777_Guinea_2006_Guinea:0.0000022125)91:0.0009596189)100:0.0018762745)90:0.0006435657,(((E_MB68_Belgium_2006_IvoryCoast:0.0056341903,(E_GQ161785_Guinea_2006_Guinea:0.0069001155,E_GQ161836_Guinea_2006_Guinea:0.0046977881)99:0.0018673733)97:0.0006196462,E_GQ161794_Guinea_2006_Guinea:0.0056251264)95:0.0000023653,E_GQ161817_Guinea_2006_Guinea:0.0021824373)100:0.0012482186)80:0.0003111924,E_FJ349227_Belgium_1998_Belgium:0.0129244957)48:0.0003123143)26:0.0000022268)47:0.0000020546,E_GQ161820_Guinea_2006_Guinea:0.0006255132)30:0.0003092094,((((((((E_MB82_Belgium_2007_Guinea:0.0065810973,E_GQ161834_Guinea_2006_Guinea:0.0068779199)94:0.0005120168,E_MB57_Belgium_2008_Congo:0.0169762229)72:0.0011312356,E_GQ161801_Guinea_2006_Guinea:0.0024955329)40:0.0000021221,((((E_GQ161770_Guinea_2006_Guinea:0.0006229236,(E_GQ161791_Guinea_2006_Guinea:0.0003113971,(E_GQ161800_Guinea_2006_Guinea:0.0000022125,E_GQ161819_Guinea_2006_Guinea:0.0000022125)91:0.0000022125)81:0.0000022125)94:0.0006222758,E_GQ161829_Guinea_2006_Guinea:0.0009355088)91:0.0014593246,(E_GQ161793_Guinea_2006_Guinea:0.0003102453,E_GQ161827_Guinea_2006_Guinea:0.0003114416)100:0.0017887553)75:0.0004949607,(E_GQ161772_Guinea_2006_Guinea:0.0008888310,E_GQ161787_Guinea_2006_Guinea:0.0010450364)100:0.0005593320)66:0.0003108688)32:0.0000022118,E_GQ161764_Guinea_2006_Guinea:0.0018699457)52:0.0003114316,((((E_MB76_Belgium_2007_Guinea:0.0194858871,E_GQ161797_Guinea_2006_Guinea:0.0064992566)74:0.0028357431,E_GQ161803_Guinea_2006_Guinea:0.0058414791)61:0.0003549158,((E_GQ161773_Guinea_2006_Guinea:0.0000022125,E_GQ161802_Guinea_2006_Guinea:0.0000022125)100:0.0068533992,E_GQ161786_Guinea_2006_Guinea:0.0094878792)86:0.0009121964)57:0.0003682249,E_GQ161759_Guinea_2006_Guinea:0.0034349961)61:0.0003108120)65:0.0003114307,E_GQ161798_Guinea_2006_Guinea:0.0024954208)4:0.0000028126,(((E_MB136_Belgium_2010_IvoryCoast:0.0018717192,(E_GQ161755_Guinea_2006_Guinea:0.0015591392,E_GQ161835_Guinea_2006_Guinea:0.0003103626)100:0.0015614246)100:0.0031294772,E_GQ161771_Guinea_2006_Guinea:0.0043784966)17:0.0003040131,((((E_FJ349237_Belgium_2005_Belgium:0.0006224008,E_FJ349238_Belgium_2007_Belgium:0.0006230208)100:0.0028177370,E_AB194948_Cameroon_1994_Cameroon:0.0144780499)97:0.0006177092,E_GQ161832_Guinea_2006_Guinea:0.0028083207)97:0.0006228822,E_GQ161781_Guinea_2006_Guinea:0.0012467171)95:0.0003111589)2:0.0000022110)5:0.0000028286)15:0.0000023217,((E_MB19_Belgium_2009_Guinea:0.0062300412,(((E_GQ161782_Guinea_2006_Guinea:0.0003115027,E_GQ161792_Guinea_2006_Guinea:0.0006231480)100:0.0003097790,E_GQ161814_Guinea_2006_Guinea:0.0015613274)100:0.0023619551,E_GQ161812_Guinea_2006_Guinea:0.0046202180)100:0.0011039282)98:0.0006901494,E_GQ161804_Guinea_2006_Guinea:0.0012467935)57:0.0003109881)42:0.0003122508,((E_GQ161776_Guinea_2006_Guinea:0.0000022125,E_GQ161789_Guinea_2006_Guinea:0.0000022125)93:0.0000024628,E_GQ161784_Guinea_2006_Guinea:0.0003112929)100:0.0059401168)48:0.0000248295,(E_GQ161765_Guinea_2006_Guinea:0.0009871719,(E_GQ161769_Guinea_2006_Guinea:0.0000028926,E_GQ161779_Guinea_2006_Guinea:0.0009346349)100:0.0027976430)99:0.0027695496)56:0.0008398738,E_GQ161816_Guinea_2006_Guinea:0.0019421160)59:0.0006237145,E_GQ161780_Guinea_2006_Guinea:0.0030507227)58:0.0003825163,((((E_MB43_Belgium_2009_Niger:0.0062909416,E_MB83_Belgium_2007_Guinea:0.0136253755)99:0.0009064516,E_MB75_Belgium_2007_Guinea:0.0075154716)97:0.0003081557,(((E_MB21_Belgium_2009_Guinea:0.0041128499,(E_GQ161783_Guinea_2006_Guinea:0.0000022125,E_GQ161824_Guinea_2006_Guinea:0.0000022125)100:0.0071176690)96:0.0005080223,E_GQ161815_Guinea_2006_Guinea:0.0040173010)99:0.0014382556,(E_GQ161757_Guinea_2006_Guinea:0.0106701894,((E_GQ161760_Guinea_2006_Guinea:0.0083802340,E_GQ161808_Guinea_2006_Guinea:0.0003837536)73:0.0006255038,(E_GQ161778_Guinea_2006_Guinea:0.0000025426,E_GQ161810_Guinea_2006_Guinea:0.0003111248)100:0.0031839325)100:0.0011863455)100:0.0003764831)99:0.0008700818)98:0.0003085886,(E_GQ161790_Guinea_2006_Guinea:0.0006643039,(((E_GQ161799_Guinea_2006_Guinea:0.0000022125,E_GQ161821_Guinea_2006_Guinea:0.0006459176)96:0.0000022508,E_GQ161818_Guinea_2006_Guinea:0.0022659545)100:0.0003228638,E_GQ161805_Guinea_2006_Guinea:0.0009691504)92:0.0000022573)100:0.0043340879)100:0.0015619465)58:0.0003113957,((E_MB50_Belgium_2008_Niger:0.0006614979,E_MB54_Belgium_2009_Nigeria:0.0126333714)100:0.0038110703,(E_MB77_Belgium_2007_Ghana:0.0116441800,E_MB129_Belgium_2007_Ghana:0.0128994309)94:0.0015730730)100:0.0030918225)18:0.0000023609,((((E_MB36_Belgium_2009_Congo:0.0028754589,(E_MB122_Belgium_2009_Congo:0.0031396113,E_MB53_Belgium_2009_Rwanda:0.0009335510)100:0.0093995075)96:0.0009302920,E_KF170742_Sudan_2008_Sudan:0.0027466825)98:0.0009976324,(((((E_MB65_Belgium_2006_Cameroon:0.0065218657,E_FJ349240_Belgium_2007_Belgium:0.0110211859)75:0.0013355286,E_HM363608_Nigeria_2007_Nigeria:0.0160534408)72:0.0002286716,((E_FN545827_Cameroon_2005_Cameroon:0.0037292731,E_FN545841_Cameroon_2007_Cameroon:0.0025364910)92:0.0007140049,E_FN545842_Cameroon_2007_Cameroon:0.0073873381)81:0.0016031593)95:0.0010258854,((E_G1961_Belgium_1996_Belgium:0.0000022952,E_FJ349226_Belgium_1995_Belgium:0.0003108718)100:0.0065418783,(E_HM363571_Nigeria_2007_Nigeria:0.0015632120,E_HM363572_Nigeria_2007_Nigeria:0.0071986153)99:0.0017691264)95:0.0004466839)86:0.0000025028,(E_HM363569_Nigeria_2007_Nigeria:0.0009343509,E_HM363570_Nigeria_2007_Nigeria:0.0009357613)100:0.0040590363)93:0.0009352127)88:0.0006227094,(E_MB25_Belgium_2009_Mauritania:0.0024054939,E_MB85_Belgium_2007_Mauritania:0.0039325338)100:0.0055446626)51:0.0000022095)23:0.0000021590,((((((E_MB15_Belgium_2009_Guinea:0.0003109739,E_MB102_Belgium_2009_Guinea:0.0000023804)100:0.0037696470,(E_GQ161758_Guinea_2006_Guinea:0.0000022688,E_GQ161766_Guinea_2006_Guinea:0.0000024127)100:0.0078243887)78:0.0009244426,E_GQ161809_Guinea_2006_Guinea:0.0087764340)74:0.0000023407,E_GQ161811_Guinea_2006_Guinea:0.0071885169)98:0.0009489333,(E_MB39_Belgium_2009_Guinea:0.0085106284,E_MB143_Belgium_2010_Guinea:0.0051838230)100:0.0048689428)98:0.0012483305,((E_MB99_Belgium_2008_Nigeria:0.0056181467,(E_FN545822_Nigeria_2005_Nigeria:0.0129307817,E_AB205190_Ghana_2000_Ghana:0.0094756070)85:0.0012028679)79:0.0001813430,((E_GU563552_Belgium_2003_Belgium:0.0333754924,E_AB205189_Ghana_2000_Ghana:0.0050195838)95:0.0004276043,E_AB205191_Ghana_2000_Ghana:0.0036140153)94:0.0021866705)83:0.0010751812)83:0.0003105055)71:0.0003113618,(((((((((((E_MB20_Belgium_2009_Congo:0.0000022187,E_MB61_Belgium_2006_Congo:0.0003114282)100:0.0024977073,E_KF849723_Angola_2007_Angola:0.0046906518)100:0.0012452596,((E_KF849717_Angola_2007_Angola:0.0056467514,(E_JQ023664_Colombia_2007_Colombia:0.0028085468,E_JQ023665_Colombia_2007_Colombia:0.0040712859)100:0.0119849067)58:0.0006020331,(E_KF849719_Angola_2007_Angola:0.0028084240,E_KF849722_Angola_2007_Angola:0.0018713023)78:0.0003098799)22:0.0000024929)27:0.0003091770,(E_KF849713_Angola_2007_Angola:0.0024955947,E_KF849721_Angola_2007_Angola:0.0018742418)60:0.0006225283)41:0.0000029135,(((E_MB126_Belgium_2007_Zimbabwe:0.0078353643,E_KF849724_Angola_2007_Angola:0.0085179194)80:0.0018522505,E_KF849718_Angola_2007_Angola:0.0040410194)37:0.0003343181,(E_KF849716_Angola_2007_Angola:0.0043822215,((E_AY738147_Congo_1998_Congo:0.0012461218,E_AY738146_Congo_1998_Congo:0.0006228524)96:0.0000026666,(E_AY738145_Congo_1998_Congo:0.0003108016,E_AY738144_Congo_1998_Congo:0.0009347941)100:0.0003114508)100:0.0052858659)96:0.0006509377)30:0.0000020497)32:0.0006227724,E_KF849726_Angola_2007_Angola:0.0071979775)26:0.0000026428,(((((E_MB93_Belgium_2007_Congo:0.0004965406,E_MB109_Belgium_2008_Mauritania:0.0013920675)100:0.0162127467,E_KF849728_Angola_2007_Angola:0.0080325675)100:0.0029332881,E_KF849725_Angola_2007_Angola:0.0045583978)76:0.0010657378,(E_MB29_Belgium_2009_Congo:0.0034312129,E_KF849720_Angola_2007_Angola:0.0103726992)95:0.0000022705)67:0.0006226541,((E_MB104_Belgium_2008_Congo:0.0056303075,(E_KF849714_Angola_2007_Angola:0.0021096102,E_KF849715_Angola_2007_Angola:0.0053222419)100:0.0006988838)79:0.0003099992,E_MB134_Belgium_2009_Congo:0.0024956899)71:0.0003116187)16:0.0000022125)35:0.0000024245,E_KF849727_Angola_2007_Angola:0.0040977960)100:0.0031282383,((E_MB97_Belgium_2009_Guinea:0.0056096323,E_MB91_Belgium_2007_Rwanda:0.0025032623)90:0.0018754165,E_KF170741_Sudan_2008_Sudan:0.0078423667)84:0.0009324819)69:0.0003044518,(E_MB23_Belgium_2009_Rwanda:0.0037527669,E_MB6_Belgium_2008_Niger:0.0107299072)98:0.0021848470)84:0.0009396505,E_HM363609_Nigeria_2007_Nigeria:0.0167107874)60:0.0006187987)26:0.0003136197,(E_HM363574_Nigeria_2007_Nigeria:0.0075064886,(E_FN545824_Nigeria_2005_Nigeria:0.0072965489,E_AB205192_Ghana_2000_Ghana:0.0071109973)74:0.0010656537)31:0.0000027572)38:0.0006228938,((((E_MB24_Belgium_2009_Guinea:0.0063329130,E_MB51_Belgium_2009_Guinea:0.0181793004)100:0.0029221286,(((E_MB148_Belgium_2010_Niger:0.0208948980,E_MB44_Belgium_2009_Ghana:0.0092147426)91:0.0016126518,E_MB70_Belgium_2006_Guinea:0.0140117248)72:0.0021581902,(((E_57a_Belgium_2002_Belgium:0.0113557725,E_AB205188_Ghana_2000_Ghana:0.0104058256)92:0.0015919851,E_GQ161831_Guinea_2006_Guinea:0.0119832600)49:0.0003339737,E_FN545823_Nigeria_2005_Nigeria:0.0072955534)47:0.0007555657)39:0.0006885065)19:0.0008005836,(((E_MB41_Belgium_2008_Mauritania:0.0031385020,E_MB69_Belgium_2006_Mauritania:0.0006076646)100:0.0038105455,E_GQ161762_Guinea_2006_Guinea:0.0040239445)100:0.0043932643,E_MB111_Belgium_2009_BurkinaFaso:0.0102768094)27:0.0010153086)31:0.0010915706,(E_MB108_Belgium_2008_Mauritania:0.0106391094,E_GQ161825_Guinea_2006_Guinea:0.0132018145)80:0.0029401884)24:0.0000023334)55:0.0003117845,(((((E_HM363565_Nigeria_2007_Nigeria:0.0120145584,E_HM363566_Nigeria_2007_Nigeria:0.0101704071)100:0.0039303146,((E_HM363599_Nigeria_2007_Nigeria:0.0115873611,E_HM363611_Nigeria_2007_Nigeria:0.0227229296)46:0.0012751932,E_HM363603_Nigeria_2007_Nigeria:0.0137115877)44:0.0011101675)44:0.0017480781,(E_HM363594_Nigeria_2007_Nigeria:0.0078574288,((E_HM363598_Nigeria_2007_Nigeria:0.0131868546,E_FN545821_Nigeria_2005_Nigeria:0.0087718944)83:0.0005806999,E_HM363605_Nigeria_2007_Nigeria:0.0160026838)51:0.0007651584)51:0.0003564362)22:0.0005930905,(((((E_HM363588_Nigeria_2007_Nigeria:0.0006250183,E_HM363601_Nigeria_2007_Nigeria:0.0116181603)71:0.0003053540,E_HM363589_Nigeria_2007_Nigeria:0.0024988731)77:0.0021879515,E_HM363590_Nigeria_2007_Nigeria:0.0024973982)77:0.0006288134,E_HM363610_Nigeria_2007_Nigeria:0.0183070030)31:0.0006226174,(E_HM363591_Nigeria_2007_Nigeria:0.0009269321,E_HM363597_Nigeria_2007_Nigeria:0.0087907072)100:0.0024980959)31:0.0015666831)15:0.0000025777,((((((((E_HM363567_Nigeria_2007_Nigeria:0.0012849711,E_HM363604_Nigeria_2007_Nigeria:0.0115904236)100:0.0066093771,E_HM363568_Nigeria_2007_Nigeria:0.0009871468)100:0.0027612527,(E_HM363586_Nigeria_2007_Nigeria:0.0023924954,E_HM363602_Nigeria_2007_Nigeria:0.0115880447)100:0.0035975792)77:0.0003065679,E_HM363587_Nigeria_2007_Nigeria:0.0059390403)72:0.0000026474,E_HM363592_Nigeria_2007_Nigeria:0.0062510939)100:0.0009356592,E_HM363593_Nigeria_2007_Nigeria:0.0071995719)65:0.0006299498,((E_HM363579_Nigeria_2007_Nigeria:0.0003115637,E_HM363580_Nigeria_2007_Nigeria:0.0003111286)79:0.0003112249,E_HM363581_Nigeria_2007_Nigeria:0.0000022119)100:0.0062437509)36:0.0003121422,((E_HM363582_Nigeria_2007_Nigeria:0.0018721704,(E_HM363583_Nigeria_2007_Nigeria:0.0000022308,E_HM363584_Nigeria_2007_Nigeria:0.0049989518)100:0.0031243990)100:0.0028830908,(E_HM363585_Nigeria_2007_Nigeria:0.0030225748,E_HM363600_Nigeria_2007_Nigeria:0.0136994408)83:0.0017065900)67:0.0012884848)39:0.0003190941)47:0.0012438485)38:0.0003132016,(((E_HM363575_Nigeria_2007_Nigeria:0.0014247792,E_HM363576_Nigeria_2007_Nigeria:0.0026307198)100:0.0036148548,(E_HM363595_Nigeria_2007_Nigeria:0.0081614159,E_HM363607_Nigeria_2007_Nigeria:0.0149113064)62:0.0029202834)56:0.0012126189,(E_HM363577_Nigeria_2007_Nigeria:0.0029867638,(E_HM363578_Nigeria_2007_Nigeria:0.0058618957,E_HM363596_Nigeria_2007_Nigeria:0.0107552516)62:0.0009677339)79:0.0007616612)38:0.0006186887)100:0.0028103493,(((E_MB28_Belgium_2009_Rwanda:0.0069638278,E_MB30_Belgium_2008_Cameroon:0.0124140995)65:0.0014147271,E_MB117_Belgium_2009_Cameroon:0.0083507830)99:0.0019895453,((E_MB59_Belgium_2006_Cameroon:0.0061253700,(E_MB80_Belgium_2007_Cameroon:0.0018714855,E_MB87_Belgium_2007_Cameroon:0.0006232930)100:0.0003077613)100:0.0012531196,E_HM363573_Nigeria_2007_Nigeria:0.0037444055)89:0.0003107541)80:0.0003114381)100:0.0012499780,E_AB194947_Cameroon_1994_Cameroon:0.0021843438)99:0.0003091149,E_MB40_Belgium_2008_Cameroon:0.0012479920)100:0.0021843992,E_MB101_Belgium_2006_Cameroon:0.0000022125);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -38775.074778
+Robinson-Foulds distance between ML tree and consensus tree: 16
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--E_MB8_Belgium_2008_IvoryCoast
+|
+|                                                                                      +---------------E_MB13_Belgium_2008_Guinea
+|                                                                          +-----------| (100)
+|                                                                          |           +--E_MB115_Belgium_2008_Guinea
+|                                                                       +--| (96)
+|                                                                       |  +-----------E_GQ161768_Guinea_2006_Guinea
+|                                                                    +--| (77)
+|                                                                    |  |  +--E_MB79_Belgium_2008_IvoryCoast
+|                                                                    |  +--| (100)
+|                                                                    |     +--E_MB74_Belgium_2007_Ivorycoast
+|                                                                 +--| (100)
+|                                                                 |  |  +----------E_GQ161796_Guinea_2006_Guinea
+|                                                                 |  +--| (93)
+|                                                                 |     +-------E_GQ161826_Guinea_2006_Guinea
+|                                                              +--| (78)
+|                                                              |  +-------E_MB37_Belgium_2009_Burundi
+|                                                           +--| (37)
+|                                                           |  |  +---E_FJ349239_Belgium_2007_Belgium
+|                                                           |  +--| (97)
+|                                                           |     |   +--E_GQ161822_Guinea_2006_Guinea
+|                                                           |     +---| (100)
+|                                                           |         +--E_GQ161833_Guinea_2006_Guinea
+|                                                        +--| (47)
+|                                                        |  |           +-----------------E_MB26_Belgium_2009_Guinea
+|                                                        |  |        +--| (88)
+|                                                        |  |        |  |      +--E_GQ161756_Guinea_2006_Guinea
+|                                                        |  |        |  |  +---| (100)
+|                                                        |  |        |  |  |   +--E_GQ161795_Guinea_2006_Guinea
+|                                                        |  |        |  +--| (90)
+|                                                        |  |        |     +------------E_GQ161823_Guinea_2006_Guinea
+|                                                        |  |     +--| (79)
+|                                                        |  |     |  |     +--E_MB118_Belgium_2008_Guinea
+|                                                        |  |     |  |  +--| (95)
+|                                                        |  |     |  |  |  +------------E_GQ161807_Guinea_2006_Guinea
+|                                                        |  |     |  +--| (99)
+|                                                        |  |     |     +--E_GQ161761_Guinea_2006_Guinea
+|                                                        |  |  +--| (99)
+|                                                        |  |  |  +---E_GQ161830_Guinea_2006_Guinea
+|                                                        |  +--| (26)
+|                                                        |     |        +-------E_MB78_Belgium_2007_Congo
+|                                                        |     |     +--| (90)
+|                                                        |     |     |  |  +--E_MB141_Belgium_2010_Mozambique
+|                                                        |     |     |  +--| (100)
+|                                                        |     |     |     |  +--E_GQ161763_Guinea_2006_Guinea
+|                                                        |     |     |     +--| (91)
+|                                                        |     |     |        +--E_GQ161777_Guinea_2006_Guinea
+|                                                        |     |  +--| (80)
+|                                                        |     |  |  |        +------E_MB68_Belgium_2006_IvoryCoast
+|                                                        |     |  |  |     +--| (97)
+|                                                        |     |  |  |     |  |  +--------E_GQ161785_Guinea_2006_Guinea
+|                                                        |     |  |  |     |  +--| (99)
+|                                                        |     |  |  |     |     +-----E_GQ161836_Guinea_2006_Guinea
+|                                                        |     |  |  |  +--| (95)
+|                                                        |     |  |  |  |  +------E_GQ161794_Guinea_2006_Guinea
+|                                                        |     |  |  +--| (100)
+|                                                        |     |  |     +--E_GQ161817_Guinea_2006_Guinea
+|                                                        |     +--| (48)
+|                                                        |        +---------------E_FJ349227_Belgium_1998_Belgium
+|                                                     +--| (30)
+|                                                     |  +--E_GQ161820_Guinea_2006_Guinea
+|                                                  +--| (15)
+|                                                  |  |                       +-------E_MB82_Belgium_2007_Guinea
+|                                                  |  |                    +--| (94)
+|                                                  |  |                    |  +--------E_GQ161834_Guinea_2006_Guinea
+|                                                  |  |                 +--| (72)
+|                                                  |  |                 |  +---------------------E_MB57_Belgium_2008_Congo
+|                                                  |  |              +--| (40)
+|                                                  |  |              |  +--E_GQ161801_Guinea_2006_Guinea
+|                                                  |  |           +--| (32)
+|                                                  |  |           |  |           +--E_GQ161770_Guinea_2006_Guinea
+|                                                  |  |           |  |        +--| (94)
+|                                                  |  |           |  |        |  |  +--E_GQ161791_Guinea_2006_Guinea
+|                                                  |  |           |  |        |  +--| (81)
+|                                                  |  |           |  |        |     |  +--E_GQ161800_Guinea_2006_Guinea
+|                                                  |  |           |  |        |     +--| (91)
+|                                                  |  |           |  |        |        +--E_GQ161819_Guinea_2006_Guinea
+|                                                  |  |           |  |     +--| (91)
+|                                                  |  |           |  |     |  +--E_GQ161829_Guinea_2006_Guinea
+|                                                  |  |           |  |  +--| (75)
+|                                                  |  |           |  |  |  |  +--E_GQ161793_Guinea_2006_Guinea
+|                                                  |  |           |  |  |  +--| (100)
+|                                                  |  |           |  |  |     +--E_GQ161827_Guinea_2006_Guinea
+|                                                  |  |           |  +--| (66)
+|                                                  |  |           |     |  +--E_GQ161772_Guinea_2006_Guinea
+|                                                  |  |           |     +--| (100)
+|                                                  |  |           |        +--E_GQ161787_Guinea_2006_Guinea
+|                                                  |  |        +--| (52)
+|                                                  |  |        |  +--E_GQ161764_Guinea_2006_Guinea
+|                                                  |  |     +--| (65)
+|                                                  |  |     |  |           +------------------------E_MB76_Belgium_2007_Guinea
+|                                                  |  |     |  |        +--| (74)
+|                                                  |  |     |  |        |  +-------E_GQ161797_Guinea_2006_Guinea
+|                                                  |  |     |  |     +--| (61)
+|                                                  |  |     |  |     |  +------E_GQ161803_Guinea_2006_Guinea
+|                                                  |  |     |  |  +--| (57)
+|                                                  |  |     |  |  |  |          +--E_GQ161773_Guinea_2006_Guinea
+|                                                  |  |     |  |  |  |  +-------| (100)
+|                                                  |  |     |  |  |  |  |       +--E_GQ161802_Guinea_2006_Guinea
+|                                                  |  |     |  |  |  +--| (86)
+|                                                  |  |     |  |  |     +-----------E_GQ161786_Guinea_2006_Guinea
+|                                                  |  |     |  +--| (61)
+|                                                  |  |     |     +---E_GQ161759_Guinea_2006_Guinea
+|                                                  |  |  +--| (8)
+|                                                  |  |  |  |              +--E_FJ349237_Belgium_2005_Belgium
+|                                                  |  |  |  |           +--| (100)
+|                                                  |  |  |  |           |  +--E_FJ349238_Belgium_2007_Belgium
+|                                                  |  |  |  |        +--| (97)
+|                                                  |  |  |  |        |  +-----------------E_AB194948_Cameroon_1994_Cameroon
+|                                                  |  |  |  |     +--| (97)
+|                                                  |  |  |  |     |  +--E_GQ161832_Guinea_2006_Guinea
+|                                                  |  |  |  |  +--| (95)
+|                                                  |  |  |  |  |  +--E_GQ161781_Guinea_2006_Guinea
+|                                                  |  |  |  +--| (41)
+|                                                  |  |  |     +-----E_GQ161771_Guinea_2006_Guinea
+|                                                  |  +--| (5)
+|                                                  |     |      +--E_MB136_Belgium_2010_IvoryCoast
+|                                                  |     |  +---| (100)
+|                                                  |     |  |   |  +--E_GQ161755_Guinea_2006_Guinea
+|                                                  |     |  |   +--| (100)
+|                                                  |     |  |      +--E_GQ161835_Guinea_2006_Guinea
+|                                                  |     +--| (39)
+|                                                  |        +--E_GQ161798_Guinea_2006_Guinea
+|                                               +--| (42)
+|                                               |  |     +-------E_MB19_Belgium_2009_Guinea
+|                                               |  |  +--| (98)
+|                                               |  |  |  |        +--E_GQ161782_Guinea_2006_Guinea
+|                                               |  |  |  |     +--| (100)
+|                                               |  |  |  |     |  +--E_GQ161792_Guinea_2006_Guinea
+|                                               |  |  |  |  +--| (100)
+|                                               |  |  |  |  |  +--E_GQ161814_Guinea_2006_Guinea
+|                                               |  |  |  +--| (100)
+|                                               |  |  |     +-----E_GQ161812_Guinea_2006_Guinea
+|                                               |  +--| (57)
+|                                               |     +--E_GQ161804_Guinea_2006_Guinea
+|                                            +--| (48)
+|                                            |  |            +**E_GQ161776_Guinea_2006_Guinea
+|                                            |  |         +--|
+|                                            |  |         |  +**E_GQ161828_Guinea_2006_Guinea
+|                                            |  |      +--| (93)
+|                                            |  |      |  +--E_GQ161789_Guinea_2006_Guinea
+|                                            |  +------| (100)
+|                                            |         +--E_GQ161784_Guinea_2006_Guinea
+|                                         +--| (56)
+|                                         |  |  +--E_GQ161765_Guinea_2006_Guinea
+|                                         |  +--| (99)
+|                                         |     |  +--E_GQ161769_Guinea_2006_Guinea
+|                                         |     +--| (100)
+|                                         |        +--E_GQ161779_Guinea_2006_Guinea
+|                                      +--| (59)
+|                                      |  +--E_GQ161816_Guinea_2006_Guinea
+|                                   +--| (58)
+|                                   |  +--E_GQ161780_Guinea_2006_Guinea
+|                                +--| (58)
+|                                |  |           +-------E_MB43_Belgium_2009_Niger
+|                                |  |        +--| (99)
+|                                |  |        |  +----------------E_MB83_Belgium_2007_Guinea
+|                                |  |     +--| (97)
+|                                |  |     |  +--------E_MB75_Belgium_2007_Guinea
+|                                |  |  +--| (98)
+|                                |  |  |  |        +----E_MB21_Belgium_2009_Guinea
+|                                |  |  |  |     +--| (96)
+|                                |  |  |  |     |  |        +--E_GQ161783_Guinea_2006_Guinea
+|                                |  |  |  |     |  +--------| (100)
+|                                |  |  |  |     |           +--E_GQ161824_Guinea_2006_Guinea
+|                                |  |  |  |  +--| (99)
+|                                |  |  |  |  |  +----E_GQ161815_Guinea_2006_Guinea
+|                                |  |  |  +--| (99)
+|                                |  |  |     |  +------------E_GQ161757_Guinea_2006_Guinea
+|                                |  |  |     +--| (100)
+|                                |  |  |        |     +---------E_GQ161760_Guinea_2006_Guinea
+|                                |  |  |        |  +--| (73)
+|                                |  |  |        |  |  +--E_GQ161808_Guinea_2006_Guinea
+|                                |  |  |        +--| (100)
+|                                |  |  |           |   +--E_GQ161778_Guinea_2006_Guinea
+|                                |  |  |           +---| (100)
+|                                |  |  |               +--E_GQ161810_Guinea_2006_Guinea
+|                                |  +--| (100)
+|                                |     |    +--E_GQ161790_Guinea_2006_Guinea
+|                                |     +----| (100)
+|                                |          |        +--E_GQ161799_Guinea_2006_Guinea
+|                                |          |     +--| (96)
+|                                |          |     |  +--E_GQ161821_Guinea_2006_Guinea
+|                                |          |  +--| (100)
+|                                |          |  |  +--E_GQ161818_Guinea_2006_Guinea
+|                                |          +--| (92)
+|                                |             +--E_GQ161805_Guinea_2006_Guinea
+|                             +--| (13)
+|                             |  |                  +--E_MB15_Belgium_2009_Guinea
+|                             |  |              +---| (100)
+|                             |  |              |   +--E_MB102_Belgium_2009_Guinea
+|                             |  |           +--| (78)
+|                             |  |           |  |            +**E_GQ161758_Guinea_2006_Guinea
+|                             |  |           |  |         +--|
+|                             |  |           |  |         |  +**E_GQ161774_Guinea_2006_Guinea
+|                             |  |           |  +---------| (100)
+|                             |  |           |            +--E_GQ161766_Guinea_2006_Guinea
+|                             |  |        +--| (74)
+|                             |  |        |  +----------E_GQ161809_Guinea_2006_Guinea
+|                             |  |     +--| (98)
+|                             |  |     |  +--------E_GQ161811_Guinea_2006_Guinea
+|                             |  |  +--| (98)
+|                             |  |  |  |     +----------E_MB39_Belgium_2009_Guinea
+|                             |  |  |  +-----| (100)
+|                             |  |  |        +-----E_MB143_Belgium_2010_Guinea
+|                             |  +--| (83)
+|                             |     |     +------E_MB99_Belgium_2008_Nigeria
+|                             |     |  +--| (79)
+|                             |     |  |  |  +---------------E_FN545822_Nigeria_2005_Nigeria
+|                             |     |  |  +--| (85)
+|                             |     |  |     +-----------E_AB205190_Ghana_2000_Ghana
+|                             |     +--| (83)
+|                             |        |     +------------------------------------------E_GU563552_Belgium_2003_Belgium
+|                             |        |  +--| (95)
+|                             |        |  |  +-----E_AB205189_Ghana_2000_Ghana
+|                             |        +--| (94)
+|                             |           +---E_AB205191_Ghana_2000_Ghana
+|                          +--| (23)
+|                          |  |           +--E_MB36_Belgium_2009_Congo
+|                          |  |        +--| (96)
+|                          |  |        |  |           +---E_MB122_Belgium_2009_Congo
+|                          |  |        |  +-----------| (100)
+|                          |  |        |              +--E_MB53_Belgium_2009_Rwanda
+|                          |  |     +--| (98)
+|                          |  |     |  +--E_KF170742_Sudan_2008_Sudan
+|                          |  |  +--| (88)
+|                          |  |  |  |              +-------E_MB65_Belgium_2006_Cameroon
+|                          |  |  |  |           +--| (75)
+|                          |  |  |  |           |  +-------------E_FJ349240_Belgium_2007_Belgium
+|                          |  |  |  |        +--| (72)
+|                          |  |  |  |        |  +--------------------E_HM363608_Nigeria_2007_Nigeria
+|                          |  |  |  |     +--| (95)
+|                          |  |  |  |     |  |     +---E_FN545827_Cameroon_2005_Cameroon
+|                          |  |  |  |     |  |  +--| (92)
+|                          |  |  |  |     |  |  |  +--E_FN545841_Cameroon_2007_Cameroon
+|                          |  |  |  |     |  +--| (81)
+|                          |  |  |  |     |     +--------E_FN545842_Cameroon_2007_Cameroon
+|                          |  |  |  |  +--| (86)
+|                          |  |  |  |  |  |          +--E_G1961_Belgium_1996_Belgium
+|                          |  |  |  |  |  |  +-------| (100)
+|                          |  |  |  |  |  |  |       +--E_FJ349226_Belgium_1995_Belgium
+|                          |  |  |  |  |  +--| (95)
+|                          |  |  |  |  |     |  +--E_HM363571_Nigeria_2007_Nigeria
+|                          |  |  |  |  |     +--| (99)
+|                          |  |  |  |  |        +--------E_HM363572_Nigeria_2007_Nigeria
+|                          |  |  |  +--| (93)
+|                          |  |  |     |    +--E_HM363569_Nigeria_2007_Nigeria
+|                          |  |  |     +----| (100)
+|                          |  |  |          +--E_HM363570_Nigeria_2007_Nigeria
+|                          |  +--| (51)
+|                          |     |      +--E_MB25_Belgium_2009_Mauritania
+|                          |     +------| (100)
+|                          |            +----E_MB85_Belgium_2007_Mauritania
+|                       +--| (71)
+|                       |  |       +--E_MB50_Belgium_2008_Niger
+|                       |  |   +---| (100)
+|                       |  |   |   +---------------E_MB54_Belgium_2009_Nigeria
+|                       |  +---| (100)
+|                       |      |  +--------------E_MB77_Belgium_2007_Ghana
+|                       |      +--| (94)
+|                       |         +---------------E_MB129_Belgium_2007_Ghana
+|                    +--| (26)
+|                    |  |                                 +--E_MB20_Belgium_2009_Congo
+|                    |  |                              +--| (100)
+|                    |  |                              |  +--E_MB61_Belgium_2006_Congo
+|                    |  |                           +--| (100)
+|                    |  |                           |  +-----E_KF849723_Angola_2007_Angola
+|                    |  |                        +--| (27)
+|                    |  |                        |  |     +------E_KF849717_Angola_2007_Angola
+|                    |  |                        |  |  +--| (58)
+|                    |  |                        |  |  |  |              +--E_JQ023664_Colombia_2007_Colombia
+|                    |  |                        |  |  |  +--------------| (100)
+|                    |  |                        |  |  |                 +----E_JQ023665_Colombia_2007_Colombia
+|                    |  |                        |  +--| (22)
+|                    |  |                        |     |  +--E_KF849719_Angola_2007_Angola
+|                    |  |                        |     +--| (78)
+|                    |  |                        |        +--E_KF849722_Angola_2007_Angola
+|                    |  |                     +--| (41)
+|                    |  |                     |  |  +--E_KF849713_Angola_2007_Angola
+|                    |  |                     |  +--| (60)
+|                    |  |                     |     +--E_KF849721_Angola_2007_Angola
+|                    |  |                  +--| (32)
+|                    |  |                  |  |        +---------E_MB126_Belgium_2007_Zimbabwe
+|                    |  |                  |  |     +--| (80)
+|                    |  |                  |  |     |  +----------E_KF849724_Angola_2007_Angola
+|                    |  |                  |  |  +--| (37)
+|                    |  |                  |  |  |  +----E_KF849718_Angola_2007_Angola
+|                    |  |                  |  +--| (30)
+|                    |  |                  |     |  +----E_KF849716_Angola_2007_Angola
+|                    |  |                  |     +--| (96)
+|                    |  |                  |        |        +--E_AY738147_Congo_1998_Congo
+|                    |  |                  |        |     +--| (96)
+|                    |  |                  |        |     |  +--E_AY738146_Congo_1998_Congo
+|                    |  |                  |        +-----| (100)
+|                    |  |                  |              |  +--E_AY738145_Congo_1998_Congo
+|                    |  |                  |              +--| (100)
+|                    |  |                  |                 +--E_AY738144_Congo_1998_Congo
+|                    |  |               +--| (26)
+|                    |  |               |  +--------E_KF849726_Angola_2007_Angola
+|                    |  |            +--| (35)
+|                    |  |            |  |                                +--E_MB93_Belgium_2007_Congo
+|                    |  |            |  |           +--------------------| (100)
+|                    |  |            |  |           |                    +--E_MB109_Belgium_2008_Mauritania
+|                    |  |            |  |        +--| (100)
+|                    |  |            |  |        |  +---------E_KF849728_Angola_2007_Angola
+|                    |  |            |  |     +--| (76)
+|                    |  |            |  |     |  +----E_KF849725_Angola_2007_Angola
+|                    |  |            |  |  +--| (67)
+|                    |  |            |  |  |  |  +---E_MB29_Belgium_2009_Congo
+|                    |  |            |  |  |  +--| (95)
+|                    |  |            |  |  |     +------------E_KF849720_Angola_2007_Angola
+|                    |  |            |  +--| (16)
+|                    |  |            |     |     +------E_MB104_Belgium_2008_Congo
+|                    |  |            |     |  +--| (79)
+|                    |  |            |     |  |  |  +--E_KF849714_Angola_2007_Angola
+|                    |  |            |     |  |  +--| (100)
+|                    |  |            |     |  |     +-----E_KF849715_Angola_2007_Angola
+|                    |  |            |     +--| (71)
+|                    |  |            |        +--E_MB134_Belgium_2009_Congo
+|                    |  |        +---| (100)
+|                    |  |        |   +----E_KF849727_Angola_2007_Angola
+|                    |  |     +--| (69)
+|                    |  |     |  |     +------E_MB97_Belgium_2009_Guinea
+|                    |  |     |  |  +--| (90)
+|                    |  |     |  |  |  +--E_MB91_Belgium_2007_Rwanda
+|                    |  |     |  +--| (84)
+|                    |  |     |     +---------E_KF170741_Sudan_2008_Sudan
+|                    |  |  +--| (84)
+|                    |  |  |  |  +---E_MB23_Belgium_2009_Rwanda
+|                    |  |  |  +--| (98)
+|                    |  |  |     +-------------E_MB6_Belgium_2008_Niger
+|                    |  +--| (60)
+|                    |     +--------------------E_HM363609_Nigeria_2007_Nigeria
+|                 +--| (38)
+|                 |  |  +--------E_HM363574_Nigeria_2007_Nigeria
+|                 |  +--| (31)
+|                 |     |  +--------E_FN545824_Nigeria_2005_Nigeria
+|                 |     +--| (74)
+|                 |        +--------E_AB205192_Ghana_2000_Ghana
+|              +--| (55)
+|              |  |              +-------E_MB24_Belgium_2009_Guinea
+|              |  |           +--| (100)
+|              |  |           |  +----------------------E_MB51_Belgium_2009_Guinea
+|              |  |        +--| (62)
+|              |  |        |  |        +---E_MB41_Belgium_2008_Mauritania
+|              |  |        |  |    +---| (100)
+|              |  |        |  |    |   +--E_MB69_Belgium_2006_Mauritania
+|              |  |        |  +----| (100)
+|              |  |        |       +-----E_GQ161762_Guinea_2006_Guinea
+|              |  |     +--| (20)
+|              |  |     |  |        +--------------------------E_MB148_Belgium_2010_Niger
+|              |  |     |  |     +--| (91)
+|              |  |     |  |     |  +-----------E_MB44_Belgium_2009_Ghana
+|              |  |     |  |  +--| (72)
+|              |  |     |  |  |  +-----------------E_MB70_Belgium_2006_Guinea
+|              |  |     |  +--| (39)
+|              |  |     |     |        +-------------E_57a_Belgium_2002_Belgium
+|              |  |     |     |     +--| (92)
+|              |  |     |     |     |  +------------E_AB205188_Ghana_2000_Ghana
+|              |  |     |     |  +--| (49)
+|              |  |     |     |  |  +--------------E_GQ161831_Guinea_2006_Guinea
+|              |  |     |     +--| (47)
+|              |  |     |        +--------E_FN545823_Nigeria_2005_Nigeria
+|              |  |  +--| (31)
+|              |  |  |  +-------------E_MB111_Belgium_2009_BurkinaFaso
+|              |  +--| (24)
+|              |     |  +------------E_MB108_Belgium_2008_Mauritania
+|              |     +--| (80)
+|              |        +----------------E_GQ161825_Guinea_2006_Guinea
+|           +--| (38)
+|           |  |                +--------------E_HM363565_Nigeria_2007_Nigeria
+|           |  |           +----| (100)
+|           |  |           |    +------------E_HM363566_Nigeria_2007_Nigeria
+|           |  |        +--| (44)
+|           |  |        |  |     +--------------E_HM363599_Nigeria_2007_Nigeria
+|           |  |        |  |  +--| (46)
+|           |  |        |  |  |  +----------------------------E_HM363611_Nigeria_2007_Nigeria
+|           |  |        |  +--| (44)
+|           |  |        |     +----------------E_HM363603_Nigeria_2007_Nigeria
+|           |  |     +--| (22)
+|           |  |     |  |  +---------E_HM363594_Nigeria_2007_Nigeria
+|           |  |     |  +--| (51)
+|           |  |     |     |     +----------------E_HM363598_Nigeria_2007_Nigeria
+|           |  |     |     |  +--| (83)
+|           |  |     |     |  |  +----------E_FN545821_Nigeria_2005_Nigeria
+|           |  |     |     +--| (51)
+|           |  |     |        +-------------------E_HM363605_Nigeria_2007_Nigeria
+|           |  |  +--| (15)
+|           |  |  |  |              +--E_HM363588_Nigeria_2007_Nigeria
+|           |  |  |  |           +--| (71)
+|           |  |  |  |           |  +--------------E_HM363601_Nigeria_2007_Nigeria
+|           |  |  |  |        +--| (77)
+|           |  |  |  |        |  +--E_HM363589_Nigeria_2007_Nigeria
+|           |  |  |  |     +--| (77)
+|           |  |  |  |     |  +--E_HM363590_Nigeria_2007_Nigeria
+|           |  |  |  |  +--| (56)
+|           |  |  |  |  |  |  +--E_HM363591_Nigeria_2007_Nigeria
+|           |  |  |  |  |  +--| (100)
+|           |  |  |  |  |     +----------E_HM363597_Nigeria_2007_Nigeria
+|           |  |  |  +--| (31)
+|           |  |  |     +-----------------------E_HM363610_Nigeria_2007_Nigeria
+|           |  +--| (47)
+|           |     |                            +--E_HM363567_Nigeria_2007_Nigeria
+|           |     |                    +-------| (100)
+|           |     |                    |       +--------------E_HM363604_Nigeria_2007_Nigeria
+|           |     |                 +--| (100)
+|           |     |                 |  +--E_HM363568_Nigeria_2007_Nigeria
+|           |     |              +--| (77)
+|           |     |              |  |   +--E_HM363586_Nigeria_2007_Nigeria
+|           |     |              |  +---| (100)
+|           |     |              |      +--------------E_HM363602_Nigeria_2007_Nigeria
+|           |     |           +--| (72)
+|           |     |           |  +------E_HM363587_Nigeria_2007_Nigeria
+|           |     |        +--| (100)
+|           |     |        |  +-------E_HM363592_Nigeria_2007_Nigeria
+|           |     |     +--| (65)
+|           |     |     |  +--------E_HM363593_Nigeria_2007_Nigeria
+|           |     |  +--| (36)
+|           |     |  |  |          +--E_HM363579_Nigeria_2007_Nigeria
+|           |     |  |  |       +--| (79)
+|           |     |  |  |       |  +--E_HM363580_Nigeria_2007_Nigeria
+|           |     |  |  +-------| (100)
+|           |     |  |          +--E_HM363581_Nigeria_2007_Nigeria
+|           |     +--| (39)
+|           |        |     +--E_HM363582_Nigeria_2007_Nigeria
+|           |        |  +--| (100)
+|           |        |  |  |   +--E_HM363583_Nigeria_2007_Nigeria
+|           |        |  |  +---| (100)
+|           |        |  |      +-----E_HM363584_Nigeria_2007_Nigeria
+|           |        +--| (67)
+|           |           |  +--E_HM363585_Nigeria_2007_Nigeria
+|           |           +--| (83)
+|           |              +----------------E_HM363600_Nigeria_2007_Nigeria
+|        +--| (100)
+|        |  |         +--E_HM363575_Nigeria_2007_Nigeria
+|        |  |     +---| (100)
+|        |  |     |   +--E_HM363576_Nigeria_2007_Nigeria
+|        |  |  +--| (56)
+|        |  |  |  |  +---------E_HM363595_Nigeria_2007_Nigeria
+|        |  |  |  +--| (62)
+|        |  |  |     +------------------E_HM363607_Nigeria_2007_Nigeria
+|        |  +--| (38)
+|        |     |  +--E_HM363577_Nigeria_2007_Nigeria
+|        |     +--| (79)
+|        |        |  +------E_HM363578_Nigeria_2007_Nigeria
+|        |        +--| (62)
+|        |           +-------------E_HM363596_Nigeria_2007_Nigeria
+|     +--| (100)
+|     |  |        +--------E_MB28_Belgium_2009_Rwanda
+|     |  |     +--| (65)
+|     |  |     |  +---------------E_MB30_Belgium_2008_Cameroon
+|     |  |  +--| (99)
+|     |  |  |  +---------E_MB117_Belgium_2009_Cameroon
+|     |  +--| (80)
+|     |     |     +-------E_MB59_Belgium_2006_Cameroon
+|     |     |  +--| (100)
+|     |     |  |  |  +--E_MB80_Belgium_2007_Cameroon
+|     |     |  |  +--| (100)
+|     |     |  |     +--E_MB87_Belgium_2007_Cameroon
+|     |     +--| (89)
+|     |        +---E_HM363573_Nigeria_2007_Nigeria
+|  +--| (99)
+|  |  +--E_AB194947_Cameroon_1994_Cameroon
++--| (100)
+|  +--E_MB40_Belgium_2008_Cameroon
+|
++--E_MB101_Belgium_2006_Cameroon
+
+
+Consensus tree in newick format: 
+
+(E_MB8_Belgium_2008_IvoryCoast:0.0003113971,((((((((((((((((((((((((((E_MB13_Belgium_2008_Guinea:0.0128088902,E_MB115_Belgium_2008_Guinea:0.0000022147)100:0.0096813055,E_GQ161768_Guinea_2006_Guinea:0.0091804395)96:0.0022238008,(E_MB79_Belgium_2008_IvoryCoast:0.0006218020,E_MB74_Belgium_2007_Ivorycoast:0.0012484588)100:0.0030078952)77:0.0003316965,(E_GQ161796_Guinea_2006_Guinea:0.0086833603,E_GQ161826_Guinea_2006_Guinea:0.0063483088)93:0.0010194013)100:0.0019683302,E_MB37_Belgium_2009_Burundi:0.0065752034)78:0.0006188111,(E_FJ349239_Belgium_2007_Belgium:0.0037531609,(E_GQ161822_Guinea_2006_Guinea:0.0019916297,E_GQ161833_Guinea_2006_Guinea:0.0000022125)100:0.0037516730)97:0.0018681247)37:0.0000022125,((((E_MB26_Belgium_2009_Guinea:0.0138381403,((E_GQ161756_Guinea_2006_Guinea:0.0003139952,E_GQ161795_Guinea_2006_Guinea:0.0000022125)100:0.0031571751,E_GQ161823_Guinea_2006_Guinea:0.0100498277)90:0.0006436486)88:0.0003119942,((E_MB118_Belgium_2008_Guinea:0.0021814400,E_GQ161807_Guinea_2006_Guinea:0.0100342207)95:0.0000022125,E_GQ161761_Guinea_2006_Guinea:0.0015582802)99:0.0009345796)79:0.0000022125,E_GQ161830_Guinea_2006_Guinea:0.0030567714)99:0.0021815107,(((E_MB78_Belgium_2007_Congo:0.0065462011,(E_MB141_Belgium_2010_Mozambique:0.0024715396,(E_GQ161763_Guinea_2006_Guinea:0.0006216288,E_GQ161777_Guinea_2006_Guinea:0.0000022125)91:0.0009586829)100:0.0018764372)90:0.0006445816,(((E_MB68_Belgium_2006_IvoryCoast:0.0056347501,(E_GQ161785_Guinea_2006_Guinea:0.0069001936,E_GQ161836_Guinea_2006_Guinea:0.0046977416)99:0.0018672731)97:0.0006192699,E_GQ161794_Guinea_2006_Guinea:0.0056250264)95:0.0000028234,E_GQ161817_Guinea_2006_Guinea:0.0021825000)100:0.0012476821)80:0.0003104053,E_FJ349227_Belgium_1998_Belgium:0.0129244628)48:0.0003121197)26:0.0000022125)47:0.0003091919,E_GQ161820_Guinea_2006_Guinea:0.0006255148)30:0.0000022125,((((((((E_MB82_Belgium_2007_Guinea:0.0065811390,E_GQ161834_Guinea_2006_Guinea:0.0068779439)94:0.0005121488,E_MB57_Belgium_2008_Congo:0.0169764981)72:0.0011303414,E_GQ161801_Guinea_2006_Guinea:0.0024948048)40:0.0000022147,((((E_GQ161770_Guinea_2006_Guinea:0.0006229236,(E_GQ161791_Guinea_2006_Guinea:0.0003113971,(E_GQ161800_Guinea_2006_Guinea:0.0000022125,E_GQ161819_Guinea_2006_Guinea:0.0000022125)91:0.0000022125)81:0.0000022125)94:0.0006229236,E_GQ161829_Guinea_2006_Guinea:0.0009345796)91:0.0014587587,(E_GQ161793_Guinea_2006_Guinea:0.0003113971,E_GQ161827_Guinea_2006_Guinea:0.0003113971)100:0.0017886386)75:0.0004958355,(E_GQ161772_Guinea_2006_Guinea:0.0008880152,E_GQ161787_Guinea_2006_Guinea:0.0010453788)100:0.0005589671)66:0.0003113971)32:0.0000022125,E_GQ161764_Guinea_2006_Guinea:0.0018703252)52:0.0003113971,((((E_MB76_Belgium_2007_Guinea:0.0194865623,E_GQ161797_Guinea_2006_Guinea:0.0064993463)74:0.0028350669,E_GQ161803_Guinea_2006_Guinea:0.0058410753)61:0.0003555786,((E_GQ161773_Guinea_2006_Guinea:0.0000022125,E_GQ161802_Guinea_2006_Guinea:0.0000022125)100:0.0068532540,E_GQ161786_Guinea_2006_Guinea:0.0094877139)86:0.0009122277)57:0.0003675355,E_GQ161759_Guinea_2006_Guinea:0.0034360012)61:0.0003108672)65:0.0003113971,(((((E_FJ349237_Belgium_2005_Belgium:0.0006229236,E_FJ349238_Belgium_2007_Belgium:0.0006229236)100:0.0028168543,E_AB194948_Cameroon_1994_Cameroon:0.0144780405)97:0.0006177461,E_GQ161832_Guinea_2006_Guinea:0.0028083765)97:0.0006229236,E_GQ161781_Guinea_2006_Guinea:0.0012463651)95:0.0002740506,E_GQ161771_Guinea_2006_Guinea:0.0046831875)41:0.0000371406)8:0.0000022125,((E_MB136_Belgium_2010_IvoryCoast:0.0018715562,(E_GQ161755_Guinea_2006_Guinea:0.0015595480,E_GQ161835_Guinea_2006_Guinea:0.0003113971)100:0.0015614845)100:0.0031259672,E_GQ161798_Guinea_2006_Guinea:0.0021868497)39:0.0003082602)5:0.0000022125)15:0.0000022125,((E_MB19_Belgium_2009_Guinea:0.0062298233,(((E_GQ161782_Guinea_2006_Guinea:0.0003113971,E_GQ161792_Guinea_2006_Guinea:0.0006229236)100:0.0003093414,E_GQ161814_Guinea_2006_Guinea:0.0015610930)100:0.0023618449,E_GQ161812_Guinea_2006_Guinea:0.0046202468)100:0.0011033546)98:0.0006911288,E_GQ161804_Guinea_2006_Guinea:0.0012463651)57:0.0003113971)42:0.0003125230,(((E_GQ161776_Guinea_2006_Guinea:0.0000000000,E_GQ161828_Guinea_2006_Guinea:0.0000000000):0.0000022125,E_GQ161789_Guinea_2006_Guinea:0.0000022125)93:0.0000022125,E_GQ161784_Guinea_2006_Guinea:0.0003113971)100:0.0059395274)48:0.0000174729,(E_GQ161765_Guinea_2006_Guinea:0.0009958581,(E_GQ161769_Guinea_2006_Guinea:0.0000022125,E_GQ161779_Guinea_2006_Guinea:0.0009345796)100:0.0027894684)99:0.0027676320)56:0.0008475620,E_GQ161816_Guinea_2006_Guinea:0.0019413989)59:0.0006234720,E_GQ161780_Guinea_2006_Guinea:0.0030511382)58:0.0003817088,((((E_MB43_Belgium_2009_Niger:0.0062915520,E_MB83_Belgium_2007_Guinea:0.0136259262)99:0.0009069517,E_MB75_Belgium_2007_Guinea:0.0075149941)97:0.0003087632,(((E_MB21_Belgium_2009_Guinea:0.0041129308,(E_GQ161783_Guinea_2006_Guinea:0.0000022125,E_GQ161824_Guinea_2006_Guinea:0.0000022125)100:0.0071176131)96:0.0005080886,E_GQ161815_Guinea_2006_Guinea:0.0040173828)99:0.0014373771,(E_GQ161757_Guinea_2006_Guinea:0.0106706615,((E_GQ161760_Guinea_2006_Guinea:0.0083807266,E_GQ161808_Guinea_2006_Guinea:0.0003831626)73:0.0006256133,(E_GQ161778_Guinea_2006_Guinea:0.0000022125,E_GQ161810_Guinea_2006_Guinea:0.0003113971)100:0.0031838907)100:0.0011864428)100:0.0003766354)99:0.0008703935)98:0.0003090070,(E_GQ161790_Guinea_2006_Guinea:0.0006641192,(((E_GQ161799_Guinea_2006_Guinea:0.0000022125,E_GQ161821_Guinea_2006_Guinea:0.0006453406)96:0.0000022125,E_GQ161818_Guinea_2006_Guinea:0.0022654702)100:0.0003221495,E_GQ161805_Guinea_2006_Guinea:0.0009692324)92:0.0000022125)100:0.0043341299)100:0.0015619134)58:0.0003119618,((((((E_MB15_Belgium_2009_Guinea:0.0003113971,E_MB102_Belgium_2009_Guinea:0.0000022125)100:0.0037699451,((E_GQ161758_Guinea_2006_Guinea:0.0000000000,E_GQ161774_Guinea_2006_Guinea:0.0000000000):0.0000022125,E_GQ161766_Guinea_2006_Guinea:0.0000022125)100:0.0078239808)78:0.0009242468,E_GQ161809_Guinea_2006_Guinea:0.0087762401)74:0.0000028234,E_GQ161811_Guinea_2006_Guinea:0.0071886961)98:0.0009492901,(E_MB39_Belgium_2009_Guinea:0.0085096717,E_MB143_Belgium_2010_Guinea:0.0051838795)100:0.0048687732)98:0.0012483285,((E_MB99_Belgium_2008_Nigeria:0.0056189417,(E_FN545822_Nigeria_2005_Nigeria:0.0129315699,E_AB205190_Ghana_2000_Ghana:0.0094748520)85:0.0012035357)79:0.0001806454,((E_GU563552_Belgium_2003_Belgium:0.0333756605,E_AB205189_Ghana_2000_Ghana:0.0050186577)95:0.0004273748,E_AB205191_Ghana_2000_Ghana:0.0036142679)94:0.0021870642)83:0.0010744658)83:0.0003113971)13:0.0000022125,((((E_MB36_Belgium_2009_Congo:0.0028744963,(E_MB122_Belgium_2009_Congo:0.0031394806,E_MB53_Belgium_2009_Rwanda:0.0009330449)100:0.0094005037)96:0.0009309240,E_KF170742_Sudan_2008_Sudan:0.0027473401)98:0.0009976695,(((((E_MB65_Belgium_2006_Cameroon:0.0065218284,E_FJ349240_Belgium_2007_Belgium:0.0110218822)75:0.0013353273,E_HM363608_Nigeria_2007_Nigeria:0.0160533014)72:0.0002294008,((E_FN545827_Cameroon_2005_Cameroon:0.0037286252,E_FN545841_Cameroon_2007_Cameroon:0.0025365841)92:0.0007131065,E_FN545842_Cameroon_2007_Cameroon:0.0073887882)81:0.0016039887)95:0.0010255620,((E_G1961_Belgium_1996_Belgium:0.0000022125,E_FJ349226_Belgium_1995_Belgium:0.0003113971)100:0.0065418085,(E_HM363571_Nigeria_2007_Nigeria:0.0015638193,E_HM363572_Nigeria_2007_Nigeria:0.0071988686)99:0.0017697184)95:0.0004467906)86:0.0000022147,(E_HM363569_Nigeria_2007_Nigeria:0.0009349299,E_HM363570_Nigeria_2007_Nigeria:0.0009343280)100:0.0040588124)93:0.0009344788)88:0.0006219166,(E_MB25_Belgium_2009_Mauritania:0.0024062645,E_MB85_Belgium_2007_Mauritania:0.0039321007)100:0.0055446052)51:0.0000022147)23:0.0000022125,((E_MB50_Belgium_2008_Niger:0.0006615159,E_MB54_Belgium_2009_Nigeria:0.0126332467)100:0.0038115928,(E_MB77_Belgium_2007_Ghana:0.0116441741,E_MB129_Belgium_2007_Ghana:0.0128994344)94:0.0015730770)100:0.0030917461)71:0.0003113971,(((((((((((E_MB20_Belgium_2009_Congo:0.0000022125,E_MB61_Belgium_2006_Congo:0.0003113971)100:0.0024979715,E_KF849723_Angola_2007_Angola:0.0046899338)100:0.0012463651,((E_KF849717_Angola_2007_Angola:0.0056464629,(E_JQ023664_Colombia_2007_Colombia:0.0028084055,E_JQ023665_Colombia_2007_Colombia:0.0040716258)100:0.0119852267)58:0.0006013942,(E_KF849719_Angola_2007_Angola:0.0028083914,E_KF849722_Angola_2007_Angola:0.0018703252)78:0.0003113971)22:0.0000022125)27:0.0003095339,(E_KF849713_Angola_2007_Angola:0.0024958976,E_KF849721_Angola_2007_Angola:0.0018737178)60:0.0006229236)41:0.0000022125,(((E_MB126_Belgium_2007_Zimbabwe:0.0078353314,E_KF849724_Angola_2007_Angola:0.0085181123)80:0.0018522067,E_KF849718_Angola_2007_Angola:0.0040394633)37:0.0003351144,(E_KF849716_Angola_2007_Angola:0.0043831947,((E_AY738147_Congo_1998_Congo:0.0012463651,E_AY738146_Congo_1998_Congo:0.0006229236)96:0.0000022125,(E_AY738145_Congo_1998_Congo:0.0003113971,E_AY738144_Congo_1998_Congo:0.0009345796)100:0.0003113971)100:0.0052875130)96:0.0006501105)30:0.0000022125)32:0.0006229236,E_KF849726_Angola_2007_Angola:0.0071970838)26:0.0000022125,(((((E_MB93_Belgium_2007_Congo:0.0004958541,E_MB109_Belgium_2008_Mauritania:0.0013925611)100:0.0162130981,E_KF849728_Angola_2007_Angola:0.0080323355)100:0.0029319057,E_KF849725_Angola_2007_Angola:0.0045582697)76:0.0010661021,(E_MB29_Belgium_2009_Congo:0.0034314178,E_KF849720_Angola_2007_Angola:0.0103726115)95:0.0000022147)67:0.0006229236,((E_MB104_Belgium_2008_Congo:0.0056308133,(E_KF849714_Angola_2007_Angola:0.0021101305,E_KF849715_Angola_2007_Angola:0.0053217176)100:0.0006984700)79:0.0003090821,E_MB134_Belgium_2009_Congo:0.0024959270)71:0.0003113971)16:0.0000022125)35:0.0000022125,E_KF849727_Angola_2007_Angola:0.0040968998)100:0.0031281840,((E_MB97_Belgium_2009_Guinea:0.0056096097,E_MB91_Belgium_2007_Rwanda:0.0025032400)90:0.0018758622,E_KF170741_Sudan_2008_Sudan:0.0078426316)84:0.0009329817)69:0.0003039940,(E_MB23_Belgium_2009_Rwanda:0.0037527702,E_MB6_Belgium_2008_Niger:0.0107294719)98:0.0021849320)84:0.0009396094,E_HM363609_Nigeria_2007_Nigeria:0.0167108025)60:0.0006188388)26:0.0003141409,(E_HM363574_Nigeria_2007_Nigeria:0.0075060154,(E_FN545824_Nigeria_2005_Nigeria:0.0072955513,E_AB205192_Ghana_2000_Ghana:0.0071115079)74:0.0010653926)31:0.0000022162)38:0.0006229236,(((((E_MB24_Belgium_2009_Guinea:0.0063556351,E_MB51_Belgium_2009_Guinea:0.0181559079)100:0.0021522431,((E_MB41_Belgium_2008_Mauritania:0.0034112818,E_MB69_Belgium_2006_Mauritania:0.0003356916)100:0.0031256354,E_GQ161762_Guinea_2006_Guinea:0.0049814885)100:0.0044825139)62:0.0008643441,(((E_MB148_Belgium_2010_Niger:0.0208933040,E_MB44_Belgium_2009_Ghana:0.0092121073)91:0.0016487069,E_MB70_Belgium_2006_Guinea:0.0139905884)72:0.0020849059,(((E_57a_Belgium_2002_Belgium:0.0113532833,E_AB205188_Ghana_2000_Ghana:0.0104079124)92:0.0015921290,E_GQ161831_Guinea_2006_Guinea:0.0119817446)49:0.0003329456,E_FN545823_Nigeria_2005_Nigeria:0.0073152198)47:0.0008223882)39:0.0007062731)20:0.0006682680,E_MB111_Belgium_2009_BurkinaFaso:0.0112000441)31:0.0011183800,(E_MB108_Belgium_2008_Mauritania:0.0106388335,E_GQ161825_Guinea_2006_Guinea:0.0132028860)80:0.0029414344)24:0.0000022147)55:0.0003113971,(((((E_HM363565_Nigeria_2007_Nigeria:0.0120139584,E_HM363566_Nigeria_2007_Nigeria:0.0101711636)100:0.0039300411,((E_HM363599_Nigeria_2007_Nigeria:0.0115872559,E_HM363611_Nigeria_2007_Nigeria:0.0227230688)46:0.0012751821,E_HM363603_Nigeria_2007_Nigeria:0.0137110314)44:0.0011105834)44:0.0017475906,(E_HM363594_Nigeria_2007_Nigeria:0.0078581018,((E_HM363598_Nigeria_2007_Nigeria:0.0131862602,E_FN545821_Nigeria_2005_Nigeria:0.0087724955)83:0.0005810478,E_HM363605_Nigeria_2007_Nigeria:0.0160025406)51:0.0007644764)51:0.0003564163)22:0.0005931615,(((((E_HM363588_Nigeria_2007_Nigeria:0.0006256619,E_HM363601_Nigeria_2007_Nigeria:0.0116181858)71:0.0003058874,E_HM363589_Nigeria_2007_Nigeria:0.0024982158)77:0.0021877815,E_HM363590_Nigeria_2007_Nigeria:0.0024966701)77:0.0011554067,(E_HM363591_Nigeria_2007_Nigeria:0.0009276197,E_HM363597_Nigeria_2007_Nigeria:0.0087908475)100:0.0025951511)56:0.0000022125,E_HM363610_Nigeria_2007_Nigeria:0.0188266398)31:0.0016738037)15:0.0000022147,((((((((E_HM363567_Nigeria_2007_Nigeria:0.0012862191,E_HM363604_Nigeria_2007_Nigeria:0.0115891691)100:0.0066090373,E_HM363568_Nigeria_2007_Nigeria:0.0009889964)100:0.0027610124,(E_HM363586_Nigeria_2007_Nigeria:0.0023925700,E_HM363602_Nigeria_2007_Nigeria:0.0115880593)100:0.0035972099)77:0.0003070359,E_HM363587_Nigeria_2007_Nigeria:0.0059387683)72:0.0000022125,E_HM363592_Nigeria_2007_Nigeria:0.0062515853)100:0.0009357191,E_HM363593_Nigeria_2007_Nigeria:0.0071995428)65:0.0006312619,((E_HM363579_Nigeria_2007_Nigeria:0.0003119618,E_HM363580_Nigeria_2007_Nigeria:0.0003113971)79:0.0003113971,E_HM363581_Nigeria_2007_Nigeria:0.0000022125)100:0.0062436072)36:0.0003113971,((E_HM363582_Nigeria_2007_Nigeria:0.0018722192,(E_HM363583_Nigeria_2007_Nigeria:0.0000028234,E_HM363584_Nigeria_2007_Nigeria:0.0049979360)100:0.0031242236)100:0.0028822796,(E_HM363585_Nigeria_2007_Nigeria:0.0030226317,E_HM363600_Nigeria_2007_Nigeria:0.0136994613)83:0.0017062486)67:0.0012884762)39:0.0003194938)47:0.0012430051)38:0.0003137421,(((E_HM363575_Nigeria_2007_Nigeria:0.0014248512,E_HM363576_Nigeria_2007_Nigeria:0.0026306796)100:0.0036148413,(E_HM363595_Nigeria_2007_Nigeria:0.0081613611,E_HM363607_Nigeria_2007_Nigeria:0.0149113684)62:0.0029200433)56:0.0012137007,(E_HM363577_Nigeria_2007_Nigeria:0.0029867173,(E_HM363578_Nigeria_2007_Nigeria:0.0058619032,E_HM363596_Nigeria_2007_Nigeria:0.0107551475)62:0.0009677297)79:0.0007618638)38:0.0006185025)100:0.0028088933,(((E_MB28_Belgium_2009_Rwanda:0.0069639191,E_MB30_Belgium_2008_Cameroon:0.0124142757)65:0.0014141136,E_MB117_Belgium_2009_Cameroon:0.0083507938)99:0.0019894995,((E_MB59_Belgium_2006_Cameroon:0.0061255813,(E_MB80_Belgium_2007_Cameroon:0.0018718164,E_MB87_Belgium_2007_Cameroon:0.0006229236)100:0.0003080675)100:0.0012531210,E_HM363573_Nigeria_2007_Nigeria:0.0037435992)89:0.0003113971)80:0.0003130240)100:0.0012498999,E_AB194947_Cameroon_1994_Cameroon:0.0021842030)99:0.0003091915,E_MB40_Belgium_2008_Cameroon:0.0012480644)100:0.0021847336,E_MB101_Belgium_2006_Cameroon:0.0000022125);
+
+TIME STAMP
+----------
+
+Date and time: Wed May 25 18:47:18 2022
+Total CPU time used: 5262.698738 seconds (1h:27m:42s)
+Total wall-clock time used: 395.7572157 seconds (0h:6m:35s)
+

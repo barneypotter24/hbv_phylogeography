@@ -18,3 +18,7 @@ iq-tree/*/*.log
 
 # Zip archives
 *.zip
+*.ipynb_checkpoints*
+*tmp*
+*.log
+*.ops

@@ -1,15 +1,15 @@
 '''plot_new_sequences.py
 '''
-import sys
+import math
+
+import baltic as bt
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+from argh import dispatch_command
 from matplotlib.lines import Line2D
-import baltic.baltic as bt
-import pandas as pd
-import math
-import re
 
-def main():
+
+def main() -> None:
     genotypes = ['A', 'D', 'E']
     for genotype in genotypes:
         print(f"Starting Genotype {genotype}")
@@ -23,40 +23,42 @@ def main():
         trees_file = f"{folder}/{filestem}.trees"
         log_file = log
         # plot tree
-        mcc_tree = bt.loadNexus(f"{folder}/{filestem}.mcc.tre",variableDate=True,tip_regex='\/([\-0-9]+)',date_fmt='%Y',)
+        mcc_tree = bt.loadNexus(f"{folder}/{filestem}.mcc.tre",
+                                variableDate=True,
+                                tip_regex='\/([\-0-9]+)',
+                                date_fmt='%Y',)
         threshold = 1000
         no_ancient = lambda x: False if (x.branchType=="leaf" and x.absoluteTime < threshold) else True
         ci = lambda x: True if (x.branchType=='node' and len(x.children)<2) else False
         mySubtree = mcc_tree.subtree(k=determine_the_correct_node(mcc_tree.root),
                                      traverse_condition=no_ancient).collapseBranches(collapseIf=ci)
-        if genotype=='D':
+        if genotype == 'D':
             mySubtree.root.absoluteTime += 1300
         mySubtree.ySpan = max([n.y for n in mySubtree.getExternal()])-min([n.y for n in mySubtree.getExternal()])
-        print("Root time of total tree:")
-        print(mcc_tree.root.absoluteTime)
-        print("Root time of mySubtree:")
-        print(mySubtree.root.absoluteTime)
+        print(f"Root time of total tree: {mcc_tree.root.absoluteTime}")
+        print()
+        print(f"Root time of mySubtree: {mySubtree.root.absoluteTime}")
         plot_file = f"figures/{output}.pdf"
 
         cmap_map = {
-            "A" : 'tab20',
-            "D" : 'tab20b',
-            "E" : 'tab20c'
+            "A": 'tab20',
+            "D": 'tab20b',
+            "E": 'tab20c'
         }
-        cmap = mpl.cm.get_cmap(cmap_map[genotype],10)
+        cmap = mpl.cm.get_cmap(cmap_map[genotype], 10)
 
-        fig, ax =  plt.subplots(figsize=(15,15), dpi=600)
+        fig, ax = plt.subplots(figsize=(15, 15), dpi=600)
         # set x axis to be time
         x_attr=lambda k: k.absoluteTime
 
-        box_size=1.05
+        box_size = 1.05
 
-        fc = ((.99,.99,.99))
+        fc = ((.99, .99, .99))
         ax.set_facecolor(fc)
 
-        plot_BEAST_tree(mySubtree,log,ax,cmap,genotype)
-        ax.set_xlim(-box_size,box_size)
-        ax.set_ylim(-box_size,box_size)
+        plot_BEAST_tree(mySubtree, log, ax, cmap, genotype)
+        ax.set_xlim(-box_size, box_size)
+        ax.set_ylim(-box_size, box_size)
         ax.set_axis_off()
 
         # fig.suptitle( f"HBV-{genotype} new sequences",fontsize=20 )
@@ -66,6 +68,7 @@ def main():
 
         # export to png
         plt.savefig(plot_file.replace('.pdf','.png'), format='png')
+
 
 def determine_the_correct_node(n):
     '''recursively look for the first node who only has internal nodes as children'''
@@ -194,7 +197,8 @@ def add_legend(color_dict, ax):
               fontsize=12,
               frameon=False)
 
-def plot_BEAST_tree(tre,log,ax,cmap,gt):
+
+def plot_BEAST_tree(tre, log, ax, cmap, gt):
     r = 8
 
     cdict = {}
@@ -227,7 +231,7 @@ def plot_BEAST_tree(tre,log,ax,cmap,gt):
     tre.plotCircularPoints(ax=ax,
                            x_attr=x_attr,
                            circFrac=cf,
-                           colour_function=lambda x: 'k', # tip shape outline
+                           colour_function=lambda x: 'k',  # tip shape outline
                            size_function=p_o_func,
                            zorder=400)
     tre.plotCircularPoints(ax=ax,
@@ -245,4 +249,4 @@ def plot_BEAST_tree(tre,log,ax,cmap,gt):
 
 
 if __name__ == '__main__':
-    main()
+    dispatch_command(main)

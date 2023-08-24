@@ -208,7 +208,7 @@ def add_static_map(tre, gjs, colors, ax):
 
     ax2 = ax.get_figure().add_axes([0.36, 0.168, colorbarHeight, colorbarWidth]) ## add dummy axes
 
-    mpl.colorbar.ColorbarBase(ax2, cmap=mpl.cm.get_cmap('cividis_r'),norm=mpl.colors.Normalize(xDates[0],xDates[-1]),orientation='horizontal')
+    mpl.colorbar.ColorbarBase(ax2, cmap=mpl.cm.get_cmap('Reds_r'),norm=mpl.colors.Normalize(xDates[0],xDates[-1]),orientation='horizontal')
     ax2.xaxis.set_major_locator(mpl.ticker.LinearLocator(numticks=10)) ## add colour bar to axes
 
     xaxis_labels=[ '1800', '1825', '1850', '1875', '1900', '1925', '1950', '1975', '2000', '2025']

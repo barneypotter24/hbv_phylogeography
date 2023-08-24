@@ -43,7 +43,8 @@ while($line = <STDIN>) {
 			$tmp = $jumps[$i];
 			$tmp =~ s/\{\{//;
 			$tmp =~ s/\}\}//;
-#			print STDERR "$tmp\n";
+      # print STDERR "poop";
+			# print STDERR "$tmp\n";
 			($site, $time, $ori, $dest) = split(',',$tmp,4);
 			#$info[2] =~ s/\s\d+$//;
 			if (
