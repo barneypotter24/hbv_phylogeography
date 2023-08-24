@@ -22,3 +22,4 @@ iq-tree/*/*.log
 *tmp*
 *.log
 *.ops
+*jumpTimes.txt
