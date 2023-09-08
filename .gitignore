@@ -24,3 +24,4 @@ iq-tree/*/*.log
 *.ops
 *jumpTimes.txt
 *baltic*
+slurm*.out
