@@ -2,13 +2,14 @@ import os, sys
 import matplotlib as mpl
 from matplotlib import pyplot as plt
 from argparse import ArgumentParser
-import baltic.baltic as bt
+import baltic as bt
 import pandas as pd
 import seaborn as sns
 from datetime import timedelta, datetime
 from matplotlib.lines import Line2D
 from Bio import SeqIO
-from pymc3.stats import hpd
+# from pymc3.stats import hpd
+from arviz import hdi as hpd
 import subprocess
 from collections import defaultdict, OrderedDict
 from matplotlib.patches import Polygon
