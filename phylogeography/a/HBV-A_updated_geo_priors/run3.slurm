@@ -45,7 +45,7 @@ printf START >&2; uptime >&2
 date >&2
 
 # run the analysis,
-java -jar $VSC_HOME/beast_hmc-clock.jar -beagle_double HBV-A_updated_geo_priors_completeHistory_posterior_run1.xml
+java -jar $VSC_HOME/beast_hmc-clock.jar -beagle_double HBV-A_updated_geo_priors_completeHistory_posterior_run3.xml
 
 # write some cluster metadata to the error and output files
 printf END >&2; uptime >&2
