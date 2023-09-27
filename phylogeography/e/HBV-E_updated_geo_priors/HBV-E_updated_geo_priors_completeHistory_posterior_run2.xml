@@ -1,0 +1,874 @@
+<?xml version="1.0" standalone="yes"?>
+<beast>
+	<taxa id="taxa">
+		<taxon id="E/MB-8/Belgium/2008/IvoryCoast">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-13/Belgium/2008/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-15/Belgium/2009/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-20/Belgium/2009/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-23/Belgium/2009/Rwanda">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-24/Belgium/2009/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-26/Belgium/2009/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-28/Belgium/2009/Rwanda">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-30/Belgium/2008/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-36/Belgium/2009/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-37/Belgium/2009/Burundi">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-39/Belgium/2009/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-40/Belgium/2008/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-41/Belgium/2008/Mauritania">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-43/Belgium/2009/Niger">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-50/Belgium/2008/Niger">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-51/Belgium/2009/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-54/Belgium/2009/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-59/Belgium/2006/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-61/Belgium/2006/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-75/Belgium/2007/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-77/Belgium/2007/Ghana">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-78/Belgium/2007/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-79/Belgium/2008/IvoryCoast">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-82/Belgium/2007/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-83/Belgium/2007/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-93/Belgium/2007/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-97/Belgium/2009/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-99/Belgium/2008/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-101/Belgium/2006/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-102/Belgium/2009/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-104/Belgium/2008/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-108/Belgium/2008/Mauritania">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-109/Belgium/2008/Mauritania">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-115/Belgium/2008/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-117/Belgium/2009/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-118/Belgium/2008/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-122/Belgium/2009/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-129/Belgium/2007/Ghana">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-134/Belgium/2009/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-136/Belgium/2010/IvoryCoast">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-143/Belgium/2010/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-148/Belgium/2010/Niger">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-6/Belgium/2008/Niger">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-19/Belgium/2009/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-21/Belgium/2009/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-25/Belgium/2009/Mauritania">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-29/Belgium/2009/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-44/Belgium/2009/Ghana">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-53/Belgium/2009/Rwanda">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-57/Belgium/2008/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-65/Belgium/2006/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-68/Belgium/2006/IvoryCoast">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-69/Belgium/2006/Mauritania">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-70/Belgium/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-74/Belgium/2007/Ivorycoast">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-76/Belgium/2007/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-80/Belgium/2007/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-85/Belgium/2007/Mauritania">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-87/Belgium/2007/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-91/Belgium/2007/Rwanda">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-111/Belgium/2009/BurkinaFaso">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-126/Belgium/2007/Zimbabwe">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/MB-141/Belgium/2010/Mozambique">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/57a/Belgium/2002/Belgium">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="E/G196-1/Belgium/1996/Belgium">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="E/KF849713/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849714/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849715/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849716/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849717/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849718/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849719/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849720/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849721/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849722/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849723/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849724/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849725/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849726/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849727/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF849728/Angola/2007/Angola">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF170741/Sudan/2008/Sudan">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/KF170742/Sudan/2008/Sudan">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/JQ023664/Colombia/2007/Colombia">
+			<attr name="location">Americas</attr>
+		</taxon>
+		<taxon id="E/JQ023665/Colombia/2007/Colombia">
+			<attr name="location">Americas</attr>
+		</taxon>
+		<taxon id="E/GU563552/Belgium/2003/Belgium">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="E/HM363565/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363566/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363567/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363568/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363569/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363570/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363571/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363572/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363573/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363574/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363575/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363576/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363577/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363578/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363579/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363580/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363581/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363582/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363583/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363584/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363585/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363586/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363587/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363588/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363589/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363590/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363591/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363592/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363593/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363594/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363595/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363596/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363597/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363598/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363599/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363600/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363601/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363602/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363603/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363604/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363605/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363607/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363608/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363609/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363610/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/HM363611/Nigeria/2007/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/FN545821/Nigeria/2005/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/FN545822/Nigeria/2005/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/FN545823/Nigeria/2005/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/FN545824/Nigeria/2005/Nigeria">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/FN545827/Cameroon/2005/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/FN545841/Cameroon/2007/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/FN545842/Cameroon/2007/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/FJ349226/Belgium/1995/Belgium">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="E/FJ349227/Belgium/1998/Belgium">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="E/FJ349237/Belgium/2005/Belgium">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="E/FJ349238/Belgium/2007/Belgium">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="E/FJ349239/Belgium/2007/Belgium">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="E/FJ349240/Belgium/2007/Belgium">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="E/GQ161755/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161756/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161757/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161758/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161759/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161760/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161761/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161762/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161763/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161764/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161765/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161766/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161768/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161769/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161770/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161771/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161772/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161773/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161774/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161776/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161777/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161778/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161779/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161780/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161781/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161782/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161783/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161784/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161785/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161786/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161787/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161789/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161790/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161791/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161792/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161793/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161794/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161795/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161796/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161797/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161798/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161799/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161800/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161801/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161802/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161803/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161804/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161805/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161807/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161808/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161809/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161810/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161811/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161812/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161814/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161815/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161816/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161817/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161818/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161819/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161820/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161821/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161822/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161823/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161824/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161825/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161826/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161827/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161828/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161829/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161830/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161831/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161832/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161833/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161834/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161835/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/GQ161836/Guinea/2006/Guinea">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/AY738147/Congo/1998/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/AY738146/Congo/1998/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/AY738145/Congo/1998/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/AY738144/Congo/1998/Congo">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/AB194948/Cameroon/1994/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/AB194947/Cameroon/1994/Cameroon">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/AB205192/Ghana/2000/Ghana">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/AB205191/Ghana/2000/Ghana">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/AB205190/Ghana/2000/Ghana">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/AB205189/Ghana/2000/Ghana">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="E/AB205188/Ghana/2000/Ghana">
+			<attr name="location">Africa</attr>
+		</taxon>
+	</taxa>
+
+	<generalDataType id="location.dataType">
+		<state code="Africa"/>
+		<state code="Americas"/>
+		<state code="Europe"/>
+	</generalDataType>
+	<attributePatterns id="location.pattern" attribute="location">
+		<taxa idref="taxa"/>
+		<generalDataType idref="location.dataType"/>
+	</attributePatterns>
+
+	<empiricalTreeDistributionModel id="treeModel" fileName="HBV-E_phylogeography.trees">
+		<taxa idref="taxa"/>
+	</empiricalTreeDistributionModel>
+	<statistic id="treeModel.currentTree" name="Current Tree">
+		<empiricalTreeDistributionModel idref="treeModel"/>
+	</statistic>
+
+	<strictClockBranchRates id="location.branchRates">
+		<rate>
+			<parameter id="location.clock.rate" value="0.01" lower="0.0"/>
+		</rate>
+	</strictClockBranchRates>
+
+	<generalSubstitutionModel id="location.model">
+		<generalDataType idref="location.dataType"/>
+		<frequencies>
+			<frequencyModel id="location.frequencyModel" normalize="true">
+				<generalDataType idref="location.dataType"/>
+				<frequencies>
+					<parameter id="location.frequencies" dimension="3"/>
+				</frequencies>
+			</frequencyModel>
+		</frequencies>
+		<rates>
+			<parameter id="location.rates" dimension="6" value="1.0"/>
+		</rates>
+		<rateIndicator>
+			<parameter id="location.indicators" dimension="6" value="1.0"/>
+		</rateIndicator>
+	</generalSubstitutionModel>
+	<sumStatistic id="location.nonZeroRates" elementwise="true">
+		<parameter idref="location.indicators"/>
+	</sumStatistic>
+	<siteModel id="location.siteModel">
+		<substitutionModel>
+			<generalSubstitutionModel idref="location.model"/>
+		</substitutionModel>
+	</siteModel>
+
+	<frequencyModel id="location.root.frequencyModel" normalize="true">
+		<generalDataType idref="location.dataType"/>
+		<frequencies>
+			<parameter id="location.root.frequencies" dimension="3"/>
+		</frequencies>
+	</frequencyModel>
+
+	<markovJumpsTreeLikelihood id="location.treeLikelihood" useUniformization="true" saveCompleteHistory="true" logCompleteHistory="true" compactHistory="true">
+		<attributePatterns idref="location.pattern"/>
+		<treeModel idref="treeModel"/>
+		<siteModel idref="location.siteModel"/>
+		<generalSubstitutionModel idref="location.model"/>
+		<strictClockBranchRates idref="location.branchRates"/>
+		<frequencyModel idref="location.root.frequencyModel"/>
+	</markovJumpsTreeLikelihood>
+
+	<prior id="prior">
+		<distributionLikelihood>
+			<distribution>
+				<exponentialDistributionModel>
+					<mean>
+						<parameter id="location.clock.rate.exp.mean" value="1"/>
+					</mean>
+				</exponentialDistributionModel>
+			</distribution>
+			<data>
+				<parameter idref="location.clock.rate"/>
+			</data>
+		</distributionLikelihood>
+		<gammaPrior shape="0.5" scale="2" offset="0.0">
+			<parameter idref="location.clock.rate.exp.mean"/>
+		</gammaPrior>
+		<poissonPrior mean="3" offset="0">
+			<statistic idref="location.nonZeroRates"/>
+		</poissonPrior>
+		<uniformPrior lower="0.0" upper="1.0">
+			<parameter idref="location.root.frequencies"/>
+		</uniformPrior>
+		<cachedPrior>
+			<gammaPrior shape="1.0" scale="1.0" offset="0.0">
+				<parameter idref="location.rates"/>
+			</gammaPrior>
+			<parameter idref="location.rates"/>
+		</cachedPrior>
+		<generalSubstitutionModel idref="location.model"/>
+	</prior>
+
+	<operators id="operators" optimizationSchedule="log">
+		<empiricalTreeDistributionOperator weight="30" metropolisHastings="true">
+			<empiricalTreeDistributionModel idref="treeModel"/>
+		</empiricalTreeDistributionOperator>
+		<scaleOperator scaleFactor="0.75" weight="8">
+			<parameter idref="location.clock.rate"/>
+		</scaleOperator>
+		<scaleOperator scaleFactor="0.75" weight="4">
+			<parameter idref="location.clock.rate.exp.mean"/>
+		</scaleOperator>
+		<scaleOperator scaleFactor="0.75" weight="10" scaleAllIndependently="true">
+			<parameter idref="location.rates"/>
+		</scaleOperator>
+		<bitFlipOperator weight="30">
+			<parameter idref="location.indicators"/>
+		</bitFlipOperator>
+		<deltaExchange delta="0.01" weight="1">
+			<parameter idref="location.root.frequencies"/>
+		</deltaExchange>
+	</operators>
+
+	<mcmc id="mcmc" chainLength="50000000" autoOptimize="true">
+		<posterior id="posterior">
+		<prior idref="prior"/>
+			<likelihood id="likelihood">
+				<markovJumpsTreeLikelihood idref="location.treeLikelihood"/>
+			</likelihood>
+		</posterior>
+		<operators idref="operators"/>
+
+		<log id="screenLog" logEvery="10000">
+			<posterior idref="posterior"/>
+			<prior idref="prior"/>
+			<likelihood idref="likelihood"/>
+			<parameter idref="location.clock.rate"/>
+			<sumStatistic idref="location.nonZeroRates"/>
+		</log>
+
+		<log id="fileLog" logEvery="10000" fileName="HBV-E_updated_geo_priors_completeHistory_posterior_run2.log" overwrite="false">
+			<posterior idref="posterior"/>
+			<prior idref="prior"/>
+			<likelihood idref="likelihood"/>
+			<parameter idref="location.root.frequencies"/>
+			<parameter idref="location.clock.rate.exp.mean"/>
+			<parameter idref="location.clock.rate"/>
+			<parameter idref="location.rates"/>
+			<parameter idref="location.indicators"/>
+			<sumStatistic idref="location.nonZeroRates"/>
+			<statistic idref="treeModel.currentTree"/>
+			<markovJumpsTreeLikelihood idref="location.treeLikelihood"/>
+		</log>
+
+		<logTree id="treeFileLog" logEvery="10000" nexusFormat="true" fileName="HBV-E_updated_geo_priors_completeHistory_posterior_run2.trees" sortTranslationTable="true">
+			<treeModel idref="treeModel"/>
+			<posterior idref="posterior"/>
+			<markovJumpstreelikelihood idref="location.treeLikelihood"/>
+		</logTree>
+		<log id="historyLogger" logEvery="10000" fileName="HBV-E_updated_geo_priors_completeHistory_posterior_run2.txt">
+			<completeHistoryLogger>
+				<markovJumpstreelikelihood idref="location.treeLikelihood"/>
+			</completeHistoryLogger>
+		</log>
+	</mcmc>
+
+
+	<report>
+		<property name="timer">
+			<mcmc idref="mcmc"/>
+		</property>
+	</report>
+</beast>
