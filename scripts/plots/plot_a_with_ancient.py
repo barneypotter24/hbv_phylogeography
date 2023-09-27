@@ -356,12 +356,20 @@ def plot_BEAST(tre, gjs, log, o_file):
 
     x_lims = [(-2650, -2050), (-825, -550), (-250, 550), (1775, 2025)]
 
+    # cmap = {
+    #     "europe": "indianred",
+    #     "eastsouthasia": "steelblue",
+    #     "westcentralasia": "mediumpurple",
+    #     "americas": "goldenrod",
+    #     "africa": "yellowgreen",
+    # }
+
     cmap = {
-        "europe": "indianred",
-        "eastsouthasia": "steelblue",
-        "westcentralasia": "mediumpurple",
-        "americas": "goldenrod",
-        "africa": "yellowgreen",
+        "europe": cm.roma(0.1),
+        "eastsouthasia": cm.roma(0.3),
+        "westcentralasia": cm.roma(0.5),
+        "americas": cm.roma(0.7),
+        "africa": cm.roma(0.9),
     }
 
     c_func = lambda k: cmap[determine_location(k).lower()]
