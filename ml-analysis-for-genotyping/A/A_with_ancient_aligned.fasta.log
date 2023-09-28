@@ -1,0 +1,1308 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    gbw-d-l0102 (AVX512, FMA3, 62 GB RAM)
+Command: iqtree -s A/A_with_ancient_aligned.fasta -m K2P -bb 1000 -nt 15
+Seed:    911685 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed May 25 18:48:40 2022
+Kernel:  AVX+FMA - 15 threads (40 CPU cores detected)
+
+Reading alignment file A/A_with_ancient_aligned.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 587 sequences with 3222 columns, 1936 distinct patterns
+1132 parsimony-informative, 590 singleton sites, 1500 constant sites
+WARNING: Some sequence names are changed as follows:
+A/MB7/Belgium/2008/Rwanda -> A_MB7_Belgium_2008_Rwanda
+A/MB10/Belgium/2008/IvoryCoast -> A_MB10_Belgium_2008_IvoryCoast
+A/MB11/Belgium/2008/Burundi -> A_MB11_Belgium_2008_Burundi
+A3/MB16/Belgium/2009/Guinea -> A3_MB16_Belgium_2009_Guinea
+A/MB18/Belgium/2009/Congo -> A_MB18_Belgium_2009_Congo
+A/MB33/Belgium/2008/Congo -> A_MB33_Belgium_2008_Congo
+A/MB34/Belgium/2009/Rwanda -> A_MB34_Belgium_2009_Rwanda
+A/MB45/Belgium/2008/Congo -> A_MB45_Belgium_2008_Congo
+A/MB52/Belgium/2009/Cameroon -> A_MB52_Belgium_2009_Cameroon
+A/MB55/Belgium/2009/Cameroon -> A_MB55_Belgium_2009_Cameroon
+A/MB62/Belgium/2006/Congo -> A_MB62_Belgium_2006_Congo
+A/MB63/Belgium/2006/Rwanda -> A_MB63_Belgium_2006_Rwanda
+A/MB66/Belgium/2006/Congo -> A_MB66_Belgium_2006_Congo
+A/MB73/Belgium/2007/Congo -> A_MB73_Belgium_2007_Congo
+A/MB89/Belgium/2007/Mauritania -> A_MB89_Belgium_2007_Mauritania
+A/MB103/Belgium/2008/Congo -> A_MB103_Belgium_2008_Congo
+A/MB105/Belgium/2008/Congo -> A_MB105_Belgium_2008_Congo
+A/MB114/Belgium/2008/Congo -> A_MB114_Belgium_2008_Congo
+A/MB119/Belgium/2009/Rwanda -> A_MB119_Belgium_2009_Rwanda
+A/MB120/Belgium/2009/Congo -> A_MB120_Belgium_2009_Congo
+A/MB125/Belgium/2006/Rwanda -> A_MB125_Belgium_2006_Rwanda
+A/MB132/Belgium/2007/Rwanda -> A_MB132_Belgium_2007_Rwanda
+A/MB133/Belgium/2007/Congo -> A_MB133_Belgium_2007_Congo
+A/MB145/Belgium/2007/Congo -> A_MB145_Belgium_2007_Congo
+A/MB1/Belgium/2008/Rwanda -> A_MB1_Belgium_2008_Rwanda
+A5/MB4/Belgium/2008/Congo -> A5_MB4_Belgium_2008_Congo
+A/MB14/Belgium/2008/Congo -> A_MB14_Belgium_2008_Congo
+A/MB17/Belgium/2009/Rwanda -> A_MB17_Belgium_2009_Rwanda
+A/MB22/Belgium/2009/Congo -> A_MB22_Belgium_2009_Congo
+A/MB27/Belgium/2009/Congo -> A_MB27_Belgium_2009_Congo
+A/MB32/Belgium/2009/Congo -> A_MB32_Belgium_2009_Congo
+A/MB38/Belgium/2009/Congo -> A_MB38_Belgium_2009_Congo
+A/MB42/Belgium/2009/Rwanda -> A_MB42_Belgium_2009_Rwanda
+A/MB48/Belgium/2009/Rwanda -> A_MB48_Belgium_2009_Rwanda
+A/MB60/Belgium/2006/Congo -> A_MB60_Belgium_2006_Congo
+A/MB64/Belgium/2006/Burundi -> A_MB64_Belgium_2006_Burundi
+A/MB71/Belgium/2007/Burundi -> A_MB71_Belgium_2007_Burundi
+A/MB72/Belgium/2007/Rwanda -> A_MB72_Belgium_2007_Rwanda
+A/MB81/Belgium/2007/Rwanda -> A_MB81_Belgium_2007_Rwanda
+A/MB84/Belgium/2007/Congo -> A_MB84_Belgium_2007_Congo
+A/MB121/Belgium/2009/Rwanda -> A_MB121_Belgium_2009_Rwanda
+A/MB135/Belgium/2009/Congo -> A_MB135_Belgium_2009_Congo
+A/MB137/Belgium/2010/Congo -> A_MB137_Belgium_2010_Congo
+A/MB139/Belgium/2010/Rwanda -> A_MB139_Belgium_2010_Rwanda
+A/MB142/Belgium/2010/Congo -> A_MB142_Belgium_2010_Congo
+A/MB144/Belgium/2010/Nigeria -> A_MB144_Belgium_2010_Nigeria
+A/MB1473016/Belgium/2010/Rwanda -> A_MB1473016_Belgium_2010_Rwanda
+A2/AL73AC/Belgium/2003/Belgium -> A2_AL73AC_Belgium_2003_Belgium
+A2/AL16HY/Belgium/1997/Belgium -> A2_AL16HY_Belgium_1997_Belgium
+A2/AL21SE/Belgium/2001/Belgium -> A2_AL21SE_Belgium_2001_Belgium
+A2/AL32VLE/Belgium/1995/Belgium -> A2_AL32VLE_Belgium_1995_Belgium
+A2/AL40LMJ/Belgium/2001/Belgium -> A2_AL40LMJ_Belgium_2001_Belgium
+A2/AL36MR/Belgium/1999/Belgium -> A2_AL36MR_Belgium_1999_Belgium
+A2/AL43VDSB/Belgium/2001/Belgium -> A2_AL43VDSB_Belgium_2001_Belgium
+A2/AL51CJ/Belgium/2000/Belgium -> A2_AL51CJ_Belgium_2000_Belgium
+A2/AL62MD/Belgium/2000/Belgium -> A2_AL62MD_Belgium_2000_Belgium
+A2/AL66DMML/Belgium/2007/Belgium -> A2_AL66DMML_Belgium_2007_Belgium
+A2/AL69HMM/Belgium/2006/Belgium -> A2_AL69HMM_Belgium_2006_Belgium
+A2/AL70SJ/Belgium/2006/Belgium -> A2_AL70SJ_Belgium_2006_Belgium
+A2/AL72GMG/Belgium/2009/Belgium -> A2_AL72GMG_Belgium_2009_Belgium
+A2/AL79VM/Belgium/2005/Belgium -> A2_AL79VM_Belgium_2005_Belgium
+A2/AL31LJ/Belgium/1995/Belgium -> A2_AL31LJ_Belgium_1995_Belgium
+A/11z/Belgium/2003/Belgium -> A_11z_Belgium_2003_Belgium
+A/18zreal/Belgium/1998/Belgium -> A_18zreal_Belgium_1998_Belgium
+A/25a/Belgium/2001/Belgium -> A_25a_Belgium_2001_Belgium
+A/32a/Belgium/2005/Belgium -> A_32a_Belgium_2005_Belgium
+A/33a/Belgium/2002/Belgium -> A_33a_Belgium_2002_Belgium
+A/37a/Belgium/1998/Belgium -> A_37a_Belgium_1998_Belgium
+A/39Z/Belgium/2006/Belgium -> A_39Z_Belgium_2006_Belgium
+A/42z/Belgium/2007/Belgium -> A_42z_Belgium_2007_Belgium
+A/61a/Belgium/1987/Belgium -> A_61a_Belgium_1987_Belgium
+A/62a/Belgium/2001/Belgium -> A_62a_Belgium_2001_Belgium
+A/68z/Belgium/1998/Belgium -> A_68z_Belgium_1998_Belgium
+A/71a/Belgium/1984/Belgium -> A_71a_Belgium_1984_Belgium
+A/74a/Belgium/1998/Belgium -> A_74a_Belgium_1998_Belgium
+A/75a/Belgium/1998/Belgium -> A_75a_Belgium_1998_Belgium
+A/77a/Belgium/1980/Belgium -> A_77a_Belgium_1980_Belgium
+A/78a/Belgium/2003/Belgium -> A_78a_Belgium_2003_Belgium
+A/80a/Belgium/1987/Belgium -> A_80a_Belgium_1987_Belgium
+A/85a/Belgium/2000/Belgium -> A_85a_Belgium_2000_Belgium
+A/86a/Belgium/2003/Belgium -> A_86a_Belgium_2003_Belgium
+A/G1HX41a/Belgium/1988/Belgium -> A_G1HX41a_Belgium_1988_Belgium
+A/G1HZ25a/Belgium/1987/Belgium -> A_G1HZ25a_Belgium_1987_Belgium
+A/G1006a/Belgium/1992/Belgium -> A_G1006a_Belgium_1992_Belgium
+A/G10135a/Belgium/1993/Belgium -> A_G10135a_Belgium_1993_Belgium
+A/G10225a/Belgium/1982/Belgium -> A_G10225a_Belgium_1982_Belgium
+A/G1036a/Belgium/2002/Belgium -> A_G1036a_Belgium_2002_Belgium
+A/G10425a/Belgium/1994/Belgium -> A_G10425a_Belgium_1994_Belgium
+A/G10532a/Belgium/1988/Belgium -> A_G10532a_Belgium_1988_Belgium
+A/G10543a/Belgium/1993/Belgium -> A_G10543a_Belgium_1993_Belgium
+A/G10572a/Belgium/1982/Belgium -> A_G10572a_Belgium_1982_Belgium
+A/G10649a/Belgium/1982/Belgium -> A_G10649a_Belgium_1982_Belgium
+A/G1072/Belgium/2007/Belgium -> A_G1072_Belgium_2007_Belgium
+A/G10726a/Belgium/1992/Belgium -> A_G10726a_Belgium_1992_Belgium
+A/G10731a/Belgium/1979/Belgium -> A_G10731a_Belgium_1979_Belgium
+A/G1953a/Belgium/1989/Belgium -> A_G1953a_Belgium_1989_Belgium
+A/G19613a/Belgium/1985/Belgium -> A_G19613a_Belgium_1985_Belgium
+A/G1998a/Belgium/1981/Belgium -> A_G1998a_Belgium_1981_Belgium
+A/G19925a/Belgium/1999/Belgium -> A_G19925a_Belgium_1999_Belgium
+A/KM243029/India/2013/India -> A_KM243029_India_2013_India
+A1/AB937791/Japan/2002/Japan -> A1_AB937791_Japan_2002_Japan
+A2/AB937792/Japan/2008/Japan -> A2_AB937792_Japan_2008_Japan
+A2/AB937793/Japan/2013/Japan -> A2_AB937793_Japan_2013_Japan
+A2/AB937794/Japan/2013/Japan -> A2_AB937794_Japan_2013_Japan
+A1/AB937795/Japan/1989/Japan -> A1_AB937795_Japan_1989_Japan
+A1/AB937796/Japan/1999/Japan -> A1_AB937796_Japan_1999_Japan
+A2/AB937797/Japan/2012/Japan -> A2_AB937797_Japan_2012_Japan
+A2/AB937798/Japan/1988/Japan -> A2_AB937798_Japan_1988_Japan
+A2/AB937799/Japan/2014/Japan -> A2_AB937799_Japan_2014_Japan
+A2/KF779210/USA/1998/USA -> A2_KF779210_USA_1998_USA
+A2/KF779211/USA/1999/USA -> A2_KF779211_USA_1999_USA
+A2/KF779215/USA/1999/USA -> A2_KF779215_USA_1999_USA
+A2/KF779221/USA/2001/USA -> A2_KF779221_USA_2001_USA
+A/KF779227/USA/2003/USA -> A_KF779227_USA_2003_USA
+A/KF779231/USA/2003/USA -> A_KF779231_USA_2003_USA
+A/KF779232/USA/2003/USA -> A_KF779232_USA_2003_USA
+A/KF779234/USA/2003/USA -> A_KF779234_USA_2003_USA
+A/KF779238/USA/2004/USA -> A_KF779238_USA_2004_USA
+A/KF779239/USA/2004/USA -> A_KF779239_USA_2004_USA
+A/KF779240/USA/2004/USA -> A_KF779240_USA_2004_USA
+A/KF779243/USA/2004/USA -> A_KF779243_USA_2004_USA
+A/KF779244/USA/2004/USA -> A_KF779244_USA_2004_USA
+A/KF779245/USA/2004/USA -> A_KF779245_USA_2004_USA
+A/KF779246/USA/2004/USA -> A_KF779246_USA_2004_USA
+A/KF779247/USA/2005/USA -> A_KF779247_USA_2005_USA
+A/KF779248/USA/2005/USA -> A_KF779248_USA_2005_USA
+A/KF779249/USA/2005/USA -> A_KF779249_USA_2005_USA
+A2/KF779251/USA/1998/USA -> A2_KF779251_USA_1998_USA
+A2/KF779252/USA/1998/USA -> A2_KF779252_USA_1998_USA
+A2/KF779253/USA/1998/USA -> A2_KF779253_USA_1998_USA
+A2/KF779254/USA/1998/USA -> A2_KF779254_USA_1998_USA
+A2/KF779255/USA/1998/USA -> A2_KF779255_USA_1998_USA
+A2/KF779256/USA/1998/USA -> A2_KF779256_USA_1998_USA
+A2/KF779257/USA/1999/USA -> A2_KF779257_USA_1999_USA
+A2/KF779258/USA/1999/USA -> A2_KF779258_USA_1999_USA
+A2/KF779259/USA/1999/USA -> A2_KF779259_USA_1999_USA
+A2/KF779260/USA/1999/USA -> A2_KF779260_USA_1999_USA
+A2/KF779261/USA/1999/USA -> A2_KF779261_USA_1999_USA
+A2/KF779262/USA/1999/USA -> A2_KF779262_USA_1999_USA
+A2/KF779263/USA/1999/USA -> A2_KF779263_USA_1999_USA
+A2/KF779264/USA/2000/USA -> A2_KF779264_USA_2000_USA
+A2/KF779265/USA/2000/USA -> A2_KF779265_USA_2000_USA
+A2/KF779266/USA/2000/USA -> A2_KF779266_USA_2000_USA
+A2/KF779268/USA/2000/USA -> A2_KF779268_USA_2000_USA
+A/KF779269/USA/2003/USA -> A_KF779269_USA_2003_USA
+A/KF779270/USA/2003/USA -> A_KF779270_USA_2003_USA
+A/KF779271/USA/2003/USA -> A_KF779271_USA_2003_USA
+A/KF779272/USA/2003/USA -> A_KF779272_USA_2003_USA
+A/KF779273/USA/2003/USA -> A_KF779273_USA_2003_USA
+A/KF779274/USA/2003/USA -> A_KF779274_USA_2003_USA
+A/KF779275/USA/2003/USA -> A_KF779275_USA_2003_USA
+A/KF779276/USA/2004/USA -> A_KF779276_USA_2004_USA
+A/KF779277/USA/2004/USA -> A_KF779277_USA_2004_USA
+A/KF779278/USA/2005/USA -> A_KF779278_USA_2005_USA
+A/KF779279/USA/2005/USA -> A_KF779279_USA_2005_USA
+A/KF779280/USA/2005/USA -> A_KF779280_USA_2005_USA
+A/KF779281/USA/2005/USA -> A_KF779281_USA_2005_USA
+A/KF779282/USA/2005/USA -> A_KF779282_USA_2005_USA
+A/KF779283/USA/2005/USA -> A_KF779283_USA_2005_USA
+A2/KF779284/USA/1999/USA -> A2_KF779284_USA_1999_USA
+A2/KF779286/USA/1999/USA -> A2_KF779286_USA_1999_USA
+A2/KF779287/USA/1999/USA -> A2_KF779287_USA_1999_USA
+A2/KF779290/USA/2000/USA -> A2_KF779290_USA_2000_USA
+A2/KF779291/USA/2000/USA -> A2_KF779291_USA_2000_USA
+A2/KF779295/USA/2001/USA -> A2_KF779295_USA_2001_USA
+A2/KF779297/USA/2001/USA -> A2_KF779297_USA_2001_USA
+A2/KF779298/USA/2001/USA -> A2_KF779298_USA_2001_USA
+A2/KF779299/USA/2002/USA -> A2_KF779299_USA_2002_USA
+A2/KF779304/USA/2002/USA -> A2_KF779304_USA_2002_USA
+A/KF779305/USA/2003/USA -> A_KF779305_USA_2003_USA
+A/KF779306/USA/2003/USA -> A_KF779306_USA_2003_USA
+A/KF779307/USA/2003/USA -> A_KF779307_USA_2003_USA
+A/KF779308/USA/2004/USA -> A_KF779308_USA_2004_USA
+A/KF779309/USA/2005/USA -> A_KF779309_USA_2005_USA
+A/KF779310/USA/2005/USA -> A_KF779310_USA_2005_USA
+A2/KF779311/USA/1998/USA -> A2_KF779311_USA_1998_USA
+A2/KF779312/USA/1998/USA -> A2_KF779312_USA_1998_USA
+A2/KF779313/USA/1998/USA -> A2_KF779313_USA_1998_USA
+A2/KF779314/USA/1998/USA -> A2_KF779314_USA_1998_USA
+A2/KF779315/USA/1998/USA -> A2_KF779315_USA_1998_USA
+A2/KF779316/USA/1999/USA -> A2_KF779316_USA_1999_USA
+A2/KF779317/USA/2000/USA -> A2_KF779317_USA_2000_USA
+A2/KF779319/USA/2000/USA -> A2_KF779319_USA_2000_USA
+A2/KF779320/USA/2000/USA -> A2_KF779320_USA_2000_USA
+A2/KF779321/USA/2000/USA -> A2_KF779321_USA_2000_USA
+A2/KF779322/USA/2001/USA -> A2_KF779322_USA_2001_USA
+A2/KF779323/USA/2001/USA -> A2_KF779323_USA_2001_USA
+A2/KF779324/USA/2001/USA -> A2_KF779324_USA_2001_USA
+A2/KF779325/USA/2001/USA -> A2_KF779325_USA_2001_USA
+A2/KF779326/USA/2001/USA -> A2_KF779326_USA_2001_USA
+A2/KF779329/USA/2001/USA -> A2_KF779329_USA_2001_USA
+A2/KF779330/USA/2001/USA -> A2_KF779330_USA_2001_USA
+A2/KF779331/USA/2001/USA -> A2_KF779331_USA_2001_USA
+A1/KF779332/USA/2001/USA -> A1_KF779332_USA_2001_USA
+A2/KF779333/USA/2002/USA -> A2_KF779333_USA_2002_USA
+A2/KF779334/USA/2001/USA -> A2_KF779334_USA_2001_USA
+A2/KF779335/USA/2001/USA -> A2_KF779335_USA_2001_USA
+A2/KF779336/USA/2001/USA -> A2_KF779336_USA_2001_USA
+A2/KF779337/USA/2001/USA -> A2_KF779337_USA_2001_USA
+A2/KF779338/USA/2001/USA -> A2_KF779338_USA_2001_USA
+A2/KF779339/USA/2001/USA -> A2_KF779339_USA_2001_USA
+A2/KF779342/USA/2002/USA -> A2_KF779342_USA_2002_USA
+A/KF779344/USA/2003/USA -> A_KF779344_USA_2003_USA
+A/KF779345/USA/2003/USA -> A_KF779345_USA_2003_USA
+A/KF779346/USA/2003/USA -> A_KF779346_USA_2003_USA
+A/KF779347/USA/2003/USA -> A_KF779347_USA_2003_USA
+A/KF779348/USA/2003/USA -> A_KF779348_USA_2003_USA
+A/KF779349/USA/2003/USA -> A_KF779349_USA_2003_USA
+A/KF779350/USA/2003/USA -> A_KF779350_USA_2003_USA
+A/KF779351/USA/2003/USA -> A_KF779351_USA_2003_USA
+A/KF779352/USA/2003/USA -> A_KF779352_USA_2003_USA
+A/KF779354/USA/2003/USA -> A_KF779354_USA_2003_USA
+A/KF779355/USA/2003/USA -> A_KF779355_USA_2003_USA
+A/KF779358/USA/2004/USA -> A_KF779358_USA_2004_USA
+A/KF779359/USA/2004/USA -> A_KF779359_USA_2004_USA
+A/KF779360/USA/2004/USA -> A_KF779360_USA_2004_USA
+A/KF779361/USA/2004/USA -> A_KF779361_USA_2004_USA
+A/KF779362/USA/2004/USA -> A_KF779362_USA_2004_USA
+A/KF779363/USA/2004/USA -> A_KF779363_USA_2004_USA
+A/KF779364/USA/2004/USA -> A_KF779364_USA_2004_USA
+A/KF779365/USA/2004/USA -> A_KF779365_USA_2004_USA
+A/KF779366/USA/2004/USA -> A_KF779366_USA_2004_USA
+A/KF779367/USA/2004/USA -> A_KF779367_USA_2004_USA
+A/KF779368/USA/2004/USA -> A_KF779368_USA_2004_USA
+A/KF779369/USA/2005/USA -> A_KF779369_USA_2005_USA
+A/KF779370/USA/2005/USA -> A_KF779370_USA_2005_USA
+A/KF779371/USA/2005/USA -> A_KF779371_USA_2005_USA
+A/KF779372/USA/2005/USA -> A_KF779372_USA_2005_USA
+A/KF779373/USA/2005/USA -> A_KF779373_USA_2005_USA
+A/KF779374/USA/2006/USA -> A_KF779374_USA_2006_USA
+A/KF779375/USA/2006/USA -> A_KF779375_USA_2006_USA
+A2/KF779378/USA/2001/USA -> A2_KF779378_USA_2001_USA
+A2/KF779379/USA/2001/USA -> A2_KF779379_USA_2001_USA
+A/KF779381/USA/2004/USA -> A_KF779381_USA_2004_USA
+A/KF779383/USA/2005/USA -> A_KF779383_USA_2005_USA
+A1/KF779384/USA/2000/USA -> A1_KF779384_USA_2000_USA
+A2/KF779385/USA/2000/USA -> A2_KF779385_USA_2000_USA
+A2/KF779386/USA/2001/USA -> A2_KF779386_USA_2001_USA
+A1/JN182318/SouthAfrica/2009/SouthAfrica -> A1_JN182318_SouthAfrica_2009_SouthAfrica
+A1/JN182319/SouthAfrica/2009/SouthAfrica -> A1_JN182319_SouthAfrica_2009_SouthAfrica
+A1/JN182320/SouthAfrica/2009/SouthAfrica -> A1_JN182320_SouthAfrica_2009_SouthAfrica
+A1/JN182321/SouthAfrica/2009/SouthAfrica -> A1_JN182321_SouthAfrica_2009_SouthAfrica
+A1/JN182322/SouthAfrica/2009/SouthAfrica -> A1_JN182322_SouthAfrica_2009_SouthAfrica
+A1/JN182323/SouthAfrica/2009/SouthAfrica -> A1_JN182323_SouthAfrica_2009_SouthAfrica
+A1/JN182324/SouthAfrica/2009/SouthAfrica -> A1_JN182324_SouthAfrica_2009_SouthAfrica
+A1/JN182325/SouthAfrica/2009/SouthAfrica -> A1_JN182325_SouthAfrica_2009_SouthAfrica
+A1/JN182326/SouthAfrica/2009/SouthAfrica -> A1_JN182326_SouthAfrica_2009_SouthAfrica
+A1/JN182327/SouthAfrica/2009/SouthAfrica -> A1_JN182327_SouthAfrica_2009_SouthAfrica
+A1/JN182328/SouthAfrica/2009/SouthAfrica -> A1_JN182328_SouthAfrica_2009_SouthAfrica
+A1/JN182329/SouthAfrica/2009/SouthAfrica -> A1_JN182329_SouthAfrica_2009_SouthAfrica
+A1/JN182330/SouthAfrica/2009/SouthAfrica -> A1_JN182330_SouthAfrica_2009_SouthAfrica
+A1/JN182331/SouthAfrica/2009/SouthAfrica -> A1_JN182331_SouthAfrica_2009_SouthAfrica
+A1/JN182332/SouthAfrica/2009/SouthAfrica -> A1_JN182332_SouthAfrica_2009_SouthAfrica
+A1/JN182333/SouthAfrica/2009/SouthAfrica -> A1_JN182333_SouthAfrica_2009_SouthAfrica
+A1/JN182334/SouthAfrica/2009/SouthAfrica -> A1_JN182334_SouthAfrica_2009_SouthAfrica
+A/JQ687529/Serbia/2007/Serbia -> A_JQ687529_Serbia_2007_Serbia
+A/JQ687533/Serbia/2008/Serbia -> A_JQ687533_Serbia_2008_Serbia
+A2/AB697488/Japan/2003/Japan -> A2_AB697488_Japan_2003_Japan
+A2/AB697489/Japan/2004/Japan -> A2_AB697489_Japan_2004_Japan
+A2/AB697491/Japan/2005/Japan -> A2_AB697491_Japan_2005_Japan
+A2/AB697492/Japan/2005/Japan -> A2_AB697492_Japan_2005_Japan
+A2/AB697493/Japan/2005/Japan -> A2_AB697493_Japan_2005_Japan
+A2/AB697495/Japan/2005/Japan -> A2_AB697495_Japan_2005_Japan
+A2/AB697496/Japan/2002/Japan -> A2_AB697496_Japan_2002_Japan
+A2/AB697497/Japan/2006/Japan -> A2_AB697497_Japan_2006_Japan
+A2/AB697498/Japan/2006/Japan -> A2_AB697498_Japan_2006_Japan
+A2/AB697499/Japan/2006/Japan -> A2_AB697499_Japan_2006_Japan
+A2/AB697501/Japan/2006/Japan -> A2_AB697501_Japan_2006_Japan
+A2/AB697503/Japan/2006/Japan -> A2_AB697503_Japan_2006_Japan
+A2/AB697504/Japan/2006/Japan -> A2_AB697504_Japan_2006_Japan
+A2/AB697505/Japan/2006/Japan -> A2_AB697505_Japan_2006_Japan
+A2/AB697506/Japan/2006/Japan -> A2_AB697506_Japan_2006_Japan
+A2/AB697507/Japan/2007/Japan -> A2_AB697507_Japan_2007_Japan
+A2/AB697508/Japan/2007/Japan -> A2_AB697508_Japan_2007_Japan
+A2/AB697509/Japan/2007/Japan -> A2_AB697509_Japan_2007_Japan
+A2/AB697511/Japan/2007/Japan -> A2_AB697511_Japan_2007_Japan
+A2/AB697512/Japan/2007/Japan -> A2_AB697512_Japan_2007_Japan
+A2/HE576988/France/2007/France -> A2_HE576988_France_2007_France
+A2/HE576989/France/2007/France -> A2_HE576989_France_2007_France
+A/GU563545/Belgium/2005/Belgium -> A_GU563545_Belgium_2005_Belgium
+A/GU563546/Belgium/2001/Belgium -> A_GU563546_Belgium_2001_Belgium
+A/GU563547/Belgium/2003/Belgium -> A_GU563547_Belgium_2003_Belgium
+A/GU563548/Belgium/2000/Belgium -> A_GU563548_Belgium_2000_Belgium
+A/GU563550/Belgium/2004/Belgium -> A_GU563550_Belgium_2004_Belgium
+A/GU563551/Belgium/2003/Belgium -> A_GU563551_Belgium_2003_Belgium
+A/GU563553/Belgium/2001/Belgium -> A_GU563553_Belgium_2001_Belgium
+A/GU563554/Belgium/2008/Belgium -> A_GU563554_Belgium_2008_Belgium
+A/GU563555/Belgium/2007/Belgium -> A_GU563555_Belgium_2007_Belgium
+A/GU563557/Belgium/2000/Belgium -> A_GU563557_Belgium_2000_Belgium
+A/GU563558/Belgium/2005/Belgium -> A_GU563558_Belgium_2005_Belgium
+A/GU563562/Belgium/2008/Belgium -> A_GU563562_Belgium_2008_Belgium
+A3/HM363612/Nigeria/2007/Nigeria -> A3_HM363612_Nigeria_2007_Nigeria
+A3/HM363613/Nigeria/2007/Nigeria -> A3_HM363613_Nigeria_2007_Nigeria
+A/HM011485/Malaysia/2007/Malaysia -> A_HM011485_Malaysia_2007_Malaysia
+A/FN545825/Nigeria/2005/Nigeria -> A_FN545825_Nigeria_2005_Nigeria
+A/FN545826/Cameroon/2005/Cameroon -> A_FN545826_Cameroon_2005_Cameroon
+AD/FN545828/Cameroon/2005/Cameroon -> AD_FN545828_Cameroon_2005_Cameroon
+AD/FN545829/Cameroon/2005/Cameroon -> AD_FN545829_Cameroon_2005_Cameroon
+AD/FN545830/Cameroon/2005/Cameroon -> AD_FN545830_Cameroon_2005_Cameroon
+A/FN545831/Cameroon/2007/Cameroon -> A_FN545831_Cameroon_2007_Cameroon
+A/FN545832/Cameroon/2007/Cameroon -> A_FN545832_Cameroon_2007_Cameroon
+A/FN545833/Cameroon/2007/Cameroon -> A_FN545833_Cameroon_2007_Cameroon
+A/FN545834/Cameroon/2007/Cameroon -> A_FN545834_Cameroon_2007_Cameroon
+A/FN545835/Cameroon/2007/Cameroon -> A_FN545835_Cameroon_2007_Cameroon
+A/FN545836/Cameroon/2007/Cameroon -> A_FN545836_Cameroon_2007_Cameroon
+A/FN545837/Cameroon/2007/Cameroon -> A_FN545837_Cameroon_2007_Cameroon
+A/FN545838/Cameroon/2007/Cameroon -> A_FN545838_Cameroon_2007_Cameroon
+A/FN545839/Cameroon/2007/Cameroon -> A_FN545839_Cameroon_2007_Cameroon
+A/FN545840/Cameroon/2007/Cameroon -> A_FN545840_Cameroon_2007_Cameroon
+A/AB549213/Japan/2009/Japan -> A_AB549213_Japan_2009_Japan
+A6/GQ331046/Belgium/2006/Belgium -> A6_GQ331046_Belgium_2006_Belgium
+A6/GQ331047/Belgium/1998/Belgium -> A6_GQ331047_Belgium_1998_Belgium
+A6/GQ331048/Belgium/2001/Belgium -> A6_GQ331048_Belgium_2001_Belgium
+A/FJ349222/Belgium/1998/Belgium -> A_FJ349222_Belgium_1998_Belgium
+A/FJ349223/Belgium/1998/Belgium -> A_FJ349223_Belgium_1998_Belgium
+A/FJ349224/Belgium/2000/Belgium -> A_FJ349224_Belgium_2000_Belgium
+A5/FJ692554/Niger/2004/Niger -> A5_FJ692554_Niger_2004_Niger
+A5/FJ692555/Niger/2004/Niger -> A5_FJ692555_Niger_2004_Niger
+A5/FJ692556/Niger/2004/Niger -> A5_FJ692556_Niger_2004_Niger
+A1/FJ692557/Haiti/2006/Haiti -> A1_FJ692557_Haiti_2006_Haiti
+A1/FJ692558/Haiti/2006/Haiti -> A1_FJ692558_Haiti_2006_Haiti
+A1/FJ692559/Haiti/2006/Haiti -> A1_FJ692559_Haiti_2006_Haiti
+A1/FJ692560/Haiti/2006/Haiti -> A1_FJ692560_Haiti_2006_Haiti
+A1/FJ692561/Haiti/2006/Haiti -> A1_FJ692561_Haiti_2006_Haiti
+A1/FJ692562/Haiti/2006/Haiti -> A1_FJ692562_Haiti_2006_Haiti
+A1/FJ692563/Haiti/2006/Haiti -> A1_FJ692563_Haiti_2006_Haiti
+A1/FJ692564/Haiti/2006/Haiti -> A1_FJ692564_Haiti_2006_Haiti
+A1/FJ692565/Haiti/2006/Haiti -> A1_FJ692565_Haiti_2006_Haiti
+A1/FJ692566/Haiti/2006/Haiti -> A1_FJ692566_Haiti_2006_Haiti
+A1/FJ692567/Haiti/2006/Haiti -> A1_FJ692567_Haiti_2006_Haiti
+A1/FJ692568/Haiti/2006/Haiti -> A1_FJ692568_Haiti_2006_Haiti
+A1/FJ692569/Haiti/2006/Haiti -> A1_FJ692569_Haiti_2006_Haiti
+A1/FJ692570/Haiti/2006/Haiti -> A1_FJ692570_Haiti_2006_Haiti
+A1/FJ692571/Haiti/2006/Haiti -> A1_FJ692571_Haiti_2006_Haiti
+A1/FJ692572/Haiti/2006/Haiti -> A1_FJ692572_Haiti_2006_Haiti
+A1/FJ692573/Haiti/2006/Haiti -> A1_FJ692573_Haiti_2006_Haiti
+A1/FJ692574/Haiti/2006/Haiti -> A1_FJ692574_Haiti_2006_Haiti
+A1/FJ692575/Haiti/2006/Haiti -> A1_FJ692575_Haiti_2006_Haiti
+A1/FJ692576/Haiti/2006/Haiti -> A1_FJ692576_Haiti_2006_Haiti
+A1/FJ692577/Haiti/2006/Haiti -> A1_FJ692577_Haiti_2006_Haiti
+A1/FJ692578/Haiti/2006/Haiti -> A1_FJ692578_Haiti_2006_Haiti
+A1/FJ692579/Haiti/2006/Haiti -> A1_FJ692579_Haiti_2006_Haiti
+A1/FJ692580/Haiti/2006/Haiti -> A1_FJ692580_Haiti_2006_Haiti
+A1/FJ692581/Haiti/2006/Haiti -> A1_FJ692581_Haiti_2006_Haiti
+A1/FJ692582/Haiti/2006/Haiti -> A1_FJ692582_Haiti_2006_Haiti
+A1/FJ692583/Haiti/2006/Haiti -> A1_FJ692583_Haiti_2006_Haiti
+A1/FJ692584/Haiti/2006/Haiti -> A1_FJ692584_Haiti_2006_Haiti
+A1/FJ692585/Haiti/2006/Haiti -> A1_FJ692585_Haiti_2006_Haiti
+A1/FJ692586/Haiti/2006/Haiti -> A1_FJ692586_Haiti_2006_Haiti
+A1/FJ692587/Haiti/2006/Haiti -> A1_FJ692587_Haiti_2006_Haiti
+A1/FJ692588/Haiti/2006/Haiti -> A1_FJ692588_Haiti_2006_Haiti
+A1/FJ692589/Haiti/2006/Haiti -> A1_FJ692589_Haiti_2006_Haiti
+A1/FJ692590/Haiti/2006/Haiti -> A1_FJ692590_Haiti_2006_Haiti
+A1/FJ692591/Haiti/2006/Haiti -> A1_FJ692591_Haiti_2006_Haiti
+A1/FJ692592/Haiti/2006/Haiti -> A1_FJ692592_Haiti_2006_Haiti
+A5/FJ692593/Haiti/2006/Haiti -> A5_FJ692593_Haiti_2006_Haiti
+A5/FJ692594/Haiti/2006/Haiti -> A5_FJ692594_Haiti_2006_Haiti
+A5/FJ692595/Haiti/2006/Haiti -> A5_FJ692595_Haiti_2006_Haiti
+A5/FJ692596/Haiti/2006/Haiti -> A5_FJ692596_Haiti_2006_Haiti
+A5/FJ692597/Haiti/2006/Haiti -> A5_FJ692597_Haiti_2006_Haiti
+A5/FJ692598/Haiti/2006/Haiti -> A5_FJ692598_Haiti_2006_Haiti
+A5/FJ692599/Haiti/2006/Haiti -> A5_FJ692599_Haiti_2006_Haiti
+A5/FJ692600/Haiti/2006/Haiti -> A5_FJ692600_Haiti_2006_Haiti
+A5/FJ692601/Haiti/2006/Haiti -> A5_FJ692601_Haiti_2006_Haiti
+A5/FJ692602/Haiti/2006/Haiti -> A5_FJ692602_Haiti_2006_Haiti
+A5/FJ692603/Haiti/2006/Haiti -> A5_FJ692603_Haiti_2006_Haiti
+A5/FJ692604/Haiti/2006/Haiti -> A5_FJ692604_Haiti_2006_Haiti
+A5/FJ692605/Haiti/2006/Haiti -> A5_FJ692605_Haiti_2006_Haiti
+A5/FJ692606/Haiti/2006/Haiti -> A5_FJ692606_Haiti_2006_Haiti
+A5/FJ692607/Haiti/2006/Haiti -> A5_FJ692607_Haiti_2006_Haiti
+A5/FJ692608/Haiti/2006/Haiti -> A5_FJ692608_Haiti_2006_Haiti
+A5/FJ692609/Haiti/2006/Haiti -> A5_FJ692609_Haiti_2006_Haiti
+A5/FJ692610/Haiti/2006/Haiti -> A5_FJ692610_Haiti_2006_Haiti
+A5/FJ692611/Haiti/2006/Haiti -> A5_FJ692611_Haiti_2006_Haiti
+A5/FJ692612/Haiti/2006/Haiti -> A5_FJ692612_Haiti_2006_Haiti
+A5/FJ692613/Haiti/2006/Haiti -> A5_FJ692613_Haiti_2006_Haiti
+A/FJ349296/Gabon/2004/Gabon -> A_FJ349296_Gabon_2004_Gabon
+A2/EU859901/Belgium/2006/Belgium -> A2_EU859901_Belgium_2006_Belgium
+A2/EU859906/Belgium/2007/Belgium -> A2_EU859906_Belgium_2007_Belgium
+A2/EU859907/Belgium/2007/Belgium -> A2_EU859907_Belgium_2007_Belgium
+A2/EU859908/Belgium/2007/Belgium -> A2_EU859908_Belgium_2007_Belgium
+A2/EU859910/Belgium/2007/Belgium -> A2_EU859910_Belgium_2007_Belgium
+A2/EU859911/Belgium/2007/Belgium -> A2_EU859911_Belgium_2007_Belgium
+A2/EU859912/Belgium/2006/Belgium -> A2_EU859912_Belgium_2006_Belgium
+A2/EU859913/Belgium/2006/Belgium -> A2_EU859913_Belgium_2006_Belgium
+A2/EU859914/Belgium/2005/Belgium -> A2_EU859914_Belgium_2005_Belgium
+A2/EU859915/Belgium/2005/Belgium -> A2_EU859915_Belgium_2005_Belgium
+A2/EU859916/Belgium/2005/Belgium -> A2_EU859916_Belgium_2005_Belgium
+A2/EU859917/Belgium/2005/Belgium -> A2_EU859917_Belgium_2005_Belgium
+A2/EU859918/Belgium/2005/Belgium -> A2_EU859918_Belgium_2005_Belgium
+A2/EU859919/Belgium/2005/Belgium -> A2_EU859919_Belgium_2005_Belgium
+A2/EU859920/Belgium/2006/Belgium -> A2_EU859920_Belgium_2006_Belgium
+A2/EU859921/Belgium/2005/Belgium -> A2_EU859921_Belgium_2005_Belgium
+A2/EU859922/Belgium/2005/Belgium -> A2_EU859922_Belgium_2005_Belgium
+A2/EU859924/Belgium/2005/Belgium -> A2_EU859924_Belgium_2005_Belgium
+A2/EU859925/Belgium/2006/Belgium -> A2_EU859925_Belgium_2006_Belgium
+A2/EU859926/Belgium/2005/Belgium -> A2_EU859926_Belgium_2005_Belgium
+A2/EU859927/Belgium/2005/Belgium -> A2_EU859927_Belgium_2005_Belgium
+A2/EU859928/Belgium/2006/Belgium -> A2_EU859928_Belgium_2006_Belgium
+A2/EU859938/Belgium/1999/Belgium -> A2_EU859938_Belgium_1999_Belgium
+A2/EU859939/Belgium/1999/Belgium -> A2_EU859939_Belgium_1999_Belgium
+A2/EU859940/Belgium/1998/Belgium -> A2_EU859940_Belgium_1998_Belgium
+A2/EU859941/Belgium/2000/Belgium -> A2_EU859941_Belgium_2000_Belgium
+A2/EU859942/Belgium/2000/Belgium -> A2_EU859942_Belgium_2000_Belgium
+A2/EU859943/Belgium/2000/Belgium -> A2_EU859943_Belgium_2000_Belgium
+A2/EU859944/Belgium/2000/Belgium -> A2_EU859944_Belgium_2000_Belgium
+A2/EU859945/Belgium/2000/Belgium -> A2_EU859945_Belgium_2000_Belgium
+A2/EU859946/Belgium/2000/Belgium -> A2_EU859946_Belgium_2000_Belgium
+A2/EU859947/Belgium/2001/Belgium -> A2_EU859947_Belgium_2001_Belgium
+A2/EU859948/Belgium/2000/Belgium -> A2_EU859948_Belgium_2000_Belgium
+A2/EU859949/Belgium/1999/Belgium -> A2_EU859949_Belgium_1999_Belgium
+A2/EU859950/Belgium/1999/Belgium -> A2_EU859950_Belgium_1999_Belgium
+A2/EU859951/Belgium/1999/Belgium -> A2_EU859951_Belgium_1999_Belgium
+A6/EU859952/Belgium/1998/Belgium -> A6_EU859952_Belgium_1998_Belgium
+A2/EU859953/Belgium/1998/Belgium -> A2_EU859953_Belgium_1998_Belgium
+A2/EU859954/Belgium/1998/Belgium -> A2_EU859954_Belgium_1998_Belgium
+A2/EU859955/Belgium/1998/Belgium -> A2_EU859955_Belgium_1998_Belgium
+A2/EU859956/Belgium/1998/Belgium -> A2_EU859956_Belgium_1998_Belgium
+A2/FJ904411/Tunisia/2006/Tunisia -> A2_FJ904411_Tunisia_2006_Tunisia
+A/EU185786/Argentina/2001/Argentina -> A_EU185786_Argentina_2001_Argentina
+A/EU185787/Argentina/2001/Argentina -> A_EU185787_Argentina_2001_Argentina
+A/EU185788/Argentina/2001/Argentina -> A_EU185788_Argentina_2001_Argentina
+A/EU185789/Argentina/2001/Argentina -> A_EU185789_Argentina_2001_Argentina
+A/AB453983/Japan/2006/Japan -> A_AB453983_Japan_2006_Japan
+A/AB453979/Japan/2006/Japan -> A_AB453979_Japan_2006_Japan
+A/AB453980/Japan/2006/Japan -> A_AB453980_Japan_2006_Japan
+A/AB453981/Japan/2006/Japan -> A_AB453981_Japan_2006_Japan
+A/AB453982/Japan/2006/Japan -> A_AB453982_Japan_2006_Japan
+A/AB453984/Japan/2006/Japan -> A_AB453984_Japan_2006_Japan
+A/AB453985/Japan/2006/Japan -> A_AB453985_Japan_2006_Japan
+A/AB453986/Japan/2006/Japan -> A_AB453986_Japan_2006_Japan
+A/AB453987/Japan/2006/Japan -> A_AB453987_Japan_2006_Japan
+A/AB453988/Japan/2006/Japan -> A_AB453988_Japan_2006_Japan
+A/AB453989/Japan/2006/Japan -> A_AB453989_Japan_2006_Japan
+A1/EU366129/Argentina/2005/Argentina -> A1_EU366129_Argentina_2005_Argentina
+A/EU414132/Belarus/2005/Belarus -> A_EU414132_Belarus_2005_Belarus
+A/EU414133/Belarus/2005/Belarus -> A_EU414133_Belarus_2005_Belarus
+A/EU414134/Belarus/2005/Belarus -> A_EU414134_Belarus_2005_Belarus
+A/AB270536/Mongolia/2005/Mongolia -> A_AB270536_Mongolia_2005_Mongolia
+A3/AM184126/Gabon/2005/Gabon -> A3_AM184126_Gabon_2005_Gabon
+A3/AM184125/Gabon/2005/Gabon -> A3_AM184125_Gabon_2005_Gabon
+A/DQ788729/Germany/1996/Germany -> A_DQ788729_Germany_1996_Germany
+A/DQ788728/Germany/1996/Germany -> A_DQ788728_Germany_1996_Germany
+A/DQ788727/Germany/1995/Germany -> A_DQ788727_Germany_1995_Germany
+A/DQ788726/Germany/1993/Germany -> A_DQ788726_Germany_1993_Germany
+A/DQ788725/Germany/1992/Germany -> A_DQ788725_Germany_1992_Germany
+A1/AB222707/Uzbekistan/2004/Uzbekistan -> A1_AB222707_Uzbekistan_2004_Uzbekistan
+A1/DQ315786/India/2004/India -> A1_DQ315786_India_2004_India
+A/AY738143/Germany/1997/Germany -> A_AY738143_Germany_1997_Germany
+A/AY738142/Germany/1997/Germany -> A_AY738142_Germany_1997_Germany
+A/AY738141/Germany/1997/Germany -> A_AY738141_Germany_1997_Germany
+A2/AY738140/Germany/1997/Germany -> A2_AY738140_Germany_1997_Germany
+A1/AY738139/Germany/1997/Germany -> A1_AY738139_Germany_1997_Germany
+A3/AB194952/Cameroon/1994/Cameroon -> A3_AB194952_Cameroon_1994_Cameroon
+A3/AB194951/Cameroon/1994/Cameroon -> A3_AB194951_Cameroon_1994_Cameroon
+A3/AB194950/Cameroon/1994/Cameroon -> A3_AB194950_Cameroon_1994_Cameroon
+A/AY161144/India/2002/India -> A_AY161144_India_2002_India
+A/AY161143/India/2002/India -> A_AY161143_India_2002_India
+A/AY161142/India/2002/India -> A_AY161142_India_2002_India
+A/AY161139/India/2002/India -> A_AY161139_India_2002_India
+A/AY161138/India/2002/India -> A_AY161138_India_2002_India
+A/AB076678/Malawi/1997/Malawi -> A_AB076678_Malawi_1997_Malawi
+A1/KJ854685/Brazil/2007/Brazil -> A1_KJ854685_Brazil_2007_Brazil
+A1/KJ854686/Brazil/2007/Brazil -> A1_KJ854686_Brazil_2007_Brazil
+A1/KJ854687/Brazil/2007/Brazil -> A1_KJ854687_Brazil_2007_Brazil
+A1/KJ854688/Brazil/2007/Brazil -> A1_KJ854688_Brazil_2007_Brazil
+A1/KJ854689/Brazil/2007/Brazil -> A1_KJ854689_Brazil_2007_Brazil
+A1/KJ854690/Brazil/2007/Brazil -> A1_KJ854690_Brazil_2007_Brazil
+A1/KJ854691/Brazil/2007/Brazil -> A1_KJ854691_Brazil_2007_Brazil
+A1/KJ854692/Brazil/2007/Brazil -> A1_KJ854692_Brazil_2007_Brazil
+A1/KJ854693/Brazil/2007/Brazil -> A1_KJ854693_Brazil_2007_Brazil
+A1/KJ854694/Brazil/2007/Brazil -> A1_KJ854694_Brazil_2007_Brazil
+A1/KJ854695/Brazil/2007/Brazil -> A1_KJ854695_Brazil_2007_Brazil
+A1/KJ854696/Brazil/2007/Brazil -> A1_KJ854696_Brazil_2007_Brazil
+A1/KJ854697/Brazil/2007/Brazil -> A1_KJ854697_Brazil_2007_Brazil
+A1/KJ854698/Brazil/2007/Brazil -> A1_KJ854698_Brazil_2007_Brazil
+A1/KJ854699/Brazil/2007/Brazil -> A1_KJ854699_Brazil_2007_Brazil
+A1/KJ854700/Brazil/2007/Brazil -> A1_KJ854700_Brazil_2007_Brazil
+A1/KJ854701/Brazil/2007/Brazil -> A1_KJ854701_Brazil_2007_Brazil
+A1/KJ854702/Brazil/2007/Brazil -> A1_KJ854702_Brazil_2007_Brazil
+A1/KJ854703/Brazil/2007/Brazil -> A1_KJ854703_Brazil_2007_Brazil
+A1/KJ854704/Brazil/2007/Brazil -> A1_KJ854704_Brazil_2007_Brazil
+A1/KJ854705/Brazil/2007/Brazil -> A1_KJ854705_Brazil_2007_Brazil
+A1/KJ854706/Brazil/2007/Brazil -> A1_KJ854706_Brazil_2007_Brazil
+A1/KJ854707/Brazil/2007/Brazil -> A1_KJ854707_Brazil_2007_Brazil
+A1/KJ854708/Brazil/2007/Brazil -> A1_KJ854708_Brazil_2007_Brazil
+A2/KJ854709/Brazil/2007/Brazil -> A2_KJ854709_Brazil_2007_Brazil
+A2/KJ854710/Brazil/2007/Brazil -> A2_KJ854710_Brazil_2007_Brazil
+A2/KJ843166/Argentina/2013/Argentina -> A2_KJ843166_Argentina_2013_Argentina
+A2/KJ843172/Argentina/2010/Argentina -> A2_KJ843172_Argentina_2010_Argentina
+A2/KJ843173/Argentina/2013/Argentina -> A2_KJ843173_Argentina_2013_Argentina
+A2/KJ843182/Argentina/2012/Argentina -> A2_KJ843182_Argentina_2012_Argentina
+A1/KJ843183/Argentina/2011/Argentina -> A1_KJ843183_Argentina_2011_Argentina
+A2/KJ843184/Argentina/2013/Argentina -> A2_KJ843184_Argentina_2013_Argentina
+A2/KJ843186/Argentina/2013/Argentina -> A2_KJ843186_Argentina_2013_Argentina
+A2/KJ843188/Argentina/2012/Argentina -> A2_KJ843188_Argentina_2012_Argentina
+A2/KJ843192/Argentina/2013/Argentina -> A2_KJ843192_Argentina_2013_Argentina
+A2/KJ843214/Argentina/2001/Argentina -> A2_KJ843214_Argentina_2001_Argentina
+A2/KJ843215/Argentina/2004/Argentina -> A2_KJ843215_Argentina_2004_Argentina
+A2/KJ843216/Argentina/2003/Argentina -> A2_KJ843216_Argentina_2003_Argentina
+A2/KJ843217/Argentina/2013/Argentina -> A2_KJ843217_Argentina_2013_Argentina
+A2/KJ843218/Argentina/2013/Argentina -> A2_KJ843218_Argentina_2013_Argentina
+A/KJ638661/Panama/2011/Panama -> A_KJ638661_Panama_2011_Panama
+A1/KJ010776/SouthAfrica/2009/SouthAfrica -> A1_KJ010776_SouthAfrica_2009_SouthAfrica
+A1/KJ010777/SouthAfrica/2009/SouthAfrica -> A1_KJ010777_SouthAfrica_2009_SouthAfrica
+A1/KJ010778/SouthAfrica/2009/SouthAfrica -> A1_KJ010778_SouthAfrica_2009_SouthAfrica
+A1/KJ533386/India/2009/India -> A1_KJ533386_India_2009_India
+A1/KJ533387/India/2009/India -> A1_KJ533387_India_2009_India
+A1/KJ533388/India/2009/India -> A1_KJ533388_India_2009_India
+A2/AB775198/Japan/2010/Japan -> A2_AB775198_Japan_2010_Japan
+A2/AB775199/Japan/2010/Japan -> A2_AB775199_Japan_2010_Japan
+A2/AB775200/Japan/2010/Japan -> A2_AB775200_Japan_2010_Japan
+A2/AB775201/Japan/2010/Japan -> A2_AB775201_Japan_2010_Japan
+A/KC836877/Japan/1993/Japan -> A_KC836877_Japan_1993_Japan
+A/KC836878/Japan/1994/Japan -> A_KC836878_Japan_1994_Japan
+A/KC836879/Japan/1995/Japan -> A_KC836879_Japan_1995_Japan
+A/KC836880/Japan/1996/Japan -> A_KC836880_Japan_1996_Japan
+A/KC836881/Japan/1996/Japan -> A_KC836881_Japan_1996_Japan
+A/JX507080/SouthAfrica/1997/SouthAfrica -> A_JX507080_SouthAfrica_1997_SouthAfrica
+A1/JX154579/Kenya/2010/Kenya -> A1_JX154579_Kenya_2010_Kenya
+A1/JX154580/Kenya/2010/Kenya -> A1_JX154580_Kenya_2010_Kenya
+A1/JX154581/Kenya/2010/Kenya -> A1_JX154581_Kenya_2010_Kenya
+A1/JX154582/Kenya/2010/Kenya -> A1_JX154582_Kenya_2010_Kenya
+A1/JQ023660/Colombia/2007/Colombia -> A1_JQ023660_Colombia_2007_Colombia
+A1/JQ023661/Colombia/2007/Colombia -> A1_JQ023661_Colombia_2007_Colombia
+A1/JQ023662/Colombia/2007/Colombia -> A1_JQ023662_Colombia_2007_Colombia
+A1/JQ023663/Colombia/2007/Colombia -> A1_JQ023663_Colombia_2007_Colombia
+A2/JX096952/Latvia/2005/Latvia -> A2_JX096952_Latvia_2005_Latvia
+A2/JX096953/Latvia/2008/Latvia -> A2_JX096953_Latvia_2008_Latvia
+A2/GQ477460/Poland/2006/Poland -> A2_GQ477460_Poland_2006_Poland
+A2/GQ477461/Poland/2006/Poland -> A2_GQ477461_Poland_2006_Poland
+A2/GQ477462/Poland/2006/Poland -> A2_GQ477462_Poland_2006_Poland
+A2/GQ477463/Poland/2006/Poland -> A2_GQ477463_Poland_2006_Poland
+A2/GQ477464/Poland/2006/Poland -> A2_GQ477464_Poland_2006_Poland
+A2/GQ477465/Poland/2006/Poland -> A2_GQ477465_Poland_2006_Poland
+A2/GQ477466/Poland/2006/Poland -> A2_GQ477466_Poland_2006_Poland
+A2/GQ477467/Poland/2006/Poland -> A2_GQ477467_Poland_2006_Poland
+A2/GQ477468/Poland/2006/Poland -> A2_GQ477468_Poland_2006_Poland
+A2/GQ477469/Poland/2006/Poland -> A2_GQ477469_Poland_2006_Poland
+A2/GQ477470/Poland/2006/Poland -> A2_GQ477470_Poland_2006_Poland
+A2/GQ477471/Poland/2006/Poland -> A2_GQ477471_Poland_2006_Poland
+A2/GQ477472/Poland/2006/Poland -> A2_GQ477472_Poland_2006_Poland
+A2/GQ477473/Poland/2006/Poland -> A2_GQ477473_Poland_2006_Poland
+A2/GQ477474/Poland/2006/Poland -> A2_GQ477474_Poland_2006_Poland
+A2/GQ477475/Poland/2006/Poland -> A2_GQ477475_Poland_2006_Poland
+A2/GQ477476/Poland/2006/Poland -> A2_GQ477476_Poland_2006_Poland
+A2/GQ477477/Poland/2006/Poland -> A2_GQ477477_Poland_2006_Poland
+A2/GQ477478/Poland/2006/Poland -> A2_GQ477478_Poland_2006_Poland
+A2/GQ477479/Poland/2006/Poland -> A2_GQ477479_Poland_2006_Poland
+A2/GQ477480/Poland/2006/Poland -> A2_GQ477480_Poland_2006_Poland
+A2/GQ477481/Poland/2006/Poland -> A2_GQ477481_Poland_2006_Poland
+A2/GQ477482/Poland/2006/Poland -> A2_GQ477482_Poland_2006_Poland
+A2/GQ477483/Poland/2006/Poland -> A2_GQ477483_Poland_2006_Poland
+A2/GQ477484/Poland/2006/Poland -> A2_GQ477484_Poland_2006_Poland
+A2/GQ477485/Poland/2006/Poland -> A2_GQ477485_Poland_2006_Poland
+A2/GQ477486/Poland/2006/Poland -> A2_GQ477486_Poland_2006_Poland
+A2/GQ477487/Poland/2006/Poland -> A2_GQ477487_Poland_2006_Poland
+A2/GQ477488/Poland/2006/Poland -> A2_GQ477488_Poland_2006_Poland
+A2/GQ477489/Poland/2006/Poland -> A2_GQ477489_Poland_2006_Poland
+A2/GQ477490/Poland/2006/Poland -> A2_GQ477490_Poland_2006_Poland
+A2/GQ477491/Poland/2006/Poland -> A2_GQ477491_Poland_2006_Poland
+A2/GQ477492/Poland/2006/Poland -> A2_GQ477492_Poland_2006_Poland
+A2/GQ477493/Poland/2006/Poland -> A2_GQ477493_Poland_2006_Poland
+A2/GQ477494/Poland/2006/Poland -> A2_GQ477494_Poland_2006_Poland
+A2/GQ477495/Poland/2006/Poland -> A2_GQ477495_Poland_2006_Poland
+A2/GQ477496/Poland/2006/Poland -> A2_GQ477496_Poland_2006_Poland
+A2/GQ477497/Poland/2006/Poland -> A2_GQ477497_Poland_2006_Poland
+A2/GQ477498/Poland/2006/Poland -> A2_GQ477498_Poland_2006_Poland
+A2/GQ477499/Poland/2006/Poland -> A2_GQ477499_Poland_2006_Poland
+A2/GQ477500/Poland/2006/Poland -> A2_GQ477500_Poland_2006_Poland
+A2/GQ477501/Poland/2006/Poland -> A2_GQ477501_Poland_2006_Poland
+A2/GQ477502/Poland/2006/Poland -> A2_GQ477502_Poland_2006_Poland
+A2/GQ477503/Poland/2006/Poland -> A2_GQ477503_Poland_2006_Poland
+A2/GQ477504/Poland/2006/Poland -> A2_GQ477504_Poland_2006_Poland
+A2/FJ904434/Tunisia/2006/Tunisia -> A2_FJ904434_Tunisia_2006_Tunisia
+A2/EU594387/Latvia/1991/Latvia -> A2_EU594387_Latvia_1991_Latvia
+A2/EU594388/Latvia/1991/Latvia -> A2_EU594388_Latvia_1991_Latvia
+A2/EU594390/Russia/1997/Russia -> A2_EU594390_Russia_1997_Russia
+A2/EU594391/Russia/1997/Russia -> A2_EU594391_Russia_1997_Russia
+A2/EU594392/Russia/1997/Russia -> A2_EU594392_Russia_1997_Russia
+A2/EU594393/Russia/1997/Russia -> A2_EU594393_Russia_1997_Russia
+A2/EU594394/Russia/1997/Russia -> A2_EU594394_Russia_1997_Russia
+A2/EU594395/Russia/1997/Russia -> A2_EU594395_Russia_1997_Russia
+LT992440.1/DA119/Slovakia/451/Slovakia -> LT992440.1_DA119_Slovakia_451_Slovakia
+LT992441.1/DA195/Hungary/-627/Hungary -> LT992441.1_DA195_Hungary_-627_Hungary
+LT992448.1/RISE386/Russia/-2100/Russia -> LT992448.1_RISE386_Russia_-2100_Russia
+LT992447.1/RISE387/Russia/-2264/Russia -> LT992447.1_RISE387_Russia_-2264_Russia
+
+                                          Gap/Ambiguity  Composition  p-value
+   1  A_MB7_Belgium_2008_Rwanda                   0.03%    passed     96.17%
+   2  A_MB10_Belgium_2008_IvoryCoast              2.14%    passed     92.16%
+   3  A_MB11_Belgium_2008_Burundi                 0.03%    passed     87.96%
+   4  A3_MB16_Belgium_2009_Guinea                 0.25%    passed     94.89%
+   5  A_MB18_Belgium_2009_Congo                   0.22%    passed     96.53%
+   6  A_MB33_Belgium_2008_Congo                   0.03%    passed     98.93%
+   7  A_MB34_Belgium_2009_Rwanda                  0.09%    passed     95.12%
+   8  A_MB45_Belgium_2008_Congo                   0.03%    passed     96.16%
+   9  A_MB52_Belgium_2009_Cameroon                0.03%    passed     90.66%
+  10  A_MB55_Belgium_2009_Cameroon                0.03%    passed     93.77%
+  11  A_MB62_Belgium_2006_Congo                   0.59%    passed     96.40%
+  12  A_MB63_Belgium_2006_Rwanda                  0.09%    passed     97.34%
+  13  A_MB66_Belgium_2006_Congo                   1.99%    passed     95.38%
+  14  A_MB73_Belgium_2007_Congo                   0.16%    passed     94.78%
+  15  A_MB89_Belgium_2007_Mauritania              0.06%    passed     93.57%
+  16  A_MB103_Belgium_2008_Congo                  0.03%    passed     98.93%
+  17  A_MB105_Belgium_2008_Congo                  1.40%    passed     96.26%
+  18  A_MB114_Belgium_2008_Congo                  0.03%    passed     97.27%
+  19  A_MB119_Belgium_2009_Rwanda                 0.03%    passed     95.24%
+  20  A_MB120_Belgium_2009_Congo                  0.03%    passed     99.12%
+  21  A_MB125_Belgium_2006_Rwanda                 0.09%    passed     86.53%
+  22  A_MB132_Belgium_2007_Rwanda                 0.03%    passed     94.80%
+  23  A_MB133_Belgium_2007_Congo                  0.22%    passed     99.79%
+  24  A_MB145_Belgium_2007_Congo                  0.03%    passed     90.44%
+  25  A_MB1_Belgium_2008_Rwanda                   0.06%    passed     94.00%
+  26  A5_MB4_Belgium_2008_Congo                   0.03%    passed     99.14%
+  27  A_MB14_Belgium_2008_Congo                   0.03%    passed     78.14%
+  28  A_MB17_Belgium_2009_Rwanda                  0.22%    passed     99.39%
+  29  A_MB22_Belgium_2009_Congo                   0.03%    passed     98.91%
+  30  A_MB27_Belgium_2009_Congo                   0.06%    passed     95.76%
+  31  A_MB32_Belgium_2009_Congo                   0.06%    passed     95.88%
+  32  A_MB38_Belgium_2009_Congo                   0.03%    passed     97.38%
+  33  A_MB42_Belgium_2009_Rwanda                  0.03%    passed     94.51%
+  34  A_MB48_Belgium_2009_Rwanda                  1.83%    passed     85.59%
+  35  A_MB60_Belgium_2006_Congo                   0.31%    passed     95.10%
+  36  A_MB64_Belgium_2006_Burundi                 0.03%    passed     96.42%
+  37  A_MB71_Belgium_2007_Burundi                 0.16%    passed     98.56%
+  38  A_MB72_Belgium_2007_Rwanda                  0.06%    passed     91.98%
+  39  A_MB81_Belgium_2007_Rwanda                  0.09%    passed     95.34%
+  40  A_MB84_Belgium_2007_Congo                   0.03%    passed     95.45%
+  41  A_MB121_Belgium_2009_Rwanda                 1.83%    passed     85.59%
+  42  A_MB135_Belgium_2009_Congo                  0.59%    passed     85.88%
+  43  A_MB137_Belgium_2010_Congo                  0.03%    passed     99.52%
+  44  A_MB139_Belgium_2010_Rwanda                 0.03%    passed     96.22%
+  45  A_MB142_Belgium_2010_Congo                  0.03%    passed     97.52%
+  46  A_MB144_Belgium_2010_Nigeria                6.42%    passed     85.06%
+  47  A_MB1473016_Belgium_2010_Rwanda             6.39%    passed     89.95%
+  48  A2_AL73AC_Belgium_2003_Belgium              0.03%    passed     99.38%
+  49  A2_AL16HY_Belgium_1997_Belgium              0.03%    passed     99.07%
+  50  A2_AL21SE_Belgium_2001_Belgium              0.03%    passed     99.80%
+  51  A2_AL32VLE_Belgium_1995_Belgium             0.03%    passed     99.68%
+  52  A2_AL40LMJ_Belgium_2001_Belgium             0.03%    passed     98.41%
+  53  A2_AL36MR_Belgium_1999_Belgium              0.03%    passed     99.95%
+  54  A2_AL43VDSB_Belgium_2001_Belgium            0.03%    passed     99.89%
+  55  A2_AL51CJ_Belgium_2000_Belgium              0.03%    passed     99.50%
+  56  A2_AL62MD_Belgium_2000_Belgium              0.16%    passed     99.82%
+  57  A2_AL66DMML_Belgium_2007_Belgium            0.03%    passed     99.94%
+  58  A2_AL69HMM_Belgium_2006_Belgium             0.03%    passed     99.02%
+  59  A2_AL70SJ_Belgium_2006_Belgium              0.03%    passed     99.38%
+  60  A2_AL72GMG_Belgium_2009_Belgium             0.03%    passed     99.43%
+  61  A2_AL79VM_Belgium_2005_Belgium              0.03%    passed     99.88%
+  62  A2_AL31LJ_Belgium_1995_Belgium              0.28%    passed     98.51%
+  63  A_11z_Belgium_2003_Belgium                  0.03%    passed     99.24%
+  64  A_18zreal_Belgium_1998_Belgium              0.03%    passed     98.85%
+  65  A_25a_Belgium_2001_Belgium                  0.03%    passed     99.89%
+  66  A_32a_Belgium_2005_Belgium                  0.03%    passed     99.81%
+  67  A_33a_Belgium_2002_Belgium                  0.03%    passed     98.88%
+  68  A_37a_Belgium_1998_Belgium                  0.03%    passed     99.38%
+  69  A_39Z_Belgium_2006_Belgium                  0.03%    passed     98.55%
+  70  A_42z_Belgium_2007_Belgium                  0.03%    passed     99.63%
+  71  A_61a_Belgium_1987_Belgium                  0.03%    passed     99.90%
+  72  A_62a_Belgium_2001_Belgium                  0.03%    passed     99.90%
+  73  A_68z_Belgium_1998_Belgium                  5.80%    passed     96.79%
+  74  A_71a_Belgium_1984_Belgium                  0.03%    passed     99.35%
+  75  A_74a_Belgium_1998_Belgium                  0.03%    passed     96.68%
+  76  A_75a_Belgium_1998_Belgium                  0.50%    passed     98.41%
+  77  A_77a_Belgium_1980_Belgium                  0.03%    passed     99.88%
+  78  A_78a_Belgium_2003_Belgium                  0.03%    passed     99.54%
+  79  A_80a_Belgium_1987_Belgium                  0.03%    passed     99.49%
+  80  A_85a_Belgium_2000_Belgium                  0.03%    passed     99.43%
+  81  A_86a_Belgium_2003_Belgium                  0.03%    passed     98.88%
+  82  A_G1HX41a_Belgium_1988_Belgium              0.03%    passed     99.35%
+  83  A_G1HZ25a_Belgium_1987_Belgium              0.03%    passed     99.54%
+  84  A_G1006a_Belgium_1992_Belgium               0.03%    passed     99.43%
+  85  A_G10135a_Belgium_1993_Belgium              0.03%    passed     99.67%
+  86  A_G10225a_Belgium_1982_Belgium              0.03%    passed     99.80%
+  87  A_G1036a_Belgium_2002_Belgium               0.03%    passed     99.96%
+  88  A_G10425a_Belgium_1994_Belgium              0.03%    passed     98.75%
+  89  A_G10532a_Belgium_1988_Belgium              0.03%    passed     99.79%
+  90  A_G10543a_Belgium_1993_Belgium              0.03%    passed     98.91%
+  91  A_G10572a_Belgium_1982_Belgium              0.03%    passed     99.68%
+  92  A_G10649a_Belgium_1982_Belgium              0.03%    passed     98.14%
+  93  A_G1072_Belgium_2007_Belgium                0.03%    passed     98.23%
+  94  A_G10726a_Belgium_1992_Belgium              0.03%    passed     99.72%
+  95  A_G10731a_Belgium_1979_Belgium              0.03%    passed     99.62%
+  96  A_G1953a_Belgium_1989_Belgium               0.03%    passed     99.50%
+  97  A_G19613a_Belgium_1985_Belgium              0.03%    passed     99.43%
+  98  A_G1998a_Belgium_1981_Belgium               0.03%    passed     99.65%
+  99  A_G19925a_Belgium_1999_Belgium              0.03%    passed     97.10%
+ 100  A_KM243029_India_2013_India                 6.89%    passed     86.73%
+ 101  A1_AB937791_Japan_2002_Japan                0.03%    passed     97.37%
+ 102  A2_AB937792_Japan_2008_Japan                0.03%    passed     99.69%
+ 103  A2_AB937793_Japan_2013_Japan                0.03%    passed     99.68%
+ 104  A2_AB937794_Japan_2013_Japan                0.03%    passed     99.68%
+ 105  A1_AB937795_Japan_1989_Japan                0.19%    passed     98.82%
+ 106  A1_AB937796_Japan_1999_Japan                0.03%    passed     97.89%
+ 107  A2_AB937797_Japan_2012_Japan                0.84%    passed     98.55%
+ 108  A2_AB937798_Japan_1988_Japan                0.03%    passed     99.50%
+ 109  A2_AB937799_Japan_2014_Japan                1.06%    passed     98.32%
+ 110  A2_KF779210_USA_1998_USA                    1.74%    passed     99.70%
+ 111  A2_KF779211_USA_1999_USA                    1.74%    passed     98.50%
+ 112  A2_KF779215_USA_1999_USA                    1.74%    passed     98.28%
+ 113  A2_KF779221_USA_2001_USA                    1.74%    passed     93.58%
+ 114  A_KF779227_USA_2003_USA                     1.74%    passed     99.15%
+ 115  A_KF779231_USA_2003_USA                     1.74%    passed     98.71%
+ 116  A_KF779232_USA_2003_USA                     1.74%    passed     98.14%
+ 117  A_KF779234_USA_2003_USA                     1.74%    passed     95.91%
+ 118  A_KF779238_USA_2004_USA                     1.74%    passed     98.83%
+ 119  A_KF779239_USA_2004_USA                     1.74%    passed     99.21%
+ 120  A_KF779240_USA_2004_USA                     1.74%    passed     98.42%
+ 121  A_KF779243_USA_2004_USA                     1.74%    passed     98.93%
+ 122  A_KF779244_USA_2004_USA                     1.74%    passed     99.11%
+ 123  A_KF779245_USA_2004_USA                     1.74%    passed     99.61%
+ 124  A_KF779246_USA_2004_USA                     1.74%    passed     98.96%
+ 125  A_KF779247_USA_2005_USA                     1.74%    passed     99.22%
+ 126  A_KF779248_USA_2005_USA                     1.74%    passed     98.87%
+ 127  A_KF779249_USA_2005_USA                     1.74%    passed     99.33%
+ 128  A2_KF779251_USA_1998_USA                    1.74%    passed     99.36%
+ 129  A2_KF779252_USA_1998_USA                    1.74%    passed     99.02%
+ 130  A2_KF779253_USA_1998_USA                    1.74%    passed     98.09%
+ 131  A2_KF779254_USA_1998_USA                    1.74%    passed     99.47%
+ 132  A2_KF779255_USA_1998_USA                    1.74%    passed     98.87%
+ 133  A2_KF779256_USA_1998_USA                    1.74%    passed     99.07%
+ 134  A2_KF779257_USA_1999_USA                    1.74%    passed     98.91%
+ 135  A2_KF779258_USA_1999_USA                    1.74%    passed     99.38%
+ 136  A2_KF779259_USA_1999_USA                    1.74%    passed     99.16%
+ 137  A2_KF779260_USA_1999_USA                    1.74%    passed     95.61%
+ 138  A2_KF779261_USA_1999_USA                    1.74%    passed     98.95%
+ 139  A2_KF779262_USA_1999_USA                    1.74%    passed     99.17%
+ 140  A2_KF779263_USA_1999_USA                    1.74%    passed     99.55%
+ 141  A2_KF779264_USA_2000_USA                    1.74%    passed     99.16%
+ 142  A2_KF779265_USA_2000_USA                    1.74%    passed     99.40%
+ 143  A2_KF779266_USA_2000_USA                    1.74%    passed     98.77%
+ 144  A2_KF779268_USA_2000_USA                    1.74%    passed     99.36%
+ 145  A_KF779269_USA_2003_USA                     1.74%    passed     98.82%
+ 146  A_KF779270_USA_2003_USA                     1.74%    passed     98.34%
+ 147  A_KF779271_USA_2003_USA                     1.74%    passed     99.23%
+ 148  A_KF779272_USA_2003_USA                     1.74%    passed     97.43%
+ 149  A_KF779273_USA_2003_USA                     1.74%    passed     99.59%
+ 150  A_KF779274_USA_2003_USA                     1.74%    passed     99.13%
+ 151  A_KF779275_USA_2003_USA                     1.74%    passed     99.38%
+ 152  A_KF779276_USA_2004_USA                     1.74%    passed     99.53%
+ 153  A_KF779277_USA_2004_USA                     1.74%    passed     99.27%
+ 154  A_KF779278_USA_2005_USA                     1.74%    passed     98.96%
+ 155  A_KF779279_USA_2005_USA                     1.74%    passed     98.43%
+ 156  A_KF779280_USA_2005_USA                     1.74%    passed     97.68%
+ 157  A_KF779281_USA_2005_USA                     1.74%    passed     98.26%
+ 158  A_KF779282_USA_2005_USA                     1.74%    passed     97.70%
+ 159  A_KF779283_USA_2005_USA                     1.74%    passed     98.79%
+ 160  A2_KF779284_USA_1999_USA                    1.74%    passed     99.48%
+ 161  A2_KF779286_USA_1999_USA                    1.74%    passed     99.64%
+ 162  A2_KF779287_USA_1999_USA                    1.74%    passed     99.74%
+ 163  A2_KF779290_USA_2000_USA                    1.74%    passed     99.57%
+ 164  A2_KF779291_USA_2000_USA                    1.74%    passed     99.70%
+ 165  A2_KF779295_USA_2001_USA                    1.74%    passed     99.47%
+ 166  A2_KF779297_USA_2001_USA                    1.74%    passed     99.30%
+ 167  A2_KF779298_USA_2001_USA                    1.74%    passed     99.80%
+ 168  A2_KF779299_USA_2002_USA                    1.74%    passed     98.98%
+ 169  A2_KF779304_USA_2002_USA                    1.74%    passed     99.36%
+ 170  A_KF779305_USA_2003_USA                     1.74%    passed     98.24%
+ 171  A_KF779306_USA_2003_USA                     1.74%    passed     98.68%
+ 172  A_KF779307_USA_2003_USA                     1.74%    passed     98.60%
+ 173  A_KF779308_USA_2004_USA                     1.74%    passed     99.06%
+ 174  A_KF779309_USA_2005_USA                     1.74%    passed     99.44%
+ 175  A_KF779310_USA_2005_USA                     1.74%    passed     99.07%
+ 176  A2_KF779311_USA_1998_USA                    1.74%    passed     98.09%
+ 177  A2_KF779312_USA_1998_USA                    1.74%    passed     98.96%
+ 178  A2_KF779313_USA_1998_USA                    1.74%    passed     98.68%
+ 179  A2_KF779314_USA_1998_USA                    1.74%    passed     98.96%
+ 180  A2_KF779315_USA_1998_USA                    1.74%    passed     99.36%
+ 181  A2_KF779316_USA_1999_USA                    1.74%    passed     99.16%
+ 182  A2_KF779317_USA_2000_USA                    1.74%    passed     99.38%
+ 183  A2_KF779319_USA_2000_USA                    1.74%    passed     98.95%
+ 184  A2_KF779320_USA_2000_USA                    1.74%    passed     99.93%
+ 185  A2_KF779321_USA_2000_USA                    1.74%    passed     99.64%
+ 186  A2_KF779322_USA_2001_USA                    1.74%    passed     98.80%
+ 187  A2_KF779323_USA_2001_USA                    1.74%    passed     98.96%
+ 188  A2_KF779324_USA_2001_USA                    1.74%    passed     98.46%
+ 189  A2_KF779325_USA_2001_USA                    1.74%    passed     98.98%
+ 190  A2_KF779326_USA_2001_USA                    1.74%    passed     99.44%
+ 191  A2_KF779329_USA_2001_USA                    1.74%    passed     99.55%
+ 192  A2_KF779330_USA_2001_USA                    1.74%    passed     98.89%
+ 193  A2_KF779331_USA_2001_USA                    1.74%    passed     99.20%
+ 194  A1_KF779332_USA_2001_USA                    1.74%    passed     98.90%
+ 195  A2_KF779333_USA_2002_USA                    1.74%    passed     98.37%
+ 196  A2_KF779334_USA_2001_USA                    1.74%    passed     99.64%
+ 197  A2_KF779335_USA_2001_USA                    1.74%    passed     99.02%
+ 198  A2_KF779336_USA_2001_USA                    1.77%    passed     98.45%
+ 199  A2_KF779337_USA_2001_USA                    1.74%    passed     99.18%
+ 200  A2_KF779338_USA_2001_USA                    1.74%    passed     98.74%
+ 201  A2_KF779339_USA_2001_USA                    1.74%    passed     98.74%
+ 202  A2_KF779342_USA_2002_USA                    1.74%    passed     99.23%
+ 203  A_KF779344_USA_2003_USA                     1.74%    passed     99.40%
+ 204  A_KF779345_USA_2003_USA                     1.74%    passed     99.42%
+ 205  A_KF779346_USA_2003_USA                     1.74%    passed     98.91%
+ 206  A_KF779347_USA_2003_USA                     1.74%    passed     99.34%
+ 207  A_KF779348_USA_2003_USA                     1.74%    passed     99.08%
+ 208  A_KF779349_USA_2003_USA                     1.74%    passed     99.16%
+ 209  A_KF779350_USA_2003_USA                     1.74%    passed     99.42%
+ 210  A_KF779351_USA_2003_USA                     1.74%    passed     99.16%
+ 211  A_KF779352_USA_2003_USA                     1.74%    passed     98.87%
+ 212  A_KF779354_USA_2003_USA                     1.74%    passed     98.55%
+ 213  A_KF779355_USA_2003_USA                     1.74%    passed     98.78%
+ 214  A_KF779358_USA_2004_USA                     1.74%    passed     98.11%
+ 215  A_KF779359_USA_2004_USA                     1.74%    passed     98.48%
+ 216  A_KF779360_USA_2004_USA                     1.74%    passed     98.96%
+ 217  A_KF779361_USA_2004_USA                     1.74%    passed     99.26%
+ 218  A_KF779362_USA_2004_USA                     1.74%    passed     99.28%
+ 219  A_KF779363_USA_2004_USA                     1.74%    passed     99.15%
+ 220  A_KF779364_USA_2004_USA                     1.74%    passed     99.07%
+ 221  A_KF779365_USA_2004_USA                     1.74%    passed     99.04%
+ 222  A_KF779366_USA_2004_USA                     1.74%    passed     99.18%
+ 223  A_KF779367_USA_2004_USA                     1.74%    passed     99.18%
+ 224  A_KF779368_USA_2004_USA                     1.74%    passed     98.93%
+ 225  A_KF779369_USA_2005_USA                     1.74%    passed     98.98%
+ 226  A_KF779370_USA_2005_USA                     1.74%    passed     98.37%
+ 227  A_KF779371_USA_2005_USA                     1.74%    passed     98.87%
+ 228  A_KF779372_USA_2005_USA                     1.74%    passed     98.46%
+ 229  A_KF779373_USA_2005_USA                     1.74%    passed     99.27%
+ 230  A_KF779374_USA_2006_USA                     1.74%    passed     98.93%
+ 231  A_KF779375_USA_2006_USA                     1.74%    passed     98.08%
+ 232  A2_KF779378_USA_2001_USA                    1.74%    passed     98.67%
+ 233  A2_KF779379_USA_2001_USA                    1.74%    passed     99.47%
+ 234  A_KF779381_USA_2004_USA                     1.74%    passed     97.67%
+ 235  A_KF779383_USA_2005_USA                     1.74%    passed     97.81%
+ 236  A1_KF779384_USA_2000_USA                    1.74%    passed     99.37%
+ 237  A2_KF779385_USA_2000_USA                    1.74%    passed     99.09%
+ 238  A2_KF779386_USA_2001_USA                    1.77%    passed     98.94%
+ 239  A1_JN182318_SouthAfrica_2009_SouthAfrica    0.16%    passed     97.72%
+ 240  A1_JN182319_SouthAfrica_2009_SouthAfrica    0.81%    passed     99.55%
+ 241  A1_JN182320_SouthAfrica_2009_SouthAfrica    0.90%    passed     98.49%
+ 242  A1_JN182321_SouthAfrica_2009_SouthAfrica    0.03%    passed     98.56%
+ 243  A1_JN182322_SouthAfrica_2009_SouthAfrica    0.62%    passed     97.76%
+ 244  A1_JN182323_SouthAfrica_2009_SouthAfrica    0.68%    passed     98.75%
+ 245  A1_JN182324_SouthAfrica_2009_SouthAfrica    0.03%    passed     99.21%
+ 246  A1_JN182325_SouthAfrica_2009_SouthAfrica    0.03%    passed     99.10%
+ 247  A1_JN182326_SouthAfrica_2009_SouthAfrica    1.86%    passed     99.28%
+ 248  A1_JN182327_SouthAfrica_2009_SouthAfrica    0.87%    passed     98.78%
+ 249  A1_JN182328_SouthAfrica_2009_SouthAfrica    0.03%    passed     99.49%
+ 250  A1_JN182329_SouthAfrica_2009_SouthAfrica    1.40%    passed     95.95%
+ 251  A1_JN182330_SouthAfrica_2009_SouthAfrica    0.03%    passed     98.26%
+ 252  A1_JN182331_SouthAfrica_2009_SouthAfrica    0.03%    passed     99.20%
+ 253  A1_JN182332_SouthAfrica_2009_SouthAfrica    0.03%    passed     97.92%
+ 254  A1_JN182333_SouthAfrica_2009_SouthAfrica    0.03%    passed     99.02%
+ 255  A1_JN182334_SouthAfrica_2009_SouthAfrica    0.65%    passed     99.32%
+ 256  A_JQ687529_Serbia_2007_Serbia               0.03%    passed     99.24%
+ 257  A_JQ687533_Serbia_2008_Serbia               0.03%    passed     98.60%
+ 258  A2_AB697488_Japan_2003_Japan                0.19%    passed     99.74%
+ 259  A2_AB697489_Japan_2004_Japan                0.03%    passed     99.69%
+ 260  A2_AB697491_Japan_2005_Japan                0.06%    passed     99.76%
+ 261  A2_AB697492_Japan_2005_Japan                0.03%    passed     99.38%
+ 262  A2_AB697493_Japan_2005_Japan                0.09%    passed     99.73%
+ 263  A2_AB697495_Japan_2005_Japan                0.12%    passed     99.66%
+ 264  A2_AB697496_Japan_2002_Japan                0.03%    passed     99.77%
+ 265  A2_AB697497_Japan_2006_Japan                0.03%    passed     99.60%
+ 266  A2_AB697498_Japan_2006_Japan                1.61%    passed     99.04%
+ 267  A2_AB697499_Japan_2006_Japan                0.03%    passed     99.77%
+ 268  A2_AB697501_Japan_2006_Japan                0.03%    passed     99.69%
+ 269  A2_AB697503_Japan_2006_Japan                0.03%    passed     99.77%
+ 270  A2_AB697504_Japan_2006_Japan                0.03%    passed     99.60%
+ 271  A2_AB697505_Japan_2006_Japan                0.09%    passed     99.66%
+ 272  A2_AB697506_Japan_2006_Japan                0.09%    passed     98.56%
+ 273  A2_AB697507_Japan_2007_Japan                0.09%    passed     98.82%
+ 274  A2_AB697508_Japan_2007_Japan                0.03%    passed     99.77%
+ 275  A2_AB697509_Japan_2007_Japan                0.03%    passed     99.67%
+ 276  A2_AB697511_Japan_2007_Japan                0.06%    passed     99.86%
+ 277  A2_AB697512_Japan_2007_Japan                0.03%    passed     99.81%
+ 278  A2_HE576988_France_2007_France              0.06%    passed     98.22%
+ 279  A2_HE576989_France_2007_France              0.03%    passed     99.15%
+ 280  A_GU563545_Belgium_2005_Belgium             0.03%    passed     91.03%
+ 281  A_GU563546_Belgium_2001_Belgium             0.03%    passed     99.78%
+ 282  A_GU563547_Belgium_2003_Belgium             0.03%    passed     88.98%
+ 283  A_GU563548_Belgium_2000_Belgium             0.03%    passed     95.24%
+ 284  A_GU563550_Belgium_2004_Belgium             0.03%    passed     99.30%
+ 285  A_GU563551_Belgium_2003_Belgium             0.03%    passed     99.89%
+ 286  A_GU563553_Belgium_2001_Belgium             0.03%    passed     98.76%
+ 287  A_GU563554_Belgium_2008_Belgium             0.03%    passed     99.43%
+ 288  A_GU563555_Belgium_2007_Belgium             0.03%    passed     99.60%
+ 289  A_GU563557_Belgium_2000_Belgium             0.03%    passed     99.24%
+ 290  A_GU563558_Belgium_2005_Belgium             0.03%    passed     99.64%
+ 291  A_GU563562_Belgium_2008_Belgium             0.06%    passed     99.46%
+ 292  A3_HM363612_Nigeria_2007_Nigeria            3.26%    passed     99.34%
+ 293  A3_HM363613_Nigeria_2007_Nigeria            3.26%    passed     99.66%
+ 294  A_HM011485_Malaysia_2007_Malaysia           0.16%    passed     99.81%
+ 295  A_FN545825_Nigeria_2005_Nigeria             0.12%    passed     98.34%
+ 296  A_FN545826_Cameroon_2005_Cameroon           0.22%    passed     93.60%
+ 297  AD_FN545828_Cameroon_2005_Cameroon          0.19%    passed     96.45%
+ 298  AD_FN545829_Cameroon_2005_Cameroon          0.16%    passed     99.67%
+ 299  AD_FN545830_Cameroon_2005_Cameroon          0.28%    passed     99.28%
+ 300  A_FN545831_Cameroon_2007_Cameroon           0.03%    passed     99.05%
+ 301  A_FN545832_Cameroon_2007_Cameroon           0.56%    passed     99.08%
+ 302  A_FN545833_Cameroon_2007_Cameroon           0.16%    passed     97.09%
+ 303  A_FN545834_Cameroon_2007_Cameroon           0.43%    passed     99.47%
+ 304  A_FN545835_Cameroon_2007_Cameroon           0.16%    passed     99.37%
+ 305  A_FN545836_Cameroon_2007_Cameroon           0.12%    passed     99.81%
+ 306  A_FN545837_Cameroon_2007_Cameroon           0.81%    passed     99.92%
+ 307  A_FN545838_Cameroon_2007_Cameroon           0.19%    passed     93.66%
+ 308  A_FN545839_Cameroon_2007_Cameroon           2.33%    passed     98.74%
+ 309  A_FN545840_Cameroon_2007_Cameroon           0.43%    passed     99.64%
+ 310  A_AB549213_Japan_2009_Japan                 0.03%    passed     98.89%
+ 311  A6_GQ331046_Belgium_2006_Belgium            0.03%    passed     99.51%
+ 312  A6_GQ331047_Belgium_1998_Belgium            0.03%    passed     98.18%
+ 313  A6_GQ331048_Belgium_2001_Belgium            0.03%    passed     96.28%
+ 314  A_FJ349222_Belgium_1998_Belgium             1.80%    passed     99.07%
+ 315  A_FJ349223_Belgium_1998_Belgium             5.77%    passed     95.36%
+ 316  A_FJ349224_Belgium_2000_Belgium             0.03%    passed     99.60%
+ 317  A5_FJ692554_Niger_2004_Niger                0.03%    passed     99.80%
+ 318  A5_FJ692555_Niger_2004_Niger                7.76%    passed     72.86%
+ 319  A5_FJ692556_Niger_2004_Niger                0.31%    passed     99.33%
+ 320  A1_FJ692557_Haiti_2006_Haiti                0.03%    passed     92.81%
+ 321  A1_FJ692558_Haiti_2006_Haiti                0.25%    passed     90.28%
+ 322  A1_FJ692559_Haiti_2006_Haiti                0.12%    passed     96.49%
+ 323  A1_FJ692560_Haiti_2006_Haiti                0.09%    passed     92.16%
+ 324  A1_FJ692561_Haiti_2006_Haiti                0.43%    passed     94.50%
+ 325  A1_FJ692562_Haiti_2006_Haiti                0.19%    passed     93.49%
+ 326  A1_FJ692563_Haiti_2006_Haiti                0.09%    passed     92.82%
+ 327  A1_FJ692564_Haiti_2006_Haiti                0.09%    passed     98.75%
+ 328  A1_FJ692565_Haiti_2006_Haiti                0.28%    passed     97.22%
+ 329  A1_FJ692566_Haiti_2006_Haiti                0.06%    passed     98.40%
+ 330  A1_FJ692567_Haiti_2006_Haiti                0.31%    passed     99.13%
+ 331  A1_FJ692568_Haiti_2006_Haiti                0.50%    passed     94.63%
+ 332  A1_FJ692569_Haiti_2006_Haiti                0.06%    passed     93.68%
+ 333  A1_FJ692570_Haiti_2006_Haiti                3.32%    passed     94.63%
+ 334  A1_FJ692571_Haiti_2006_Haiti                0.22%    passed     95.00%
+ 335  A1_FJ692572_Haiti_2006_Haiti                0.12%    passed     88.97%
+ 336  A1_FJ692573_Haiti_2006_Haiti                1.77%    passed     82.60%
+ 337  A1_FJ692574_Haiti_2006_Haiti                0.03%    passed     95.53%
+ 338  A1_FJ692575_Haiti_2006_Haiti                0.43%    passed     98.70%
+ 339  A1_FJ692576_Haiti_2006_Haiti                0.12%    passed     90.46%
+ 340  A1_FJ692577_Haiti_2006_Haiti                0.16%    passed     95.93%
+ 341  A1_FJ692578_Haiti_2006_Haiti                0.03%    passed     92.88%
+ 342  A1_FJ692579_Haiti_2006_Haiti                0.03%    passed     92.88%
+ 343  A1_FJ692580_Haiti_2006_Haiti                0.03%    passed     92.88%
+ 344  A1_FJ692581_Haiti_2006_Haiti                0.03%    passed     92.88%
+ 345  A1_FJ692582_Haiti_2006_Haiti                0.03%    passed     92.88%
+ 346  A1_FJ692583_Haiti_2006_Haiti                0.03%    passed     92.88%
+ 347  A1_FJ692584_Haiti_2006_Haiti                0.03%    passed     92.88%
+ 348  A1_FJ692585_Haiti_2006_Haiti                0.03%    passed     92.88%
+ 349  A1_FJ692586_Haiti_2006_Haiti                1.83%    passed     98.09%
+ 350  A1_FJ692587_Haiti_2006_Haiti                0.74%    passed     97.32%
+ 351  A1_FJ692588_Haiti_2006_Haiti                0.03%    passed     98.52%
+ 352  A1_FJ692589_Haiti_2006_Haiti                0.53%    passed     99.48%
+ 353  A1_FJ692590_Haiti_2006_Haiti                0.03%    passed     99.21%
+ 354  A1_FJ692591_Haiti_2006_Haiti                0.65%    passed     99.10%
+ 355  A1_FJ692592_Haiti_2006_Haiti                0.19%    passed     89.41%
+ 356  A5_FJ692593_Haiti_2006_Haiti                0.47%    passed     97.08%
+ 357  A5_FJ692594_Haiti_2006_Haiti                0.25%    passed     96.55%
+ 358  A5_FJ692595_Haiti_2006_Haiti                0.25%    passed     95.14%
+ 359  A5_FJ692596_Haiti_2006_Haiti                0.19%    passed     94.67%
+ 360  A5_FJ692597_Haiti_2006_Haiti                0.68%    passed     96.82%
+ 361  A5_FJ692598_Haiti_2006_Haiti                0.50%    passed     97.18%
+ 362  A5_FJ692599_Haiti_2006_Haiti                0.09%    passed     97.64%
+ 363  A5_FJ692600_Haiti_2006_Haiti                0.50%    passed     99.59%
+ 364  A5_FJ692601_Haiti_2006_Haiti                0.09%    passed     96.80%
+ 365  A5_FJ692602_Haiti_2006_Haiti                0.12%    passed     96.65%
+ 366  A5_FJ692603_Haiti_2006_Haiti                0.43%    passed     97.91%
+ 367  A5_FJ692604_Haiti_2006_Haiti                0.09%    passed     95.91%
+ 368  A5_FJ692605_Haiti_2006_Haiti                2.55%    passed     98.07%
+ 369  A5_FJ692606_Haiti_2006_Haiti                0.12%    passed     95.05%
+ 370  A5_FJ692607_Haiti_2006_Haiti                0.06%    passed     99.70%
+ 371  A5_FJ692608_Haiti_2006_Haiti                0.03%    passed     94.55%
+ 372  A5_FJ692609_Haiti_2006_Haiti                0.09%    passed     98.36%
+ 373  A5_FJ692610_Haiti_2006_Haiti                0.50%    passed     98.82%
+ 374  A5_FJ692611_Haiti_2006_Haiti                0.09%    passed     94.30%
+ 375  A5_FJ692612_Haiti_2006_Haiti                0.37%    passed     98.16%
+ 376  A5_FJ692613_Haiti_2006_Haiti                0.09%    passed     99.57%
+ 377  A_FJ349296_Gabon_2004_Gabon                 0.31%    passed     99.93%
+ 378  A2_EU859901_Belgium_2006_Belgium            0.03%    passed     98.79%
+ 379  A2_EU859906_Belgium_2007_Belgium            0.03%    passed     98.93%
+ 380  A2_EU859907_Belgium_2007_Belgium            0.03%    passed     98.88%
+ 381  A2_EU859908_Belgium_2007_Belgium            0.03%    passed     99.02%
+ 382  A2_EU859910_Belgium_2007_Belgium            0.03%    passed     98.78%
+ 383  A2_EU859911_Belgium_2007_Belgium            0.03%    passed     98.34%
+ 384  A2_EU859912_Belgium_2006_Belgium            0.03%    passed     98.91%
+ 385  A2_EU859913_Belgium_2006_Belgium            0.03%    passed     98.88%
+ 386  A2_EU859914_Belgium_2005_Belgium            0.03%    passed     98.88%
+ 387  A2_EU859915_Belgium_2005_Belgium            0.03%    passed     99.24%
+ 388  A2_EU859916_Belgium_2005_Belgium            0.03%    passed     99.34%
+ 389  A2_EU859917_Belgium_2005_Belgium            0.03%    passed     98.88%
+ 390  A2_EU859918_Belgium_2005_Belgium            0.03%    passed     98.88%
+ 391  A2_EU859919_Belgium_2005_Belgium            0.03%    passed     99.02%
+ 392  A2_EU859920_Belgium_2006_Belgium            0.03%    passed     98.67%
+ 393  A2_EU859921_Belgium_2005_Belgium            0.03%    passed     99.34%
+ 394  A2_EU859922_Belgium_2005_Belgium            0.03%    passed     99.02%
+ 395  A2_EU859924_Belgium_2005_Belgium            0.03%    passed     99.47%
+ 396  A2_EU859925_Belgium_2006_Belgium            0.03%    passed     99.34%
+ 397  A2_EU859926_Belgium_2005_Belgium            0.03%    passed     99.02%
+ 398  A2_EU859927_Belgium_2005_Belgium            0.03%    passed     99.50%
+ 399  A2_EU859928_Belgium_2006_Belgium            0.03%    passed     99.02%
+ 400  A2_EU859938_Belgium_1999_Belgium            0.03%    passed     99.60%
+ 401  A2_EU859939_Belgium_1999_Belgium            0.03%    passed     99.88%
+ 402  A2_EU859940_Belgium_1998_Belgium            0.03%    passed     99.81%
+ 403  A2_EU859941_Belgium_2000_Belgium            0.03%    passed     99.45%
+ 404  A2_EU859942_Belgium_2000_Belgium            0.03%    passed     99.91%
+ 405  A2_EU859943_Belgium_2000_Belgium            0.03%    passed     99.35%
+ 406  A2_EU859944_Belgium_2000_Belgium            0.03%    passed     97.89%
+ 407  A2_EU859945_Belgium_2000_Belgium            0.03%    passed     99.86%
+ 408  A2_EU859946_Belgium_2000_Belgium            0.03%    passed     99.65%
+ 409  A2_EU859947_Belgium_2001_Belgium            0.03%    passed     99.50%
+ 410  A2_EU859948_Belgium_2000_Belgium            0.03%    passed     99.63%
+ 411  A2_EU859949_Belgium_1999_Belgium            0.03%    passed     99.72%
+ 412  A2_EU859950_Belgium_1999_Belgium            0.22%    passed     99.11%
+ 413  A2_EU859951_Belgium_1999_Belgium            0.03%    passed     99.36%
+ 414  A6_EU859952_Belgium_1998_Belgium            0.03%    passed     97.57%
+ 415  A2_EU859953_Belgium_1998_Belgium            0.03%    passed     99.15%
+ 416  A2_EU859954_Belgium_1998_Belgium            0.03%    passed     99.19%
+ 417  A2_EU859955_Belgium_1998_Belgium            0.03%    passed     99.19%
+ 418  A2_EU859956_Belgium_1998_Belgium            0.03%    passed     99.16%
+ 419  A2_FJ904411_Tunisia_2006_Tunisia            1.12%    passed     98.99%
+ 420  A_EU185786_Argentina_2001_Argentina         0.84%    passed     99.40%
+ 421  A_EU185787_Argentina_2001_Argentina         0.50%    passed     99.66%
+ 422  A_EU185788_Argentina_2001_Argentina        13.47%    passed     96.49%
+ 423  A_EU185789_Argentina_2001_Argentina         0.56%    passed     99.79%
+ 424  A_AB453983_Japan_2006_Japan                 0.03%    passed     99.88%
+ 425  A_AB453979_Japan_2006_Japan                 0.03%    passed     99.60%
+ 426  A_AB453980_Japan_2006_Japan                 0.03%    passed     99.69%
+ 427  A_AB453981_Japan_2006_Japan                 0.03%    passed     99.07%
+ 428  A_AB453982_Japan_2006_Japan                 0.03%    passed     99.91%
+ 429  A_AB453984_Japan_2006_Japan                 0.03%    passed     99.24%
+ 430  A_AB453985_Japan_2006_Japan                 0.03%    passed     99.24%
+ 431  A_AB453986_Japan_2006_Japan                 0.03%    passed     99.69%
+ 432  A_AB453987_Japan_2006_Japan                 0.03%    passed     97.66%
+ 433  A_AB453988_Japan_2006_Japan                 0.03%    passed     98.59%
+ 434  A_AB453989_Japan_2006_Japan                 0.03%    passed     98.80%
+ 435  A1_EU366129_Argentina_2005_Argentina        0.31%    passed     91.21%
+ 436  A_EU414132_Belarus_2005_Belarus             6.52%    passed     95.25%
+ 437  A_EU414133_Belarus_2005_Belarus             0.16%    passed     98.00%
+ 438  A_EU414134_Belarus_2005_Belarus             5.46%    passed     98.48%
+ 439  A_AB270536_Mongolia_2005_Mongolia           0.06%    passed     96.99%
+ 440  A3_AM184126_Gabon_2005_Gabon                0.03%    passed     90.86%
+ 441  A3_AM184125_Gabon_2005_Gabon                0.03%    passed     95.41%
+ 442  A_DQ788729_Germany_1996_Germany             3.01%    passed     85.76%
+ 443  A_DQ788728_Germany_1996_Germany             3.01%    passed     89.52%
+ 444  A_DQ788727_Germany_1995_Germany             3.01%    passed     86.26%
+ 445  A_DQ788726_Germany_1993_Germany             3.35%    passed     94.09%
+ 446  A_DQ788725_Germany_1992_Germany             0.03%    passed     98.53%
+ 447  A1_AB222707_Uzbekistan_2004_Uzbekistan      0.03%    passed     98.21%
+ 448  A1_DQ315786_India_2004_India                0.12%    passed     99.15%
+ 449  A_AY738143_Germany_1997_Germany             0.06%    passed     99.94%
+ 450  A_AY738142_Germany_1997_Germany             0.06%    passed     98.93%
+ 451  A_AY738141_Germany_1997_Germany             0.06%    passed     99.56%
+ 452  A2_AY738140_Germany_1997_Germany            0.06%    passed     99.56%
+ 453  A1_AY738139_Germany_1997_Germany            0.06%    passed     99.86%
+ 454  A3_AB194952_Cameroon_1994_Cameroon          0.03%    passed     92.92%
+ 455  A3_AB194951_Cameroon_1994_Cameroon          0.03%    passed     98.19%
+ 456  A3_AB194950_Cameroon_1994_Cameroon          0.03%    passed     99.27%
+ 457  A_AY161144_India_2002_India                 4.69%    passed     70.83%
+ 458  A_AY161143_India_2002_India                 4.69%    passed     70.70%
+ 459  A_AY161142_India_2002_India                 4.41%    passed     83.25%
+ 460  A_AY161139_India_2002_India                 0.03%    passed     99.41%
+ 461  A_AY161138_India_2002_India                 0.03%    passed     98.87%
+ 462  A_AB076678_Malawi_1997_Malawi               0.03%    passed     98.38%
+ 463  A1_KJ854685_Brazil_2007_Brazil              0.34%    passed     91.94%
+ 464  A1_KJ854686_Brazil_2007_Brazil              0.09%    passed     99.61%
+ 465  A1_KJ854687_Brazil_2007_Brazil              0.03%    passed     99.20%
+ 466  A1_KJ854688_Brazil_2007_Brazil              0.16%    passed     93.98%
+ 467  A1_KJ854689_Brazil_2007_Brazil              0.06%    passed     97.86%
+ 468  A1_KJ854690_Brazil_2007_Brazil              0.03%    passed     98.34%
+ 469  A1_KJ854691_Brazil_2007_Brazil              0.09%    passed     96.16%
+ 470  A1_KJ854692_Brazil_2007_Brazil              0.03%    passed     97.86%
+ 471  A1_KJ854693_Brazil_2007_Brazil              1.02%    passed     94.61%
+ 472  A1_KJ854694_Brazil_2007_Brazil              0.03%    passed     98.79%
+ 473  A1_KJ854695_Brazil_2007_Brazil              3.48%    passed     97.29%
+ 474  A1_KJ854696_Brazil_2007_Brazil              0.03%    passed     98.42%
+ 475  A1_KJ854697_Brazil_2007_Brazil              0.03%    passed     98.22%
+ 476  A1_KJ854698_Brazil_2007_Brazil              1.89%    passed     91.55%
+ 477  A1_KJ854699_Brazil_2007_Brazil              0.16%    passed     98.54%
+ 478  A1_KJ854700_Brazil_2007_Brazil              0.06%    passed     90.90%
+ 479  A1_KJ854701_Brazil_2007_Brazil              0.19%    passed     97.81%
+ 480  A1_KJ854702_Brazil_2007_Brazil              0.03%    passed     98.73%
+ 481  A1_KJ854703_Brazil_2007_Brazil              0.09%    passed     96.16%
+ 482  A1_KJ854704_Brazil_2007_Brazil              0.06%    passed     98.44%
+ 483  A1_KJ854705_Brazil_2007_Brazil              0.03%    passed     99.35%
+ 484  A1_KJ854706_Brazil_2007_Brazil              0.03%    passed     98.38%
+ 485  A1_KJ854707_Brazil_2007_Brazil              0.03%    passed     97.53%
+ 486  A1_KJ854708_Brazil_2007_Brazil              0.06%    passed     99.28%
+ 487  A2_KJ854709_Brazil_2007_Brazil              0.68%    passed     99.99%
+ 488  A2_KJ854710_Brazil_2007_Brazil              0.19%    passed     98.46%
+ 489  A2_KJ843166_Argentina_2013_Argentina        0.03%    passed     99.96%
+ 490  A2_KJ843172_Argentina_2010_Argentina        0.03%    passed     99.97%
+ 491  A2_KJ843173_Argentina_2013_Argentina        0.03%    passed     99.91%
+ 492  A2_KJ843182_Argentina_2012_Argentina        0.03%    passed     99.90%
+ 493  A1_KJ843183_Argentina_2011_Argentina        0.06%    passed     97.33%
+ 494  A2_KJ843184_Argentina_2013_Argentina        0.12%    passed     99.56%
+ 495  A2_KJ843186_Argentina_2013_Argentina        0.03%    passed     99.66%
+ 496  A2_KJ843188_Argentina_2012_Argentina        0.03%    passed     99.96%
+ 497  A2_KJ843192_Argentina_2013_Argentina        0.03%    passed     99.96%
+ 498  A2_KJ843214_Argentina_2001_Argentina        0.03%    passed     99.96%
+ 499  A2_KJ843215_Argentina_2004_Argentina        0.03%    passed     99.94%
+ 500  A2_KJ843216_Argentina_2003_Argentina        0.03%    passed     99.97%
+ 501  A2_KJ843217_Argentina_2013_Argentina        0.03%    passed     99.71%
+ 502  A2_KJ843218_Argentina_2013_Argentina        0.03%    passed     99.76%
+ 503  A_KJ638661_Panama_2011_Panama               0.56%    passed     97.77%
+ 504  A1_KJ010776_SouthAfrica_2009_SouthAfrica    0.03%    passed     95.83%
+ 505  A1_KJ010777_SouthAfrica_2009_SouthAfrica    0.03%    passed     89.70%
+ 506  A1_KJ010778_SouthAfrica_2009_SouthAfrica    0.03%    passed     94.81%
+ 507  A1_KJ533386_India_2009_India                0.16%    passed     96.34%
+ 508  A1_KJ533387_India_2009_India                0.06%    passed     97.28%
+ 509  A1_KJ533388_India_2009_India                0.03%    passed     95.86%
+ 510  A2_AB775198_Japan_2010_Japan                0.03%    passed     99.81%
+ 511  A2_AB775199_Japan_2010_Japan                0.06%    passed     99.70%
+ 512  A2_AB775200_Japan_2010_Japan                0.03%    passed     99.49%
+ 513  A2_AB775201_Japan_2010_Japan                0.03%    passed     99.49%
+ 514  A_KC836877_Japan_1993_Japan                 0.47%    passed     98.40%
+ 515  A_KC836878_Japan_1994_Japan                 0.56%    passed     99.69%
+ 516  A_KC836879_Japan_1995_Japan                 0.12%    passed     97.80%
+ 517  A_KC836880_Japan_1996_Japan                 0.34%    passed     99.49%
+ 518  A_KC836881_Japan_1996_Japan                 0.12%    passed     99.44%
+ 519  A_JX507080_SouthAfrica_1997_SouthAfrica     0.06%    passed     99.92%
+ 520  A1_JX154579_Kenya_2010_Kenya                0.03%    passed     91.03%
+ 521  A1_JX154580_Kenya_2010_Kenya                0.03%    passed     90.68%
+ 522  A1_JX154581_Kenya_2010_Kenya                0.03%    passed     91.22%
+ 523  A1_JX154582_Kenya_2010_Kenya                0.03%    passed     90.90%
+ 524  A1_JQ023660_Colombia_2007_Colombia          0.03%    passed     99.85%
+ 525  A1_JQ023661_Colombia_2007_Colombia          0.03%    passed     99.41%
+ 526  A1_JQ023662_Colombia_2007_Colombia          0.12%    passed     98.78%
+ 527  A1_JQ023663_Colombia_2007_Colombia          0.03%    passed     97.78%
+ 528  A2_JX096952_Latvia_2005_Latvia              0.03%    passed     98.01%
+ 529  A2_JX096953_Latvia_2008_Latvia              0.03%    passed     99.07%
+ 530  A2_GQ477460_Poland_2006_Poland              0.03%    passed     99.02%
+ 531  A2_GQ477461_Poland_2006_Poland              0.03%    passed     99.82%
+ 532  A2_GQ477462_Poland_2006_Poland              0.06%    passed     97.15%
+ 533  A2_GQ477463_Poland_2006_Poland              0.06%    passed     98.96%
+ 534  A2_GQ477464_Poland_2006_Poland              0.03%    passed     99.33%
+ 535  A2_GQ477465_Poland_2006_Poland              0.03%    passed     99.97%
+ 536  A2_GQ477466_Poland_2006_Poland              0.06%    passed     99.54%
+ 537  A2_GQ477467_Poland_2006_Poland              0.03%    passed     99.67%
+ 538  A2_GQ477468_Poland_2006_Poland              0.06%    passed     99.77%
+ 539  A2_GQ477469_Poland_2006_Poland              0.03%    passed     99.46%
+ 540  A2_GQ477470_Poland_2006_Poland              0.06%    passed     98.97%
+ 541  A2_GQ477471_Poland_2006_Poland              0.09%    passed     98.28%
+ 542  A2_GQ477472_Poland_2006_Poland              0.03%    passed     98.53%
+ 543  A2_GQ477473_Poland_2006_Poland              0.03%    passed     91.57%
+ 544  A2_GQ477474_Poland_2006_Poland              0.06%    passed     99.18%
+ 545  A2_GQ477475_Poland_2006_Poland              0.03%    passed     98.23%
+ 546  A2_GQ477476_Poland_2006_Poland              0.03%    passed     99.77%
+ 547  A2_GQ477477_Poland_2006_Poland              0.03%    passed     98.74%
+ 548  A2_GQ477478_Poland_2006_Poland              0.03%    passed     98.89%
+ 549  A2_GQ477479_Poland_2006_Poland              0.03%    passed     97.08%
+ 550  A2_GQ477480_Poland_2006_Poland              0.03%    passed     99.15%
+ 551  A2_GQ477481_Poland_2006_Poland              0.03%    passed     96.14%
+ 552  A2_GQ477482_Poland_2006_Poland              0.03%    passed     99.63%
+ 553  A2_GQ477483_Poland_2006_Poland              0.09%    passed     97.79%
+ 554  A2_GQ477484_Poland_2006_Poland              0.03%    passed     99.88%
+ 555  A2_GQ477485_Poland_2006_Poland              0.06%    passed     99.44%
+ 556  A2_GQ477486_Poland_2006_Poland              0.03%    passed     99.81%
+ 557  A2_GQ477487_Poland_2006_Poland              0.03%    passed     99.17%
+ 558  A2_GQ477488_Poland_2006_Poland              0.03%    passed     99.91%
+ 559  A2_GQ477489_Poland_2006_Poland              0.06%    passed     99.08%
+ 560  A2_GQ477490_Poland_2006_Poland              0.03%    passed     99.80%
+ 561  A2_GQ477491_Poland_2006_Poland              0.03%    passed     98.04%
+ 562  A2_GQ477492_Poland_2006_Poland              0.03%    passed     99.35%
+ 563  A2_GQ477493_Poland_2006_Poland              0.06%    passed     99.97%
+ 564  A2_GQ477494_Poland_2006_Poland              0.09%    passed     99.99%
+ 565  A2_GQ477495_Poland_2006_Poland              0.03%    passed    100.00%
+ 566  A2_GQ477496_Poland_2006_Poland              0.03%    passed     99.66%
+ 567  A2_GQ477497_Poland_2006_Poland              0.03%    passed     97.94%
+ 568  A2_GQ477498_Poland_2006_Poland              0.31%    passed     99.27%
+ 569  A2_GQ477499_Poland_2006_Poland              0.06%    passed     99.83%
+ 570  A2_GQ477500_Poland_2006_Poland              0.03%    passed     98.53%
+ 571  A2_GQ477501_Poland_2006_Poland              0.03%    passed     99.32%
+ 572  A2_GQ477502_Poland_2006_Poland              0.03%    passed     98.42%
+ 573  A2_GQ477503_Poland_2006_Poland              0.03%    passed     99.31%
+ 574  A2_GQ477504_Poland_2006_Poland              0.03%    passed     99.50%
+ 575  A2_FJ904434_Tunisia_2006_Tunisia            1.06%    passed     98.35%
+ 576  A2_EU594387_Latvia_1991_Latvia              0.03%    passed     99.42%
+ 577  A2_EU594388_Latvia_1991_Latvia              0.03%    passed     99.65%
+ 578  A2_EU594390_Russia_1997_Russia              0.03%    passed     99.81%
+ 579  A2_EU594391_Russia_1997_Russia              0.03%    passed     99.68%
+ 580  A2_EU594392_Russia_1997_Russia              0.03%    passed     99.81%
+ 581  A2_EU594393_Russia_1997_Russia              0.03%    passed     99.63%
+ 582  A2_EU594394_Russia_1997_Russia              0.03%    passed     99.79%
+ 583  A2_EU594395_Russia_1997_Russia              0.03%    passed     99.65%
+ 584  LT992440.1_DA119_Slovakia_451_Slovakia      1.21%    passed     99.43%
+ 585  LT992441.1_DA195_Hungary_-627_Hungary       0.25%    passed     99.86%
+ 586  LT992448.1_RISE386_Russia_-2100_Russia      2.82%    passed     95.80%
+ 587  LT992447.1_RISE387_Russia_-2264_Russia     14.62%    passed     52.50%
+****  TOTAL                                       0.72%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: A_MB103_Belgium_2008_Congo is identical to A_MB33_Belgium_2008_Congo but kept for subsequent analysis
+NOTE: A2_EU859908_Belgium_2007_Belgium is identical to A2_AL69HMM_Belgium_2006_Belgium but kept for subsequent analysis
+NOTE: A_86a_Belgium_2003_Belgium is identical to A_33a_Belgium_2002_Belgium but kept for subsequent analysis
+NOTE: A2_AB937794_Japan_2013_Japan is identical to A2_AB937793_Japan_2013_Japan but kept for subsequent analysis
+NOTE: A2_KF779339_USA_2001_USA is identical to A2_KF779338_USA_2001_USA but kept for subsequent analysis
+NOTE: A2_AB697501_Japan_2006_Japan is identical to A2_AB697489_Japan_2004_Japan but kept for subsequent analysis
+NOTE: A2_AB697499_Japan_2006_Japan is identical to A2_AB697496_Japan_2002_Japan but kept for subsequent analysis
+NOTE: A_AB453979_Japan_2006_Japan is identical to A2_AB697504_Japan_2006_Japan but kept for subsequent analysis
+NOTE: A1_FJ692579_Haiti_2006_Haiti is identical to A1_FJ692578_Haiti_2006_Haiti but kept for subsequent analysis
+NOTE: A2_AB775201_Japan_2010_Japan is identical to A2_AB775200_Japan_2010_Japan but kept for subsequent analysis
+NOTE: A2_EU594392_Russia_1997_Russia is identical to A2_EU594390_Russia_1997_Russia but kept for subsequent analysis
+NOTE: 13 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: A2_EU859922_Belgium_2005_Belgium (identical to A2_AL69HMM_Belgium_2006_Belgium) is ignored but added at the end
+NOTE: A2_EU859926_Belgium_2005_Belgium (identical to A2_AL69HMM_Belgium_2006_Belgium) is ignored but added at the end
+NOTE: A2_EU859928_Belgium_2006_Belgium (identical to A2_AL69HMM_Belgium_2006_Belgium) is ignored but added at the end
+NOTE: A2_EU859914_Belgium_2005_Belgium (identical to A_33a_Belgium_2002_Belgium) is ignored but added at the end
+NOTE: A2_EU859918_Belgium_2005_Belgium (identical to A_33a_Belgium_2002_Belgium) is ignored but added at the end
+NOTE: A2_AB697503_Japan_2006_Japan (identical to A2_AB697496_Japan_2002_Japan) is ignored but added at the end
+NOTE: A2_AB697508_Japan_2007_Japan (identical to A2_AB697496_Japan_2002_Japan) is ignored but added at the end
+NOTE: A1_FJ692580_Haiti_2006_Haiti (identical to A1_FJ692578_Haiti_2006_Haiti) is ignored but added at the end
+NOTE: A1_FJ692581_Haiti_2006_Haiti (identical to A1_FJ692578_Haiti_2006_Haiti) is ignored but added at the end
+NOTE: A1_FJ692582_Haiti_2006_Haiti (identical to A1_FJ692578_Haiti_2006_Haiti) is ignored but added at the end
+NOTE: A1_FJ692583_Haiti_2006_Haiti (identical to A1_FJ692578_Haiti_2006_Haiti) is ignored but added at the end
+NOTE: A1_FJ692584_Haiti_2006_Haiti (identical to A1_FJ692578_Haiti_2006_Haiti) is ignored but added at the end
+NOTE: A1_FJ692585_Haiti_2006_Haiti (identical to A1_FJ692578_Haiti_2006_Haiti) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to A/A_with_ancient_aligned.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.352 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 911685)...
+
+NOTE: 43 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -70118.420
+2. Current log-likelihood: -68675.091
+3. Current log-likelihood: -68674.754
+Optimal log-likelihood: -68674.749
+Rate parameters:  A-C: 1.00000  A-G: 2.71823  A-T: 1.00000  C-G: 1.00000  C-T: 2.71823  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 3 rounds (0.427 sec)
+Computing ML distances based on estimated model parameters... 9.699 sec
+Computing BIONJ tree...
+0.355 seconds
+Log-likelihood of BIONJ tree: -69268.503
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 36.586 second
+Computing log-likelihood of 98 initial trees ... 15.751 seconds
+Current best score: -68546.398
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -68494.502
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -68474.203
+Iteration 10 / LogL: -68552.077 / Time: 0h:1m:42s
+Iteration 20 / LogL: -68600.374 / Time: 0h:2m:24s
+Finish initializing candidate tree set (20)
+Current best tree score: -68474.203 / CPU time: 142.676
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -68513.070 / Time: 0h:2m:45s (0h:6m:50s left)
+Iteration 40 / LogL: -68532.126 / Time: 0h:3m:6s (0h:4m:55s left)
+Iteration 50 / LogL: -68485.943 / Time: 0h:3m:32s (0h:3m:44s left)
+Log-likelihood cutoff on original alignment: -68665.780
+Iteration 60 / LogL: -68541.537 / Time: 0h:3m:56s (0h:2m:48s left)
+Iteration 70 / LogL: -68519.476 / Time: 0h:4m:22s (0h:2m:1s left)
+Iteration 80 / LogL: -68499.102 / Time: 0h:4m:48s (0h:1m:20s left)
+Iteration 90 / LogL: -68547.143 / Time: 0h:5m:13s (0h:0m:42s left)
+Iteration 100 / LogL: -68538.505 / Time: 0h:5m:34s (0h:0m:6s left)
+Log-likelihood cutoff on original alignment: -68665.780
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:5m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -68474.203
+Optimal log-likelihood: -68474.203
+Rate parameters:  A-C: 1.00000  A-G: 2.73763  A-T: 1.00000  C-G: 1.00000  C-T: 2.73763  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.102 sec)
+BEST SCORE FOUND : -68474.203
+Creating bootstrap support values...
+Split supports printed to NEXUS file A/A_with_ancient_aligned.fasta.splits.nex
+Total tree length: 2.840
+
+Total number of iterations: 103
+CPU time used for tree search: 4406.443 sec (1h:13m:26s)
+Wall-clock time used for tree search: 340.358 sec (0h:5m:40s)
+Total CPU time used: 4434.666 sec (1h:13m:54s)
+Total wall-clock time used: 345.349 sec (0h:5m:45s)
+
+Computing bootstrap consensus tree...
+Reading input file A/A_with_ancient_aligned.fasta.splits.nex...
+574 taxa and 7922 splits.
+Consensus tree written to A/A_with_ancient_aligned.fasta.contree
+Reading input trees file A/A_with_ancient_aligned.fasta.contree
+Log-likelihood of consensus tree: -68498.329
+
+Analysis results written to: 
+  IQ-TREE report:                A/A_with_ancient_aligned.fasta.iqtree
+  Maximum-likelihood tree:       A/A_with_ancient_aligned.fasta.treefile
+  Likelihood distances:          A/A_with_ancient_aligned.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          A/A_with_ancient_aligned.fasta.splits.nex
+  Consensus tree:                A/A_with_ancient_aligned.fasta.contree
+  Screen log file:               A/A_with_ancient_aligned.fasta.log
+
+Date and Time: Wed May 25 18:54:28 2022

@@ -1,0 +1,683 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    gbw-d-l0102 (AVX512, FMA3, 62 GB RAM)
+Command: iqtree -s E/E_aligned.fasta -m K2P -bb 1000 -nt 15
+Seed:    153148 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed May 25 18:40:42 2022
+Kernel:  AVX+FMA - 15 threads (40 CPU cores detected)
+
+Reading alignment file E/E_aligned.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 234 sequences with 3212 columns, 1414 distinct patterns
+833 parsimony-informative, 590 singleton sites, 1789 constant sites
+WARNING: Some sequence names are changed as follows:
+E/MB8/Belgium/2008/IvoryCoast -> E_MB8_Belgium_2008_IvoryCoast
+E/MB13/Belgium/2008/Guinea -> E_MB13_Belgium_2008_Guinea
+E/MB15/Belgium/2009/Guinea -> E_MB15_Belgium_2009_Guinea
+E/MB20/Belgium/2009/Congo -> E_MB20_Belgium_2009_Congo
+E/MB23/Belgium/2009/Rwanda -> E_MB23_Belgium_2009_Rwanda
+E/MB24/Belgium/2009/Guinea -> E_MB24_Belgium_2009_Guinea
+E/MB26/Belgium/2009/Guinea -> E_MB26_Belgium_2009_Guinea
+E/MB28/Belgium/2009/Rwanda -> E_MB28_Belgium_2009_Rwanda
+E/MB30/Belgium/2008/Cameroon -> E_MB30_Belgium_2008_Cameroon
+E/MB36/Belgium/2009/Congo -> E_MB36_Belgium_2009_Congo
+E/MB37/Belgium/2009/Burundi -> E_MB37_Belgium_2009_Burundi
+E/MB39/Belgium/2009/Guinea -> E_MB39_Belgium_2009_Guinea
+E/MB40/Belgium/2008/Cameroon -> E_MB40_Belgium_2008_Cameroon
+E/MB41/Belgium/2008/Mauritania -> E_MB41_Belgium_2008_Mauritania
+E/MB43/Belgium/2009/Niger -> E_MB43_Belgium_2009_Niger
+E/MB50/Belgium/2008/Niger -> E_MB50_Belgium_2008_Niger
+E/MB51/Belgium/2009/Guinea -> E_MB51_Belgium_2009_Guinea
+E/MB54/Belgium/2009/Nigeria -> E_MB54_Belgium_2009_Nigeria
+E/MB59/Belgium/2006/Cameroon -> E_MB59_Belgium_2006_Cameroon
+E/MB61/Belgium/2006/Congo -> E_MB61_Belgium_2006_Congo
+E/MB75/Belgium/2007/Guinea -> E_MB75_Belgium_2007_Guinea
+E/MB77/Belgium/2007/Ghana -> E_MB77_Belgium_2007_Ghana
+E/MB78/Belgium/2007/Congo -> E_MB78_Belgium_2007_Congo
+E/MB79/Belgium/2008/IvoryCoast -> E_MB79_Belgium_2008_IvoryCoast
+E/MB82/Belgium/2007/Guinea -> E_MB82_Belgium_2007_Guinea
+E/MB83/Belgium/2007/Guinea -> E_MB83_Belgium_2007_Guinea
+E/MB93/Belgium/2007/Congo -> E_MB93_Belgium_2007_Congo
+E/MB97/Belgium/2009/Guinea -> E_MB97_Belgium_2009_Guinea
+E/MB99/Belgium/2008/Nigeria -> E_MB99_Belgium_2008_Nigeria
+E/MB101/Belgium/2006/Cameroon -> E_MB101_Belgium_2006_Cameroon
+E/MB102/Belgium/2009/Guinea -> E_MB102_Belgium_2009_Guinea
+E/MB104/Belgium/2008/Congo -> E_MB104_Belgium_2008_Congo
+E/MB108/Belgium/2008/Mauritania -> E_MB108_Belgium_2008_Mauritania
+E/MB109/Belgium/2008/Mauritania -> E_MB109_Belgium_2008_Mauritania
+E/MB115/Belgium/2008/Guinea -> E_MB115_Belgium_2008_Guinea
+E/MB117/Belgium/2009/Cameroon -> E_MB117_Belgium_2009_Cameroon
+E/MB118/Belgium/2008/Guinea -> E_MB118_Belgium_2008_Guinea
+E/MB122/Belgium/2009/Congo -> E_MB122_Belgium_2009_Congo
+E/MB129/Belgium/2007/Ghana -> E_MB129_Belgium_2007_Ghana
+E/MB134/Belgium/2009/Congo -> E_MB134_Belgium_2009_Congo
+E/MB136/Belgium/2010/IvoryCoast -> E_MB136_Belgium_2010_IvoryCoast
+E/MB143/Belgium/2010/Guinea -> E_MB143_Belgium_2010_Guinea
+E/MB148/Belgium/2010/Niger -> E_MB148_Belgium_2010_Niger
+E/MB6/Belgium/2008/Niger -> E_MB6_Belgium_2008_Niger
+E/MB19/Belgium/2009/Guinea -> E_MB19_Belgium_2009_Guinea
+E/MB21/Belgium/2009/Guinea -> E_MB21_Belgium_2009_Guinea
+E/MB25/Belgium/2009/Mauritania -> E_MB25_Belgium_2009_Mauritania
+E/MB29/Belgium/2009/Congo -> E_MB29_Belgium_2009_Congo
+E/MB44/Belgium/2009/Ghana -> E_MB44_Belgium_2009_Ghana
+E/MB53/Belgium/2009/Rwanda -> E_MB53_Belgium_2009_Rwanda
+E/MB57/Belgium/2008/Congo -> E_MB57_Belgium_2008_Congo
+E/MB65/Belgium/2006/Cameroon -> E_MB65_Belgium_2006_Cameroon
+E/MB68/Belgium/2006/IvoryCoast -> E_MB68_Belgium_2006_IvoryCoast
+E/MB69/Belgium/2006/Mauritania -> E_MB69_Belgium_2006_Mauritania
+E/MB70/Belgium/2006/Guinea -> E_MB70_Belgium_2006_Guinea
+E/MB74/Belgium/2007/Ivorycoast -> E_MB74_Belgium_2007_Ivorycoast
+E/MB76/Belgium/2007/Guinea -> E_MB76_Belgium_2007_Guinea
+E/MB80/Belgium/2007/Cameroon -> E_MB80_Belgium_2007_Cameroon
+E/MB85/Belgium/2007/Mauritania -> E_MB85_Belgium_2007_Mauritania
+E/MB87/Belgium/2007/Cameroon -> E_MB87_Belgium_2007_Cameroon
+E/MB91/Belgium/2007/Rwanda -> E_MB91_Belgium_2007_Rwanda
+E/MB111/Belgium/2009/BurkinaFaso -> E_MB111_Belgium_2009_BurkinaFaso
+E/MB126/Belgium/2007/Zimbabwe -> E_MB126_Belgium_2007_Zimbabwe
+E/MB141/Belgium/2010/Mozambique -> E_MB141_Belgium_2010_Mozambique
+E/57a/Belgium/2002/Belgium -> E_57a_Belgium_2002_Belgium
+E/G1961/Belgium/1996/Belgium -> E_G1961_Belgium_1996_Belgium
+E/KF849713/Angola/2007/Angola -> E_KF849713_Angola_2007_Angola
+E/KF849714/Angola/2007/Angola -> E_KF849714_Angola_2007_Angola
+E/KF849715/Angola/2007/Angola -> E_KF849715_Angola_2007_Angola
+E/KF849716/Angola/2007/Angola -> E_KF849716_Angola_2007_Angola
+E/KF849717/Angola/2007/Angola -> E_KF849717_Angola_2007_Angola
+E/KF849718/Angola/2007/Angola -> E_KF849718_Angola_2007_Angola
+E/KF849719/Angola/2007/Angola -> E_KF849719_Angola_2007_Angola
+E/KF849720/Angola/2007/Angola -> E_KF849720_Angola_2007_Angola
+E/KF849721/Angola/2007/Angola -> E_KF849721_Angola_2007_Angola
+E/KF849722/Angola/2007/Angola -> E_KF849722_Angola_2007_Angola
+E/KF849723/Angola/2007/Angola -> E_KF849723_Angola_2007_Angola
+E/KF849724/Angola/2007/Angola -> E_KF849724_Angola_2007_Angola
+E/KF849725/Angola/2007/Angola -> E_KF849725_Angola_2007_Angola
+E/KF849726/Angola/2007/Angola -> E_KF849726_Angola_2007_Angola
+E/KF849727/Angola/2007/Angola -> E_KF849727_Angola_2007_Angola
+E/KF849728/Angola/2007/Angola -> E_KF849728_Angola_2007_Angola
+E/KF170741/Sudan/2008/Sudan -> E_KF170741_Sudan_2008_Sudan
+E/KF170742/Sudan/2008/Sudan -> E_KF170742_Sudan_2008_Sudan
+E/JQ023664/Colombia/2007/Colombia -> E_JQ023664_Colombia_2007_Colombia
+E/JQ023665/Colombia/2007/Colombia -> E_JQ023665_Colombia_2007_Colombia
+E/GU563552/Belgium/2003/Belgium -> E_GU563552_Belgium_2003_Belgium
+E/HM363565/Nigeria/2007/Nigeria -> E_HM363565_Nigeria_2007_Nigeria
+E/HM363566/Nigeria/2007/Nigeria -> E_HM363566_Nigeria_2007_Nigeria
+E/HM363567/Nigeria/2007/Nigeria -> E_HM363567_Nigeria_2007_Nigeria
+E/HM363568/Nigeria/2007/Nigeria -> E_HM363568_Nigeria_2007_Nigeria
+E/HM363569/Nigeria/2007/Nigeria -> E_HM363569_Nigeria_2007_Nigeria
+E/HM363570/Nigeria/2007/Nigeria -> E_HM363570_Nigeria_2007_Nigeria
+E/HM363571/Nigeria/2007/Nigeria -> E_HM363571_Nigeria_2007_Nigeria
+E/HM363572/Nigeria/2007/Nigeria -> E_HM363572_Nigeria_2007_Nigeria
+E/HM363573/Nigeria/2007/Nigeria -> E_HM363573_Nigeria_2007_Nigeria
+E/HM363574/Nigeria/2007/Nigeria -> E_HM363574_Nigeria_2007_Nigeria
+E/HM363575/Nigeria/2007/Nigeria -> E_HM363575_Nigeria_2007_Nigeria
+E/HM363576/Nigeria/2007/Nigeria -> E_HM363576_Nigeria_2007_Nigeria
+E/HM363577/Nigeria/2007/Nigeria -> E_HM363577_Nigeria_2007_Nigeria
+E/HM363578/Nigeria/2007/Nigeria -> E_HM363578_Nigeria_2007_Nigeria
+E/HM363579/Nigeria/2007/Nigeria -> E_HM363579_Nigeria_2007_Nigeria
+E/HM363580/Nigeria/2007/Nigeria -> E_HM363580_Nigeria_2007_Nigeria
+E/HM363581/Nigeria/2007/Nigeria -> E_HM363581_Nigeria_2007_Nigeria
+E/HM363582/Nigeria/2007/Nigeria -> E_HM363582_Nigeria_2007_Nigeria
+E/HM363583/Nigeria/2007/Nigeria -> E_HM363583_Nigeria_2007_Nigeria
+E/HM363584/Nigeria/2007/Nigeria -> E_HM363584_Nigeria_2007_Nigeria
+E/HM363585/Nigeria/2007/Nigeria -> E_HM363585_Nigeria_2007_Nigeria
+E/HM363586/Nigeria/2007/Nigeria -> E_HM363586_Nigeria_2007_Nigeria
+E/HM363587/Nigeria/2007/Nigeria -> E_HM363587_Nigeria_2007_Nigeria
+E/HM363588/Nigeria/2007/Nigeria -> E_HM363588_Nigeria_2007_Nigeria
+E/HM363589/Nigeria/2007/Nigeria -> E_HM363589_Nigeria_2007_Nigeria
+E/HM363590/Nigeria/2007/Nigeria -> E_HM363590_Nigeria_2007_Nigeria
+E/HM363591/Nigeria/2007/Nigeria -> E_HM363591_Nigeria_2007_Nigeria
+E/HM363592/Nigeria/2007/Nigeria -> E_HM363592_Nigeria_2007_Nigeria
+E/HM363593/Nigeria/2007/Nigeria -> E_HM363593_Nigeria_2007_Nigeria
+E/HM363594/Nigeria/2007/Nigeria -> E_HM363594_Nigeria_2007_Nigeria
+E/HM363595/Nigeria/2007/Nigeria -> E_HM363595_Nigeria_2007_Nigeria
+E/HM363596/Nigeria/2007/Nigeria -> E_HM363596_Nigeria_2007_Nigeria
+E/HM363597/Nigeria/2007/Nigeria -> E_HM363597_Nigeria_2007_Nigeria
+E/HM363598/Nigeria/2007/Nigeria -> E_HM363598_Nigeria_2007_Nigeria
+E/HM363599/Nigeria/2007/Nigeria -> E_HM363599_Nigeria_2007_Nigeria
+E/HM363600/Nigeria/2007/Nigeria -> E_HM363600_Nigeria_2007_Nigeria
+E/HM363601/Nigeria/2007/Nigeria -> E_HM363601_Nigeria_2007_Nigeria
+E/HM363602/Nigeria/2007/Nigeria -> E_HM363602_Nigeria_2007_Nigeria
+E/HM363603/Nigeria/2007/Nigeria -> E_HM363603_Nigeria_2007_Nigeria
+E/HM363604/Nigeria/2007/Nigeria -> E_HM363604_Nigeria_2007_Nigeria
+E/HM363605/Nigeria/2007/Nigeria -> E_HM363605_Nigeria_2007_Nigeria
+E/HM363607/Nigeria/2007/Nigeria -> E_HM363607_Nigeria_2007_Nigeria
+E/HM363608/Nigeria/2007/Nigeria -> E_HM363608_Nigeria_2007_Nigeria
+E/HM363609/Nigeria/2007/Nigeria -> E_HM363609_Nigeria_2007_Nigeria
+E/HM363610/Nigeria/2007/Nigeria -> E_HM363610_Nigeria_2007_Nigeria
+E/HM363611/Nigeria/2007/Nigeria -> E_HM363611_Nigeria_2007_Nigeria
+E/FN545821/Nigeria/2005/Nigeria -> E_FN545821_Nigeria_2005_Nigeria
+E/FN545822/Nigeria/2005/Nigeria -> E_FN545822_Nigeria_2005_Nigeria
+E/FN545823/Nigeria/2005/Nigeria -> E_FN545823_Nigeria_2005_Nigeria
+E/FN545824/Nigeria/2005/Nigeria -> E_FN545824_Nigeria_2005_Nigeria
+E/FN545827/Cameroon/2005/Cameroon -> E_FN545827_Cameroon_2005_Cameroon
+E/FN545841/Cameroon/2007/Cameroon -> E_FN545841_Cameroon_2007_Cameroon
+E/FN545842/Cameroon/2007/Cameroon -> E_FN545842_Cameroon_2007_Cameroon
+E/FJ349226/Belgium/1995/Belgium -> E_FJ349226_Belgium_1995_Belgium
+E/FJ349227/Belgium/1998/Belgium -> E_FJ349227_Belgium_1998_Belgium
+E/FJ349237/Belgium/2005/Belgium -> E_FJ349237_Belgium_2005_Belgium
+E/FJ349238/Belgium/2007/Belgium -> E_FJ349238_Belgium_2007_Belgium
+E/FJ349239/Belgium/2007/Belgium -> E_FJ349239_Belgium_2007_Belgium
+E/FJ349240/Belgium/2007/Belgium -> E_FJ349240_Belgium_2007_Belgium
+E/GQ161755/Guinea/2006/Guinea -> E_GQ161755_Guinea_2006_Guinea
+E/GQ161756/Guinea/2006/Guinea -> E_GQ161756_Guinea_2006_Guinea
+E/GQ161757/Guinea/2006/Guinea -> E_GQ161757_Guinea_2006_Guinea
+E/GQ161758/Guinea/2006/Guinea -> E_GQ161758_Guinea_2006_Guinea
+E/GQ161759/Guinea/2006/Guinea -> E_GQ161759_Guinea_2006_Guinea
+E/GQ161760/Guinea/2006/Guinea -> E_GQ161760_Guinea_2006_Guinea
+E/GQ161761/Guinea/2006/Guinea -> E_GQ161761_Guinea_2006_Guinea
+E/GQ161762/Guinea/2006/Guinea -> E_GQ161762_Guinea_2006_Guinea
+E/GQ161763/Guinea/2006/Guinea -> E_GQ161763_Guinea_2006_Guinea
+E/GQ161764/Guinea/2006/Guinea -> E_GQ161764_Guinea_2006_Guinea
+E/GQ161765/Guinea/2006/Guinea -> E_GQ161765_Guinea_2006_Guinea
+E/GQ161766/Guinea/2006/Guinea -> E_GQ161766_Guinea_2006_Guinea
+E/GQ161768/Guinea/2006/Guinea -> E_GQ161768_Guinea_2006_Guinea
+E/GQ161769/Guinea/2006/Guinea -> E_GQ161769_Guinea_2006_Guinea
+E/GQ161770/Guinea/2006/Guinea -> E_GQ161770_Guinea_2006_Guinea
+E/GQ161771/Guinea/2006/Guinea -> E_GQ161771_Guinea_2006_Guinea
+E/GQ161772/Guinea/2006/Guinea -> E_GQ161772_Guinea_2006_Guinea
+E/GQ161773/Guinea/2006/Guinea -> E_GQ161773_Guinea_2006_Guinea
+E/GQ161774/Guinea/2006/Guinea -> E_GQ161774_Guinea_2006_Guinea
+E/GQ161776/Guinea/2006/Guinea -> E_GQ161776_Guinea_2006_Guinea
+E/GQ161777/Guinea/2006/Guinea -> E_GQ161777_Guinea_2006_Guinea
+E/GQ161778/Guinea/2006/Guinea -> E_GQ161778_Guinea_2006_Guinea
+E/GQ161779/Guinea/2006/Guinea -> E_GQ161779_Guinea_2006_Guinea
+E/GQ161780/Guinea/2006/Guinea -> E_GQ161780_Guinea_2006_Guinea
+E/GQ161781/Guinea/2006/Guinea -> E_GQ161781_Guinea_2006_Guinea
+E/GQ161782/Guinea/2006/Guinea -> E_GQ161782_Guinea_2006_Guinea
+E/GQ161783/Guinea/2006/Guinea -> E_GQ161783_Guinea_2006_Guinea
+E/GQ161784/Guinea/2006/Guinea -> E_GQ161784_Guinea_2006_Guinea
+E/GQ161785/Guinea/2006/Guinea -> E_GQ161785_Guinea_2006_Guinea
+E/GQ161786/Guinea/2006/Guinea -> E_GQ161786_Guinea_2006_Guinea
+E/GQ161787/Guinea/2006/Guinea -> E_GQ161787_Guinea_2006_Guinea
+E/GQ161789/Guinea/2006/Guinea -> E_GQ161789_Guinea_2006_Guinea
+E/GQ161790/Guinea/2006/Guinea -> E_GQ161790_Guinea_2006_Guinea
+E/GQ161791/Guinea/2006/Guinea -> E_GQ161791_Guinea_2006_Guinea
+E/GQ161792/Guinea/2006/Guinea -> E_GQ161792_Guinea_2006_Guinea
+E/GQ161793/Guinea/2006/Guinea -> E_GQ161793_Guinea_2006_Guinea
+E/GQ161794/Guinea/2006/Guinea -> E_GQ161794_Guinea_2006_Guinea
+E/GQ161795/Guinea/2006/Guinea -> E_GQ161795_Guinea_2006_Guinea
+E/GQ161796/Guinea/2006/Guinea -> E_GQ161796_Guinea_2006_Guinea
+E/GQ161797/Guinea/2006/Guinea -> E_GQ161797_Guinea_2006_Guinea
+E/GQ161798/Guinea/2006/Guinea -> E_GQ161798_Guinea_2006_Guinea
+E/GQ161799/Guinea/2006/Guinea -> E_GQ161799_Guinea_2006_Guinea
+E/GQ161800/Guinea/2006/Guinea -> E_GQ161800_Guinea_2006_Guinea
+E/GQ161801/Guinea/2006/Guinea -> E_GQ161801_Guinea_2006_Guinea
+E/GQ161802/Guinea/2006/Guinea -> E_GQ161802_Guinea_2006_Guinea
+E/GQ161803/Guinea/2006/Guinea -> E_GQ161803_Guinea_2006_Guinea
+E/GQ161804/Guinea/2006/Guinea -> E_GQ161804_Guinea_2006_Guinea
+E/GQ161805/Guinea/2006/Guinea -> E_GQ161805_Guinea_2006_Guinea
+E/GQ161807/Guinea/2006/Guinea -> E_GQ161807_Guinea_2006_Guinea
+E/GQ161808/Guinea/2006/Guinea -> E_GQ161808_Guinea_2006_Guinea
+E/GQ161809/Guinea/2006/Guinea -> E_GQ161809_Guinea_2006_Guinea
+E/GQ161810/Guinea/2006/Guinea -> E_GQ161810_Guinea_2006_Guinea
+E/GQ161811/Guinea/2006/Guinea -> E_GQ161811_Guinea_2006_Guinea
+E/GQ161812/Guinea/2006/Guinea -> E_GQ161812_Guinea_2006_Guinea
+E/GQ161814/Guinea/2006/Guinea -> E_GQ161814_Guinea_2006_Guinea
+E/GQ161815/Guinea/2006/Guinea -> E_GQ161815_Guinea_2006_Guinea
+E/GQ161816/Guinea/2006/Guinea -> E_GQ161816_Guinea_2006_Guinea
+E/GQ161817/Guinea/2006/Guinea -> E_GQ161817_Guinea_2006_Guinea
+E/GQ161818/Guinea/2006/Guinea -> E_GQ161818_Guinea_2006_Guinea
+E/GQ161819/Guinea/2006/Guinea -> E_GQ161819_Guinea_2006_Guinea
+E/GQ161820/Guinea/2006/Guinea -> E_GQ161820_Guinea_2006_Guinea
+E/GQ161821/Guinea/2006/Guinea -> E_GQ161821_Guinea_2006_Guinea
+E/GQ161822/Guinea/2006/Guinea -> E_GQ161822_Guinea_2006_Guinea
+E/GQ161823/Guinea/2006/Guinea -> E_GQ161823_Guinea_2006_Guinea
+E/GQ161824/Guinea/2006/Guinea -> E_GQ161824_Guinea_2006_Guinea
+E/GQ161825/Guinea/2006/Guinea -> E_GQ161825_Guinea_2006_Guinea
+E/GQ161826/Guinea/2006/Guinea -> E_GQ161826_Guinea_2006_Guinea
+E/GQ161827/Guinea/2006/Guinea -> E_GQ161827_Guinea_2006_Guinea
+E/GQ161828/Guinea/2006/Guinea -> E_GQ161828_Guinea_2006_Guinea
+E/GQ161829/Guinea/2006/Guinea -> E_GQ161829_Guinea_2006_Guinea
+E/GQ161830/Guinea/2006/Guinea -> E_GQ161830_Guinea_2006_Guinea
+E/GQ161831/Guinea/2006/Guinea -> E_GQ161831_Guinea_2006_Guinea
+E/GQ161832/Guinea/2006/Guinea -> E_GQ161832_Guinea_2006_Guinea
+E/GQ161833/Guinea/2006/Guinea -> E_GQ161833_Guinea_2006_Guinea
+E/GQ161834/Guinea/2006/Guinea -> E_GQ161834_Guinea_2006_Guinea
+E/GQ161835/Guinea/2006/Guinea -> E_GQ161835_Guinea_2006_Guinea
+E/GQ161836/Guinea/2006/Guinea -> E_GQ161836_Guinea_2006_Guinea
+E/AY738147/Congo/1998/Congo -> E_AY738147_Congo_1998_Congo
+E/AY738146/Congo/1998/Congo -> E_AY738146_Congo_1998_Congo
+E/AY738145/Congo/1998/Congo -> E_AY738145_Congo_1998_Congo
+E/AY738144/Congo/1998/Congo -> E_AY738144_Congo_1998_Congo
+E/AB194948/Cameroon/1994/Cameroon -> E_AB194948_Cameroon_1994_Cameroon
+E/AB194947/Cameroon/1994/Cameroon -> E_AB194947_Cameroon_1994_Cameroon
+E/AB205192/Ghana/2000/Ghana -> E_AB205192_Ghana_2000_Ghana
+E/AB205191/Ghana/2000/Ghana -> E_AB205191_Ghana_2000_Ghana
+E/AB205190/Ghana/2000/Ghana -> E_AB205190_Ghana_2000_Ghana
+E/AB205189/Ghana/2000/Ghana -> E_AB205189_Ghana_2000_Ghana
+E/AB205188/Ghana/2000/Ghana -> E_AB205188_Ghana_2000_Ghana
+
+                                   Gap/Ambiguity  Composition  p-value
+   1  E_MB8_Belgium_2008_IvoryCoast        0.00%    passed     99.62%
+   2  E_MB13_Belgium_2008_Guinea           1.90%    passed     92.50%
+   3  E_MB15_Belgium_2009_Guinea           0.00%    passed    100.00%
+   4  E_MB20_Belgium_2009_Congo            0.00%    passed     97.61%
+   5  E_MB23_Belgium_2009_Rwanda           0.00%    passed     99.90%
+   6  E_MB24_Belgium_2009_Guinea           0.37%    passed     99.11%
+   7  E_MB26_Belgium_2009_Guinea           0.00%    passed     99.95%
+   8  E_MB28_Belgium_2009_Rwanda           0.00%    passed     99.61%
+   9  E_MB30_Belgium_2008_Cameroon         0.47%    passed     99.47%
+  10  E_MB36_Belgium_2009_Congo            0.00%    passed     99.95%
+  11  E_MB37_Belgium_2009_Burundi          0.00%    passed     99.99%
+  12  E_MB39_Belgium_2009_Guinea           0.87%    passed     98.21%
+  13  E_MB40_Belgium_2008_Cameroon         0.00%    passed     99.22%
+  14  E_MB41_Belgium_2008_Mauritania       0.06%    passed     96.34%
+  15  E_MB43_Belgium_2009_Niger            0.00%    passed     99.65%
+  16  E_MB50_Belgium_2008_Niger            0.00%    passed     99.92%
+  17  E_MB51_Belgium_2009_Guinea           0.65%    passed     99.88%
+  18  E_MB54_Belgium_2009_Nigeria          0.56%    passed     99.85%
+  19  E_MB59_Belgium_2006_Cameroon         2.93%    passed     97.94%
+  20  E_MB61_Belgium_2006_Congo            0.00%    passed     96.92%
+  21  E_MB75_Belgium_2007_Guinea           0.00%    passed     99.86%
+  22  E_MB77_Belgium_2007_Ghana            0.00%    passed     99.32%
+  23  E_MB78_Belgium_2007_Congo            0.00%    passed     99.86%
+  24  E_MB79_Belgium_2008_IvoryCoast       0.00%    passed     99.97%
+  25  E_MB82_Belgium_2007_Guinea           0.37%    passed     99.04%
+  26  E_MB83_Belgium_2007_Guinea           0.53%    passed     97.61%
+  27  E_MB93_Belgium_2007_Congo            0.37%    passed     99.84%
+  28  E_MB97_Belgium_2009_Guinea           5.26%    passed     92.71%
+  29  E_MB99_Belgium_2008_Nigeria          0.03%    passed     98.21%
+  30  E_MB101_Belgium_2006_Cameroon        6.29%    passed     99.97%
+  31  E_MB102_Belgium_2009_Guinea          0.00%    passed    100.00%
+  32  E_MB104_Belgium_2008_Congo           0.00%    passed     95.44%
+  33  E_MB108_Belgium_2008_Mauritania      0.03%    passed     97.60%
+  34  E_MB109_Belgium_2008_Mauritania      0.37%    passed     99.93%
+  35  E_MB115_Belgium_2008_Guinea          0.47%    passed     98.58%
+  36  E_MB117_Belgium_2009_Cameroon        0.00%    passed    100.00%
+  37  E_MB118_Belgium_2008_Guinea          0.00%    passed     99.89%
+  38  E_MB122_Belgium_2009_Congo           0.37%    passed     99.76%
+  39  E_MB129_Belgium_2007_Ghana           0.00%    passed     99.64%
+  40  E_MB134_Belgium_2009_Congo           0.06%    passed     98.34%
+  41  E_MB136_Belgium_2010_IvoryCoast      0.00%    passed     99.83%
+  42  E_MB143_Belgium_2010_Guinea          0.00%    passed     99.95%
+  43  E_MB148_Belgium_2010_Niger           0.00%    passed     95.95%
+  44  E_MB6_Belgium_2008_Niger             0.50%    passed    100.00%
+  45  E_MB19_Belgium_2009_Guinea           0.03%    passed     99.28%
+  46  E_MB21_Belgium_2009_Guinea           0.00%    passed     99.89%
+  47  E_MB25_Belgium_2009_Mauritania       0.00%    passed     99.39%
+  48  E_MB29_Belgium_2009_Congo            0.00%    passed     98.17%
+  49  E_MB44_Belgium_2009_Ghana            0.00%    passed     99.13%
+  50  E_MB53_Belgium_2009_Rwanda           0.40%    passed     99.00%
+  51  E_MB57_Belgium_2008_Congo            0.00%    passed     97.99%
+  52  E_MB65_Belgium_2006_Cameroon         0.00%    passed     99.69%
+  53  E_MB68_Belgium_2006_IvoryCoast       0.00%    passed     99.68%
+  54  E_MB69_Belgium_2006_Mauritania       0.00%    passed     99.59%
+  55  E_MB70_Belgium_2006_Guinea           0.65%    passed     99.30%
+  56  E_MB74_Belgium_2007_Ivorycoast       0.00%    passed     99.99%
+  57  E_MB76_Belgium_2007_Guinea           0.47%    passed     97.11%
+  58  E_MB80_Belgium_2007_Cameroon         0.00%    passed     99.83%
+  59  E_MB85_Belgium_2007_Mauritania       0.00%    passed     99.22%
+  60  E_MB87_Belgium_2007_Cameroon         0.00%    passed     99.97%
+  61  E_MB91_Belgium_2007_Rwanda           0.00%    passed     99.43%
+  62  E_MB111_Belgium_2009_BurkinaFaso     0.00%    passed     99.79%
+  63  E_MB126_Belgium_2007_Zimbabwe        0.03%    passed     99.84%
+  64  E_MB141_Belgium_2010_Mozambique      0.00%    passed     99.99%
+  65  E_57a_Belgium_2002_Belgium           0.37%    passed     99.65%
+  66  E_G1961_Belgium_1996_Belgium         0.00%    passed     99.13%
+  67  E_KF849713_Angola_2007_Angola        0.12%    passed     99.37%
+  68  E_KF849714_Angola_2007_Angola        0.16%    passed     99.42%
+  69  E_KF849715_Angola_2007_Angola        0.12%    passed     98.94%
+  70  E_KF849716_Angola_2007_Angola        0.19%    passed     95.80%
+  71  E_KF849717_Angola_2007_Angola        0.00%    passed     98.90%
+  72  E_KF849718_Angola_2007_Angola        0.19%    passed     94.58%
+  73  E_KF849719_Angola_2007_Angola        0.00%    passed     99.10%
+  74  E_KF849720_Angola_2007_Angola        0.28%    passed     97.55%
+  75  E_KF849721_Angola_2007_Angola        0.00%    passed     99.21%
+  76  E_KF849722_Angola_2007_Angola        0.00%    passed     99.31%
+  77  E_KF849723_Angola_2007_Angola        0.00%    passed     94.24%
+  78  E_KF849724_Angola_2007_Angola        0.00%    passed     97.19%
+  79  E_KF849725_Angola_2007_Angola        0.00%    passed     99.33%
+  80  E_KF849726_Angola_2007_Angola        0.00%    passed     98.50%
+  81  E_KF849727_Angola_2007_Angola        0.93%    passed     99.40%
+  82  E_KF849728_Angola_2007_Angola        0.40%    passed     98.27%
+  83  E_KF170741_Sudan_2008_Sudan          0.00%    passed     99.60%
+  84  E_KF170742_Sudan_2008_Sudan          0.06%    passed     99.55%
+  85  E_JQ023664_Colombia_2007_Colombia    0.03%    passed     98.04%
+  86  E_JQ023665_Colombia_2007_Colombia    0.03%    passed     99.33%
+  87  E_GU563552_Belgium_2003_Belgium      6.60%    failed      1.90%
+  88  E_HM363565_Nigeria_2007_Nigeria      0.00%    passed     99.14%
+  89  E_HM363566_Nigeria_2007_Nigeria      0.00%    passed     99.27%
+  90  E_HM363567_Nigeria_2007_Nigeria      0.00%    passed     97.33%
+  91  E_HM363568_Nigeria_2007_Nigeria      0.00%    passed     99.82%
+  92  E_HM363569_Nigeria_2007_Nigeria      0.00%    passed     99.75%
+  93  E_HM363570_Nigeria_2007_Nigeria      0.00%    passed     99.65%
+  94  E_HM363571_Nigeria_2007_Nigeria      0.00%    passed     99.42%
+  95  E_HM363572_Nigeria_2007_Nigeria      0.00%    passed     99.10%
+  96  E_HM363573_Nigeria_2007_Nigeria      0.00%    passed     99.88%
+  97  E_HM363574_Nigeria_2007_Nigeria      0.00%    passed     99.89%
+  98  E_HM363575_Nigeria_2007_Nigeria      0.00%    passed     98.92%
+  99  E_HM363576_Nigeria_2007_Nigeria      0.00%    passed     97.67%
+ 100  E_HM363577_Nigeria_2007_Nigeria      0.00%    passed     99.38%
+ 101  E_HM363578_Nigeria_2007_Nigeria      0.00%    passed     94.91%
+ 102  E_HM363579_Nigeria_2007_Nigeria      0.00%    passed     99.53%
+ 103  E_HM363580_Nigeria_2007_Nigeria      0.00%    passed     99.72%
+ 104  E_HM363581_Nigeria_2007_Nigeria      0.00%    passed     99.77%
+ 105  E_HM363582_Nigeria_2007_Nigeria      0.00%    passed     99.66%
+ 106  E_HM363583_Nigeria_2007_Nigeria      0.00%    passed     99.77%
+ 107  E_HM363584_Nigeria_2007_Nigeria      0.00%    passed     97.73%
+ 108  E_HM363585_Nigeria_2007_Nigeria      0.00%    passed    100.00%
+ 109  E_HM363586_Nigeria_2007_Nigeria      0.00%    passed     99.93%
+ 110  E_HM363587_Nigeria_2007_Nigeria      0.00%    passed     99.23%
+ 111  E_HM363588_Nigeria_2007_Nigeria      0.00%    passed     99.14%
+ 112  E_HM363589_Nigeria_2007_Nigeria      0.00%    passed     99.67%
+ 113  E_HM363590_Nigeria_2007_Nigeria      0.00%    passed     99.75%
+ 114  E_HM363591_Nigeria_2007_Nigeria      0.00%    passed     99.39%
+ 115  E_HM363592_Nigeria_2007_Nigeria      0.00%    passed     99.98%
+ 116  E_HM363593_Nigeria_2007_Nigeria      0.00%    passed     98.97%
+ 117  E_HM363594_Nigeria_2007_Nigeria      0.00%    passed     98.91%
+ 118  E_HM363595_Nigeria_2007_Nigeria      0.00%    passed     98.78%
+ 119  E_HM363596_Nigeria_2007_Nigeria      0.00%    passed     94.33%
+ 120  E_HM363597_Nigeria_2007_Nigeria      0.00%    passed     93.96%
+ 121  E_HM363598_Nigeria_2007_Nigeria      0.00%    passed     96.07%
+ 122  E_HM363599_Nigeria_2007_Nigeria      0.00%    passed     95.27%
+ 123  E_HM363600_Nigeria_2007_Nigeria      0.00%    passed     99.98%
+ 124  E_HM363601_Nigeria_2007_Nigeria      0.00%    passed     99.90%
+ 125  E_HM363602_Nigeria_2007_Nigeria      0.00%    passed     99.25%
+ 126  E_HM363603_Nigeria_2007_Nigeria      0.00%    passed     98.23%
+ 127  E_HM363604_Nigeria_2007_Nigeria      0.00%    passed     99.56%
+ 128  E_HM363605_Nigeria_2007_Nigeria      0.00%    passed     98.14%
+ 129  E_HM363607_Nigeria_2007_Nigeria      0.00%    passed     93.65%
+ 130  E_HM363608_Nigeria_2007_Nigeria      0.00%    passed     98.35%
+ 131  E_HM363609_Nigeria_2007_Nigeria      0.00%    passed     99.88%
+ 132  E_HM363610_Nigeria_2007_Nigeria      0.00%    passed     97.96%
+ 133  E_HM363611_Nigeria_2007_Nigeria      0.00%    passed     93.46%
+ 134  E_FN545821_Nigeria_2005_Nigeria      0.12%    passed     99.50%
+ 135  E_FN545822_Nigeria_2005_Nigeria      0.19%    passed     99.83%
+ 136  E_FN545823_Nigeria_2005_Nigeria      0.44%    passed     99.88%
+ 137  E_FN545824_Nigeria_2005_Nigeria      1.87%    passed     99.89%
+ 138  E_FN545827_Cameroon_2005_Cameroon    0.75%    passed     99.74%
+ 139  E_FN545841_Cameroon_2007_Cameroon    0.00%    passed     99.98%
+ 140  E_FN545842_Cameroon_2007_Cameroon    0.19%    passed     99.67%
+ 141  E_FJ349226_Belgium_1995_Belgium      0.00%    passed     99.22%
+ 142  E_FJ349227_Belgium_1998_Belgium      5.26%    passed     97.42%
+ 143  E_FJ349237_Belgium_2005_Belgium      0.00%    passed     99.82%
+ 144  E_FJ349238_Belgium_2007_Belgium      0.00%    passed     99.89%
+ 145  E_FJ349239_Belgium_2007_Belgium      0.00%    passed     99.98%
+ 146  E_FJ349240_Belgium_2007_Belgium      0.37%    passed     99.56%
+ 147  E_GQ161755_Guinea_2006_Guinea        0.00%    passed     98.73%
+ 148  E_GQ161756_Guinea_2006_Guinea        0.84%    passed     99.53%
+ 149  E_GQ161757_Guinea_2006_Guinea        0.00%    passed     98.92%
+ 150  E_GQ161758_Guinea_2006_Guinea        0.00%    passed     99.29%
+ 151  E_GQ161759_Guinea_2006_Guinea        0.00%    passed     99.60%
+ 152  E_GQ161760_Guinea_2006_Guinea        0.00%    passed     99.76%
+ 153  E_GQ161761_Guinea_2006_Guinea        0.00%    passed     99.75%
+ 154  E_GQ161762_Guinea_2006_Guinea        0.00%    passed     99.94%
+ 155  E_GQ161763_Guinea_2006_Guinea        0.00%    passed     99.57%
+ 156  E_GQ161764_Guinea_2006_Guinea        0.00%    passed     99.67%
+ 157  E_GQ161765_Guinea_2006_Guinea        0.03%    passed     99.68%
+ 158  E_GQ161766_Guinea_2006_Guinea        0.00%    passed     99.29%
+ 159  E_GQ161768_Guinea_2006_Guinea        0.00%    passed     97.33%
+ 160  E_GQ161769_Guinea_2006_Guinea        0.00%    passed     99.89%
+ 161  E_GQ161770_Guinea_2006_Guinea        0.00%    passed     98.66%
+ 162  E_GQ161771_Guinea_2006_Guinea        0.00%    passed     98.61%
+ 163  E_GQ161772_Guinea_2006_Guinea        0.06%    passed     99.38%
+ 164  E_GQ161773_Guinea_2006_Guinea        0.00%    passed     99.68%
+ 165  E_GQ161774_Guinea_2006_Guinea        0.00%    passed     99.29%
+ 166  E_GQ161776_Guinea_2006_Guinea        0.00%    passed     99.53%
+ 167  E_GQ161777_Guinea_2006_Guinea        0.06%    passed     99.22%
+ 168  E_GQ161778_Guinea_2006_Guinea        0.00%    passed     99.34%
+ 169  E_GQ161779_Guinea_2006_Guinea        0.00%    passed     99.48%
+ 170  E_GQ161780_Guinea_2006_Guinea        0.03%    passed     99.87%
+ 171  E_GQ161781_Guinea_2006_Guinea        0.00%    passed     99.95%
+ 172  E_GQ161782_Guinea_2006_Guinea        0.06%    passed     99.95%
+ 173  E_GQ161783_Guinea_2006_Guinea        0.00%    passed     99.28%
+ 174  E_GQ161784_Guinea_2006_Guinea        0.00%    passed     99.74%
+ 175  E_GQ161785_Guinea_2006_Guinea        0.00%    passed     98.26%
+ 176  E_GQ161786_Guinea_2006_Guinea        0.00%    passed     99.42%
+ 177  E_GQ161787_Guinea_2006_Guinea        0.00%    passed     99.45%
+ 178  E_GQ161789_Guinea_2006_Guinea        0.00%    passed     99.53%
+ 179  E_GQ161790_Guinea_2006_Guinea        0.00%    passed     99.90%
+ 180  E_GQ161791_Guinea_2006_Guinea        0.00%    passed     98.52%
+ 181  E_GQ161792_Guinea_2006_Guinea        0.03%    passed     99.85%
+ 182  E_GQ161793_Guinea_2006_Guinea        0.00%    passed     99.01%
+ 183  E_GQ161794_Guinea_2006_Guinea        0.00%    passed     99.71%
+ 184  E_GQ161795_Guinea_2006_Guinea        0.84%    passed     99.30%
+ 185  E_GQ161796_Guinea_2006_Guinea        0.40%    passed     98.97%
+ 186  E_GQ161797_Guinea_2006_Guinea        0.00%    passed     99.19%
+ 187  E_GQ161798_Guinea_2006_Guinea        0.00%    passed     99.61%
+ 188  E_GQ161799_Guinea_2006_Guinea        3.55%    passed     97.01%
+ 189  E_GQ161800_Guinea_2006_Guinea        0.00%    passed     98.01%
+ 190  E_GQ161801_Guinea_2006_Guinea        0.03%    passed     99.88%
+ 191  E_GQ161802_Guinea_2006_Guinea        0.00%    passed     99.68%
+ 192  E_GQ161803_Guinea_2006_Guinea        0.00%    passed     98.56%
+ 193  E_GQ161804_Guinea_2006_Guinea        0.00%    passed     99.72%
+ 194  E_GQ161805_Guinea_2006_Guinea        3.58%    passed     98.44%
+ 195  E_GQ161807_Guinea_2006_Guinea        0.00%    passed     99.58%
+ 196  E_GQ161808_Guinea_2006_Guinea        0.00%    passed     99.72%
+ 197  E_GQ161809_Guinea_2006_Guinea        0.06%    passed     99.08%
+ 198  E_GQ161810_Guinea_2006_Guinea        0.03%    passed     99.19%
+ 199  E_GQ161811_Guinea_2006_Guinea        0.12%    passed     99.86%
+ 200  E_GQ161812_Guinea_2006_Guinea        0.00%    passed     99.79%
+ 201  E_GQ161814_Guinea_2006_Guinea        0.03%    passed     99.71%
+ 202  E_GQ161815_Guinea_2006_Guinea        0.03%    passed     99.18%
+ 203  E_GQ161816_Guinea_2006_Guinea        0.06%    passed     99.99%
+ 204  E_GQ161817_Guinea_2006_Guinea        0.00%    passed     99.96%
+ 205  E_GQ161818_Guinea_2006_Guinea        3.61%    passed     92.40%
+ 206  E_GQ161819_Guinea_2006_Guinea        0.00%    passed     98.01%
+ 207  E_GQ161820_Guinea_2006_Guinea        1.00%    passed     99.61%
+ 208  E_GQ161821_Guinea_2006_Guinea        3.58%    passed     96.13%
+ 209  E_GQ161822_Guinea_2006_Guinea        6.10%    passed     98.91%
+ 210  E_GQ161823_Guinea_2006_Guinea        0.28%    passed     98.17%
+ 211  E_GQ161824_Guinea_2006_Guinea        0.00%    passed     99.28%
+ 212  E_GQ161825_Guinea_2006_Guinea        0.09%    passed     97.48%
+ 213  E_GQ161826_Guinea_2006_Guinea        0.59%    passed     99.91%
+ 214  E_GQ161827_Guinea_2006_Guinea        0.00%    passed     99.25%
+ 215  E_GQ161828_Guinea_2006_Guinea        0.00%    passed     99.53%
+ 216  E_GQ161829_Guinea_2006_Guinea        0.03%    passed     98.73%
+ 217  E_GQ161830_Guinea_2006_Guinea        8.16%    passed     96.43%
+ 218  E_GQ161831_Guinea_2006_Guinea        0.40%    passed     98.30%
+ 219  E_GQ161832_Guinea_2006_Guinea        0.00%    passed     99.98%
+ 220  E_GQ161833_Guinea_2006_Guinea        0.00%    passed     99.92%
+ 221  E_GQ161834_Guinea_2006_Guinea        0.00%    passed     97.32%
+ 222  E_GQ161835_Guinea_2006_Guinea        0.00%    passed     99.41%
+ 223  E_GQ161836_Guinea_2006_Guinea        0.00%    passed     99.89%
+ 224  E_AY738147_Congo_1998_Congo          0.00%    passed     99.14%
+ 225  E_AY738146_Congo_1998_Congo          0.00%    passed     99.37%
+ 226  E_AY738145_Congo_1998_Congo          0.00%    passed     99.37%
+ 227  E_AY738144_Congo_1998_Congo          0.00%    passed     98.38%
+ 228  E_AB194948_Cameroon_1994_Cameroon    0.00%    passed     92.55%
+ 229  E_AB194947_Cameroon_1994_Cameroon    0.00%    passed     99.80%
+ 230  E_AB205192_Ghana_2000_Ghana          0.00%    passed     98.37%
+ 231  E_AB205191_Ghana_2000_Ghana          0.00%    passed     99.89%
+ 232  E_AB205190_Ghana_2000_Ghana          0.00%    passed     98.27%
+ 233  E_AB205189_Ghana_2000_Ghana          0.00%    passed     99.92%
+ 234  E_AB205188_Ghana_2000_Ghana          0.47%    passed     98.85%
+****  TOTAL                                0.33%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: E_GQ161766_Guinea_2006_Guinea is identical to E_GQ161758_Guinea_2006_Guinea but kept for subsequent analysis
+NOTE: E_GQ161802_Guinea_2006_Guinea is identical to E_GQ161773_Guinea_2006_Guinea but kept for subsequent analysis
+NOTE: E_GQ161789_Guinea_2006_Guinea is identical to E_GQ161776_Guinea_2006_Guinea but kept for subsequent analysis
+NOTE: E_GQ161824_Guinea_2006_Guinea is identical to E_GQ161783_Guinea_2006_Guinea but kept for subsequent analysis
+NOTE: E_GQ161819_Guinea_2006_Guinea is identical to E_GQ161800_Guinea_2006_Guinea but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: E_GQ161774_Guinea_2006_Guinea (identical to E_GQ161758_Guinea_2006_Guinea) is ignored but added at the end
+NOTE: E_GQ161828_Guinea_2006_Guinea (identical to E_GQ161776_Guinea_2006_Guinea) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to E/E_aligned.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.094 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 153148)...
+
+NOTE: 16 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -39474.660
+2. Current log-likelihood: -38941.897
+3. Current log-likelihood: -38941.459
+Optimal log-likelihood: -38941.459
+Rate parameters:  A-C: 1.00000  A-G: 2.32955  A-T: 1.00000  C-G: 1.00000  C-T: 2.32955  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 3 rounds (0.201 sec)
+Computing ML distances based on estimated model parameters... 1.090 sec
+Computing BIONJ tree...
+0.030 seconds
+Log-likelihood of BIONJ tree: -39117.762
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 8.898 second
+Computing log-likelihood of 98 initial trees ... 5.896 seconds
+Current best score: -38838.200
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -38815.744
+Iteration 10 / LogL: -38839.841 / Time: 0h:0m:22s
+Iteration 20 / LogL: -38869.557 / Time: 0h:0m:31s
+Finish initializing candidate tree set (20)
+Current best tree score: -38815.744 / CPU time: 30.780
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -38852.793 / Time: 0h:0m:38s (0h:1m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -38814.163
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -38811.589
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -38811.418
+Iteration 40 / LogL: -38861.546 / Time: 0h:0m:46s (0h:1m:56s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -38808.016
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -38801.432
+Iteration 50 / LogL: -38813.017 / Time: 0h:0m:52s (0h:1m:43s left)
+Log-likelihood cutoff on original alignment: -38909.605
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 51: -38798.087
+Iteration 60 / LogL: -38809.909 / Time: 0h:1m:0s (0h:1m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -38795.700
+Iteration 70 / LogL: -38831.986 / Time: 0h:1m:7s (0h:1m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -38791.031
+Iteration 80 / LogL: -38828.805 / Time: 0h:1m:14s (0h:1m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 87: -38790.364
+Iteration 90 / LogL: -38812.534 / Time: 0h:1m:21s (0h:1m:29s left)
+Iteration 100 / LogL: -38808.123 / Time: 0h:1m:28s (0h:1m:17s left)
+Log-likelihood cutoff on original alignment: -38909.605
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 110 / LogL: -38825.191 / Time: 0h:1m:35s (0h:1m:18s left)
+Iteration 120 / LogL: -38948.390 / Time: 0h:1m:41s (0h:1m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 124: -38785.873
+Iteration 130 / LogL: -38792.903 / Time: 0h:1m:47s (0h:1m:18s left)
+Iteration 140 / LogL: -38837.446 / Time: 0h:1m:54s (0h:1m:9s left)
+Iteration 150 / LogL: -38788.842 / Time: 0h:2m:1s (0h:1m:0s left)
+Log-likelihood cutoff on original alignment: -38909.078
+Iteration 160 / LogL: -38873.573 / Time: 0h:2m:9s (0h:0m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 169: -38784.134
+Iteration 170 / LogL: -38791.851 / Time: 0h:2m:16s (0h:1m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 176: -38781.788
+Iteration 180 / LogL: -38810.807 / Time: 0h:2m:24s (0h:1m:17s left)
+Iteration 190 / LogL: -38790.063 / Time: 0h:2m:31s (0h:1m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 198: -38781.577
+Iteration 200 / LogL: -39042.830 / Time: 0h:2m:37s (0h:1m:17s left)
+Log-likelihood cutoff on original alignment: -38909.078
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 201: -38780.934
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 206: -38779.332
+Iteration 210 / LogL: -38795.994 / Time: 0h:2m:46s (0h:1m:16s left)
+Iteration 220 / LogL: -38782.287 / Time: 0h:2m:53s (0h:1m:7s left)
+Iteration 230 / LogL: -38796.020 / Time: 0h:2m:59s (0h:0m:59s left)
+Iteration 240 / LogL: -38837.768 / Time: 0h:3m:6s (0h:0m:51s left)
+Iteration 250 / LogL: -38821.291 / Time: 0h:3m:13s (0h:0m:43s left)
+Log-likelihood cutoff on original alignment: -38909.078
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 254: -38778.774
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 255: -38778.299
+Iteration 260 / LogL: -38785.039 / Time: 0h:3m:21s (0h:1m:13s left)
+Iteration 270 / LogL: -38814.035 / Time: 0h:3m:28s (0h:1m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 274: -38777.615
+Iteration 280 / LogL: -38801.936 / Time: 0h:3m:35s (0h:1m:12s left)
+Iteration 290 / LogL: -38782.959 / Time: 0h:3m:43s (0h:1m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 297: -38776.825
+Iteration 300 / LogL: -38815.264 / Time: 0h:3m:51s (0h:1m:14s left)
+Log-likelihood cutoff on original alignment: -38909.078
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 303: -38776.783
+Iteration 310 / LogL: -38801.229 / Time: 0h:3m:58s (0h:1m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 316: -38776.679
+Iteration 320 / LogL: -38780.017 / Time: 0h:4m:6s (0h:1m:14s left)
+Iteration 330 / LogL: -38795.117 / Time: 0h:4m:14s (0h:1m:6s left)
+Iteration 340 / LogL: -38782.140 / Time: 0h:4m:22s (0h:0m:58s left)
+Iteration 350 / LogL: -38812.957 / Time: 0h:4m:30s (0h:0m:51s left)
+Log-likelihood cutoff on original alignment: -38909.078
+Iteration 360 / LogL: -38796.275 / Time: 0h:4m:38s (0h:0m:43s left)
+Iteration 370 / LogL: -38796.055 / Time: 0h:4m:45s (0h:0m:35s left)
+Iteration 380 / LogL: -38860.709 / Time: 0h:4m:53s (0h:0m:27s left)
+Iteration 390 / LogL: -38801.734 / Time: 0h:5m:0s (0h:0m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 391: -38772.740
+Iteration 400 / LogL: -38889.394 / Time: 0h:5m:7s (0h:1m:10s left)
+Log-likelihood cutoff on original alignment: -38909.078
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 410 / LogL: -38792.266 / Time: 0h:5m:15s (0h:1m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 414: -38768.041
+Iteration 420 / LogL: -38795.187 / Time: 0h:5m:23s (0h:1m:12s left)
+Iteration 430 / LogL: -38795.952 / Time: 0h:5m:30s (0h:1m:4s left)
+Iteration 440 / LogL: -38795.209 / Time: 0h:5m:37s (0h:0m:56s left)
+Iteration 450 / LogL: -38785.233 / Time: 0h:5m:44s (0h:0m:49s left)
+Log-likelihood cutoff on original alignment: -38909.078
+Iteration 460 / LogL: -38781.292 / Time: 0h:5m:52s (0h:0m:41s left)
+Iteration 470 / LogL: -38792.299 / Time: 0h:6m:0s (0h:0m:33s left)
+Iteration 480 / LogL: -38794.226 / Time: 0h:6m:7s (0h:0m:26s left)
+Iteration 490 / LogL: -38786.875 / Time: 0h:6m:14s (0h:0m:18s left)
+Iteration 500 / LogL: -38794.988 / Time: 0h:6m:21s (0h:0m:10s left)
+Log-likelihood cutoff on original alignment: -38909.078
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 510 / LogL: -38811.860 / Time: 0h:6m:29s (0h:1m:8s left)
+TREE SEARCH COMPLETED AFTER 515 ITERATIONS / Time: 0h:6m:34s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -38768.041
+Optimal log-likelihood: -38768.040
+Rate parameters:  A-C: 1.00000  A-G: 2.35099  A-T: 1.00000  C-G: 1.00000  C-T: 2.35099  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.039 sec)
+BEST SCORE FOUND : -38768.040
+Creating bootstrap support values...
+Split supports printed to NEXUS file E/E_aligned.fasta.splits.nex
+Total tree length: 1.541
+
+Total number of iterations: 515
+CPU time used for tree search: 5254.336 sec (1h:27m:34s)
+Wall-clock time used for tree search: 394.016 sec (0h:6m:34s)
+Total CPU time used: 5262.699 sec (1h:27m:42s)
+Total wall-clock time used: 395.451 sec (0h:6m:35s)
+
+Computing bootstrap consensus tree...
+Reading input file E/E_aligned.fasta.splits.nex...
+232 taxa and 2864 splits.
+Consensus tree written to E/E_aligned.fasta.contree
+Reading input trees file E/E_aligned.fasta.contree
+Log-likelihood of consensus tree: -38775.075
+
+Analysis results written to: 
+  IQ-TREE report:                E/E_aligned.fasta.iqtree
+  Maximum-likelihood tree:       E/E_aligned.fasta.treefile
+  Likelihood distances:          E/E_aligned.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          E/E_aligned.fasta.splits.nex
+  Consensus tree:                E/E_aligned.fasta.contree
+  Screen log file:               E/E_aligned.fasta.log
+
+Date and Time: Wed May 25 18:47:18 2022

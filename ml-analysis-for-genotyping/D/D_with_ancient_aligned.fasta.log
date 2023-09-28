@@ -1,0 +1,1839 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    gbw-d-l0102 (AVX512, FMA3, 62 GB RAM)
+Command: iqtree -s D/D_with_ancient_aligned.fasta -m K2P -bb 1000 -nt 15
+Seed:    738362 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed May 25 18:38:46 2022
+Kernel:  AVX+FMA - 15 threads (40 CPU cores detected)
+
+Reading alignment file D/D_with_ancient_aligned.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 2 sites contain only gaps or ambiguous characters.
+Alignment has 769 sequences with 3188 columns, 2102 distinct patterns
+1355 parsimony-informative, 568 singleton sites, 1265 constant sites
+WARNING: Some sequence names are changed as follows:
+D/31a/Belgium/2005/Belgium/ -> D_31a_Belgium_2005_Belgium_
+D/45a/Belgium/1984/Belgium/ -> D_45a_Belgium_1984_Belgium_
+D/70z/Belgium/2001/Belgium/ -> D_70z_Belgium_2001_Belgium_
+D/81a/Belgium/2002/Belgium/ -> D_81a_Belgium_2002_Belgium_
+D/83a/Belgium/1987/Belgium/ -> D_83a_Belgium_1987_Belgium_
+D/8z/Belgium/2006/Belgium/ -> D_8z_Belgium_2006_Belgium_
+D/AB188241/Japan/2001/Japan/ -> D_AB188241_Japan_2001_Japan_
+D/AB210819/Japan/1990/Japan/ -> D_AB210819_Japan_1990_Japan_
+D/AB210820/Japan/2001/Japan/ -> D_AB210820_Japan_2001_Japan_
+D/AB210822/Japan/2001/Japan/ -> D_AB210822_Japan_2001_Japan_
+D/AB222709/Uzbekistan/2004/Uzbekistan/ -> D_AB222709_Uzbekistan_2004_Uzbekistan_
+D/AB222710/Uzbekistan/2004/Uzbekistan/ -> D_AB222710_Uzbekistan_2004_Uzbekistan_
+D/AB222711/Uzbekistan/2004/Uzbekistan/ -> D_AB222711_Uzbekistan_2004_Uzbekistan_
+D/AB222712/Uzbekistan/2004/Uzbekistan/ -> D_AB222712_Uzbekistan_2004_Uzbekistan_
+D/AB222713/Uzbekistan/2004/Uzbekistan/ -> D_AB222713_Uzbekistan_2004_Uzbekistan_
+D/AB267090/Japan/2005/Japan/ -> D_AB267090_Japan_2005_Japan_
+D/AB270537/Mongolia/2005/Mongolia/ -> D_AB270537_Mongolia_2005_Mongolia_
+D/AB270538/Mongolia/2005/Mongolia/ -> D_AB270538_Mongolia_2005_Mongolia_
+D/AB270539/Mongolia/2005/Mongolia/ -> D_AB270539_Mongolia_2005_Mongolia_
+D/AB270540/Mongolia/2005/Mongolia/ -> D_AB270540_Mongolia_2005_Mongolia_
+D/AB270541/Mongolia/2005/Mongolia/ -> D_AB270541_Mongolia_2005_Mongolia_
+D/AB270542/Mongolia/2005/Mongolia/ -> D_AB270542_Mongolia_2005_Mongolia_
+D/AB270543/Mongolia/2005/Mongolia/ -> D_AB270543_Mongolia_2005_Mongolia_
+D/AB270544/Mongolia/2005/Mongolia/ -> D_AB270544_Mongolia_2005_Mongolia_
+D/AB270545/Mongolia/2005/Mongolia/ -> D_AB270545_Mongolia_2005_Mongolia_
+D/AB270546/Mongolia/2005/Mongolia/ -> D_AB270546_Mongolia_2005_Mongolia_
+D/AB270547/Mongolia/2005/Mongolia/ -> D_AB270547_Mongolia_2005_Mongolia_
+D/AB270548/Mongolia/2005/Mongolia/ -> D_AB270548_Mongolia_2005_Mongolia_
+D/AB270549/Mongolia/2005/Mongolia/ -> D_AB270549_Mongolia_2005_Mongolia_
+D/AB270550/Mongolia/2005/Mongolia/ -> D_AB270550_Mongolia_2005_Mongolia_
+D/AB493845/Indonesia/2004/Indonesia/ -> D_AB493845_Indonesia_2004_Indonesia_
+D/AB493846/Indonesia/2004/Indonesia/ -> D_AB493846_Indonesia_2004_Indonesia_
+D/AB493848/Indonesia/2004/Indonesia/ -> D_AB493848_Indonesia_2004_Indonesia_
+D/AB554016/Indonesia/2009/Indonesia/ -> D_AB554016_Indonesia_2009_Indonesia_
+D/AB554023/Indonesia/2009/Indonesia/ -> D_AB554023_Indonesia_2009_Indonesia_
+D/AB554024/Indonesia/2009/Indonesia/ -> D_AB554024_Indonesia_2009_Indonesia_
+D/AB555496/Taiwan/2009/Taiwan/ -> D_AB555496_Taiwan_2009_Taiwan_
+D/AB555497/Taiwan/2009/Taiwan/ -> D_AB555497_Taiwan_2009_Taiwan_
+D/AB555500/Taiwan/2009/Taiwan/ -> D_AB555500_Taiwan_2009_Taiwan_
+D/AB555501/Taiwan/2009/Taiwan/ -> D_AB555501_Taiwan_2009_Taiwan_
+D/AF043593/Germany/1989/Germany/ -> D_AF043593_Germany_1989_Germany_
+D/AF043594/Germany/1991/Germany/ -> D_AF043594_Germany_1991_Germany_
+D/AJ131956/Germany/1986/Germany/ -> D_AJ131956_Germany_1986_Germany_
+D/AY341335/UK/2003/UK/ -> D_AY341335_UK_2003_UK_
+D/AY741794/Iran/2003/Iran/ -> D_AY741794_Iran_2003_Iran_
+D/AY741795/Iran/2003/Iran/ -> D_AY741795_Iran_2003_Iran_
+D/AY741796/Iran/2003/Iran/ -> D_AY741796_Iran_2003_Iran_
+D/AY741797/Iran/2003/Iran/ -> D_AY741797_Iran_2003_Iran_
+D/AY741798/Iran/2003/Iran/ -> D_AY741798_Iran_2003_Iran_
+D/EU414135/Belarus/2005/Belarus/ -> D_EU414135_Belarus_2005_Belarus_
+D/EU414136/Belarus/2005/Belarus/ -> D_EU414136_Belarus_2005_Belarus_
+D/EU414137/Belarus/2005/Belarus/ -> D_EU414137_Belarus_2005_Belarus_
+D/EU414138/Belarus/2005/Belarus/ -> D_EU414138_Belarus_2005_Belarus_
+D/EU414139/Belarus/2005/Belarus/ -> D_EU414139_Belarus_2005_Belarus_
+D/EU414140/Belarus/2005/Belarus/ -> D_EU414140_Belarus_2005_Belarus_
+D/EU414141/Belarus/2005/Belarus/ -> D_EU414141_Belarus_2005_Belarus_
+D/EU414142/Belarus/2005/Belarus/ -> D_EU414142_Belarus_2005_Belarus_
+D/EU414143/Belarus/2005/Belarus/ -> D_EU414143_Belarus_2005_Belarus_
+D/EU921418/Indonesia/2007/Indonesia/ -> D_EU921418_Indonesia_2007_Indonesia_
+D/EU921419/Indonesia/2007/Indonesia/ -> D_EU921419_Indonesia_2007_Indonesia_
+D/EU939680/China/2005/China/ -> D_EU939680_China_2005_China_
+D/FJ349205/Belgium/2005/Belgium/ -> D_FJ349205_Belgium_2005_Belgium_
+D/FJ349206/Belgium/2005/Belgium/ -> D_FJ349206_Belgium_2005_Belgium_
+D/FJ349207/Belgium/1998/Belgium/ -> D_FJ349207_Belgium_1998_Belgium_
+D/FJ349208/Belgium/1998/Belgium/ -> D_FJ349208_Belgium_1998_Belgium_
+D/FJ349209/Belgium/1998/Belgium/ -> D_FJ349209_Belgium_1998_Belgium_
+D/FJ349210/Belgium/1998/Belgium/ -> D_FJ349210_Belgium_1998_Belgium_
+D/FJ349211/Belgium/1998/Belgium/ -> D_FJ349211_Belgium_1998_Belgium_
+D/FJ349212/Belgium/1998/Belgium/ -> D_FJ349212_Belgium_1998_Belgium_
+D/FJ349213/Belgium/1999/Belgium/ -> D_FJ349213_Belgium_1999_Belgium_
+D/FJ349214/Belgium/1999/Belgium/ -> D_FJ349214_Belgium_1999_Belgium_
+D/FJ349215/Belgium/1995/Belgium/ -> D_FJ349215_Belgium_1995_Belgium_
+D/FJ349216/Belgium/2000/Belgium/ -> D_FJ349216_Belgium_2000_Belgium_
+D/FJ349217/Belgium/1999/Belgium/ -> D_FJ349217_Belgium_1999_Belgium_
+D/FJ349218/Belgium/1999/Belgium/ -> D_FJ349218_Belgium_1999_Belgium_
+D/FJ349219/Belgium/1999/Belgium/ -> D_FJ349219_Belgium_1999_Belgium_
+D/FJ349220/Belgium/1999/Belgium/ -> D_FJ349220_Belgium_1999_Belgium_
+D/FJ349221/Belgium/1999/Belgium/ -> D_FJ349221_Belgium_1999_Belgium_
+D/FJ349228/Belgium/2005/Belgium/ -> D_FJ349228_Belgium_2005_Belgium_
+D/FJ349229/Belgium/2005/Belgium/ -> D_FJ349229_Belgium_2005_Belgium_
+D/FJ349230/Belgium/2005/Belgium/ -> D_FJ349230_Belgium_2005_Belgium_
+D/FJ349231/Belgium/2005/Belgium/ -> D_FJ349231_Belgium_2005_Belgium_
+D/FJ349232/Belgium/2006/Belgium/ -> D_FJ349232_Belgium_2006_Belgium_
+D/FJ349233/Belgium/2006/Belgium/ -> D_FJ349233_Belgium_2006_Belgium_
+D/FJ349234/Belgium/2007/Belgium/ -> D_FJ349234_Belgium_2007_Belgium_
+D/FJ349235/Belgium/2007/Belgium/ -> D_FJ349235_Belgium_2007_Belgium_
+D/FJ562309/China/2007/China/ -> D_FJ562309_China_2007_China_
+D/FJ904422/Tunisia/2006/Tunisia/ -> D_FJ904422_Tunisia_2006_Tunisia_
+D/G10113a/Belgium/1986/Belgium/ -> D_G10113a_Belgium_1986_Belgium_
+D/G10315a/Belgium/1994/Belgium/ -> D_G10315a_Belgium_1994_Belgium_
+D/G1034a/Belgium/2001/Belgium/ -> D_G1034a_Belgium_2001_Belgium_
+D/G10414a/Belgium/1992/Belgium/ -> D_G10414a_Belgium_1992_Belgium_
+D/G10442a/Belgium/1992/Belgium/ -> D_G10442a_Belgium_1992_Belgium_
+D/G10453a/Belgium/1992/Belgium/ -> D_G10453a_Belgium_1992_Belgium_
+D/G1047a/Belgium/1987/Belgium/ -> D_G1047a_Belgium_1987_Belgium_
+D/G10715/Belgium/2007/Belgium/ -> D_G10715_Belgium_2007_Belgium_
+D/G1967/Belgium/1996/Belgium/ -> D_G1967_Belgium_1996_Belgium_
+D/G1HR4/Belgium/1988/Belgium/ -> D_G1HR4_Belgium_1988_Belgium_
+D/GQ161754/Ghana/2000/Ghana/ -> D_GQ161754_Ghana_2000_Ghana_
+D/GQ183448/India/2009/India/ -> D_GQ183448_India_2009_India_
+D/GQ183449/India/2009/India/ -> D_GQ183449_India_2009_India_
+D/GQ183450/India/2009/India/ -> D_GQ183450_India_2009_India_
+D/GQ183451/India/2009/India/ -> D_GQ183451_India_2009_India_
+D/GQ183452/India/2009/India/ -> D_GQ183452_India_2009_India_
+D/GQ183453/India/2009/India/ -> D_GQ183453_India_2009_India_
+D/GQ183454/India/2009/India/ -> D_GQ183454_India_2009_India_
+D/GQ183455/India/2009/India/ -> D_GQ183455_India_2009_India_
+D/GQ183456/India/2009/India/ -> D_GQ183456_India_2009_India_
+D/GQ183457/India/2009/India/ -> D_GQ183457_India_2009_India_
+D/GQ183458/India/2009/India/ -> D_GQ183458_India_2009_India_
+D/GQ183459/India/2009/India/ -> D_GQ183459_India_2009_India_
+D/GQ183460/India/2009/India/ -> D_GQ183460_India_2009_India_
+D/GQ183461/India/2009/India/ -> D_GQ183461_India_2009_India_
+D/GQ183462/India/2009/India/ -> D_GQ183462_India_2009_India_
+D/GQ183463/India/2009/India/ -> D_GQ183463_India_2009_India_
+D/GQ183464/India/2009/India/ -> D_GQ183464_India_2009_India_
+D/GQ183465/India/2009/India/ -> D_GQ183465_India_2009_India_
+D/GQ183466/India/2009/India/ -> D_GQ183466_India_2009_India_
+D/GQ183467/India/2009/India/ -> D_GQ183467_India_2009_India_
+D/GQ183468/India/2009/India/ -> D_GQ183468_India_2009_India_
+D/GQ183469/India/2009/India/ -> D_GQ183469_India_2009_India_
+D/GQ183470/India/2009/India/ -> D_GQ183470_India_2009_India_
+D/GQ183471/India/2009/India/ -> D_GQ183471_India_2009_India_
+D/GQ183472/India/2009/India/ -> D_GQ183472_India_2009_India_
+D/GQ183473/India/2009/India/ -> D_GQ183473_India_2009_India_
+D/GQ183474/India/2009/India/ -> D_GQ183474_India_2009_India_
+D/GQ183475/India/2009/India/ -> D_GQ183475_India_2009_India_
+D/GQ183476/India/2009/India/ -> D_GQ183476_India_2009_India_
+D/GQ183477/India/2009/India/ -> D_GQ183477_India_2009_India_
+D/GQ183478/India/2009/India/ -> D_GQ183478_India_2009_India_
+D/GQ183479/India/2009/India/ -> D_GQ183479_India_2009_India_
+D/GQ183480/India/2009/India/ -> D_GQ183480_India_2009_India_
+D/GQ183481/India/2009/India/ -> D_GQ183481_India_2009_India_
+D/GQ183482/India/2009/India/ -> D_GQ183482_India_2009_India_
+D/GQ183483/India/2009/India/ -> D_GQ183483_India_2009_India_
+D/GQ183484/India/2009/India/ -> D_GQ183484_India_2009_India_
+D/GQ183485/India/2009/India/ -> D_GQ183485_India_2009_India_
+D/GQ183486/India/2009/India/ -> D_GQ183486_India_2009_India_
+D/GU563549/Belgium/2008/Belgium/ -> D_GU563549_Belgium_2008_Belgium_
+D/GU563560/Belgium/2005/Belgium/ -> D_GU563560_Belgium_2005_Belgium_
+D/HQ700440/NewZealand/1984/NewZealand/ -> D_HQ700440_NewZealand_1984_NewZealand_
+D/HQ700441/NewZealand/1984/NewZealand/ -> D_HQ700441_NewZealand_1984_NewZealand_
+D/HQ700442/NewZealand/1984/NewZealand/ -> D_HQ700442_NewZealand_1984_NewZealand_
+D/HQ700443/NewZealand/1999/NewZealand/ -> D_HQ700443_NewZealand_1999_NewZealand_
+D/HQ700444/NewZealand/1984/NewZealand/ -> D_HQ700444_NewZealand_1984_NewZealand_
+D/HQ700445/NewZealand/1984/NewZealand/ -> D_HQ700445_NewZealand_1984_NewZealand_
+D/HQ700446/NewZealand/1999/NewZealand/ -> D_HQ700446_NewZealand_1999_NewZealand_
+D/HQ700447/NewZealand/1984/NewZealand/ -> D_HQ700447_NewZealand_1984_NewZealand_
+D/HQ700448/NewZealand/1999/NewZealand/ -> D_HQ700448_NewZealand_1999_NewZealand_
+D/HQ700449/NewZealand/1984/NewZealand/ -> D_HQ700449_NewZealand_1984_NewZealand_
+D/HQ700450/NewZealand/1984/NewZealand/ -> D_HQ700450_NewZealand_1984_NewZealand_
+D/HQ700452/NewZealand/1984/NewZealand/ -> D_HQ700452_NewZealand_1984_NewZealand_
+D/HQ700453/NewZealand/1984/NewZealand/ -> D_HQ700453_NewZealand_1984_NewZealand_
+D/HQ700454/NewZealand/1984/NewZealand/ -> D_HQ700454_NewZealand_1984_NewZealand_
+D/HQ700455/NewZealand/1999/NewZealand/ -> D_HQ700455_NewZealand_1999_NewZealand_
+D/HQ700458/NewZealand/1997/NewZealand/ -> D_HQ700458_NewZealand_1997_NewZealand_
+D/HQ700459/NewZealand/1993/NewZealand/ -> D_HQ700459_NewZealand_1993_NewZealand_
+D/HQ700460/NewZealand/1984/NewZealand/ -> D_HQ700460_NewZealand_1984_NewZealand_
+D/HQ700463/NewZealand/1984/NewZealand/ -> D_HQ700463_NewZealand_1984_NewZealand_
+D/HQ700464/NewZealand/1984/NewZealand/ -> D_HQ700464_NewZealand_1984_NewZealand_
+D/HQ700465/NewZealand/1992/NewZealand/ -> D_HQ700465_NewZealand_1992_NewZealand_
+D/HQ700466/NewZealand/1984/NewZealand/ -> D_HQ700466_NewZealand_1984_NewZealand_
+D/HQ700467/NewZealand/1999/NewZealand/ -> D_HQ700467_NewZealand_1999_NewZealand_
+D/HQ700468/NewZealand/1984/NewZealand/ -> D_HQ700468_NewZealand_1984_NewZealand_
+D/HQ700469/NewZealand/1984/NewZealand/ -> D_HQ700469_NewZealand_1984_NewZealand_
+D/HQ700470/NewZealand/1999/NewZealand/ -> D_HQ700470_NewZealand_1999_NewZealand_
+D/HQ700471/NewZealand/1984/NewZealand/ -> D_HQ700471_NewZealand_1984_NewZealand_
+D/HQ700472/NewZealand/1997/NewZealand/ -> D_HQ700472_NewZealand_1997_NewZealand_
+D/HQ700473/NewZealand/1984/NewZealand/ -> D_HQ700473_NewZealand_1984_NewZealand_
+D/HQ700474/NewZealand/1999/NewZealand/ -> D_HQ700474_NewZealand_1999_NewZealand_
+D/HQ700477/NewZealand/1984/NewZealand/ -> D_HQ700477_NewZealand_1984_NewZealand_
+D/HQ700478/NewZealand/1994/NewZealand/ -> D_HQ700478_NewZealand_1994_NewZealand_
+D/HQ700479/NewZealand/1984/NewZealand/ -> D_HQ700479_NewZealand_1984_NewZealand_
+D/HQ700480/NewZealand/1984/NewZealand/ -> D_HQ700480_NewZealand_1984_NewZealand_
+D/HQ700481/NewZealand/1999/NewZealand/ -> D_HQ700481_NewZealand_1999_NewZealand_
+D/HQ700482/NewZealand/1984/NewZealand/ -> D_HQ700482_NewZealand_1984_NewZealand_
+D/HQ700483/NewZealand/1984/NewZealand/ -> D_HQ700483_NewZealand_1984_NewZealand_
+D/HQ700484/NewZealand/1984/NewZealand/ -> D_HQ700484_NewZealand_1984_NewZealand_
+D/HQ700487/NewZealand/1988/NewZealand/ -> D_HQ700487_NewZealand_1988_NewZealand_
+D/HQ700488/NewZealand/1984/NewZealand/ -> D_HQ700488_NewZealand_1984_NewZealand_
+D/HQ700489/NewZealand/1999/NewZealand/ -> D_HQ700489_NewZealand_1999_NewZealand_
+D/HQ700491/NewZealand/1996/NewZealand/ -> D_HQ700491_NewZealand_1996_NewZealand_
+D/HQ700492/Fiji/2004/Fiji/ -> D_HQ700492_Fiji_2004_Fiji_
+D/HQ700493/Fiji/2004/Fiji/ -> D_HQ700493_Fiji_2004_Fiji_
+D/HQ700494/Fiji/2004/Fiji/ -> D_HQ700494_Fiji_2004_Fiji_
+D/HQ700497/Fiji/2004/Fiji/ -> D_HQ700497_Fiji_2004_Fiji_
+D/HQ700500/Samoa/1993/Samoa/ -> D_HQ700500_Samoa_1993_Samoa_
+D/HQ700501/Samoa/1991/Samoa/ -> D_HQ700501_Samoa_1991_Samoa_
+D/HQ700503/Tonga/1992/Tonga/ -> D_HQ700503_Tonga_1992_Tonga_
+D/HQ700510/NewCaledonia/2003/NewCaledonia/ -> D_HQ700510_NewCaledonia_2003_NewCaledonia_
+D/HQ700511/NewCaledonia/2001/NewCaledonia/ -> D_HQ700511_NewCaledonia_2001_NewCaledonia_
+D/HQ700512/NewCaledonia/2001/NewCaledonia/ -> D_HQ700512_NewCaledonia_2001_NewCaledonia_
+D/HQ700513/NewCaledonia/2001/NewCaledonia/ -> D_HQ700513_NewCaledonia_2001_NewCaledonia_
+D/HQ700514/NewCaledonia/2001/NewCaledonia/ -> D_HQ700514_NewCaledonia_2001_NewCaledonia_
+D/HQ700524/PapuaNewGuinea/2004/PapuaNewGuinea/ -> D_HQ700524_PapuaNewGuinea_2004_PapuaNewGuinea_
+D/HQ700525/PapuaNewGuinea/2004/PapuaNewGuinea/ -> D_HQ700525_PapuaNewGuinea_2004_PapuaNewGuinea_
+D/HQ700533/Kiribati/2004/Kiribati/ -> D_HQ700533_Kiribati_2004_Kiribati_
+D/HQ700534/Kiribati/2004/Kiribati/ -> D_HQ700534_Kiribati_2004_Kiribati_
+D/HQ700535/Kiribati/2004/Kiribati/ -> D_HQ700535_Kiribati_2004_Kiribati_
+D/HQ700536/Kiribati/2004/Kiribati/ -> D_HQ700536_Kiribati_2004_Kiribati_
+D/HQ700537/Kiribati/2004/Kiribati/ -> D_HQ700537_Kiribati_2004_Kiribati_
+D/HQ700538/Kiribati/2004/Kiribati/ -> D_HQ700538_Kiribati_2004_Kiribati_
+D/HQ700540/Kiribati/2004/Kiribati/ -> D_HQ700540_Kiribati_2004_Kiribati_
+D/HQ700541/Kiribati/2005/Kiribati/ -> D_HQ700541_Kiribati_2005_Kiribati_
+D/HQ833465/China/2009/China/ -> D_HQ833465_China_2009_China_
+D/HQ833466/China/2009/China/ -> D_HQ833466_China_2009_China_
+D/HQ833467/China/2009/China/ -> D_HQ833467_China_2009_China_
+D/HQ833468/China/2009/China/ -> D_HQ833468_China_2009_China_
+D/HQ833469/China/2009/China/ -> D_HQ833469_China_2009_China_
+D/HQ833470/China/2009/China/ -> D_HQ833470_China_2009_China_
+D/HQ833471/China/2009/China/ -> D_HQ833471_China_2009_China_
+D/JN040750/Iran/2008/Iran/ -> D_JN040750_Iran_2008_Iran_
+D/JN040751/Iran/2008/Iran/ -> D_JN040751_Iran_2008_Iran_
+D/JN040752/Iran/2009/Iran/ -> D_JN040752_Iran_2009_Iran_
+D/JN040753/Iran/2007/Iran/ -> D_JN040753_Iran_2007_Iran_
+D/JN040754/Iran/2009/Iran/ -> D_JN040754_Iran_2009_Iran_
+D/JN040755/Iran/2006/Iran/ -> D_JN040755_Iran_2006_Iran_
+D/JN040756/Iran/2008/Iran/ -> D_JN040756_Iran_2008_Iran_
+D/JN040757/Iran/2007/Iran/ -> D_JN040757_Iran_2007_Iran_
+D/JN040758/Iran/2007/Iran/ -> D_JN040758_Iran_2007_Iran_
+D/JN040759/Iran/2006/Iran/ -> D_JN040759_Iran_2006_Iran_
+D/JN040760/Iran/2007/Iran/ -> D_JN040760_Iran_2007_Iran_
+D/JN040761/Iran/2008/Iran/ -> D_JN040761_Iran_2008_Iran_
+D/JN040762/Iran/2009/Iran/ -> D_JN040762_Iran_2009_Iran_
+D/JN040763/Iran/2006/Iran/ -> D_JN040763_Iran_2006_Iran_
+D/JN040764/Iran/2006/Iran/ -> D_JN040764_Iran_2006_Iran_
+D/JN040765/Iran/2009/Iran/ -> D_JN040765_Iran_2009_Iran_
+D/JN040766/Iran/2009/Iran/ -> D_JN040766_Iran_2009_Iran_
+D/JN040767/Iran/2009/Iran/ -> D_JN040767_Iran_2009_Iran_
+D/JN040768/Iran/2006/Iran/ -> D_JN040768_Iran_2006_Iran_
+D/JN040769/Iran/2008/Iran/ -> D_JN040769_Iran_2008_Iran_
+D/JN040770/Iran/2006/Iran/ -> D_JN040770_Iran_2006_Iran_
+D/JN040771/Iran/2009/Iran/ -> D_JN040771_Iran_2009_Iran_
+D/JN040772/Iran/2006/Iran/ -> D_JN040772_Iran_2006_Iran_
+D/JN040773/Iran/2007/Iran/ -> D_JN040773_Iran_2007_Iran_
+D/JN040774/Iran/2006/Iran/ -> D_JN040774_Iran_2006_Iran_
+D/JN040775/Iran/2008/Iran/ -> D_JN040775_Iran_2008_Iran_
+D/JN040776/Iran/2006/Iran/ -> D_JN040776_Iran_2006_Iran_
+D/JN040777/Iran/2007/Iran/ -> D_JN040777_Iran_2007_Iran_
+D/JN040778/Iran/2008/Iran/ -> D_JN040778_Iran_2008_Iran_
+D/JN040779/Iran/2007/Iran/ -> D_JN040779_Iran_2007_Iran_
+D/JN040780/Iran/2007/Iran/ -> D_JN040780_Iran_2007_Iran_
+D/JN040781/Iran/2009/Iran/ -> D_JN040781_Iran_2009_Iran_
+D/JN040782/Iran/2009/Iran/ -> D_JN040782_Iran_2009_Iran_
+D/JN040783/Iran/2007/Iran/ -> D_JN040783_Iran_2007_Iran_
+D/JN040784/Iran/2009/Iran/ -> D_JN040784_Iran_2009_Iran_
+D/JN040785/Iran/2009/Iran/ -> D_JN040785_Iran_2009_Iran_
+D/JN040786/Iran/2009/Iran/ -> D_JN040786_Iran_2009_Iran_
+D/JN040787/Iran/2009/Iran/ -> D_JN040787_Iran_2009_Iran_
+D/JN040788/Iran/2009/Iran/ -> D_JN040788_Iran_2009_Iran_
+D/JN040789/Iran/2007/Iran/ -> D_JN040789_Iran_2007_Iran_
+D/JN040790/Iran/2006/Iran/ -> D_JN040790_Iran_2006_Iran_
+D/JN040791/Iran/2007/Iran/ -> D_JN040791_Iran_2007_Iran_
+D/JN040792/Iran/2008/Iran/ -> D_JN040792_Iran_2008_Iran_
+D/JN040793/Iran/2007/Iran/ -> D_JN040793_Iran_2007_Iran_
+D/JN040794/Iran/2008/Iran/ -> D_JN040794_Iran_2008_Iran_
+D/JN040795/Iran/2008/Iran/ -> D_JN040795_Iran_2008_Iran_
+D/JN040796/Iran/2009/Iran/ -> D_JN040796_Iran_2009_Iran_
+D/JN040797/Iran/2009/Iran/ -> D_JN040797_Iran_2009_Iran_
+D/JN040798/Iran/2009/Iran/ -> D_JN040798_Iran_2009_Iran_
+D/JN040799/Iran/2006/Iran/ -> D_JN040799_Iran_2006_Iran_
+D/JN040800/Iran/2009/Iran/ -> D_JN040800_Iran_2009_Iran_
+D/JN040801/Iran/2009/Iran/ -> D_JN040801_Iran_2009_Iran_
+D/JN040802/Iran/2008/Iran/ -> D_JN040802_Iran_2008_Iran_
+D/JN040803/Iran/2009/Iran/ -> D_JN040803_Iran_2009_Iran_
+D/JN040804/Iran/2008/Iran/ -> D_JN040804_Iran_2008_Iran_
+D/JN040805/Iran/2007/Iran/ -> D_JN040805_Iran_2007_Iran_
+D/JN040806/Iran/2006/Iran/ -> D_JN040806_Iran_2006_Iran_
+D/JN040807/Iran/2009/Iran/ -> D_JN040807_Iran_2009_Iran_
+D/JN040808/Iran/2007/Iran/ -> D_JN040808_Iran_2007_Iran_
+D/JN040809/Iran/2008/Iran/ -> D_JN040809_Iran_2008_Iran_
+D/JN040810/Iran/2007/Iran/ -> D_JN040810_Iran_2007_Iran_
+D/JN040811/Iran/2007/Iran/ -> D_JN040811_Iran_2007_Iran_
+D/JN040812/Iran/2007/Iran/ -> D_JN040812_Iran_2007_Iran_
+D/JN040813/Iran/2008/Iran/ -> D_JN040813_Iran_2008_Iran_
+D/JN040814/Iran/2009/Iran/ -> D_JN040814_Iran_2009_Iran_
+D/JN040815/Iran/2008/Iran/ -> D_JN040815_Iran_2008_Iran_
+D/JN040816/Iran/2008/Iran/ -> D_JN040816_Iran_2008_Iran_
+D/JN040817/Iran/2009/Iran/ -> D_JN040817_Iran_2009_Iran_
+D/JN040818/Iran/2009/Iran/ -> D_JN040818_Iran_2009_Iran_
+D/JN040819/Iran/2009/Iran/ -> D_JN040819_Iran_2009_Iran_
+D/JN040820/Iran/2007/Iran/ -> D_JN040820_Iran_2007_Iran_
+D/JN040821/Iran/2006/Iran/ -> D_JN040821_Iran_2006_Iran_
+D/JN040822/Iran/2007/Iran/ -> D_JN040822_Iran_2007_Iran_
+D/JN040823/Iran/2008/Iran/ -> D_JN040823_Iran_2008_Iran_
+D/JN040824/Iran/2009/Iran/ -> D_JN040824_Iran_2009_Iran_
+D/JN040825/Iran/2007/Iran/ -> D_JN040825_Iran_2007_Iran_
+D/JN040826/Iran/2006/Iran/ -> D_JN040826_Iran_2006_Iran_
+D/JN040827/Iran/2009/Iran/ -> D_JN040827_Iran_2009_Iran_
+D/JN040828/Iran/2007/Iran/ -> D_JN040828_Iran_2007_Iran_
+D/JN040829/Iran/2006/Iran/ -> D_JN040829_Iran_2006_Iran_
+D/JN040830/Iran/2006/Iran/ -> D_JN040830_Iran_2006_Iran_
+D/JN257148/Syria/2010/Syria/ -> D_JN257148_Syria_2010_Syria_
+D/JN257149/Syria/2010/Syria/ -> D_JN257149_Syria_2010_Syria_
+D/JN257150/Syria/2008/Syria/ -> D_JN257150_Syria_2008_Syria_
+D/JN257151/Syria/2008/Syria/ -> D_JN257151_Syria_2008_Syria_
+D/JN257152/Syria/2009/Syria/ -> D_JN257152_Syria_2009_Syria_
+D/JN257153/Syria/2009/Syria/ -> D_JN257153_Syria_2009_Syria_
+D/JN257154/Syria/2009/Syria/ -> D_JN257154_Syria_2009_Syria_
+D/JN257155/Syria/2009/Syria/ -> D_JN257155_Syria_2009_Syria_
+D/JN257156/Syria/2009/Syria/ -> D_JN257156_Syria_2009_Syria_
+D/JN257157/Syria/2009/Syria/ -> D_JN257157_Syria_2009_Syria_
+D/JN257158/Syria/2009/Syria/ -> D_JN257158_Syria_2009_Syria_
+D/JN257159/Syria/2009/Syria/ -> D_JN257159_Syria_2009_Syria_
+D/JN257160/Syria/2009/Syria/ -> D_JN257160_Syria_2009_Syria_
+D/JN257161/Syria/2009/Syria/ -> D_JN257161_Syria_2009_Syria_
+D/JN257162/Syria/2009/Syria/ -> D_JN257162_Syria_2009_Syria_
+D/JN257163/Syria/2009/Syria/ -> D_JN257163_Syria_2009_Syria_
+D/JN257164/Syria/2009/Syria/ -> D_JN257164_Syria_2009_Syria_
+D/JN257165/Syria/2009/Syria/ -> D_JN257165_Syria_2009_Syria_
+D/JN257166/Syria/2009/Syria/ -> D_JN257166_Syria_2009_Syria_
+D/JN257167/Syria/2009/Syria/ -> D_JN257167_Syria_2009_Syria_
+D/JN257168/Syria/2009/Syria/ -> D_JN257168_Syria_2009_Syria_
+D/JN257169/Syria/2009/Syria/ -> D_JN257169_Syria_2009_Syria_
+D/JN257170/Syria/2009/Syria/ -> D_JN257170_Syria_2009_Syria_
+D/JN257171/Syria/2009/Syria/ -> D_JN257171_Syria_2009_Syria_
+D/JN257172/Syria/2009/Syria/ -> D_JN257172_Syria_2009_Syria_
+D/JN257173/Syria/2009/Syria/ -> D_JN257173_Syria_2009_Syria_
+D/JN257174/Syria/2009/Syria/ -> D_JN257174_Syria_2009_Syria_
+D/JN257175/Syria/2009/Syria/ -> D_JN257175_Syria_2009_Syria_
+D/JN257176/Syria/2009/Syria/ -> D_JN257176_Syria_2009_Syria_
+D/JN257177/Syria/2009/Syria/ -> D_JN257177_Syria_2009_Syria_
+D/JN257178/Syria/2010/Syria/ -> D_JN257178_Syria_2010_Syria_
+D/JN257179/Syria/2010/Syria/ -> D_JN257179_Syria_2010_Syria_
+D/JN257180/Syria/2010/Syria/ -> D_JN257180_Syria_2010_Syria_
+D/JN257181/Syria/2010/Syria/ -> D_JN257181_Syria_2010_Syria_
+D/JN257182/Syria/2009/Syria/ -> D_JN257182_Syria_2009_Syria_
+D/JN257183/Syria/2010/Syria/ -> D_JN257183_Syria_2010_Syria_
+D/JN257184/Syria/2008/Syria/ -> D_JN257184_Syria_2008_Syria_
+D/JN257185/Syria/2008/Syria/ -> D_JN257185_Syria_2008_Syria_
+D/JN257186/Syria/2008/Syria/ -> D_JN257186_Syria_2008_Syria_
+D/JN257187/Syria/2008/Syria/ -> D_JN257187_Syria_2008_Syria_
+D/JN257188/Syria/2008/Syria/ -> D_JN257188_Syria_2008_Syria_
+D/JN257189/Syria/2008/Syria/ -> D_JN257189_Syria_2008_Syria_
+D/JN257190/Syria/2008/Syria/ -> D_JN257190_Syria_2008_Syria_
+D/JN257191/Syria/2009/Syria/ -> D_JN257191_Syria_2009_Syria_
+D/JN257192/Syria/2009/Syria/ -> D_JN257192_Syria_2009_Syria_
+D/JN257193/Syria/2009/Syria/ -> D_JN257193_Syria_2009_Syria_
+D/JN257194/Syria/2009/Syria/ -> D_JN257194_Syria_2009_Syria_
+D/JN257195/Syria/2009/Syria/ -> D_JN257195_Syria_2009_Syria_
+D/JN257197/Syria/2009/Syria/ -> D_JN257197_Syria_2009_Syria_
+D/JN257198/Syria/2009/Syria/ -> D_JN257198_Syria_2009_Syria_
+D/JN257199/Syria/2009/Syria/ -> D_JN257199_Syria_2009_Syria_
+D/JN257200/Syria/2009/Syria/ -> D_JN257200_Syria_2009_Syria_
+D/JN257201/Syria/2009/Syria/ -> D_JN257201_Syria_2009_Syria_
+D/JN257202/Syria/2009/Syria/ -> D_JN257202_Syria_2009_Syria_
+D/JN257203/Syria/2009/Syria/ -> D_JN257203_Syria_2009_Syria_
+D/JN257204/Syria/2009/Syria/ -> D_JN257204_Syria_2009_Syria_
+D/JN257205/Syria/2009/Syria/ -> D_JN257205_Syria_2009_Syria_
+D/JN257206/Syria/2010/Syria/ -> D_JN257206_Syria_2010_Syria_
+D/JN257207/Syria/2010/Syria/ -> D_JN257207_Syria_2010_Syria_
+D/JN257208/Syria/2010/Syria/ -> D_JN257208_Syria_2010_Syria_
+D/JN257209/Syria/2010/Syria/ -> D_JN257209_Syria_2010_Syria_
+D/JN257210/Syria/2010/Syria/ -> D_JN257210_Syria_2010_Syria_
+D/JN257211/Syria/2010/Syria/ -> D_JN257211_Syria_2010_Syria_
+D/JN257212/Syria/2010/Syria/ -> D_JN257212_Syria_2010_Syria_
+D/JN257213/Syria/2010/Syria/ -> D_JN257213_Syria_2010_Syria_
+D/JN257214/Syria/2009/Syria/ -> D_JN257214_Syria_2009_Syria_
+D/JN257215/Syria/2009/Syria/ -> D_JN257215_Syria_2009_Syria_
+D/JN257216/Syria/2009/Syria/ -> D_JN257216_Syria_2009_Syria_
+D/JN257217/Syria/2009/Syria/ -> D_JN257217_Syria_2009_Syria_
+D/JN664909/India/2010/India/ -> D_JN664909_India_2010_India_
+D/JN664910/India/2010/India/ -> D_JN664910_India_2010_India_
+D/JN664911/India/2010/India/ -> D_JN664911_India_2010_India_
+D/JN664912/India/2010/India/ -> D_JN664912_India_2010_India_
+D/JN664913/India/2010/India/ -> D_JN664913_India_2010_India_
+D/JN664914/India/2010/India/ -> D_JN664914_India_2010_India_
+D/JN664915/India/2010/India/ -> D_JN664915_India_2010_India_
+D/JN664916/India/2010/India/ -> D_JN664916_India_2010_India_
+D/JN664917/India/2010/India/ -> D_JN664917_India_2010_India_
+D/JN664918/India/2010/India/ -> D_JN664918_India_2010_India_
+D/JN664923/India/2010/India/ -> D_JN664923_India_2010_India_
+D/JN664924/India/2010/India/ -> D_JN664924_India_2010_India_
+D/JN664925/India/2010/India/ -> D_JN664925_India_2010_India_
+D/JN664926/India/2010/India/ -> D_JN664926_India_2010_India_
+D/JN664927/India/2010/India/ -> D_JN664927_India_2010_India_
+D/JN664928/India/2010/India/ -> D_JN664928_India_2010_India_
+D/JN664929/India/2010/India/ -> D_JN664929_India_2010_India_
+D/JN664930/India/2010/India/ -> D_JN664930_India_2010_India_
+D/JN664931/India/2010/India/ -> D_JN664931_India_2010_India_
+D/JN664932/India/2010/India/ -> D_JN664932_India_2010_India_
+D/JN664934/India/2010/India/ -> D_JN664934_India_2010_India_
+D/JN664936/India/2010/India/ -> D_JN664936_India_2010_India_
+D/JN664937/India/2010/India/ -> D_JN664937_India_2010_India_
+D/JN664938/India/2010/India/ -> D_JN664938_India_2010_India_
+D/JN664939/India/2010/India/ -> D_JN664939_India_2010_India_
+D/JN664940/India/2010/India/ -> D_JN664940_India_2010_India_
+D/JN664941/India/2010/India/ -> D_JN664941_India_2010_India_
+D/JN664943/India/2010/India/ -> D_JN664943_India_2010_India_
+D/JN664944/India/2010/India/ -> D_JN664944_India_2010_India_
+D/JN664946/India/2010/India/ -> D_JN664946_India_2010_India_
+D/JN664947/India/2010/India/ -> D_JN664947_India_2010_India_
+D/JN792903/Greenland/2004/Greenland/ -> D_JN792903_Greenland_2004_Greenland_
+D/JN792904/Greenland/1998/Greenland/ -> D_JN792904_Greenland_1998_Greenland_
+D/JN792905/Greenland/2004/Greenland/ -> D_JN792905_Greenland_2004_Greenland_
+D/JN792906/Greenland/1998/Greenland/ -> D_JN792906_Greenland_1998_Greenland_
+D/JN792907/Greenland/2004/Greenland/ -> D_JN792907_Greenland_2004_Greenland_
+D/JN792908/Greenland/1998/Greenland/ -> D_JN792908_Greenland_1998_Greenland_
+D/JN792909/Greenland/2004/Greenland/ -> D_JN792909_Greenland_2004_Greenland_
+D/JN792910/Greenland/1998/Greenland/ -> D_JN792910_Greenland_1998_Greenland_
+D/JN792911/Greenland/1998/Greenland/ -> D_JN792911_Greenland_1998_Greenland_
+D/JN792912/Greenland/2004/Greenland/ -> D_JN792912_Greenland_2004_Greenland_
+D/JQ687530/Serbia/2008/Serbia/ -> D_JQ687530_Serbia_2008_Serbia_
+D/JQ687531/China/2008/China/ -> D_JQ687531_China_2008_China_
+D/JQ687532/Serbia/2008/Serbia/ -> D_JQ687532_Serbia_2008_Serbia_
+D/KC774436/China/2012/China/ -> D_KC774436_China_2012_China_
+D/KC774437/China/2012/China/ -> D_KC774437_China_2012_China_
+D/KC774440/China/2012/China/ -> D_KC774440_China_2012_China_
+D/KC774444/China/2012/China/ -> D_KC774444_China_2012_China_
+D/KC774445/China/2012/China/ -> D_KC774445_China_2012_China_
+D/KC774450/China/2012/China/ -> D_KC774450_China_2012_China_
+D/KC774459/China/2012/China/ -> D_KC774459_China_2012_China_
+D/KC774460/China/2012/China/ -> D_KC774460_China_2012_China_
+D/KF061167/Pakistan/2012/Pakistan/ -> D_KF061167_Pakistan_2012_Pakistan_
+D/KF061168/Pakistan/2012/Pakistan/ -> D_KF061168_Pakistan_2012_Pakistan_
+D/KF061169/Pakistan/2012/Pakistan/ -> D_KF061169_Pakistan_2012_Pakistan_
+D/KF061170/Pakistan/2012/Pakistan/ -> D_KF061170_Pakistan_2012_Pakistan_
+D/KF471640/Iran/2007/Iran/ -> D_KF471640_Iran_2007_Iran_
+D/KF471641/Iran/2007/Iran/ -> D_KF471641_Iran_2007_Iran_
+D/KF471642/Iran/2007/Iran/ -> D_KF471642_Iran_2007_Iran_
+D/KF471643/Iran/2007/Iran/ -> D_KF471643_Iran_2007_Iran_
+D/KF471644/Iran/2007/Iran/ -> D_KF471644_Iran_2007_Iran_
+D/KF471645/Iran/2007/Iran/ -> D_KF471645_Iran_2007_Iran_
+D/KF471646/Iran/2007/Iran/ -> D_KF471646_Iran_2007_Iran_
+D/KF471647/Iran/2007/Iran/ -> D_KF471647_Iran_2007_Iran_
+D/KF471648/Iran/2007/Iran/ -> D_KF471648_Iran_2007_Iran_
+D/KF471649/Iran/2007/Iran/ -> D_KF471649_Iran_2007_Iran_
+D/KF471650/Iran/2007/Iran/ -> D_KF471650_Iran_2007_Iran_
+D/KF471651/Iran/2007/Iran/ -> D_KF471651_Iran_2007_Iran_
+D/KF471652/Iran/2007/Iran/ -> D_KF471652_Iran_2007_Iran_
+D/KF471653/Iran/2007/Iran/ -> D_KF471653_Iran_2007_Iran_
+D/KF471654/Iran/2007/Iran/ -> D_KF471654_Iran_2007_Iran_
+D/KF471655/Iran/2007/Iran/ -> D_KF471655_Iran_2007_Iran_
+D/KF471656/Iran/2007/Iran/ -> D_KF471656_Iran_2007_Iran_
+D/KF471657/Iran/2007/Iran/ -> D_KF471657_Iran_2007_Iran_
+D/KF471658/Iran/2007/Iran/ -> D_KF471658_Iran_2007_Iran_
+D/KF471659/Iran/2007/Iran/ -> D_KF471659_Iran_2007_Iran_
+D/KF779209/USA/1998/USA/ -> D_KF779209_USA_1998_USA_
+D/KF779212/USA/1999/USA/ -> D_KF779212_USA_1999_USA_
+D/KF779214/USA/1999/USA/ -> D_KF779214_USA_1999_USA_
+D/KF779216/USA/1999/USA/ -> D_KF779216_USA_1999_USA_
+D/KF779217/USA/2000/USA/ -> D_KF779217_USA_2000_USA_
+D/KF779218/USA/2000/USA/ -> D_KF779218_USA_2000_USA_
+D/KF779219/USA/2001/USA/ -> D_KF779219_USA_2001_USA_
+D/KF779220/USA/2001/USA/ -> D_KF779220_USA_2001_USA_
+D/KF779222/USA/2002/USA/ -> D_KF779222_USA_2002_USA_
+D/KF779223/USA/2002/USA/ -> D_KF779223_USA_2002_USA_
+D/KF779224/USA/2002/USA/ -> D_KF779224_USA_2002_USA_
+D/KF779225/USA/2002/USA/ -> D_KF779225_USA_2002_USA_
+D/KF779226/USA/2003/USA/ -> D_KF779226_USA_2003_USA_
+D/KF779228/USA/2003/USA/ -> D_KF779228_USA_2003_USA_
+D/KF779229/USA/2003/USA/ -> D_KF779229_USA_2003_USA_
+D/KF779230/USA/2003/USA/ -> D_KF779230_USA_2003_USA_
+D/KF779241/USA/2004/USA/ -> D_KF779241_USA_2004_USA_
+D/KF779285/USA/1999/USA/ -> D_KF779285_USA_1999_USA_
+D/KF779288/USA/1999/USA/ -> D_KF779288_USA_1999_USA_
+D/KF779289/USA/2000/USA/ -> D_KF779289_USA_2000_USA_
+D/KF779292/USA/2000/USA/ -> D_KF779292_USA_2000_USA_
+D/KF779296/USA/2001/USA/ -> D_KF779296_USA_2001_USA_
+D/KF779301/USA/2002/USA/ -> D_KF779301_USA_2002_USA_
+D/KF779302/USA/2002/USA/ -> D_KF779302_USA_2002_USA_
+D/KF779303/USA/2002/USA/ -> D_KF779303_USA_2002_USA_
+D/KF779318/USA/2000/USA/ -> D_KF779318_USA_2000_USA_
+D/KF779340/USA/2001/USA/ -> D_KF779340_USA_2001_USA_
+D/KF779341/USA/2002/USA/ -> D_KF779341_USA_2002_USA_
+D/KF779343/USA/2003/USA/ -> D_KF779343_USA_2003_USA_
+D/KF779353/USA/2003/USA/ -> D_KF779353_USA_2003_USA_
+D/KF779376/USA/2000/USA/ -> D_KF779376_USA_2000_USA_
+D/KF779377/USA/2000/USA/ -> D_KF779377_USA_2000_USA_
+D/KF779380/USA/2003/USA/ -> D_KF779380_USA_2003_USA_
+D/KF779382/USA/2005/USA/ -> D_KF779382_USA_2005_USA_
+D/MB116/Belgium/2008/Congo/ -> D_MB116_Belgium_2008_Congo_
+D/MB12/Belgium/2008/Congo/ -> D_MB12_Belgium_2008_Congo_
+D/MB3/Belgium/2008/Rwanda/ -> D_MB3_Belgium_2008_Rwanda_
+D/MB35/Belgium/2009/Rwanda/ -> D_MB35_Belgium_2009_Rwanda_
+D/MB5/Belgium/2008/Niger/ -> D_MB5_Belgium_2008_Niger_
+D/MB67/Belgium/2006/Congo/ -> D_MB67_Belgium_2006_Congo_
+D/MB96/Belgium/2007/Ghana/ -> D_MB96_Belgium_2007_Ghana_
+D/U95551/USA/1997/USA/ -> D_U95551_USA_1997_USA_
+D/X72702/Germany/1993/Germany/ -> D_X72702_Germany_1993_Germany_
+D1/AL17GF/Belgium/1997/Belgium/ -> D1_AL17GF_Belgium_1997_Belgium_
+D1/AY945307/India/1999/India/ -> D1_AY945307_India_1999_India_
+D1/EU594396/Kazakhstan/1997/Kazakhstan/ -> D1_EU594396_Kazakhstan_1997_Kazakhstan_
+D1/FJ386590/China/2008/China/ -> D1_FJ386590_China_2008_China_
+D1/FJ899792/China/2007/China/ -> D1_FJ899792_China_2007_China_
+D1/FJ904399/Tunisia/2006/Tunisia/ -> D1_FJ904399_Tunisia_2006_Tunisia_
+D1/FJ904402/Tunisia/2006/Tunisia/ -> D1_FJ904402_Tunisia_2006_Tunisia_
+D1/FJ904412/Tunisia/2006/Tunisia/ -> D1_FJ904412_Tunisia_2006_Tunisia_
+D1/FJ904415/Tunisia/2006/Tunisia/ -> D1_FJ904415_Tunisia_2006_Tunisia_
+D1/FJ904418/Tunisia/2006/Tunisia/ -> D1_FJ904418_Tunisia_2006_Tunisia_
+D1/FJ904420/Tunisia/2006/Tunisia/ -> D1_FJ904420_Tunisia_2006_Tunisia_
+D1/FJ904421/Tunisia/2006/Tunisia/ -> D1_FJ904421_Tunisia_2006_Tunisia_
+D1/FJ904426/Tunisia/2006/Tunisia/ -> D1_FJ904426_Tunisia_2006_Tunisia_
+D1/FJ904427/Tunisia/2006/Tunisia/ -> D1_FJ904427_Tunisia_2006_Tunisia_
+D1/FJ904429/Tunisia/2006/Tunisia/ -> D1_FJ904429_Tunisia_2006_Tunisia_
+D1/FJ904431/Tunisia/2006/Tunisia/ -> D1_FJ904431_Tunisia_2006_Tunisia_
+D1/FJ904432/Tunisia/2006/Tunisia/ -> D1_FJ904432_Tunisia_2006_Tunisia_
+D1/FJ904443/Tunisia/2005/Tunisia/ -> D1_FJ904443_Tunisia_2005_Tunisia_
+D1/FJ904444/Tunisia/2006/Tunisia/ -> D1_FJ904444_Tunisia_2006_Tunisia_
+D1/FJ904445/Tunisia/2006/Tunisia/ -> D1_FJ904445_Tunisia_2006_Tunisia_
+D1/FJ904446/Tunisia/2006/Tunisia/ -> D1_FJ904446_Tunisia_2006_Tunisia_
+D1/GQ377589/China/2007/China/ -> D1_GQ377589_China_2007_China_
+D1/GQ477458/Poland/2006/Poland/ -> D1_GQ477458_Poland_2006_Poland_
+D1/GQ477459/Poland/2006/Poland/ -> D1_GQ477459_Poland_2006_Poland_
+D1/GU357846/China/2006/China/ -> D1_GU357846_China_2006_China_
+D1/GU456636/Iran/2007/Iran/ -> D1_GU456636_Iran_2007_Iran_
+D1/GU456637/Iran/2007/Iran/ -> D1_GU456637_Iran_2007_Iran_
+D1/GU456638/Iran/2007/Iran/ -> D1_GU456638_Iran_2007_Iran_
+D1/GU456639/Iran/2007/Iran/ -> D1_GU456639_Iran_2007_Iran_
+D1/GU456640/Iran/2007/Iran/ -> D1_GU456640_Iran_2007_Iran_
+D1/GU456641/Iran/2007/Iran/ -> D1_GU456641_Iran_2007_Iran_
+D1/GU456642/Iran/2007/Iran/ -> D1_GU456642_Iran_2007_Iran_
+D1/GU456643/Iran/2007/Iran/ -> D1_GU456643_Iran_2007_Iran_
+D1/GU456644/Iran/2007/Iran/ -> D1_GU456644_Iran_2007_Iran_
+D1/GU456645/Iran/2007/Iran/ -> D1_GU456645_Iran_2007_Iran_
+D1/GU456646/Iran/2007/Iran/ -> D1_GU456646_Iran_2007_Iran_
+D1/GU456647/Iran/2007/Iran/ -> D1_GU456647_Iran_2007_Iran_
+D1/GU456648/Iran/2007/Iran/ -> D1_GU456648_Iran_2007_Iran_
+D1/GU456649/Iran/2007/Iran/ -> D1_GU456649_Iran_2007_Iran_
+D1/GU456650/Iran/2007/Iran/ -> D1_GU456650_Iran_2007_Iran_
+D1/GU456651/Iran/2007/Iran/ -> D1_GU456651_Iran_2007_Iran_
+D1/GU456652/Iran/2007/Iran/ -> D1_GU456652_Iran_2007_Iran_
+D1/GU456653/Iran/2007/Iran/ -> D1_GU456653_Iran_2007_Iran_
+D1/GU456654/Iran/2007/Iran/ -> D1_GU456654_Iran_2007_Iran_
+D1/GU456655/Iran/2007/Iran/ -> D1_GU456655_Iran_2007_Iran_
+D1/GU456656/Iran/2007/Iran/ -> D1_GU456656_Iran_2007_Iran_
+D1/GU456657/Iran/2007/Iran/ -> D1_GU456657_Iran_2007_Iran_
+D1/GU456658/Iran/2007/Iran/ -> D1_GU456658_Iran_2007_Iran_
+D1/GU456659/Iran/2007/Iran/ -> D1_GU456659_Iran_2007_Iran_
+D1/GU456660/Iran/2007/Iran/ -> D1_GU456660_Iran_2007_Iran_
+D1/GU456661/Iran/2007/Iran/ -> D1_GU456661_Iran_2007_Iran_
+D1/GU456662/Iran/2007/Iran/ -> D1_GU456662_Iran_2007_Iran_
+D1/GU456663/Iran/2007/Iran/ -> D1_GU456663_Iran_2007_Iran_
+D1/GU456664/Iran/2007/Iran/ -> D1_GU456664_Iran_2007_Iran_
+D1/GU456665/Iran/2007/Iran/ -> D1_GU456665_Iran_2007_Iran_
+D1/GU456666/Iran/2007/Iran/ -> D1_GU456666_Iran_2007_Iran_
+D1/GU456667/Iran/2007/Iran/ -> D1_GU456667_Iran_2007_Iran_
+D1/GU456668/Iran/2007/Iran/ -> D1_GU456668_Iran_2007_Iran_
+D1/GU456669/Iran/2007/Iran/ -> D1_GU456669_Iran_2007_Iran_
+D1/GU456670/Iran/2007/Iran/ -> D1_GU456670_Iran_2007_Iran_
+D1/GU456671/Iran/2007/Iran/ -> D1_GU456671_Iran_2007_Iran_
+D1/GU456672/Iran/2007/Iran/ -> D1_GU456672_Iran_2007_Iran_
+D1/GU456673/Iran/2007/Iran/ -> D1_GU456673_Iran_2007_Iran_
+D1/GU456674/Iran/2007/Iran/ -> D1_GU456674_Iran_2007_Iran_
+D1/GU456675/Iran/2007/Iran/ -> D1_GU456675_Iran_2007_Iran_
+D1/GU456676/Iran/2007/Iran/ -> D1_GU456676_Iran_2007_Iran_
+D1/GU456677/Iran/2007/Iran/ -> D1_GU456677_Iran_2007_Iran_
+D1/GU456678/Iran/2007/Iran/ -> D1_GU456678_Iran_2007_Iran_
+D1/GU456679/Iran/2007/Iran/ -> D1_GU456679_Iran_2007_Iran_
+D1/GU456680/Iran/2007/Iran/ -> D1_GU456680_Iran_2007_Iran_
+D1/GU456681/Iran/2007/Iran/ -> D1_GU456681_Iran_2007_Iran_
+D1/GU456682/Iran/2007/Iran/ -> D1_GU456682_Iran_2007_Iran_
+D1/GU456683/Iran/2007/Iran/ -> D1_GU456683_Iran_2007_Iran_
+D1/GU456684/Iran/2007/Iran/ -> D1_GU456684_Iran_2007_Iran_
+D1/JN642126/Lebanon/2010/Lebanon/ -> D1_JN642126_Lebanon_2010_Lebanon_
+D1/JN642127/Lebanon/2010/Lebanon/ -> D1_JN642127_Lebanon_2010_Lebanon_
+D1/JN642128/Lebanon/2010/Lebanon/ -> D1_JN642128_Lebanon_2010_Lebanon_
+D1/JN642129/Lebanon/2010/Lebanon/ -> D1_JN642129_Lebanon_2010_Lebanon_
+D1/JN642130/Lebanon/2010/Lebanon/ -> D1_JN642130_Lebanon_2010_Lebanon_
+D1/JN642131/Lebanon/2010/Lebanon/ -> D1_JN642131_Lebanon_2010_Lebanon_
+D1/JN642132/Lebanon/2010/Lebanon/ -> D1_JN642132_Lebanon_2010_Lebanon_
+D1/JN642133/Lebanon/2010/Lebanon/ -> D1_JN642133_Lebanon_2010_Lebanon_
+D1/JN642134/Lebanon/2010/Lebanon/ -> D1_JN642134_Lebanon_2010_Lebanon_
+D1/JN642135/Lebanon/2010/Lebanon/ -> D1_JN642135_Lebanon_2010_Lebanon_
+D1/JN642136/Lebanon/2010/Lebanon/ -> D1_JN642136_Lebanon_2010_Lebanon_
+D1/JN642137/Lebanon/2010/Lebanon/ -> D1_JN642137_Lebanon_2010_Lebanon_
+D1/JN642138/Lebanon/2010/Lebanon/ -> D1_JN642138_Lebanon_2010_Lebanon_
+D1/JN642139/Lebanon/2010/Lebanon/ -> D1_JN642139_Lebanon_2010_Lebanon_
+D1/JN642140/Lebanon/2010/Lebanon/ -> D1_JN642140_Lebanon_2010_Lebanon_
+D1/JN642141/Lebanon/2010/Lebanon/ -> D1_JN642141_Lebanon_2010_Lebanon_
+D1/JN642142/Lebanon/2010/Lebanon/ -> D1_JN642142_Lebanon_2010_Lebanon_
+D1/JN642145/Lebanon/2010/Lebanon/ -> D1_JN642145_Lebanon_2010_Lebanon_
+D1/JN642146/Lebanon/2010/Lebanon/ -> D1_JN642146_Lebanon_2010_Lebanon_
+D1/JN642147/Lebanon/2010/Lebanon/ -> D1_JN642147_Lebanon_2010_Lebanon_
+D1/JN642149/Lebanon/2010/Lebanon/ -> D1_JN642149_Lebanon_2010_Lebanon_
+D1/JN642150/Lebanon/2010/Lebanon/ -> D1_JN642150_Lebanon_2010_Lebanon_
+D1/JN642151/Lebanon/2010/Lebanon/ -> D1_JN642151_Lebanon_2010_Lebanon_
+D1/JN642152/Lebanon/2010/Lebanon/ -> D1_JN642152_Lebanon_2010_Lebanon_
+D1/JN642153/Lebanon/2010/Lebanon/ -> D1_JN642153_Lebanon_2010_Lebanon_
+D1/JN642154/Lebanon/2010/Lebanon/ -> D1_JN642154_Lebanon_2010_Lebanon_
+D1/JN642155/Lebanon/2010/Lebanon/ -> D1_JN642155_Lebanon_2010_Lebanon_
+D1/JN642156/Lebanon/2010/Lebanon/ -> D1_JN642156_Lebanon_2010_Lebanon_
+D1/JN642157/Lebanon/2010/Lebanon/ -> D1_JN642157_Lebanon_2010_Lebanon_
+D1/JN642158/Lebanon/2010/Lebanon/ -> D1_JN642158_Lebanon_2010_Lebanon_
+D1/JN642161/Lebanon/2010/Lebanon/ -> D1_JN642161_Lebanon_2010_Lebanon_
+D1/JN642164/Lebanon/2010/Lebanon/ -> D1_JN642164_Lebanon_2010_Lebanon_
+D1/JN642165/Lebanon/2010/Lebanon/ -> D1_JN642165_Lebanon_2010_Lebanon_
+D1/JN642166/Lebanon/2010/Lebanon/ -> D1_JN642166_Lebanon_2010_Lebanon_
+D1/JN642167/Lebanon/2010/Lebanon/ -> D1_JN642167_Lebanon_2010_Lebanon_
+D1/KF170739/Sudan/2008/Sudan/ -> D1_KF170739_Sudan_2008_Sudan_
+D1/KF584158/Argentina/2007/Argentina/ -> D1_KF584158_Argentina_2007_Argentina_
+D1/KF584159/Argentina/2010/Argentina/ -> D1_KF584159_Argentina_2010_Argentina_
+D1/KF584160/Argentina/2012/Argentina/ -> D1_KF584160_Argentina_2012_Argentina_
+D1/KF584161/Argentina/2011/Argentina/ -> D1_KF584161_Argentina_2011_Argentina_
+D1/KF584162/Argentina/2012/Argentina/ -> D1_KF584162_Argentina_2012_Argentina_
+D1/KF584163/Argentina/2011/Argentina/ -> D1_KF584163_Argentina_2011_Argentina_
+D1/KF584164/Argentina/2012/Argentina/ -> D1_KF584164_Argentina_2012_Argentina_
+D1/KF584165/Argentina/2011/Argentina/ -> D1_KF584165_Argentina_2011_Argentina_
+D1/KF584166/Argentina/2012/Argentina/ -> D1_KF584166_Argentina_2012_Argentina_
+D2/AB078031/Japan/1998/Japan/ -> D2_AB078031_Japan_1998_Japan_
+D2/AB078032/Japan/2000/Japan/ -> D2_AB078032_Japan_2000_Japan_
+D2/AB078033/Japan/1998/Japan/ -> D2_AB078033_Japan_1998_Japan_
+D2/AB090268/Japan/1997/Japan/ -> D2_AB090268_Japan_1997_Japan_
+D2/AB090269/Japan/1992/Japan/ -> D2_AB090269_Japan_1992_Japan_
+D2/AB090270/Japan/1999/Japan/ -> D2_AB090270_Japan_1999_Japan_
+D2/AB109475/Japan/2001/Japan/ -> D2_AB109475_Japan_2001_Japan_
+D2/AB109476/Japan/1997/Japan/ -> D2_AB109476_Japan_1997_Japan_
+D2/AB109477/Japan/1997/Japan/ -> D2_AB109477_Japan_1997_Japan_
+D2/AB109478/Japan/1998/Japan/ -> D2_AB109478_Japan_1998_Japan_
+D2/AB109479/Japan/1997/Japan/ -> D2_AB109479_Japan_1997_Japan_
+D2/AB110075/Japan/2001/Japan/ -> D2_AB110075_Japan_2001_Japan_
+D2/AB116266/Japan/1987/Japan/ -> D2_AB116266_Japan_1987_Japan_
+D2/AB119251/Japan/2002/Japan/ -> D2_AB119251_Japan_2002_Japan_
+D2/AB119252/Japan/2002/Japan/ -> D2_AB119252_Japan_2002_Japan_
+D2/AB119253/Japan/2000/Japan/ -> D2_AB119253_Japan_2000_Japan_
+D2/AB119254/Japan/2003/Japan/ -> D2_AB119254_Japan_2003_Japan_
+D2/AB119255/Japan/2001/Japan/ -> D2_AB119255_Japan_2001_Japan_
+D2/AB119256/Japan/1997/Japan/ -> D2_AB119256_Japan_1997_Japan_
+D2/AB120308/Japan/1982/Japan/ -> D2_AB120308_Japan_1982_Japan_
+D2/AL67VP/Belgium/2006/Belgium/ -> D2_AL67VP_Belgium_2006_Belgium_
+D2/AL68KM/Belgium/2006/Belgium/ -> D2_AL68KM_Belgium_2006_Belgium_
+D2/AL74BML/Belgium/2005/Belgium/ -> D2_AL74BML_Belgium_2005_Belgium_
+D2/EU594398/Russia/1997/Russia/ -> D2_EU594398_Russia_1997_Russia_
+D2/EU594399/Russia/1997/Russia/ -> D2_EU594399_Russia_1997_Russia_
+D2/EU594415/Russia/1997/Russia/ -> D2_EU594415_Russia_1997_Russia_
+D2/EU594416/Russia/1997/Russia/ -> D2_EU594416_Russia_1997_Russia_
+D2/EU594421/Russia/1997/Russia/ -> D2_EU594421_Russia_1997_Russia_
+D2/EU594422/Russia/1997/Russia/ -> D2_EU594422_Russia_1997_Russia_
+D2/EU594423/Russia/1997/Russia/ -> D2_EU594423_Russia_1997_Russia_
+D2/EU594424/Russia/1997/Russia/ -> D2_EU594424_Russia_1997_Russia_
+D2/EU594425/Russia/1997/Russia/ -> D2_EU594425_Russia_1997_Russia_
+D2/EU594426/Russia/1997/Russia/ -> D2_EU594426_Russia_1997_Russia_
+D2/EU594427/Russia/1997/Russia/ -> D2_EU594427_Russia_1997_Russia_
+D2/EU594428/Kazakhstan/1997/Kazakhstan/ -> D2_EU594428_Kazakhstan_1997_Kazakhstan_
+D2/EU594430/Russia/1997/Russia/ -> D2_EU594430_Russia_1997_Russia_
+D2/EU594431/Russia/1997/Russia/ -> D2_EU594431_Russia_1997_Russia_
+D2/EU594432/Russia/1997/Russia/ -> D2_EU594432_Russia_1997_Russia_
+D2/EU594433/Russia/1997/Russia/ -> D2_EU594433_Russia_1997_Russia_
+D2/GQ477452/Poland/2006/Poland/ -> D2_GQ477452_Poland_2006_Poland_
+D2/GQ477453/Poland/2006/Poland/ -> D2_GQ477453_Poland_2006_Poland_
+D2/GQ477454/Poland/2006/Poland/ -> D2_GQ477454_Poland_2006_Poland_
+D2/GQ477455/Poland/2006/Poland/ -> D2_GQ477455_Poland_2006_Poland_
+D2/GQ477456/Poland/2006/Poland/ -> D2_GQ477456_Poland_2006_Poland_
+D2/GQ477457/Poland/2006/Poland/ -> D2_GQ477457_Poland_2006_Poland_
+D2/GQ924652/Malaysia/2007/Malaysia/ -> D2_GQ924652_Malaysia_2007_Malaysia_
+D2/GU456635/Iran/2007/Iran/ -> D2_GU456635_Iran_2007_Iran_
+D2/JN642143/Lebanon/2010/Lebanon/ -> D2_JN642143_Lebanon_2010_Lebanon_
+D2/JN642144/Lebanon/2010/Lebanon/ -> D2_JN642144_Lebanon_2010_Lebanon_
+D2/JN642148/Lebanon/2010/Lebanon/ -> D2_JN642148_Lebanon_2010_Lebanon_
+D2/JN642159/Lebanon/2010/Lebanon/ -> D2_JN642159_Lebanon_2010_Lebanon_
+D2/JN642160/Lebanon/2010/Lebanon/ -> D2_JN642160_Lebanon_2010_Lebanon_
+D2/JN642162/Lebanon/2010/Lebanon/ -> D2_JN642162_Lebanon_2010_Lebanon_
+D2/JN642163/Lebanon/2010/Lebanon/ -> D2_JN642163_Lebanon_2010_Lebanon_
+D2/JX096954/Latvia/2009/Latvia/ -> D2_JX096954_Latvia_2009_Latvia_
+D2/JX096955/Latvia/1991/Latvia/ -> D2_JX096955_Latvia_1991_Latvia_
+D2/JX096956/Latvia/2006/Latvia/ -> D2_JX096956_Latvia_2006_Latvia_
+D2/JX096957/Latvia/2008/Latvia/ -> D2_JX096957_Latvia_2008_Latvia_
+D2/JX096958/Latvia/2007/Latvia/ -> D2_JX096958_Latvia_2007_Latvia_
+D2/KJ843187/Argentina/2011/Argentina/ -> D2_KJ843187_Argentina_2011_Argentina_
+D2/KM577668/Iran/2006/Iran/ -> D2_KM577668_Iran_2006_Iran_
+D2/KM577669/Iran/2006/Iran/ -> D2_KM577669_Iran_2006_Iran_
+D2/KM577670/Iran/2006/Iran/ -> D2_KM577670_Iran_2006_Iran_
+D2/KM577671/Iran/2006/Iran/ -> D2_KM577671_Iran_2006_Iran_
+D3/AL78DHKL/Belgium/2004/Belgium/ -> D3_AL78DHKL_Belgium_2004_Belgium_
+D3/EU594436/Russia/1997/Russia/ -> D3_EU594436_Russia_1997_Russia_
+D3/FJ692506/Haiti/2006/Haiti/ -> D3_FJ692506_Haiti_2006_Haiti_
+D3/FJ692507/Haiti/2006/Haiti/ -> D3_FJ692507_Haiti_2006_Haiti_
+D3/GQ922000/Canada/1985/Canada/ -> D3_GQ922000_Canada_1985_Canada_
+D3/GQ922001/Canada/1984/Canada/ -> D3_GQ922001_Canada_1984_Canada_
+D3/GQ922002/Canada/1985/Canada/ -> D3_GQ922002_Canada_1985_Canada_
+D3/HQ236014/Serbia/2007/Serbia/ -> D3_HQ236014_Serbia_2007_Serbia_
+D3/HQ236015/Serbia/2007/Serbia/ -> D3_HQ236015_Serbia_2007_Serbia_
+D3/HQ236016/Serbia/2007/Serbia/ -> D3_HQ236016_Serbia_2007_Serbia_
+D3/JX470760/Argentina/2008/Argentina/ -> D3_JX470760_Argentina_2008_Argentina_
+D3/JX898686/Sweden/1975/Sweden/ -> D3_JX898686_Sweden_1975_Sweden_
+D3/JX898687/Sweden/1975/Sweden/ -> D3_JX898687_Sweden_1975_Sweden_
+D3/JX898688/Sweden/1975/Sweden/ -> D3_JX898688_Sweden_1975_Sweden_
+D3/JX898689/Sweden/1986/Sweden/ -> D3_JX898689_Sweden_1986_Sweden_
+D3/JX898690/Sweden/1996/Sweden/ -> D3_JX898690_Sweden_1996_Sweden_
+D3/JX898691/Sweden/1996/Sweden/ -> D3_JX898691_Sweden_1996_Sweden_
+D3/JX898692/Sweden/1996/Sweden/ -> D3_JX898692_Sweden_1996_Sweden_
+D3/JX898693/Sweden/1996/Sweden/ -> D3_JX898693_Sweden_1996_Sweden_
+D3/JX898694/Sweden/2008/Sweden/ -> D3_JX898694_Sweden_2008_Sweden_
+D3/JX898695/Sweden/2008/Sweden/ -> D3_JX898695_Sweden_2008_Sweden_
+D3/JX898696/Sweden/2008/Sweden/ -> D3_JX898696_Sweden_2008_Sweden_
+D3/JX898697/Sweden/2009/Sweden/ -> D3_JX898697_Sweden_2009_Sweden_
+D3/JX898698/Sweden/2008/Sweden/ -> D3_JX898698_Sweden_2008_Sweden_
+D3/KC012652/Argentina/2009/Argentina/ -> D3_KC012652_Argentina_2009_Argentina_
+D3/KM359442/Argentina/2009/Argentina/ -> D3_KM359442_Argentina_2009_Argentina_
+D3/KM386676/Argentina/2009/Argentina/ -> D3_KM386676_Argentina_2009_Argentina_
+D3/KM577663/Iran/2006/Iran/ -> D3_KM577663_Iran_2006_Iran_
+D3/KM577664/Iran/2006/Iran/ -> D3_KM577664_Iran_2006_Iran_
+D3/KM577665/Iran/2006/Iran/ -> D3_KM577665_Iran_2006_Iran_
+D3/KM577666/Iran/2006/Iran/ -> D3_KM577666_Iran_2006_Iran_
+D3/KM577667/Iran/2006/Iran/ -> D3_KM577667_Iran_2006_Iran_
+D3/X898699/Sweden/2008/Sweden/ -> D3_X898699_Sweden_2008_Sweden_
+D4/FJ692532/Haiti/2006/Haiti/ -> D4_FJ692532_Haiti_2006_Haiti_
+D4/FJ692533/Haiti/2006/Haiti/ -> D4_FJ692533_Haiti_2006_Haiti_
+D4/FJ692536/Haiti/2006/Haiti/ -> D4_FJ692536_Haiti_2006_Haiti_
+D4/GQ922003/Canada/1984/Canada/ -> D4_GQ922003_Canada_1984_Canada_
+D4/GQ922004/Canada/1984/Canada/ -> D4_GQ922004_Canada_1984_Canada_
+D4/GQ922005/Canada/1984/Canada/ -> D4_GQ922005_Canada_1984_Canada_
+D4/KJ470884/Brazil/2010/Brazil/ -> D4_KJ470884_Brazil_2010_Brazil_
+D4/KJ470885/Brazil/2010/Brazil/ -> D4_KJ470885_Brazil_2010_Brazil_
+D4/KJ470886/Brazil/2009/Brazil/ -> D4_KJ470886_Brazil_2009_Brazil_
+D4/KJ470887/Brazil/2009/Brazil/ -> D4_KJ470887_Brazil_2009_Brazil_
+D4/KJ470888/Brazil/2009/Brazil/ -> D4_KJ470888_Brazil_2009_Brazil_
+D4/KJ470889/Brazil/2009/Brazil/ -> D4_KJ470889_Brazil_2009_Brazil_
+D4/KJ470890/Brazil/2009/Brazil/ -> D4_KJ470890_Brazil_2009_Brazil_
+D4/KJ470891/Brazil/2008/Brazil/ -> D4_KJ470891_Brazil_2008_Brazil_
+D4/KJ470892/Brazil/2008/Brazil/ -> D4_KJ470892_Brazil_2008_Brazil_
+D4/KJ470893/Brazil/2009/Brazil/ -> D4_KJ470893_Brazil_2009_Brazil_
+D4/KJ470894/Brazil/2010/Brazil/ -> D4_KJ470894_Brazil_2010_Brazil_
+D4/KJ470895/Brazil/2009/Brazil/ -> D4_KJ470895_Brazil_2009_Brazil_
+D4/KJ470896/Brazil/2009/Brazil/ -> D4_KJ470896_Brazil_2009_Brazil_
+D4/KJ470897/Brazil/2008/Brazil/ -> D4_KJ470897_Brazil_2008_Brazil_
+D4/KJ470898/Brazil/2010/Brazil/ -> D4_KJ470898_Brazil_2010_Brazil_
+D5/GQ205377/India/2007/India/ -> D5_GQ205377_India_2007_India_
+D5/GQ205378/India/2007/India/ -> D5_GQ205378_India_2007_India_
+D5/GQ205379/India/2007/India/ -> D5_GQ205379_India_2007_India_
+D5/GQ205380/India/2007/India/ -> D5_GQ205380_India_2007_India_
+D5/GQ205381/India/2008/India/ -> D5_GQ205381_India_2008_India_
+D5/GQ205382/India/2008/India/ -> D5_GQ205382_India_2008_India_
+D5/GQ205383/India/2008/India/ -> D5_GQ205383_India_2008_India_
+D5/GQ205384/India/2008/India/ -> D5_GQ205384_India_2008_India_
+D5/GQ205385/India/2008/India/ -> D5_GQ205385_India_2008_India_
+D5/GQ205386/India/2008/India/ -> D5_GQ205386_India_2008_India_
+D5/GQ205387/India/2008/India/ -> D5_GQ205387_India_2008_India_
+D5/GQ205388/India/2008/India/ -> D5_GQ205388_India_2008_India_
+D5/GQ205389/India/2008/India/ -> D5_GQ205389_India_2008_India_
+D6/KF170740/Sudan/2008/Sudan/ -> D6_KF170740_Sudan_2008_Sudan_
+D7/FJ904394/Tunisia/2005/Tunisia/ -> D7_FJ904394_Tunisia_2005_Tunisia_
+D7/FJ904395/Tunisia/2006/Tunisia/ -> D7_FJ904395_Tunisia_2006_Tunisia_
+D7/FJ904396/Tunisia/2006/Tunisia/ -> D7_FJ904396_Tunisia_2006_Tunisia_
+D7/FJ904397/Tunisia/2006/Tunisia/ -> D7_FJ904397_Tunisia_2006_Tunisia_
+D7/FJ904398/Tunisia/2005/Tunisia/ -> D7_FJ904398_Tunisia_2005_Tunisia_
+D7/FJ904400/Tunisia/2006/Tunisia/ -> D7_FJ904400_Tunisia_2006_Tunisia_
+D7/FJ904401/Tunisia/2006/Tunisia/ -> D7_FJ904401_Tunisia_2006_Tunisia_
+D7/FJ904403/Tunisia/2006/Tunisia/ -> D7_FJ904403_Tunisia_2006_Tunisia_
+D7/FJ904404/Tunisia/2006/Tunisia/ -> D7_FJ904404_Tunisia_2006_Tunisia_
+D7/FJ904405/Tunisia/2006/Tunisia/ -> D7_FJ904405_Tunisia_2006_Tunisia_
+D7/FJ904406/Tunisia/2006/Tunisia/ -> D7_FJ904406_Tunisia_2006_Tunisia_
+D7/FJ904407/Tunisia/2006/Tunisia/ -> D7_FJ904407_Tunisia_2006_Tunisia_
+D7/FJ904408/Tunisia/2006/Tunisia/ -> D7_FJ904408_Tunisia_2006_Tunisia_
+D7/FJ904410/Tunisia/2006/Tunisia/ -> D7_FJ904410_Tunisia_2006_Tunisia_
+D7/FJ904413/Tunisia/2006/Tunisia/ -> D7_FJ904413_Tunisia_2006_Tunisia_
+D7/FJ904414/Tunisia/2006/Tunisia/ -> D7_FJ904414_Tunisia_2006_Tunisia_
+D7/FJ904416/Tunisia/2006/Tunisia/ -> D7_FJ904416_Tunisia_2006_Tunisia_
+D7/FJ904417/Tunisia/2006/Tunisia/ -> D7_FJ904417_Tunisia_2006_Tunisia_
+D7/FJ904419/Tunisia/2006/Tunisia/ -> D7_FJ904419_Tunisia_2006_Tunisia_
+D7/FJ904424/Tunisia/2006/Tunisia/ -> D7_FJ904424_Tunisia_2006_Tunisia_
+D7/FJ904425/Tunisia/2006/Tunisia/ -> D7_FJ904425_Tunisia_2006_Tunisia_
+D7/FJ904428/Tunisia/2006/Tunisia/ -> D7_FJ904428_Tunisia_2006_Tunisia_
+D7/FJ904430/Tunisia/2005/Tunisia/ -> D7_FJ904430_Tunisia_2005_Tunisia_
+D7/FJ904433/Tunisia/2005/Tunisia/ -> D7_FJ904433_Tunisia_2005_Tunisia_
+D7/FJ904435/Tunisia/2006/Tunisia/ -> D7_FJ904435_Tunisia_2006_Tunisia_
+D7/FJ904436/Tunisia/2006/Tunisia/ -> D7_FJ904436_Tunisia_2006_Tunisia_
+D7/FJ904437/Tunisia/2006/Tunisia/ -> D7_FJ904437_Tunisia_2006_Tunisia_
+D7/FJ904438/Tunisia/2006/Tunisia/ -> D7_FJ904438_Tunisia_2006_Tunisia_
+D7/FJ904439/Tunisia/2006/Tunisia/ -> D7_FJ904439_Tunisia_2006_Tunisia_
+D7/FJ904440/Tunisia/2006/Tunisia/ -> D7_FJ904440_Tunisia_2006_Tunisia_
+D7/FJ904441/Tunisia/2006/Tunisia/ -> D7_FJ904441_Tunisia_2006_Tunisia_
+D7/FJ904442/Tunisia/2005/Tunisia/ -> D7_FJ904442_Tunisia_2005_Tunisia_
+D7/FJ904447/Tunisia/2006/Tunisia/ -> D7_FJ904447_Tunisia_2006_Tunisia_
+LT992439/1DA27/Kazakhstan/407/Kazakhstan -> LT992439_1DA27_Kazakhstan_407_Kazakhstan
+LT992438.1/DA29/Kazakhstan/1195/Kazakhstan -> LT992438.1_DA29_Kazakhstan_1195_Kazakhstan
+LT992444.1/DA51/Kyrgyzstan/-280/Kyrgyzstan -> LT992444.1_DA51_Kyrgyzstan_-280_Kyrgyzstan
+LT992454.1/DA222/Kazakhstan/850/Kazakhstan -> LT992454.1_DA222_Kazakhstan_850_Kazakhstan
+MG585269/NASD24SEQ/Italy/1578/Italy -> MG585269_NASD24SEQ_Italy_1578_Italy
+
+                                                Gap/Ambiguity  Composition  p-value
+   1  D_31a_Belgium_2005_Belgium_                       0.19%    passed     99.89%
+   2  D_45a_Belgium_1984_Belgium_                       0.19%    passed     99.88%
+   3  D_70z_Belgium_2001_Belgium_                       0.19%    passed     97.46%
+   4  D_81a_Belgium_2002_Belgium_                       0.19%    passed     98.54%
+   5  D_83a_Belgium_1987_Belgium_                       0.19%    passed     99.83%
+   6  D_8z_Belgium_2006_Belgium_                        0.19%    passed     98.92%
+   7  D_AB188241_Japan_2001_Japan_                      0.25%    passed     99.99%
+   8  D_AB210819_Japan_1990_Japan_                      0.19%    passed     99.10%
+   9  D_AB210820_Japan_2001_Japan_                      0.19%    passed     98.32%
+  10  D_AB210822_Japan_2001_Japan_                      0.19%    passed     99.22%
+  11  D_AB222709_Uzbekistan_2004_Uzbekistan_            0.22%    passed     99.94%
+  12  D_AB222710_Uzbekistan_2004_Uzbekistan_            0.31%    passed     99.16%
+  13  D_AB222711_Uzbekistan_2004_Uzbekistan_            0.19%    passed     99.67%
+  14  D_AB222712_Uzbekistan_2004_Uzbekistan_            0.22%    passed     99.74%
+  15  D_AB222713_Uzbekistan_2004_Uzbekistan_            0.19%    passed     99.92%
+  16  D_AB267090_Japan_2005_Japan_                      0.19%    passed     98.04%
+  17  D_AB270537_Mongolia_2005_Mongolia_                2.45%    passed     97.66%
+  18  D_AB270538_Mongolia_2005_Mongolia_                0.22%    passed     98.48%
+  19  D_AB270539_Mongolia_2005_Mongolia_                0.19%    passed     99.44%
+  20  D_AB270540_Mongolia_2005_Mongolia_                0.88%    passed     99.91%
+  21  D_AB270541_Mongolia_2005_Mongolia_                0.28%    passed     99.75%
+  22  D_AB270542_Mongolia_2005_Mongolia_                0.28%    passed     98.50%
+  23  D_AB270543_Mongolia_2005_Mongolia_                0.22%    passed     99.64%
+  24  D_AB270544_Mongolia_2005_Mongolia_                0.47%    passed     99.95%
+  25  D_AB270545_Mongolia_2005_Mongolia_                1.63%    passed     99.50%
+  26  D_AB270546_Mongolia_2005_Mongolia_                0.22%    passed     99.96%
+  27  D_AB270547_Mongolia_2005_Mongolia_                0.22%    passed     99.32%
+  28  D_AB270548_Mongolia_2005_Mongolia_                0.22%    passed     99.62%
+  29  D_AB270549_Mongolia_2005_Mongolia_                2.45%    passed     98.29%
+  30  D_AB270550_Mongolia_2005_Mongolia_                0.25%    passed     99.83%
+  31  D_AB493845_Indonesia_2004_Indonesia_              1.04%    passed     99.60%
+  32  D_AB493846_Indonesia_2004_Indonesia_              0.28%    passed    100.00%
+  33  D_AB493848_Indonesia_2004_Indonesia_              1.04%    passed     99.97%
+  34  D_AB554016_Indonesia_2009_Indonesia_              0.28%    passed     99.85%
+  35  D_AB554023_Indonesia_2009_Indonesia_              0.28%    passed     99.94%
+  36  D_AB554024_Indonesia_2009_Indonesia_              0.28%    passed     99.92%
+  37  D_AB555496_Taiwan_2009_Taiwan_                    0.19%    passed     98.58%
+  38  D_AB555497_Taiwan_2009_Taiwan_                    0.19%    passed     99.92%
+  39  D_AB555500_Taiwan_2009_Taiwan_                    0.25%    passed     98.14%
+  40  D_AB555501_Taiwan_2009_Taiwan_                    0.19%    passed     99.86%
+  41  D_AF043593_Germany_1989_Germany_                  0.56%    passed     98.73%
+  42  D_AF043594_Germany_1991_Germany_                  0.19%    passed     98.67%
+  43  D_AJ131956_Germany_1986_Germany_                  0.19%    passed     99.66%
+  44  D_AY341335_UK_2003_UK_                            0.19%    passed     98.50%
+  45  D_AY741794_Iran_2003_Iran_                        0.19%    passed     99.63%
+  46  D_AY741795_Iran_2003_Iran_                        0.19%    passed     99.78%
+  47  D_AY741796_Iran_2003_Iran_                        0.19%    passed     99.73%
+  48  D_AY741797_Iran_2003_Iran_                        0.19%    passed     99.78%
+  49  D_AY741798_Iran_2003_Iran_                        0.19%    passed     99.78%
+  50  D_EU414135_Belarus_2005_Belarus_                  0.66%    passed     99.50%
+  51  D_EU414136_Belarus_2005_Belarus_                  0.22%    passed     99.97%
+  52  D_EU414137_Belarus_2005_Belarus_                  0.28%    passed     99.49%
+  53  D_EU414138_Belarus_2005_Belarus_                  0.47%    passed     99.35%
+  54  D_EU414139_Belarus_2005_Belarus_                  0.41%    passed     99.90%
+  55  D_EU414140_Belarus_2005_Belarus_                  1.07%    passed     99.52%
+  56  D_EU414141_Belarus_2005_Belarus_                  0.66%    passed     99.81%
+  57  D_EU414142_Belarus_2005_Belarus_                  0.60%    passed     99.90%
+  58  D_EU414143_Belarus_2005_Belarus_                  0.25%    passed     99.48%
+  59  D_EU921418_Indonesia_2007_Indonesia_              0.28%    passed     98.37%
+  60  D_EU921419_Indonesia_2007_Indonesia_              0.28%    passed     97.07%
+  61  D_EU939680_China_2005_China_                      0.19%    passed     99.81%
+  62  D_FJ349205_Belgium_2005_Belgium_                  0.19%    passed     99.15%
+  63  D_FJ349206_Belgium_2005_Belgium_                  0.19%    passed     99.92%
+  64  D_FJ349207_Belgium_1998_Belgium_                  0.19%    passed     96.80%
+  65  D_FJ349208_Belgium_1998_Belgium_                  0.19%    passed     99.72%
+  66  D_FJ349209_Belgium_1998_Belgium_                  0.19%    passed     99.19%
+  67  D_FJ349210_Belgium_1998_Belgium_                  0.41%    passed     98.01%
+  68  D_FJ349211_Belgium_1998_Belgium_                  2.67%    passed     99.96%
+  69  D_FJ349212_Belgium_1998_Belgium_                  0.19%    passed     99.70%
+  70  D_FJ349213_Belgium_1999_Belgium_                  0.19%    passed     99.89%
+  71  D_FJ349214_Belgium_1999_Belgium_                  0.19%    passed     98.94%
+  72  D_FJ349215_Belgium_1995_Belgium_                  0.19%    passed     99.89%
+  73  D_FJ349216_Belgium_2000_Belgium_                  0.19%    passed     98.96%
+  74  D_FJ349217_Belgium_1999_Belgium_                  1.69%    passed     99.71%
+  75  D_FJ349218_Belgium_1999_Belgium_                  0.19%    passed     97.45%
+  76  D_FJ349219_Belgium_1999_Belgium_                  0.19%    passed     97.93%
+  77  D_FJ349220_Belgium_1999_Belgium_                  0.19%    passed     99.75%
+  78  D_FJ349221_Belgium_1999_Belgium_                  2.38%    passed     80.13%
+  79  D_FJ349228_Belgium_2005_Belgium_                  0.19%    passed     99.77%
+  80  D_FJ349229_Belgium_2005_Belgium_                  0.19%    passed     99.95%
+  81  D_FJ349230_Belgium_2005_Belgium_                  0.19%    passed     99.78%
+  82  D_FJ349231_Belgium_2005_Belgium_                  0.22%    passed     99.63%
+  83  D_FJ349232_Belgium_2006_Belgium_                  0.19%    passed     99.26%
+  84  D_FJ349233_Belgium_2006_Belgium_                  0.19%    passed     99.63%
+  85  D_FJ349234_Belgium_2007_Belgium_                  0.19%    passed     99.85%
+  86  D_FJ349235_Belgium_2007_Belgium_                  0.19%    passed     99.78%
+  87  D_FJ562309_China_2007_China_                      0.25%    passed     99.76%
+  88  D_FJ904422_Tunisia_2006_Tunisia_                  0.25%    passed     99.99%
+  89  D_G10113a_Belgium_1986_Belgium_                   0.19%    passed     99.96%
+  90  D_G10315a_Belgium_1994_Belgium_                   0.19%    passed     98.96%
+  91  D_G1034a_Belgium_2001_Belgium_                    0.19%    passed     99.44%
+  92  D_G10414a_Belgium_1992_Belgium_                   0.19%    passed     98.74%
+  93  D_G10442a_Belgium_1992_Belgium_                   0.19%    passed     99.81%
+  94  D_G10453a_Belgium_1992_Belgium_                   0.19%    passed     98.42%
+  95  D_G1047a_Belgium_1987_Belgium_                    0.19%    passed     98.61%
+  96  D_G10715_Belgium_2007_Belgium_                    0.19%    passed     99.70%
+  97  D_G1967_Belgium_1996_Belgium_                     0.85%    passed     98.16%
+  98  D_G1HR4_Belgium_1988_Belgium_                     0.19%    passed     97.53%
+  99  D_GQ161754_Ghana_2000_Ghana_                      0.19%    passed     98.49%
+ 100  D_GQ183448_India_2009_India_                      0.19%    passed     99.98%
+ 101  D_GQ183449_India_2009_India_                      0.19%    passed     99.93%
+ 102  D_GQ183450_India_2009_India_                      0.19%    passed     99.96%
+ 103  D_GQ183451_India_2009_India_                      0.19%    passed     99.96%
+ 104  D_GQ183452_India_2009_India_                      0.19%    passed     99.96%
+ 105  D_GQ183453_India_2009_India_                      0.19%    passed     99.96%
+ 106  D_GQ183454_India_2009_India_                      0.19%    passed     99.96%
+ 107  D_GQ183455_India_2009_India_                      0.19%    passed     99.88%
+ 108  D_GQ183456_India_2009_India_                      0.19%    passed     99.96%
+ 109  D_GQ183457_India_2009_India_                      0.19%    passed     99.96%
+ 110  D_GQ183458_India_2009_India_                      0.19%    passed     99.84%
+ 111  D_GQ183459_India_2009_India_                      0.19%    passed     99.95%
+ 112  D_GQ183460_India_2009_India_                      0.19%    passed     99.37%
+ 113  D_GQ183461_India_2009_India_                      0.19%    passed     99.76%
+ 114  D_GQ183462_India_2009_India_                      0.19%    passed     99.96%
+ 115  D_GQ183463_India_2009_India_                      0.19%    passed     99.88%
+ 116  D_GQ183464_India_2009_India_                      0.19%    passed     99.95%
+ 117  D_GQ183465_India_2009_India_                      0.19%    passed     99.89%
+ 118  D_GQ183466_India_2009_India_                      0.19%    passed     99.96%
+ 119  D_GQ183467_India_2009_India_                      0.19%    passed     99.95%
+ 120  D_GQ183468_India_2009_India_                      0.19%    passed    100.00%
+ 121  D_GQ183469_India_2009_India_                      0.19%    passed     99.55%
+ 122  D_GQ183470_India_2009_India_                      0.19%    passed     99.95%
+ 123  D_GQ183471_India_2009_India_                      0.19%    passed     96.28%
+ 124  D_GQ183472_India_2009_India_                      0.19%    passed     99.89%
+ 125  D_GQ183473_India_2009_India_                      0.19%    passed     99.41%
+ 126  D_GQ183474_India_2009_India_                      0.19%    passed     97.46%
+ 127  D_GQ183475_India_2009_India_                      0.19%    passed     99.54%
+ 128  D_GQ183476_India_2009_India_                      0.19%    passed     99.45%
+ 129  D_GQ183477_India_2009_India_                      0.19%    passed     99.76%
+ 130  D_GQ183478_India_2009_India_                      0.19%    passed     99.65%
+ 131  D_GQ183479_India_2009_India_                      0.19%    passed     99.52%
+ 132  D_GQ183480_India_2009_India_                      0.19%    passed     99.30%
+ 133  D_GQ183481_India_2009_India_                      0.19%    passed     99.65%
+ 134  D_GQ183482_India_2009_India_                      0.19%    passed     99.26%
+ 135  D_GQ183483_India_2009_India_                      0.19%    passed     99.09%
+ 136  D_GQ183484_India_2009_India_                      0.19%    passed     99.98%
+ 137  D_GQ183485_India_2009_India_                      0.19%    passed     99.78%
+ 138  D_GQ183486_India_2009_India_                      0.19%    passed     99.82%
+ 139  D_GU563549_Belgium_2008_Belgium_                  0.69%    passed     99.51%
+ 140  D_GU563560_Belgium_2005_Belgium_                  0.19%    passed    100.00%
+ 141  D_HQ700440_NewZealand_1984_NewZealand_            0.22%    passed     99.71%
+ 142  D_HQ700441_NewZealand_1984_NewZealand_            0.19%    passed     99.89%
+ 143  D_HQ700442_NewZealand_1984_NewZealand_            0.19%    passed     99.95%
+ 144  D_HQ700443_NewZealand_1999_NewZealand_            0.19%    passed     99.95%
+ 145  D_HQ700444_NewZealand_1984_NewZealand_            0.19%    passed     99.72%
+ 146  D_HQ700445_NewZealand_1984_NewZealand_            0.19%    passed     99.74%
+ 147  D_HQ700446_NewZealand_1999_NewZealand_            0.22%    passed     99.83%
+ 148  D_HQ700447_NewZealand_1984_NewZealand_            0.19%    passed     99.91%
+ 149  D_HQ700448_NewZealand_1999_NewZealand_            0.38%    passed     99.56%
+ 150  D_HQ700449_NewZealand_1984_NewZealand_            0.53%    passed     99.89%
+ 151  D_HQ700450_NewZealand_1984_NewZealand_            0.19%    passed     99.94%
+ 152  D_HQ700452_NewZealand_1984_NewZealand_            3.20%    passed     83.86%
+ 153  D_HQ700453_NewZealand_1984_NewZealand_            5.08%    passed     94.96%
+ 154  D_HQ700454_NewZealand_1984_NewZealand_            0.22%    passed     99.92%
+ 155  D_HQ700455_NewZealand_1999_NewZealand_            0.50%    passed     99.82%
+ 156  D_HQ700458_NewZealand_1997_NewZealand_            0.22%    passed     98.18%
+ 157  D_HQ700459_NewZealand_1993_NewZealand_            0.19%    passed     99.89%
+ 158  D_HQ700460_NewZealand_1984_NewZealand_            0.50%    passed     99.90%
+ 159  D_HQ700463_NewZealand_1984_NewZealand_            0.22%    passed     98.99%
+ 160  D_HQ700464_NewZealand_1984_NewZealand_            0.19%    passed     99.65%
+ 161  D_HQ700465_NewZealand_1992_NewZealand_            0.50%    passed     99.69%
+ 162  D_HQ700466_NewZealand_1984_NewZealand_            0.19%    passed     99.76%
+ 163  D_HQ700467_NewZealand_1999_NewZealand_            1.41%    passed     91.04%
+ 164  D_HQ700468_NewZealand_1984_NewZealand_            1.85%    passed     99.13%
+ 165  D_HQ700469_NewZealand_1984_NewZealand_            0.19%    passed     99.46%
+ 166  D_HQ700470_NewZealand_1999_NewZealand_            0.19%    passed     99.57%
+ 167  D_HQ700471_NewZealand_1984_NewZealand_            0.19%    passed     99.98%
+ 168  D_HQ700472_NewZealand_1997_NewZealand_            0.19%    passed     99.41%
+ 169  D_HQ700473_NewZealand_1984_NewZealand_            0.44%    passed     99.75%
+ 170  D_HQ700474_NewZealand_1999_NewZealand_            0.19%    passed     99.52%
+ 171  D_HQ700477_NewZealand_1984_NewZealand_            0.31%    passed     99.78%
+ 172  D_HQ700478_NewZealand_1994_NewZealand_            0.19%    passed     99.54%
+ 173  D_HQ700479_NewZealand_1984_NewZealand_            0.19%    passed     99.77%
+ 174  D_HQ700480_NewZealand_1984_NewZealand_            0.22%    passed     99.77%
+ 175  D_HQ700481_NewZealand_1999_NewZealand_            0.22%    passed     99.71%
+ 176  D_HQ700482_NewZealand_1984_NewZealand_            0.19%    passed     99.74%
+ 177  D_HQ700483_NewZealand_1984_NewZealand_            0.22%    passed     99.94%
+ 178  D_HQ700484_NewZealand_1984_NewZealand_            0.19%    passed     99.90%
+ 179  D_HQ700487_NewZealand_1988_NewZealand_            0.22%    passed     99.92%
+ 180  D_HQ700488_NewZealand_1984_NewZealand_            0.19%    passed     99.82%
+ 181  D_HQ700489_NewZealand_1999_NewZealand_            3.23%    passed     97.98%
+ 182  D_HQ700491_NewZealand_1996_NewZealand_            0.44%    passed     99.55%
+ 183  D_HQ700492_Fiji_2004_Fiji_                        0.41%    passed     99.85%
+ 184  D_HQ700493_Fiji_2004_Fiji_                        0.38%    passed     98.79%
+ 185  D_HQ700494_Fiji_2004_Fiji_                        0.53%    passed     95.26%
+ 186  D_HQ700497_Fiji_2004_Fiji_                        0.19%    passed     99.12%
+ 187  D_HQ700500_Samoa_1993_Samoa_                      0.19%    passed     99.44%
+ 188  D_HQ700501_Samoa_1991_Samoa_                      0.19%    passed     98.71%
+ 189  D_HQ700503_Tonga_1992_Tonga_                      0.19%    passed     95.38%
+ 190  D_HQ700510_NewCaledonia_2003_NewCaledonia_        0.28%    passed     99.71%
+ 191  D_HQ700511_NewCaledonia_2001_NewCaledonia_        0.19%    passed     98.06%
+ 192  D_HQ700512_NewCaledonia_2001_NewCaledonia_        0.22%    passed     99.72%
+ 193  D_HQ700513_NewCaledonia_2001_NewCaledonia_        0.19%    passed     99.63%
+ 194  D_HQ700514_NewCaledonia_2001_NewCaledonia_        0.19%    passed     99.89%
+ 195  D_HQ700524_PapuaNewGuinea_2004_PapuaNewGuinea_    0.19%    passed     98.03%
+ 196  D_HQ700525_PapuaNewGuinea_2004_PapuaNewGuinea_    0.22%    passed     97.67%
+ 197  D_HQ700533_Kiribati_2004_Kiribati_                0.19%    passed     99.63%
+ 198  D_HQ700534_Kiribati_2004_Kiribati_                0.25%    passed     98.97%
+ 199  D_HQ700535_Kiribati_2004_Kiribati_                0.38%    passed     99.15%
+ 200  D_HQ700536_Kiribati_2004_Kiribati_                0.25%    passed     99.55%
+ 201  D_HQ700537_Kiribati_2004_Kiribati_                0.31%    passed     94.45%
+ 202  D_HQ700538_Kiribati_2004_Kiribati_                0.28%    passed     98.13%
+ 203  D_HQ700540_Kiribati_2004_Kiribati_                0.19%    passed     94.24%
+ 204  D_HQ700541_Kiribati_2005_Kiribati_                0.19%    passed     99.70%
+ 205  D_HQ833465_China_2009_China_                      0.19%    passed     99.99%
+ 206  D_HQ833466_China_2009_China_                      5.99%    passed     99.42%
+ 207  D_HQ833467_China_2009_China_                      0.28%    passed     99.39%
+ 208  D_HQ833468_China_2009_China_                      0.22%    passed     99.93%
+ 209  D_HQ833469_China_2009_China_                      0.25%    passed     99.40%
+ 210  D_HQ833470_China_2009_China_                      0.22%    passed     99.83%
+ 211  D_HQ833471_China_2009_China_                      0.22%    passed     99.53%
+ 212  D_JN040750_Iran_2008_Iran_                        0.19%    passed     98.61%
+ 213  D_JN040751_Iran_2008_Iran_                        0.19%    passed     99.90%
+ 214  D_JN040752_Iran_2009_Iran_                        3.14%    passed     97.34%
+ 215  D_JN040753_Iran_2007_Iran_                        0.19%    passed     99.37%
+ 216  D_JN040754_Iran_2009_Iran_                        4.33%    passed     91.93%
+ 217  D_JN040755_Iran_2006_Iran_                        0.19%    passed     95.82%
+ 218  D_JN040756_Iran_2008_Iran_                        0.75%    passed     99.78%
+ 219  D_JN040757_Iran_2007_Iran_                        0.19%    passed     99.10%
+ 220  D_JN040758_Iran_2007_Iran_                        0.19%    passed     99.92%
+ 221  D_JN040759_Iran_2006_Iran_                        0.19%    passed     99.85%
+ 222  D_JN040760_Iran_2007_Iran_                        3.92%    passed     99.10%
+ 223  D_JN040761_Iran_2008_Iran_                        0.19%    passed     99.75%
+ 224  D_JN040762_Iran_2009_Iran_                        0.19%    passed     98.23%
+ 225  D_JN040763_Iran_2006_Iran_                        0.19%    passed     96.21%
+ 226  D_JN040764_Iran_2006_Iran_                        0.19%    passed     95.69%
+ 227  D_JN040765_Iran_2009_Iran_                        0.19%    passed     99.18%
+ 228  D_JN040766_Iran_2009_Iran_                        0.19%    passed     99.39%
+ 229  D_JN040767_Iran_2009_Iran_                        0.19%    passed     99.96%
+ 230  D_JN040768_Iran_2006_Iran_                        0.19%    passed     99.48%
+ 231  D_JN040769_Iran_2008_Iran_                        0.19%    passed     97.14%
+ 232  D_JN040770_Iran_2006_Iran_                        0.19%    passed     98.36%
+ 233  D_JN040771_Iran_2009_Iran_                        0.19%    passed     99.89%
+ 234  D_JN040772_Iran_2006_Iran_                        2.54%    passed     99.46%
+ 235  D_JN040773_Iran_2007_Iran_                        0.19%    passed     99.88%
+ 236  D_JN040774_Iran_2006_Iran_                        0.19%    passed     97.36%
+ 237  D_JN040775_Iran_2008_Iran_                        0.19%    passed     99.50%
+ 238  D_JN040776_Iran_2006_Iran_                        1.98%    passed     99.90%
+ 239  D_JN040777_Iran_2007_Iran_                        0.19%    passed     99.58%
+ 240  D_JN040778_Iran_2008_Iran_                        0.19%    passed     99.82%
+ 241  D_JN040779_Iran_2007_Iran_                        0.19%    passed     99.27%
+ 242  D_JN040780_Iran_2007_Iran_                        4.27%    passed     84.15%
+ 243  D_JN040781_Iran_2009_Iran_                        0.19%    passed     96.14%
+ 244  D_JN040782_Iran_2009_Iran_                        0.19%    passed     99.56%
+ 245  D_JN040783_Iran_2007_Iran_                        0.19%    passed     99.65%
+ 246  D_JN040784_Iran_2009_Iran_                        0.19%    passed     99.10%
+ 247  D_JN040785_Iran_2009_Iran_                        0.19%    passed     99.94%
+ 248  D_JN040786_Iran_2009_Iran_                        0.19%    passed     99.44%
+ 249  D_JN040787_Iran_2009_Iran_                        1.22%    passed     99.52%
+ 250  D_JN040788_Iran_2009_Iran_                        0.19%    passed     99.88%
+ 251  D_JN040789_Iran_2007_Iran_                        1.00%    passed     99.99%
+ 252  D_JN040790_Iran_2006_Iran_                        0.19%    passed     99.78%
+ 253  D_JN040791_Iran_2007_Iran_                        0.19%    passed     99.20%
+ 254  D_JN040792_Iran_2008_Iran_                        0.19%    passed     99.94%
+ 255  D_JN040793_Iran_2007_Iran_                        0.19%    passed     99.95%
+ 256  D_JN040794_Iran_2008_Iran_                        0.19%    passed     99.90%
+ 257  D_JN040795_Iran_2008_Iran_                        0.19%    passed     99.77%
+ 258  D_JN040796_Iran_2009_Iran_                        0.19%    passed     99.15%
+ 259  D_JN040797_Iran_2009_Iran_                        0.19%    passed     99.79%
+ 260  D_JN040798_Iran_2009_Iran_                        0.19%    passed     99.20%
+ 261  D_JN040799_Iran_2006_Iran_                        0.19%    passed     99.75%
+ 262  D_JN040800_Iran_2009_Iran_                        0.19%    passed     96.93%
+ 263  D_JN040801_Iran_2009_Iran_                        0.19%    passed     96.45%
+ 264  D_JN040802_Iran_2008_Iran_                        0.19%    passed     99.32%
+ 265  D_JN040803_Iran_2009_Iran_                        0.19%    passed     99.29%
+ 266  D_JN040804_Iran_2008_Iran_                        0.28%    passed     98.30%
+ 267  D_JN040805_Iran_2007_Iran_                        0.19%    passed     99.89%
+ 268  D_JN040806_Iran_2006_Iran_                        0.19%    passed     99.69%
+ 269  D_JN040807_Iran_2009_Iran_                        0.19%    passed     99.71%
+ 270  D_JN040808_Iran_2007_Iran_                        0.19%    passed     99.61%
+ 271  D_JN040809_Iran_2008_Iran_                        0.19%    passed    100.00%
+ 272  D_JN040810_Iran_2007_Iran_                        0.19%    passed     99.09%
+ 273  D_JN040811_Iran_2007_Iran_                        0.19%    passed     99.86%
+ 274  D_JN040812_Iran_2007_Iran_                        0.19%    passed     99.94%
+ 275  D_JN040813_Iran_2008_Iran_                        0.19%    passed    100.00%
+ 276  D_JN040814_Iran_2009_Iran_                        0.19%    passed     97.46%
+ 277  D_JN040815_Iran_2008_Iran_                        0.19%    passed     99.43%
+ 278  D_JN040816_Iran_2008_Iran_                        5.93%    passed     84.70%
+ 279  D_JN040817_Iran_2009_Iran_                        1.51%    passed     99.53%
+ 280  D_JN040818_Iran_2009_Iran_                        0.19%    passed     99.19%
+ 281  D_JN040819_Iran_2009_Iran_                        0.19%    passed     96.35%
+ 282  D_JN040820_Iran_2007_Iran_                        0.19%    passed     99.10%
+ 283  D_JN040821_Iran_2006_Iran_                        0.19%    passed     99.69%
+ 284  D_JN040822_Iran_2007_Iran_                        0.19%    passed     99.18%
+ 285  D_JN040823_Iran_2008_Iran_                        0.19%    passed     99.92%
+ 286  D_JN040824_Iran_2009_Iran_                        0.19%    passed     98.49%
+ 287  D_JN040825_Iran_2007_Iran_                        0.44%    passed     98.70%
+ 288  D_JN040826_Iran_2006_Iran_                        0.19%    passed     99.93%
+ 289  D_JN040827_Iran_2009_Iran_                        0.19%    passed    100.00%
+ 290  D_JN040828_Iran_2007_Iran_                        0.19%    passed     98.95%
+ 291  D_JN040829_Iran_2006_Iran_                        0.19%    passed     99.70%
+ 292  D_JN040830_Iran_2006_Iran_                        0.19%    passed     97.45%
+ 293  D_JN257148_Syria_2010_Syria_                      0.19%    passed     99.70%
+ 294  D_JN257149_Syria_2010_Syria_                      0.69%    passed     99.72%
+ 295  D_JN257150_Syria_2008_Syria_                      0.53%    passed    100.00%
+ 296  D_JN257151_Syria_2008_Syria_                      0.19%    passed     99.74%
+ 297  D_JN257152_Syria_2009_Syria_                      0.35%    passed     99.65%
+ 298  D_JN257153_Syria_2009_Syria_                      1.00%    passed     93.68%
+ 299  D_JN257154_Syria_2009_Syria_                      0.19%    passed     96.09%
+ 300  D_JN257155_Syria_2009_Syria_                      0.19%    passed     99.91%
+ 301  D_JN257156_Syria_2009_Syria_                      0.44%    passed     99.64%
+ 302  D_JN257157_Syria_2009_Syria_                      0.22%    passed     99.89%
+ 303  D_JN257158_Syria_2009_Syria_                      1.41%    passed     99.43%
+ 304  D_JN257159_Syria_2009_Syria_                      0.60%    passed     99.39%
+ 305  D_JN257160_Syria_2009_Syria_                      1.10%    passed     99.98%
+ 306  D_JN257161_Syria_2009_Syria_                      1.66%    passed     99.87%
+ 307  D_JN257162_Syria_2009_Syria_                      1.44%    passed     99.92%
+ 308  D_JN257163_Syria_2009_Syria_                      0.22%    passed     99.68%
+ 309  D_JN257164_Syria_2009_Syria_                      0.28%    passed     99.91%
+ 310  D_JN257165_Syria_2009_Syria_                      0.35%    passed     98.04%
+ 311  D_JN257166_Syria_2009_Syria_                      0.44%    passed     97.74%
+ 312  D_JN257167_Syria_2009_Syria_                      3.26%    passed     99.20%
+ 313  D_JN257168_Syria_2009_Syria_                      3.89%    passed     98.44%
+ 314  D_JN257169_Syria_2009_Syria_                      0.19%    passed     99.26%
+ 315  D_JN257170_Syria_2009_Syria_                      0.19%    passed     99.93%
+ 316  D_JN257171_Syria_2009_Syria_                      0.19%    passed     99.82%
+ 317  D_JN257172_Syria_2009_Syria_                      0.47%    passed     99.64%
+ 318  D_JN257173_Syria_2009_Syria_                      1.04%    passed     99.25%
+ 319  D_JN257174_Syria_2009_Syria_                      0.60%    passed     99.62%
+ 320  D_JN257175_Syria_2009_Syria_                      0.85%    passed     98.88%
+ 321  D_JN257176_Syria_2009_Syria_                      1.32%    passed     99.65%
+ 322  D_JN257177_Syria_2009_Syria_                      1.32%    passed     99.31%
+ 323  D_JN257178_Syria_2010_Syria_                      4.45%    passed     99.49%
+ 324  D_JN257179_Syria_2010_Syria_                      0.31%    passed     99.76%
+ 325  D_JN257180_Syria_2010_Syria_                      0.56%    passed     99.92%
+ 326  D_JN257181_Syria_2010_Syria_                      0.19%    passed     99.59%
+ 327  D_JN257182_Syria_2009_Syria_                      0.19%    passed     99.90%
+ 328  D_JN257183_Syria_2010_Syria_                      0.41%    passed     99.42%
+ 329  D_JN257184_Syria_2008_Syria_                      5.11%    passed     86.60%
+ 330  D_JN257185_Syria_2008_Syria_                      0.19%    passed     99.91%
+ 331  D_JN257186_Syria_2008_Syria_                      0.38%    passed     97.09%
+ 332  D_JN257187_Syria_2008_Syria_                      1.47%    passed     99.61%
+ 333  D_JN257188_Syria_2008_Syria_                      0.69%    passed     99.57%
+ 334  D_JN257189_Syria_2008_Syria_                      0.56%    passed     98.67%
+ 335  D_JN257190_Syria_2008_Syria_                      0.35%    passed     99.96%
+ 336  D_JN257191_Syria_2009_Syria_                      0.72%    passed     98.90%
+ 337  D_JN257192_Syria_2009_Syria_                      0.97%    passed     98.00%
+ 338  D_JN257193_Syria_2009_Syria_                      0.22%    passed     99.78%
+ 339  D_JN257194_Syria_2009_Syria_                      5.96%    passed     88.82%
+ 340  D_JN257195_Syria_2009_Syria_                      0.97%    passed     93.99%
+ 341  D_JN257197_Syria_2009_Syria_                      0.50%    passed     99.80%
+ 342  D_JN257198_Syria_2009_Syria_                      0.44%    passed     99.69%
+ 343  D_JN257199_Syria_2009_Syria_                      0.19%    passed     99.96%
+ 344  D_JN257200_Syria_2009_Syria_                      0.28%    passed     99.83%
+ 345  D_JN257201_Syria_2009_Syria_                      0.28%    passed     98.60%
+ 346  D_JN257202_Syria_2009_Syria_                      0.22%    passed     97.41%
+ 347  D_JN257203_Syria_2009_Syria_                      0.47%    passed     99.48%
+ 348  D_JN257204_Syria_2009_Syria_                      0.19%    passed     93.84%
+ 349  D_JN257205_Syria_2009_Syria_                      0.19%    passed     99.48%
+ 350  D_JN257206_Syria_2010_Syria_                      0.69%    passed     98.34%
+ 351  D_JN257207_Syria_2010_Syria_                      3.80%    passed     98.44%
+ 352  D_JN257208_Syria_2010_Syria_                      0.60%    passed     99.95%
+ 353  D_JN257209_Syria_2010_Syria_                      0.35%    passed     99.99%
+ 354  D_JN257210_Syria_2010_Syria_                      0.35%    passed     99.89%
+ 355  D_JN257211_Syria_2010_Syria_                      1.91%    passed     99.77%
+ 356  D_JN257212_Syria_2010_Syria_                      2.51%    passed     99.05%
+ 357  D_JN257213_Syria_2010_Syria_                      4.36%    passed     99.78%
+ 358  D_JN257214_Syria_2009_Syria_                      2.85%    passed     99.42%
+ 359  D_JN257215_Syria_2009_Syria_                      2.10%    passed     99.88%
+ 360  D_JN257216_Syria_2009_Syria_                      0.44%    passed     98.47%
+ 361  D_JN257217_Syria_2009_Syria_                      2.89%    passed     96.17%
+ 362  D_JN664909_India_2010_India_                      0.19%    passed     98.79%
+ 363  D_JN664910_India_2010_India_                      0.19%    passed     94.69%
+ 364  D_JN664911_India_2010_India_                      0.19%    passed     99.59%
+ 365  D_JN664912_India_2010_India_                      0.19%    passed     99.57%
+ 366  D_JN664913_India_2010_India_                      0.19%    passed     99.96%
+ 367  D_JN664914_India_2010_India_                      0.19%    passed     99.40%
+ 368  D_JN664915_India_2010_India_                      0.19%    passed     97.23%
+ 369  D_JN664916_India_2010_India_                      0.41%    passed     99.71%
+ 370  D_JN664917_India_2010_India_                      0.19%    passed     99.74%
+ 371  D_JN664918_India_2010_India_                      0.19%    passed     98.57%
+ 372  D_JN664923_India_2010_India_                      0.19%    passed     99.67%
+ 373  D_JN664924_India_2010_India_                      0.19%    passed     98.30%
+ 374  D_JN664925_India_2010_India_                      0.19%    passed     94.37%
+ 375  D_JN664926_India_2010_India_                      0.19%    passed     97.16%
+ 376  D_JN664927_India_2010_India_                      0.19%    passed     97.57%
+ 377  D_JN664928_India_2010_India_                      0.19%    passed     99.56%
+ 378  D_JN664929_India_2010_India_                      0.19%    passed     96.27%
+ 379  D_JN664930_India_2010_India_                      0.19%    passed     99.85%
+ 380  D_JN664931_India_2010_India_                      0.19%    passed     99.35%
+ 381  D_JN664932_India_2010_India_                      0.19%    passed     96.02%
+ 382  D_JN664934_India_2010_India_                      0.35%    passed     99.28%
+ 383  D_JN664936_India_2010_India_                      0.19%    passed     99.39%
+ 384  D_JN664937_India_2010_India_                      0.19%    passed     99.73%
+ 385  D_JN664938_India_2010_India_                      0.19%    passed     99.36%
+ 386  D_JN664939_India_2010_India_                      0.19%    passed     99.34%
+ 387  D_JN664940_India_2010_India_                      0.19%    passed     98.10%
+ 388  D_JN664941_India_2010_India_                      0.19%    passed     98.51%
+ 389  D_JN664943_India_2010_India_                      0.28%    passed     99.77%
+ 390  D_JN664944_India_2010_India_                      0.28%    passed     98.46%
+ 391  D_JN664946_India_2010_India_                      0.19%    passed     98.87%
+ 392  D_JN664947_India_2010_India_                      0.47%    passed     93.22%
+ 393  D_JN792903_Greenland_2004_Greenland_              0.19%    passed     99.71%
+ 394  D_JN792904_Greenland_1998_Greenland_              0.19%    passed     99.73%
+ 395  D_JN792905_Greenland_2004_Greenland_              0.19%    passed     98.30%
+ 396  D_JN792906_Greenland_1998_Greenland_              0.19%    passed     99.79%
+ 397  D_JN792907_Greenland_2004_Greenland_              0.19%    passed     98.92%
+ 398  D_JN792908_Greenland_1998_Greenland_              0.22%    passed     99.24%
+ 399  D_JN792909_Greenland_2004_Greenland_              0.19%    passed     99.60%
+ 400  D_JN792910_Greenland_1998_Greenland_              0.19%    passed     99.60%
+ 401  D_JN792911_Greenland_1998_Greenland_              0.19%    passed     99.49%
+ 402  D_JN792912_Greenland_2004_Greenland_              0.22%    passed     99.86%
+ 403  D_JQ687530_Serbia_2008_Serbia_                    0.19%    passed     99.88%
+ 404  D_JQ687531_China_2008_China_                      0.19%    passed     99.54%
+ 405  D_JQ687532_Serbia_2008_Serbia_                    0.19%    passed     99.61%
+ 406  D_KC774436_China_2012_China_                      0.19%    passed     97.96%
+ 407  D_KC774437_China_2012_China_                      0.19%    passed     99.77%
+ 408  D_KC774440_China_2012_China_                      0.19%    passed     99.20%
+ 409  D_KC774444_China_2012_China_                      0.19%    passed     99.36%
+ 410  D_KC774445_China_2012_China_                      0.19%    passed     77.17%
+ 411  D_KC774450_China_2012_China_                      0.19%    passed     95.96%
+ 412  D_KC774459_China_2012_China_                      0.19%    passed     99.82%
+ 413  D_KC774460_China_2012_China_                      0.19%    passed     96.23%
+ 414  D_KF061167_Pakistan_2012_Pakistan_                0.44%    passed     99.88%
+ 415  D_KF061168_Pakistan_2012_Pakistan_                0.50%    passed     99.78%
+ 416  D_KF061169_Pakistan_2012_Pakistan_                0.69%    passed     99.85%
+ 417  D_KF061170_Pakistan_2012_Pakistan_                0.69%    passed     99.84%
+ 418  D_KF471640_Iran_2007_Iran_                        0.19%    passed     99.26%
+ 419  D_KF471641_Iran_2007_Iran_                        2.38%    passed     99.98%
+ 420  D_KF471642_Iran_2007_Iran_                        0.19%    passed     99.64%
+ 421  D_KF471643_Iran_2007_Iran_                        0.19%    passed     98.26%
+ 422  D_KF471644_Iran_2007_Iran_                        0.19%    passed     99.34%
+ 423  D_KF471645_Iran_2007_Iran_                        0.19%    passed     99.81%
+ 424  D_KF471646_Iran_2007_Iran_                        0.19%    passed     99.90%
+ 425  D_KF471647_Iran_2007_Iran_                        0.19%    passed     99.99%
+ 426  D_KF471648_Iran_2007_Iran_                        0.22%    passed     99.62%
+ 427  D_KF471649_Iran_2007_Iran_                        0.19%    passed     99.54%
+ 428  D_KF471650_Iran_2007_Iran_                        0.19%    passed     99.67%
+ 429  D_KF471651_Iran_2007_Iran_                        0.47%    passed     99.66%
+ 430  D_KF471652_Iran_2007_Iran_                        0.19%    passed     99.61%
+ 431  D_KF471653_Iran_2007_Iran_                        1.04%    passed     98.99%
+ 432  D_KF471654_Iran_2007_Iran_                        0.19%    passed     99.20%
+ 433  D_KF471655_Iran_2007_Iran_                        0.22%    passed     99.61%
+ 434  D_KF471656_Iran_2007_Iran_                        0.19%    passed     98.55%
+ 435  D_KF471657_Iran_2007_Iran_                        0.19%    passed     99.95%
+ 436  D_KF471658_Iran_2007_Iran_                        0.19%    passed     98.02%
+ 437  D_KF471659_Iran_2007_Iran_                        0.19%    passed     99.11%
+ 438  D_KF779209_USA_1998_USA_                          1.98%    passed     99.46%
+ 439  D_KF779212_USA_1999_USA_                          1.94%    passed     98.70%
+ 440  D_KF779214_USA_1999_USA_                          1.94%    passed     99.78%
+ 441  D_KF779216_USA_1999_USA_                          1.94%    passed     98.21%
+ 442  D_KF779217_USA_2000_USA_                          1.94%    passed     99.42%
+ 443  D_KF779218_USA_2000_USA_                          1.94%    passed     98.76%
+ 444  D_KF779219_USA_2001_USA_                          1.94%    passed     93.50%
+ 445  D_KF779220_USA_2001_USA_                          1.94%    passed     97.58%
+ 446  D_KF779222_USA_2002_USA_                          1.94%    passed     96.70%
+ 447  D_KF779223_USA_2002_USA_                          1.94%    passed     99.13%
+ 448  D_KF779224_USA_2002_USA_                          1.94%    passed     99.69%
+ 449  D_KF779225_USA_2002_USA_                          1.94%    passed     96.26%
+ 450  D_KF779226_USA_2003_USA_                          1.94%    passed     99.74%
+ 451  D_KF779228_USA_2003_USA_                          1.94%    passed     99.35%
+ 452  D_KF779229_USA_2003_USA_                          1.94%    passed     99.31%
+ 453  D_KF779230_USA_2003_USA_                          1.94%    passed     97.38%
+ 454  D_KF779241_USA_2004_USA_                          1.94%    passed     99.37%
+ 455  D_KF779285_USA_1999_USA_                          1.94%    passed     98.70%
+ 456  D_KF779288_USA_1999_USA_                          1.94%    passed     98.28%
+ 457  D_KF779289_USA_2000_USA_                          1.94%    passed     97.44%
+ 458  D_KF779292_USA_2000_USA_                          1.94%    passed     98.75%
+ 459  D_KF779296_USA_2001_USA_                          1.94%    passed     98.51%
+ 460  D_KF779301_USA_2002_USA_                          1.94%    passed     98.76%
+ 461  D_KF779302_USA_2002_USA_                          1.94%    passed     98.72%
+ 462  D_KF779303_USA_2002_USA_                          1.94%    passed     98.01%
+ 463  D_KF779318_USA_2000_USA_                          1.94%    passed     98.76%
+ 464  D_KF779340_USA_2001_USA_                          1.98%    passed     99.75%
+ 465  D_KF779341_USA_2002_USA_                          1.94%    passed     99.60%
+ 466  D_KF779343_USA_2003_USA_                          1.94%    passed     97.83%
+ 467  D_KF779353_USA_2003_USA_                          1.98%    passed     96.03%
+ 468  D_KF779376_USA_2000_USA_                          1.94%    passed     98.47%
+ 469  D_KF779377_USA_2000_USA_                          1.98%    passed     98.14%
+ 470  D_KF779380_USA_2003_USA_                          1.94%    passed     99.39%
+ 471  D_KF779382_USA_2005_USA_                          1.94%    passed     98.93%
+ 472  D_MB116_Belgium_2008_Congo_                       0.19%    passed     99.02%
+ 473  D_MB12_Belgium_2008_Congo_                        0.19%    passed     99.75%
+ 474  D_MB3_Belgium_2008_Rwanda_                        0.19%    passed     96.75%
+ 475  D_MB35_Belgium_2009_Rwanda_                       0.22%    passed     99.77%
+ 476  D_MB5_Belgium_2008_Niger_                         0.19%    passed     97.29%
+ 477  D_MB67_Belgium_2006_Congo_                        0.19%    passed     99.70%
+ 478  D_MB96_Belgium_2007_Ghana_                        0.19%    passed     99.82%
+ 479  D_U95551_USA_1997_USA_                            0.25%    passed     99.96%
+ 480  D_X72702_Germany_1993_Germany_                    0.19%    passed    100.00%
+ 481  D1_AL17GF_Belgium_1997_Belgium_                   0.22%    passed     98.89%
+ 482  D1_AY945307_India_1999_India_                     0.19%    passed     99.06%
+ 483  D1_EU594396_Kazakhstan_1997_Kazakhstan_           0.22%    passed     99.98%
+ 484  D1_FJ386590_China_2008_China_                     0.22%    passed     98.36%
+ 485  D1_FJ899792_China_2007_China_                     0.19%    passed     98.12%
+ 486  D1_FJ904399_Tunisia_2006_Tunisia_                 0.31%    passed     99.10%
+ 487  D1_FJ904402_Tunisia_2006_Tunisia_                 0.31%    passed     99.57%
+ 488  D1_FJ904412_Tunisia_2006_Tunisia_                 0.19%    passed     99.54%
+ 489  D1_FJ904415_Tunisia_2006_Tunisia_                 0.19%    passed     97.47%
+ 490  D1_FJ904418_Tunisia_2006_Tunisia_                 0.19%    passed     99.45%
+ 491  D1_FJ904420_Tunisia_2006_Tunisia_                 0.25%    passed     99.11%
+ 492  D1_FJ904421_Tunisia_2006_Tunisia_                 0.25%    passed     99.41%
+ 493  D1_FJ904426_Tunisia_2006_Tunisia_                 0.22%    passed     99.05%
+ 494  D1_FJ904427_Tunisia_2006_Tunisia_                 0.25%    passed     94.07%
+ 495  D1_FJ904429_Tunisia_2006_Tunisia_                 0.75%    passed     98.81%
+ 496  D1_FJ904431_Tunisia_2006_Tunisia_                 0.31%    passed     99.51%
+ 497  D1_FJ904432_Tunisia_2006_Tunisia_                 0.22%    passed     99.66%
+ 498  D1_FJ904443_Tunisia_2005_Tunisia_                 0.19%    passed     99.22%
+ 499  D1_FJ904444_Tunisia_2006_Tunisia_                 0.19%    passed     97.78%
+ 500  D1_FJ904445_Tunisia_2006_Tunisia_                 0.25%    passed     98.92%
+ 501  D1_FJ904446_Tunisia_2006_Tunisia_                 0.19%    passed     99.88%
+ 502  D1_GQ377589_China_2007_China_                     0.19%    passed     99.77%
+ 503  D1_GQ477458_Poland_2006_Poland_                   0.19%    passed     97.12%
+ 504  D1_GQ477459_Poland_2006_Poland_                   0.19%    passed     99.84%
+ 505  D1_GU357846_China_2006_China_                     0.19%    passed     98.90%
+ 506  D1_GU456636_Iran_2007_Iran_                       0.19%    passed     99.84%
+ 507  D1_GU456637_Iran_2007_Iran_                       0.19%    passed     99.86%
+ 508  D1_GU456638_Iran_2007_Iran_                       0.19%    passed     99.49%
+ 509  D1_GU456639_Iran_2007_Iran_                       0.19%    passed     98.17%
+ 510  D1_GU456640_Iran_2007_Iran_                       0.19%    passed     99.64%
+ 511  D1_GU456641_Iran_2007_Iran_                       0.19%    passed     99.93%
+ 512  D1_GU456642_Iran_2007_Iran_                       2.45%    passed     99.05%
+ 513  D1_GU456643_Iran_2007_Iran_                       0.19%    passed     99.64%
+ 514  D1_GU456644_Iran_2007_Iran_                       3.76%    passed     90.99%
+ 515  D1_GU456645_Iran_2007_Iran_                       0.19%    passed     98.21%
+ 516  D1_GU456646_Iran_2007_Iran_                       0.19%    passed     99.67%
+ 517  D1_GU456647_Iran_2007_Iran_                       0.19%    passed     98.01%
+ 518  D1_GU456648_Iran_2007_Iran_                       0.22%    passed     99.91%
+ 519  D1_GU456649_Iran_2007_Iran_                       0.19%    passed     98.97%
+ 520  D1_GU456650_Iran_2007_Iran_                       0.19%    passed     99.42%
+ 521  D1_GU456651_Iran_2007_Iran_                       0.19%    passed     93.96%
+ 522  D1_GU456652_Iran_2007_Iran_                       0.19%    passed     99.91%
+ 523  D1_GU456653_Iran_2007_Iran_                       0.19%    passed     99.76%
+ 524  D1_GU456654_Iran_2007_Iran_                       0.19%    passed     99.76%
+ 525  D1_GU456655_Iran_2007_Iran_                       0.19%    passed     99.21%
+ 526  D1_GU456656_Iran_2007_Iran_                       0.19%    passed     98.63%
+ 527  D1_GU456657_Iran_2007_Iran_                       0.19%    passed     99.78%
+ 528  D1_GU456658_Iran_2007_Iran_                       0.19%    passed     99.20%
+ 529  D1_GU456659_Iran_2007_Iran_                       0.19%    passed     99.66%
+ 530  D1_GU456660_Iran_2007_Iran_                       0.19%    passed     99.96%
+ 531  D1_GU456661_Iran_2007_Iran_                       0.19%    passed     99.89%
+ 532  D1_GU456662_Iran_2007_Iran_                       0.66%    passed     99.94%
+ 533  D1_GU456663_Iran_2007_Iran_                       0.19%    passed     98.29%
+ 534  D1_GU456664_Iran_2007_Iran_                       0.19%    passed     99.65%
+ 535  D1_GU456665_Iran_2007_Iran_                       0.19%    passed     99.17%
+ 536  D1_GU456666_Iran_2007_Iran_                       0.19%    passed     99.48%
+ 537  D1_GU456667_Iran_2007_Iran_                       0.19%    passed     98.91%
+ 538  D1_GU456668_Iran_2007_Iran_                       0.19%    passed     99.37%
+ 539  D1_GU456669_Iran_2007_Iran_                       0.19%    passed     97.65%
+ 540  D1_GU456670_Iran_2007_Iran_                       0.19%    passed     99.67%
+ 541  D1_GU456671_Iran_2007_Iran_                       0.19%    passed    100.00%
+ 542  D1_GU456672_Iran_2007_Iran_                       1.51%    passed     94.67%
+ 543  D1_GU456673_Iran_2007_Iran_                       0.19%    passed     99.52%
+ 544  D1_GU456674_Iran_2007_Iran_                       0.19%    passed     98.74%
+ 545  D1_GU456675_Iran_2007_Iran_                       0.19%    passed     99.48%
+ 546  D1_GU456676_Iran_2007_Iran_                       0.41%    passed     98.70%
+ 547  D1_GU456677_Iran_2007_Iran_                       0.22%    passed     99.18%
+ 548  D1_GU456678_Iran_2007_Iran_                       0.22%    passed     97.72%
+ 549  D1_GU456679_Iran_2007_Iran_                       0.19%    passed     99.66%
+ 550  D1_GU456680_Iran_2007_Iran_                       0.19%    passed     99.95%
+ 551  D1_GU456681_Iran_2007_Iran_                       0.19%    passed     99.75%
+ 552  D1_GU456682_Iran_2007_Iran_                       0.19%    passed     99.91%
+ 553  D1_GU456683_Iran_2007_Iran_                       0.19%    passed     99.22%
+ 554  D1_GU456684_Iran_2007_Iran_                       0.19%    passed     98.12%
+ 555  D1_JN642126_Lebanon_2010_Lebanon_                 0.19%    passed     97.16%
+ 556  D1_JN642127_Lebanon_2010_Lebanon_                 0.19%    passed     99.45%
+ 557  D1_JN642128_Lebanon_2010_Lebanon_                 0.19%    passed     99.47%
+ 558  D1_JN642129_Lebanon_2010_Lebanon_                 0.19%    passed     99.74%
+ 559  D1_JN642130_Lebanon_2010_Lebanon_                 0.19%    passed     99.57%
+ 560  D1_JN642131_Lebanon_2010_Lebanon_                 0.19%    passed     99.72%
+ 561  D1_JN642132_Lebanon_2010_Lebanon_                 0.19%    passed     99.89%
+ 562  D1_JN642133_Lebanon_2010_Lebanon_                 0.19%    passed     99.65%
+ 563  D1_JN642134_Lebanon_2010_Lebanon_                 0.19%    passed     98.44%
+ 564  D1_JN642135_Lebanon_2010_Lebanon_                 0.19%    passed     99.72%
+ 565  D1_JN642136_Lebanon_2010_Lebanon_                 0.19%    passed     97.68%
+ 566  D1_JN642137_Lebanon_2010_Lebanon_                 0.19%    passed     99.82%
+ 567  D1_JN642138_Lebanon_2010_Lebanon_                 0.19%    passed     97.46%
+ 568  D1_JN642139_Lebanon_2010_Lebanon_                 0.19%    passed     99.87%
+ 569  D1_JN642140_Lebanon_2010_Lebanon_                 0.19%    passed     97.48%
+ 570  D1_JN642141_Lebanon_2010_Lebanon_                 0.19%    passed     99.94%
+ 571  D1_JN642142_Lebanon_2010_Lebanon_                 0.19%    passed     99.83%
+ 572  D1_JN642145_Lebanon_2010_Lebanon_                 0.19%    passed     99.57%
+ 573  D1_JN642146_Lebanon_2010_Lebanon_                 0.19%    passed     99.12%
+ 574  D1_JN642147_Lebanon_2010_Lebanon_                 0.19%    passed     99.93%
+ 575  D1_JN642149_Lebanon_2010_Lebanon_                 0.19%    passed     99.75%
+ 576  D1_JN642150_Lebanon_2010_Lebanon_                 0.19%    passed     99.36%
+ 577  D1_JN642151_Lebanon_2010_Lebanon_                 0.19%    passed     99.60%
+ 578  D1_JN642152_Lebanon_2010_Lebanon_                 0.19%    passed     99.61%
+ 579  D1_JN642153_Lebanon_2010_Lebanon_                 0.19%    passed     99.38%
+ 580  D1_JN642154_Lebanon_2010_Lebanon_                 0.19%    passed     94.86%
+ 581  D1_JN642155_Lebanon_2010_Lebanon_                 0.19%    passed     98.82%
+ 582  D1_JN642156_Lebanon_2010_Lebanon_                 0.19%    passed     99.36%
+ 583  D1_JN642157_Lebanon_2010_Lebanon_                 0.19%    passed     99.83%
+ 584  D1_JN642158_Lebanon_2010_Lebanon_                 0.19%    passed     96.27%
+ 585  D1_JN642161_Lebanon_2010_Lebanon_                 0.19%    passed     98.89%
+ 586  D1_JN642164_Lebanon_2010_Lebanon_                 0.19%    passed     99.14%
+ 587  D1_JN642165_Lebanon_2010_Lebanon_                 0.19%    passed     99.08%
+ 588  D1_JN642166_Lebanon_2010_Lebanon_                 0.19%    passed     99.66%
+ 589  D1_JN642167_Lebanon_2010_Lebanon_                 0.19%    passed     98.83%
+ 590  D1_KF170739_Sudan_2008_Sudan_                     0.88%    passed     99.06%
+ 591  D1_KF584158_Argentina_2007_Argentina_             0.97%    passed     99.81%
+ 592  D1_KF584159_Argentina_2010_Argentina_             2.13%    passed     98.46%
+ 593  D1_KF584160_Argentina_2012_Argentina_             1.07%    passed     99.80%
+ 594  D1_KF584161_Argentina_2011_Argentina_             0.38%    passed     99.98%
+ 595  D1_KF584162_Argentina_2012_Argentina_             0.28%    passed     99.77%
+ 596  D1_KF584163_Argentina_2011_Argentina_             0.53%    passed     99.93%
+ 597  D1_KF584164_Argentina_2012_Argentina_             0.44%    passed     99.63%
+ 598  D1_KF584165_Argentina_2011_Argentina_             0.50%    passed     99.97%
+ 599  D1_KF584166_Argentina_2012_Argentina_             0.31%    passed     99.79%
+ 600  D2_AB078031_Japan_1998_Japan_                     0.19%    passed     99.34%
+ 601  D2_AB078032_Japan_2000_Japan_                     0.19%    passed     98.63%
+ 602  D2_AB078033_Japan_1998_Japan_                     0.19%    passed     98.69%
+ 603  D2_AB090268_Japan_1997_Japan_                     0.19%    passed     99.24%
+ 604  D2_AB090269_Japan_1992_Japan_                     0.19%    passed     98.27%
+ 605  D2_AB090270_Japan_1999_Japan_                     0.19%    passed     99.54%
+ 606  D2_AB109475_Japan_2001_Japan_                     0.19%    passed     99.21%
+ 607  D2_AB109476_Japan_1997_Japan_                     0.19%    passed     99.84%
+ 608  D2_AB109477_Japan_1997_Japan_                     0.19%    passed     98.66%
+ 609  D2_AB109478_Japan_1998_Japan_                     0.19%    passed     98.64%
+ 610  D2_AB109479_Japan_1997_Japan_                     0.19%    passed     99.26%
+ 611  D2_AB110075_Japan_2001_Japan_                     0.19%    passed     98.06%
+ 612  D2_AB116266_Japan_1987_Japan_                     0.19%    passed     99.93%
+ 613  D2_AB119251_Japan_2002_Japan_                     0.19%    passed     99.71%
+ 614  D2_AB119252_Japan_2002_Japan_                     0.19%    passed     99.75%
+ 615  D2_AB119253_Japan_2000_Japan_                     0.19%    passed     99.51%
+ 616  D2_AB119254_Japan_2003_Japan_                     0.19%    passed     99.75%
+ 617  D2_AB119255_Japan_2001_Japan_                     0.19%    passed     93.79%
+ 618  D2_AB119256_Japan_1997_Japan_                     0.19%    passed     98.80%
+ 619  D2_AB120308_Japan_1982_Japan_                     0.19%    passed     99.52%
+ 620  D2_AL67VP_Belgium_2006_Belgium_                   0.19%    passed     99.47%
+ 621  D2_AL68KM_Belgium_2006_Belgium_                   0.19%    passed     99.47%
+ 622  D2_AL74BML_Belgium_2005_Belgium_                  0.19%    passed     99.79%
+ 623  D2_EU594398_Russia_1997_Russia_                   0.19%    passed     99.55%
+ 624  D2_EU594399_Russia_1997_Russia_                   0.19%    passed    100.00%
+ 625  D2_EU594415_Russia_1997_Russia_                   0.19%    passed     99.65%
+ 626  D2_EU594416_Russia_1997_Russia_                   0.19%    passed     99.85%
+ 627  D2_EU594421_Russia_1997_Russia_                   0.19%    passed     99.65%
+ 628  D2_EU594422_Russia_1997_Russia_                   0.19%    passed     99.88%
+ 629  D2_EU594423_Russia_1997_Russia_                   0.19%    passed     99.46%
+ 630  D2_EU594424_Russia_1997_Russia_                   0.19%    passed     99.85%
+ 631  D2_EU594425_Russia_1997_Russia_                   0.25%    passed     99.93%
+ 632  D2_EU594426_Russia_1997_Russia_                   0.19%    passed     99.94%
+ 633  D2_EU594427_Russia_1997_Russia_                   0.19%    passed     99.78%
+ 634  D2_EU594428_Kazakhstan_1997_Kazakhstan_           0.19%    passed     99.70%
+ 635  D2_EU594430_Russia_1997_Russia_                   0.19%    passed     99.95%
+ 636  D2_EU594431_Russia_1997_Russia_                   0.19%    passed     99.77%
+ 637  D2_EU594432_Russia_1997_Russia_                   0.19%    passed     99.83%
+ 638  D2_EU594433_Russia_1997_Russia_                   0.19%    passed     99.80%
+ 639  D2_GQ477452_Poland_2006_Poland_                   0.19%    passed     99.86%
+ 640  D2_GQ477453_Poland_2006_Poland_                   0.22%    passed     99.19%
+ 641  D2_GQ477454_Poland_2006_Poland_                   1.22%    passed     98.85%
+ 642  D2_GQ477455_Poland_2006_Poland_                   0.28%    passed     99.53%
+ 643  D2_GQ477456_Poland_2006_Poland_                   0.19%    passed    100.00%
+ 644  D2_GQ477457_Poland_2006_Poland_                   0.19%    passed     99.56%
+ 645  D2_GQ924652_Malaysia_2007_Malaysia_               0.19%    passed     96.57%
+ 646  D2_GU456635_Iran_2007_Iran_                       0.19%    passed     99.74%
+ 647  D2_JN642143_Lebanon_2010_Lebanon_                 0.19%    passed     99.86%
+ 648  D2_JN642144_Lebanon_2010_Lebanon_                 0.19%    passed     98.31%
+ 649  D2_JN642148_Lebanon_2010_Lebanon_                 0.19%    passed     99.71%
+ 650  D2_JN642159_Lebanon_2010_Lebanon_                 0.19%    passed     99.82%
+ 651  D2_JN642160_Lebanon_2010_Lebanon_                 0.19%    passed     98.44%
+ 652  D2_JN642162_Lebanon_2010_Lebanon_                 0.56%    passed     99.98%
+ 653  D2_JN642163_Lebanon_2010_Lebanon_                 0.19%    passed     99.89%
+ 654  D2_JX096954_Latvia_2009_Latvia_                   0.19%    passed     99.75%
+ 655  D2_JX096955_Latvia_1991_Latvia_                   0.19%    passed     99.74%
+ 656  D2_JX096956_Latvia_2006_Latvia_                   0.19%    passed     99.88%
+ 657  D2_JX096957_Latvia_2008_Latvia_                   0.19%    passed     99.31%
+ 658  D2_JX096958_Latvia_2007_Latvia_                   0.19%    passed     99.17%
+ 659  D2_KJ843187_Argentina_2011_Argentina_             0.19%    passed     99.36%
+ 660  D2_KM577668_Iran_2006_Iran_                       0.56%    passed     98.49%
+ 661  D2_KM577669_Iran_2006_Iran_                       0.19%    passed     99.74%
+ 662  D2_KM577670_Iran_2006_Iran_                       0.60%    passed     94.74%
+ 663  D2_KM577671_Iran_2006_Iran_                       0.19%    passed     99.86%
+ 664  D3_AL78DHKL_Belgium_2004_Belgium_                 1.22%    passed     99.79%
+ 665  D3_EU594436_Russia_1997_Russia_                   0.19%    passed     99.73%
+ 666  D3_FJ692506_Haiti_2006_Haiti_                     0.19%    passed     99.98%
+ 667  D3_FJ692507_Haiti_2006_Haiti_                     0.19%    passed     99.98%
+ 668  D3_GQ922000_Canada_1985_Canada_                   0.22%    passed     95.87%
+ 669  D3_GQ922001_Canada_1984_Canada_                   0.19%    passed     99.83%
+ 670  D3_GQ922002_Canada_1985_Canada_                   0.22%    passed     99.97%
+ 671  D3_HQ236014_Serbia_2007_Serbia_                   0.19%    passed     99.99%
+ 672  D3_HQ236015_Serbia_2007_Serbia_                   0.19%    passed     99.89%
+ 673  D3_HQ236016_Serbia_2007_Serbia_                   0.19%    passed     99.80%
+ 674  D3_JX470760_Argentina_2008_Argentina_             0.22%    passed     99.80%
+ 675  D3_JX898686_Sweden_1975_Sweden_                   0.19%    passed     99.87%
+ 676  D3_JX898687_Sweden_1975_Sweden_                   0.19%    passed     99.99%
+ 677  D3_JX898688_Sweden_1975_Sweden_                   0.19%    passed     99.98%
+ 678  D3_JX898689_Sweden_1986_Sweden_                   0.19%    passed     99.98%
+ 679  D3_JX898690_Sweden_1996_Sweden_                   0.19%    passed     99.47%
+ 680  D3_JX898691_Sweden_1996_Sweden_                   0.19%    passed     99.83%
+ 681  D3_JX898692_Sweden_1996_Sweden_                   0.19%    passed     99.83%
+ 682  D3_JX898693_Sweden_1996_Sweden_                   0.19%    passed     99.99%
+ 683  D3_JX898694_Sweden_2008_Sweden_                   0.19%    passed     99.97%
+ 684  D3_JX898695_Sweden_2008_Sweden_                   0.19%    passed     99.57%
+ 685  D3_JX898696_Sweden_2008_Sweden_                   0.35%    passed     99.74%
+ 686  D3_JX898697_Sweden_2009_Sweden_                   0.22%    passed     99.96%
+ 687  D3_JX898698_Sweden_2008_Sweden_                   0.38%    passed     99.86%
+ 688  D3_KC012652_Argentina_2009_Argentina_             0.22%    passed     99.89%
+ 689  D3_KM359442_Argentina_2009_Argentina_             0.22%    passed     92.24%
+ 690  D3_KM386676_Argentina_2009_Argentina_             0.28%    passed     97.55%
+ 691  D3_KM577663_Iran_2006_Iran_                       0.19%    passed     99.93%
+ 692  D3_KM577664_Iran_2006_Iran_                       0.19%    passed     99.94%
+ 693  D3_KM577665_Iran_2006_Iran_                       0.19%    passed     96.81%
+ 694  D3_KM577666_Iran_2006_Iran_                       0.19%    passed     91.65%
+ 695  D3_KM577667_Iran_2006_Iran_                       0.19%    passed     99.35%
+ 696  D3_X898699_Sweden_2008_Sweden_                    0.19%    passed     99.98%
+ 697  D4_FJ692532_Haiti_2006_Haiti_                     0.22%    passed     97.53%
+ 698  D4_FJ692533_Haiti_2006_Haiti_                     0.19%    passed     99.12%
+ 699  D4_FJ692536_Haiti_2006_Haiti_                     0.28%    passed     98.81%
+ 700  D4_GQ922003_Canada_1984_Canada_                   0.38%    passed     99.79%
+ 701  D4_GQ922004_Canada_1984_Canada_                   1.19%    passed     98.01%
+ 702  D4_GQ922005_Canada_1984_Canada_                   0.19%    passed     99.75%
+ 703  D4_KJ470884_Brazil_2010_Brazil_                   0.19%    passed     95.50%
+ 704  D4_KJ470885_Brazil_2010_Brazil_                   0.31%    passed     98.07%
+ 705  D4_KJ470886_Brazil_2009_Brazil_                   0.19%    passed     97.14%
+ 706  D4_KJ470887_Brazil_2009_Brazil_                   0.22%    passed     97.72%
+ 707  D4_KJ470888_Brazil_2009_Brazil_                   0.25%    passed     96.55%
+ 708  D4_KJ470889_Brazil_2009_Brazil_                   0.35%    passed     94.70%
+ 709  D4_KJ470890_Brazil_2009_Brazil_                   0.19%    passed     97.14%
+ 710  D4_KJ470891_Brazil_2008_Brazil_                   0.22%    passed     98.75%
+ 711  D4_KJ470892_Brazil_2008_Brazil_                   0.85%    passed     93.90%
+ 712  D4_KJ470893_Brazil_2009_Brazil_                   0.19%    passed     89.78%
+ 713  D4_KJ470894_Brazil_2010_Brazil_                   0.22%    passed     99.90%
+ 714  D4_KJ470895_Brazil_2009_Brazil_                   0.25%    passed     99.40%
+ 715  D4_KJ470896_Brazil_2009_Brazil_                   0.56%    passed     95.27%
+ 716  D4_KJ470897_Brazil_2008_Brazil_                   0.19%    passed     99.94%
+ 717  D4_KJ470898_Brazil_2010_Brazil_                   0.50%    passed     97.84%
+ 718  D5_GQ205377_India_2007_India_                     0.19%    passed     99.46%
+ 719  D5_GQ205378_India_2007_India_                     0.19%    passed     97.86%
+ 720  D5_GQ205379_India_2007_India_                     0.19%    passed     92.51%
+ 721  D5_GQ205380_India_2007_India_                     0.19%    passed     99.96%
+ 722  D5_GQ205381_India_2008_India_                     1.63%    passed     97.20%
+ 723  D5_GQ205382_India_2008_India_                     0.19%    passed     98.57%
+ 724  D5_GQ205383_India_2008_India_                     5.93%    passed     90.10%
+ 725  D5_GQ205384_India_2008_India_                     0.19%    passed     99.20%
+ 726  D5_GQ205385_India_2008_India_                     0.19%    passed     99.62%
+ 727  D5_GQ205386_India_2008_India_                     1.22%    passed     98.79%
+ 728  D5_GQ205387_India_2008_India_                     0.19%    passed     98.65%
+ 729  D5_GQ205388_India_2008_India_                     0.19%    passed     97.97%
+ 730  D5_GQ205389_India_2008_India_                     0.19%    passed     99.24%
+ 731  D6_KF170740_Sudan_2008_Sudan_                     0.22%    passed     99.06%
+ 732  D7_FJ904394_Tunisia_2005_Tunisia_                 0.25%    passed     99.97%
+ 733  D7_FJ904395_Tunisia_2006_Tunisia_                 0.28%    passed     94.91%
+ 734  D7_FJ904396_Tunisia_2006_Tunisia_                 0.28%    passed     98.16%
+ 735  D7_FJ904397_Tunisia_2006_Tunisia_                 0.75%    passed     97.42%
+ 736  D7_FJ904398_Tunisia_2005_Tunisia_                 0.53%    passed     97.45%
+ 737  D7_FJ904400_Tunisia_2006_Tunisia_                 0.19%    passed     96.02%
+ 738  D7_FJ904401_Tunisia_2006_Tunisia_                 0.19%    passed     99.51%
+ 739  D7_FJ904403_Tunisia_2006_Tunisia_                 0.19%    passed     98.77%
+ 740  D7_FJ904404_Tunisia_2006_Tunisia_                 0.22%    passed     99.64%
+ 741  D7_FJ904405_Tunisia_2006_Tunisia_                 0.19%    passed     92.61%
+ 742  D7_FJ904406_Tunisia_2006_Tunisia_                 0.19%    passed     94.41%
+ 743  D7_FJ904407_Tunisia_2006_Tunisia_                 0.25%    passed     99.36%
+ 744  D7_FJ904408_Tunisia_2006_Tunisia_                 0.19%    passed     99.34%
+ 745  D7_FJ904410_Tunisia_2006_Tunisia_                 0.22%    passed     98.55%
+ 746  D7_FJ904413_Tunisia_2006_Tunisia_                 0.19%    passed     99.99%
+ 747  D7_FJ904414_Tunisia_2006_Tunisia_                 0.19%    passed     98.94%
+ 748  D7_FJ904416_Tunisia_2006_Tunisia_                 0.22%    passed     98.96%
+ 749  D7_FJ904417_Tunisia_2006_Tunisia_                 0.22%    passed     98.85%
+ 750  D7_FJ904419_Tunisia_2006_Tunisia_                 0.22%    passed     98.50%
+ 751  D7_FJ904424_Tunisia_2006_Tunisia_                 0.25%    passed     99.97%
+ 752  D7_FJ904425_Tunisia_2006_Tunisia_                 0.35%    passed     98.08%
+ 753  D7_FJ904428_Tunisia_2006_Tunisia_                 3.32%    passed     94.14%
+ 754  D7_FJ904430_Tunisia_2005_Tunisia_                 0.28%    passed     87.67%
+ 755  D7_FJ904433_Tunisia_2005_Tunisia_                 0.25%    passed     99.68%
+ 756  D7_FJ904435_Tunisia_2006_Tunisia_                 0.25%    passed     93.62%
+ 757  D7_FJ904436_Tunisia_2006_Tunisia_                 0.28%    passed     99.90%
+ 758  D7_FJ904437_Tunisia_2006_Tunisia_                 0.22%    passed     99.03%
+ 759  D7_FJ904438_Tunisia_2006_Tunisia_                 0.25%    passed     98.73%
+ 760  D7_FJ904439_Tunisia_2006_Tunisia_                 0.19%    passed     97.17%
+ 761  D7_FJ904440_Tunisia_2006_Tunisia_                 0.19%    passed     99.64%
+ 762  D7_FJ904441_Tunisia_2006_Tunisia_                 0.22%    passed     98.59%
+ 763  D7_FJ904442_Tunisia_2005_Tunisia_                 0.22%    passed     97.77%
+ 764  D7_FJ904447_Tunisia_2006_Tunisia_                 0.22%    passed     96.87%
+ 765  LT992439_1DA27_Kazakhstan_407_Kazakhstan         10.23%    passed     83.25%
+ 766  LT992438.1_DA29_Kazakhstan_1195_Kazakhstan       13.14%    passed     41.41%
+ 767  LT992444.1_DA51_Kyrgyzstan_-280_Kyrgyzstan        1.29%    passed     97.52%
+ 768  LT992454.1_DA222_Kazakhstan_850_Kazakhstan        0.19%    passed     98.82%
+ 769  MG585269_NASD24SEQ_Italy_1578_Italy               7.43%    passed     72.89%
+****  TOTAL                                             0.54%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: D_GQ183451_India_2009_India_ is identical to D_GQ183450_India_2009_India_ but kept for subsequent analysis
+NOTE: D_HQ700443_NewZealand_1999_NewZealand_ is identical to D_HQ700442_NewZealand_1984_NewZealand_ but kept for subsequent analysis
+NOTE: D_JN792910_Greenland_1998_Greenland_ is identical to D_JN792909_Greenland_2004_Greenland_ but kept for subsequent analysis
+NOTE: D_KF779285_USA_1999_USA_ is identical to D_KF779212_USA_1999_USA_ but kept for subsequent analysis
+NOTE: D3_FJ692507_Haiti_2006_Haiti_ is identical to D3_FJ692506_Haiti_2006_Haiti_ but kept for subsequent analysis
+NOTE: D3_JX898692_Sweden_1996_Sweden_ is identical to D3_JX898691_Sweden_1996_Sweden_ but kept for subsequent analysis
+NOTE: 4 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: D_GQ183453_India_2009_India_ (identical to D_GQ183450_India_2009_India_) is ignored but added at the end
+NOTE: D_GQ183454_India_2009_India_ (identical to D_GQ183450_India_2009_India_) is ignored but added at the end
+NOTE: D_GQ183462_India_2009_India_ (identical to D_GQ183450_India_2009_India_) is ignored but added at the end
+NOTE: D_GQ183466_India_2009_India_ (identical to D_GQ183450_India_2009_India_) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to D/D_with_ancient_aligned.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.652 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 738362)...
+
+NOTE: 60 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -131186.129
+2. Current log-likelihood: -128780.289
+3. Current log-likelihood: -128779.215
+Optimal log-likelihood: -128779.214
+Rate parameters:  A-C: 1.00000  A-G: 2.61439  A-T: 1.00000  C-G: 1.00000  C-T: 2.61439  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 3 rounds (0.701 sec)
+Computing ML distances based on estimated model parameters... 28.975 sec
+Computing BIONJ tree...
+0.669 seconds
+Log-likelihood of BIONJ tree: -129919.093
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 68.098 second
+Computing log-likelihood of 98 initial trees ... 25.412 seconds
+Current best score: -128558.198
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -128482.833
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -128476.724
+Iteration 10 / LogL: -128550.363 / Time: 0h:2m:40s
+Iteration 20 / LogL: -128581.741 / Time: 0h:3m:42s
+Finish initializing candidate tree set (20)
+Current best tree score: -128476.724 / CPU time: 217.590
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -128476.508
+Iteration 30 / LogL: -128561.101 / Time: 0h:4m:10s (0h:13m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -128419.131
+Iteration 40 / LogL: -128419.131 / Time: 0h:4m:45s (0h:12m:10s left)
+Iteration 50 / LogL: -128593.127 / Time: 0h:5m:18s (0h:9m:44s left)
+Log-likelihood cutoff on original alignment: -128661.866
+Iteration 60 / LogL: -128589.866 / Time: 0h:5m:55s (0h:8m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -128397.391
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -128385.535
+Iteration 70 / LogL: -128480.100 / Time: 0h:6m:31s (0h:9m:20s left)
+Iteration 80 / LogL: -128457.868 / Time: 0h:7m:6s (0h:7m:59s left)
+Iteration 90 / LogL: -128631.962 / Time: 0h:7m:37s (0h:6m:45s left)
+Iteration 100 / LogL: -128533.592 / Time: 0h:8m:7s (0h:5m:38s left)
+Log-likelihood cutoff on original alignment: -128661.866
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.988
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -128422.053 / Time: 0h:8m:50s (0h:7m:17s left)
+Iteration 120 / LogL: -128519.091 / Time: 0h:9m:33s (0h:6m:25s left)
+Iteration 130 / LogL: -128453.096 / Time: 0h:10m:15s (0h:5m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 139: -128385.061
+Iteration 140 / LogL: -128486.728 / Time: 0h:11m:3s (0h:7m:52s left)
+Iteration 150 / LogL: -128415.325 / Time: 0h:11m:45s (0h:7m:1s left)
+Log-likelihood cutoff on original alignment: -128661.866
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 158: -128384.862
+Iteration 160 / LogL: -128422.623 / Time: 0h:12m:27s (0h:7m:39s left)
+Iteration 170 / LogL: -128467.899 / Time: 0h:13m:7s (0h:6m:49s left)
+Iteration 180 / LogL: -128424.599 / Time: 0h:13m:47s (0h:6m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 187: -128381.595
+Iteration 190 / LogL: -128427.528 / Time: 0h:14m:23s (0h:7m:22s left)
+Iteration 200 / LogL: -128561.954 / Time: 0h:14m:59s (0h:6m:32s left)
+Log-likelihood cutoff on original alignment: -128661.866
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 210 / LogL: -128477.811 / Time: 0h:15m:44s (0h:6m:46s left)
+Iteration 220 / LogL: -128480.489 / Time: 0h:16m:28s (0h:6m:0s left)
+Iteration 230 / LogL: -128395.011 / Time: 0h:17m:9s (0h:5m:14s left)
+Iteration 240 / LogL: -128407.980 / Time: 0h:17m:52s (0h:4m:28s left)
+Iteration 250 / LogL: -128653.710 / Time: 0h:18m:30s (0h:3m:42s left)
+Log-likelihood cutoff on original alignment: -128661.866
+Iteration 260 / LogL: -128508.708 / Time: 0h:19m:15s (0h:2m:58s left)
+Iteration 270 / LogL: -128385.528 / Time: 0h:20m:3s (0h:2m:14s left)
+Iteration 280 / LogL: -128385.430 / Time: 0h:20m:47s (0h:1m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 283: -128360.831
+Iteration 290 / LogL: -128504.792 / Time: 0h:21m:32s (0h:6m:55s left)
+Iteration 300 / LogL: -128449.621 / Time: 0h:22m:23s (0h:6m:12s left)
+Log-likelihood cutoff on original alignment: -128661.866
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 310 / LogL: -128385.260 / Time: 0h:23m:15s (0h:6m:46s left)
+Iteration 320 / LogL: -128453.699 / Time: 0h:24m:2s (0h:6m:1s left)
+Iteration 330 / LogL: -128426.626 / Time: 0h:24m:48s (0h:5m:16s left)
+Iteration 340 / LogL: -128546.101 / Time: 0h:25m:36s (0h:4m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 350: -128343.561
+Iteration 350 / LogL: -128343.561 / Time: 0h:26m:20s (0h:7m:32s left)
+Log-likelihood cutoff on original alignment: -128661.866
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 351: -128336.992
+Iteration 360 / LogL: -128377.981 / Time: 0h:27m:8s (0h:6m:52s left)
+Iteration 370 / LogL: -128407.548 / Time: 0h:27m:54s (0h:6m:7s left)
+Iteration 380 / LogL: -128374.977 / Time: 0h:28m:37s (0h:5m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 382: -128335.943
+Iteration 390 / LogL: -128375.711 / Time: 0h:29m:18s (0h:6m:55s left)
+Iteration 400 / LogL: -128433.572 / Time: 0h:30m:4s (0h:6m:10s left)
+Log-likelihood cutoff on original alignment: -128654.760
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.984
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 401: -128332.894
+Iteration 410 / LogL: -128438.563 / Time: 0h:30m:55s (0h:6m:52s left)
+Iteration 420 / LogL: -128359.411 / Time: 0h:31m:44s (0h:6m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 424: -128332.096
+Iteration 430 / LogL: -128341.094 / Time: 0h:32m:28s (0h:7m:6s left)
+Iteration 440 / LogL: -128411.878 / Time: 0h:33m:12s (0h:6m:21s left)
+Iteration 450 / LogL: -128347.921 / Time: 0h:33m:59s (0h:5m:36s left)
+Log-likelihood cutoff on original alignment: -128644.878
+Iteration 460 / LogL: -128425.266 / Time: 0h:34m:47s (0h:4m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 468: -128324.533
+Iteration 470 / LogL: -128423.304 / Time: 0h:35m:35s (0h:7m:26s left)
+Iteration 480 / LogL: -128358.642 / Time: 0h:36m:20s (0h:6m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 487: -128322.582
+Iteration 490 / LogL: -128484.173 / Time: 0h:37m:6s (0h:7m:21s left)
+Iteration 500 / LogL: -128338.841 / Time: 0h:37m:55s (0h:6m:36s left)
+Log-likelihood cutoff on original alignment: -128644.878
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.975
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -128329.115 / Time: 0h:38m:44s (0h:6m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 520: -128313.676
+Iteration 520 / LogL: -128313.676 / Time: 0h:39m:32s (0h:7m:37s left)
+Iteration 530 / LogL: -128458.883 / Time: 0h:40m:17s (0h:6m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 537: -128312.099
+Iteration 540 / LogL: -128422.305 / Time: 0h:41m:7s (0h:7m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 547: -128309.847
+Iteration 550 / LogL: -128371.988 / Time: 0h:41m:55s (0h:7m:24s left)
+Log-likelihood cutoff on original alignment: -128644.878
+Iteration 560 / LogL: -128341.523 / Time: 0h:42m:46s (0h:6m:39s left)
+Iteration 570 / LogL: -128425.096 / Time: 0h:43m:34s (0h:5m:53s left)
+Iteration 580 / LogL: -128369.177 / Time: 0h:44m:22s (0h:5m:7s left)
+Iteration 590 / LogL: -128329.654 / Time: 0h:45m:14s (0h:4m:22s left)
+Iteration 600 / LogL: -128344.431 / Time: 0h:46m:0s (0h:3m:36s left)
+Log-likelihood cutoff on original alignment: -128644.878
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.968
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -128408.659 / Time: 0h:46m:55s (0h:6m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 620: -128306.993
+Iteration 620 / LogL: -128306.993 / Time: 0h:47m:44s (0h:7m:42s left)
+Iteration 630 / LogL: -128343.426 / Time: 0h:48m:31s (0h:6m:56s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 638: -128302.925
+Iteration 640 / LogL: -128334.644 / Time: 0h:49m:19s (0h:7m:33s left)
+Iteration 650 / LogL: -128426.575 / Time: 0h:50m:7s (0h:6m:47s left)
+Log-likelihood cutoff on original alignment: -128644.878
+Iteration 660 / LogL: -128306.397 / Time: 0h:51m:0s (0h:6m:2s left)
+Iteration 670 / LogL: -128433.189 / Time: 0h:51m:51s (0h:5m:16s left)
+Iteration 680 / LogL: -128373.525 / Time: 0h:52m:41s (0h:4m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 689: -128299.301
+Iteration 690 / LogL: -128469.231 / Time: 0h:53m:28s (0h:7m:40s left)
+Iteration 700 / LogL: -128360.300 / Time: 0h:54m:16s (0h:6m:54s left)
+Log-likelihood cutoff on original alignment: -128644.878
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.967
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -128499.221 / Time: 0h:55m:6s (0h:6m:59s left)
+Iteration 720 / LogL: -128343.644 / Time: 0h:55m:57s (0h:6m:13s left)
+Iteration 730 / LogL: -128368.827 / Time: 0h:56m:46s (0h:5m:27s left)
+Iteration 740 / LogL: -128400.644 / Time: 0h:57m:36s (0h:4m:40s left)
+Iteration 750 / LogL: -128332.883 / Time: 0h:58m:24s (0h:3m:53s left)
+Log-likelihood cutoff on original alignment: -128644.878
+Iteration 760 / LogL: -128382.270 / Time: 0h:59m:16s (0h:3m:7s left)
+Iteration 770 / LogL: -128427.327 / Time: 1h:0m:3s (0h:2m:20s left)
+Iteration 780 / LogL: -128410.039 / Time: 1h:0m:54s (0h:1m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 788: -128293.636
+Iteration 790 / LogL: -128545.956 / Time: 1h:1m:44s (0h:7m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 795: -128285.715
+Iteration 800 / LogL: -128317.380 / Time: 1h:2m:32s (0h:7m:26s left)
+Log-likelihood cutoff on original alignment: -128628.502
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.967
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -128411.908 / Time: 1h:3m:26s (0h:7m:3s left)
+Iteration 820 / LogL: -128312.874 / Time: 1h:4m:15s (0h:6m:16s left)
+Iteration 830 / LogL: -128445.628 / Time: 1h:5m:5s (0h:5m:29s left)
+Iteration 840 / LogL: -128324.241 / Time: 1h:5m:59s (0h:4m:43s left)
+Iteration 850 / LogL: -128323.202 / Time: 1h:6m:45s (0h:3m:55s left)
+Log-likelihood cutoff on original alignment: -128628.502
+Iteration 860 / LogL: -128455.732 / Time: 1h:7m:36s (0h:3m:8s left)
+Iteration 870 / LogL: -128353.268 / Time: 1h:8m:29s (0h:2m:21s left)
+Iteration 880 / LogL: -128558.151 / Time: 1h:9m:21s (0h:1m:34s left)
+Iteration 890 / LogL: -128351.429 / Time: 1h:10m:15s (0h:0m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 899: -128281.406
+Iteration 900 / LogL: -128305.109 / Time: 1h:11m:8s (0h:7m:50s left)
+Log-likelihood cutoff on original alignment: -128628.502
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.964
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -128375.572 / Time: 1h:12m:2s (0h:7m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 916: -128273.620
+Iteration 920 / LogL: -128372.740 / Time: 1h:12m:54s (0h:7m:36s left)
+Iteration 930 / LogL: -128319.103 / Time: 1h:13m:47s (0h:6m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 935: -128253.368
+Iteration 940 / LogL: -128551.751 / Time: 1h:14m:34s (0h:7m:32s left)
+Iteration 950 / LogL: -128336.774 / Time: 1h:15m:26s (0h:6m:45s left)
+Log-likelihood cutoff on original alignment: -128628.502
+Iteration 960 / LogL: -128375.976 / Time: 1h:16m:23s (0h:5m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 968: -128251.969
+Iteration 970 / LogL: -128326.166 / Time: 1h:17m:14s (0h:7m:48s left)
+Iteration 980 / LogL: -128340.562 / Time: 1h:18m:8s (0h:7m:1s left)
+Iteration 990 / LogL: -128373.290 / Time: 1h:19m:4s (0h:6m:14s left)
+Iteration 1000 / LogL: -128307.699 / Time: 1h:19m:57s (0h:5m:26s left)
+Log-likelihood cutoff on original alignment: -128628.502
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.961
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 1h:20m:7s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -128251.969
+Optimal log-likelihood: -128251.969
+Rate parameters:  A-C: 1.00000  A-G: 2.63804  A-T: 1.00000  C-G: 1.00000  C-T: 2.63804  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.125 sec)
+BEST SCORE FOUND : -128251.969
+Creating bootstrap support values...
+Split supports printed to NEXUS file D/D_with_ancient_aligned.fasta.splits.nex
+Total tree length: 5.691
+
+Total number of iterations: 1001
+CPU time used for tree search: 61765.768 sec (17h:9m:25s)
+Wall-clock time used for tree search: 4802.538 sec (1h:20m:2s)
+Total CPU time used: 61826.191 sec (17h:10m:26s)
+Total wall-clock time used: 4812.140 sec (1h:20m:12s)
+
+Computing bootstrap consensus tree...
+Reading input file D/D_with_ancient_aligned.fasta.splits.nex...
+765 taxa and 9137 splits.
+Consensus tree written to D/D_with_ancient_aligned.fasta.contree
+Reading input trees file D/D_with_ancient_aligned.fasta.contree
+Log-likelihood of consensus tree: -128235.692
+
+Analysis results written to: 
+  IQ-TREE report:                D/D_with_ancient_aligned.fasta.iqtree
+  Maximum-likelihood tree:       D/D_with_ancient_aligned.fasta.treefile
+  Likelihood distances:          D/D_with_ancient_aligned.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          D/D_with_ancient_aligned.fasta.splits.nex
+  Consensus tree:                D/D_with_ancient_aligned.fasta.contree
+  Screen log file:               D/D_with_ancient_aligned.fasta.log
+
+Date and Time: Wed May 25 19:59:02 2022

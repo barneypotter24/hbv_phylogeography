@@ -20,9 +20,9 @@ iq-tree/*/*.log
 *.zip
 *.ipynb_checkpoints*
 *tmp*
-*.log
 *.ops
 *jumpTimes.txt
 *baltic*
 slurm*.out
 phylogeography/*/HBV-*_updated_geo_priors/HBV-*_updated_geo_priors_completeHistory_posterior_run*.txt
+*.jumpHistory.log
