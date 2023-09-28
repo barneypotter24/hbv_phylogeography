@@ -25,4 +25,4 @@ iq-tree/*/*.log
 *baltic*
 slurm*.out
 phylogeography/*/HBV-*_updated_geo_priors/HBV-*_updated_geo_priors_completeHistory_posterior_run*.txt
-*.jumpHistory.log
+*.jumpHistory.log*
